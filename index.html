@@ -201,7 +201,7 @@
     </div>
   </section>
 
-  <footer>Seekho Jeeto • Science + Sanskar + Rewards</footer>
+  <footer>Seekho Jeeto • Science + Sanskar + Rewards • v2</footer>
 </div>
 
 <script>
@@ -278,6 +278,7 @@ function setLang(code){
   LANG = code;
   applyLang();
   if(document.getElementById("scr-sanskar").classList.contains("active")) buildTradTabs();
+  if(document.getElementById("scr-game").classList.contains("active")) renderQ();
 }
 
 /* ============================================================
@@ -649,7 +650,7 @@ function redeem(tier){
   });
   sel.value = "en";
   applyLang();
-  fetch("questions.json")
+  fetch("questions.json", { cache: "no-cache" })
     .then(r => r.json())
     .then(d => { SCIENCE = d.science; TRADITIONS = d.traditions; window.__dataReady = true; })
     .catch(() => { window.__dataReady = false; });
