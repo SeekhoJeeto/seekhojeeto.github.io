@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreecharanam Vedic Spices — Voucher Check</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; min-height: 100%; }
+  body {
+    background: #120f0a;
+    color: #f4efe3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    line-height: 1.5;
+  }
+  .app { max-width: 560px; margin: 0 auto; padding: 18px 16px 60px; }
+  header { text-align: center; margin-bottom: 18px; }
+  header .brand { font-size: 20px; font-weight: 800; color: #e7c46a; letter-spacing: .3px; }
+  header .sub { font-size: 13px; color: #b9a97f; }
+  .card { background: #1d180f; border: 1px solid #3a2f1a; border-radius: 16px; padding: 18px; margin-bottom: 14px; }
+  label { display: block; font-size: 13px; font-weight: 700; color: #c8b685; margin-bottom: 8px; text-transform: uppercase; letter-spacing: .5px; }
+  input.code {
+    width: 100%; padding: 16px; font-size: 20px; font-family: monospace; letter-spacing: 1px;
+    background: #120e07; border: 2px solid #4a3c22; border-radius: 12px; color: #ffe9b0;
+    text-transform: uppercase; text-align: center; margin-bottom: 12px;
+  }
+  .btn {
+    width: 100%; padding: 16px; border: none; border-radius: 12px; font-size: 17px; font-weight: 800;
+    background: #e7c46a; color: #2a1e05; cursor: pointer;
+  }
+  .btn:active { transform: scale(.99); }
+  .btn.green { background: #22c55e; color: #05230f; }
+  .btn.ghost { background: #2a2314; color: #d8c79a; border: 1px solid #4a3c22; }
+  .result { display: none; border-radius: 14px; padding: 18px; margin-top: 14px; text-align: center; }
+  .result.ok { display: block; background: #0f3d24; border: 2px solid #22c55e; }
+  .result.used { display: block; background: #3d1010; border: 2px solid #ef4444; }
+  .result.bad { display: block; background: #3a2f14; border: 2px solid #d9a441; }
+  .result h3 { margin: 0 0 6px; font-size: 22px; }
+  .result .amt { font-size: 34px; font-weight: 800; }
+  .result p { margin: 4px 0; color: #e8dcc0; font-size: 14px; }
+  .result button { margin-top: 12px; }
+  .usedlist { list-style: none; padding: 0; margin: 0; }
+  .usedlist li {
+    display: flex; justify-content: space-between; gap: 10px; padding: 10px 12px;
+    border-bottom: 1px solid #2a2314; font-family: monospace; font-size: 14px;
+  }
+  .usedlist li span.at { color: #8f8264; font-family: inherit; font-size: 12px; }
+  .row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  .count { font-weight: 800; color: #e7c46a; }
+  .note { font-size: 12px; color: #9b8f72; margin-top: 10px; }
+  h2.sec { font-size: 15px; color: #c8b685; margin: 0 0 10px; text-transform: uppercase; letter-spacing: .5px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">Shreecharanam Vedic Spices</div>
+    <div class="sub">Voucher Check / वाउचर जाँच</div>
+  </header>
+
+  <div class="card">
+    <label for="codeInput">Voucher code daalein / Enter voucher code</label>
+    <input class="code" id="codeInput" placeholder="SCV-100-XXXXX-000000" autocomplete="off">
+    <button class="btn" onclick="checkCode()">Check / जाँचें</button>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <h2 class="sec" style="margin:0">Used vouchers / इस्तेमाल हुए वाउचर</h2>
+      <span class="count" id="count">0</span>
+    </div>
+    <ul class="usedlist" id="usedList"></ul>
+    <p class="note">Yeh record sirf isi phone/device par save hota hai. Isko dukaan ke ek hi phone par rakhein. Backup ke liye neeche se copy kar lein.</p>
+    <button class="btn ghost" onclick="copyList()">Copy list / सूची कॉपी करें</button>
+  </div>
+
+  <a class="btn ghost" style="display:block; text-align:center; text-decoration:none; margin-top:14px" href="https://shreecharanam.github.io/seekho-jeeto/" target="_blank" rel="noopener">🎮 Game kholne ke liye / Open game</a>
+</div>
+
+<script>
+const UKEY = "scv_used";
+
+function getUsed(){ try { return JSON.parse(localStorage.getItem(UKEY) || "[]"); } catch(e){ return []; } }
+function setUsed(a){ localStorage.setItem(UKEY, JSON.stringify(a)); }
+function normalize(s){ return (s || "").trim().toUpperCase(); }
+function parseVal(code){
+  const m = /^SCV-(\d+)-[A-Z0-9]+-\d{6}$/.exec(code);
+  return m ? Number(m[1]) : null;
+}
+
+function show(html, cls){
+  const r = document.getElementById("result");
+  r.className = "result " + cls;
+  r.innerHTML = html;
+}
+
+function checkCode(){
+  const code = normalize(document.getElementById("codeInput").value);
+  const val = parseVal(code);
+  if(!code){ show("<h3>Khaali hai</h3><p>Pehle voucher code daalein.</p>", "bad"); return; }
+  if(val === null){ show("<h3>Galat code</h3><p>Yeh voucher code sahi nahi lag raha. Dobara check karein.</p>", "bad"); return; }
+  const used = getUsed();
+  if(used.some(u => u.code === code)){
+    const u = used.find(x => x.code === code);
+    show("<h3>❌ Pehle hi use ho chuka</h3><p>Yeh voucher <b>" + (u.at || "") + "</b> ko redeem ho chuka hai.</p><p>Ise dobara mat dein.</p>", "used");
+    return;
+  }
+  // valid — ask to confirm
+  show("<h3>✅ Valid voucher</h3><div class='amt'>₹" + val + " OFF</div><p>Min purchase ₹500 • Grahak ko chhoot dein.</p>" +
+       "<button class='btn green' onclick=\"markUsed('" + code + "'," + val + ")\">Confirm &amp; Mark Used / पक्का करें</button>", "ok");
+}
+
+function markUsed(code, val){
+  const used = getUsed();
+  if(used.some(u => u.code === code)){ checkCode(); return; }
+  const now = new Date();
+  const at = now.getDate() + "/" + (now.getMonth()+1) + "/" + now.getFullYear() + " " +
+             String(now.getHours()).padStart(2,"0") + ":" + String(now.getMinutes()).padStart(2,"0");
+  used.unshift({ code: code, val: val, at: at });
+  setUsed(used);
+  renderList();
+  show("<h3>✅ Redeem ho gaya</h3><p>Voucher <b>" + code + "</b> ab band ho gaya hai.</p><p>Yeh dobara nahi chalega — kisi bhi number se.</p>", "ok");
+  document.getElementById("codeInput").value = "";
+}
+
+function renderList(){
+  const used = getUsed();
+  document.getElementById("count").textContent = used.length;
+  const ul = document.getElementById("usedList");
+  ul.innerHTML = "";
+  if(!used.length){ ul.innerHTML = "<li style='color:#8f8264'>Abhi koi voucher use nahi hua.</li>"; return; }
+  used.forEach(u => {
+    const li = document.createElement("li");
+    li.innerHTML = "<span>" + u.code + " · ₹" + u.val + "</span><span class='at'>" + u.at + "</span>";
+    ul.appendChild(li);
+  });
+}
+
+function copyList(){
+  const used = getUsed();
+  if(!used.length){ alert("List khaali hai."); return; }
+  const text = "Shreecharanam Vedic Spices — used vouchers\n" +
+    used.map(u => u.code + "  Rs." + u.val + "  " + u.at).join("\n");
+  navigator.clipboard.writeText(text).then(
+    () => alert("List copy ho gayi."),
+    () => alert(text)
+  );
+}
+
+document.getElementById("codeInput").addEventListener("keydown", (e) => {
+  if(e.key === "Enter") checkCode();
+});
+
+renderList();
+</script>
+</body>
+</html>

@@ -1,0 +1,2785 @@
+{
+ "science": {
+  "5": [
+   {
+    "q": {
+     "en": "Which gas do plants take from air for photosynthesis?",
+     "hi": "पौधे प्रकाश संश्लेषण के लिए हवा से कौन सी गैस लेते हैं?"
+    },
+    "o": {
+     "en": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+     ],
+     "hi": [
+      "ऑक्सीजन",
+      "कार्बन डाइऑक्साइड",
+      "नाइट्रोजन",
+      "हाइड्रोजन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Plants use carbon dioxide and water to make food in sunlight.",
+     "hi": "पौधे धूप में कार्बन डाइऑक्साइड और पानी से भोजन बनाते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many legs does a spider have?",
+     "hi": "मकड़ी के कितने पैर होते हैं?"
+    },
+    "o": {
+     "en": [
+      "6",
+      "8",
+      "10",
+      "4"
+     ],
+     "hi": [
+      "6",
+      "8",
+      "10",
+      "4"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Spiders are arachnids and have eight legs.",
+     "hi": "मकड़ी के आठ पैर होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest planet in our solar system?",
+     "hi": "हमारे सौरमंडल का सबसे बड़ा ग्रह कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Earth",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+     ],
+     "hi": [
+      "पृथ्वी",
+      "मंगल",
+      "बृहस्पति",
+      "शनि"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Jupiter is the biggest planet.",
+     "hi": "बृहस्पति सबसे बड़ा ग्रह है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which organ pumps blood in the human body?",
+     "hi": "मानव शरीर में रक्त को पंप कौन सा अंग करता है?"
+    },
+    "o": {
+     "en": [
+      "Brain",
+      "Heart",
+      "Liver",
+      "Lungs"
+     ],
+     "hi": [
+      "मस्तिष्क",
+      "हृदय",
+      "यकृत",
+      "फेफड़े"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The heart pumps blood to the whole body.",
+     "hi": "हृदय पूरे शरीर में रक्त पंप करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "At what temperature does water boil at sea level?",
+     "hi": "समुद्र तल पर पानी किस तापमान पर उबलता है?"
+    },
+    "o": {
+     "en": [
+      "50°C",
+      "100°C",
+      "150°C",
+      "0°C"
+     ],
+     "hi": [
+      "50°C",
+      "100°C",
+      "150°C",
+      "0°C"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Water boils at 100°C at sea level.",
+     "hi": "समुद्र तल पर पानी 100°C पर उबलता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which animal is known as the 'ship of the desert'?",
+     "hi": "किस जानवर को 'रेगिस्तान का जहाज' कहा जाता है?"
+    },
+    "o": {
+     "en": [
+      "Horse",
+      "Camel",
+      "Elephant",
+      "Donkey"
+     ],
+     "hi": [
+      "घोड़ा",
+      "ऊँट",
+      "हाथी",
+      "गधा"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The camel carries people across deserts.",
+     "hi": "ऊँट रेगिस्तान में लोगों को ले जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many bones are there in an adult human body?",
+     "hi": "एक वयस्क मानव शरीर में कितनी हड्डियाँ होती हैं?"
+    },
+    "o": {
+     "en": [
+      "206",
+      "300",
+      "150",
+      "500"
+     ],
+     "hi": [
+      "206",
+      "300",
+      "150",
+      "500"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "An adult human has 206 bones.",
+     "hi": "वयस्क मनुष्य में 206 हड्डियाँ होती हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the closest star to Earth?",
+     "hi": "पृथ्वी के सबसे नज़दीक तारा कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "The Sun",
+      "Sirius",
+      "Polaris",
+      "Alpha Centauri"
+     ],
+     "hi": [
+      "सूर्य",
+      "सिरियस",
+      "ध्रुव तारा",
+      "अल्फा सेंटॉरी"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Sun is the closest star to Earth.",
+     "hi": "सूर्य पृथ्वी के सबसे नज़दीक तारा है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Animals that live both on land and in water are called?",
+     "hi": "जो जानवर ज़मीन और पानी दोनों पर रहते हैं, उन्हें क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Amphibians",
+      "Mammals",
+      "Reptiles",
+      "Birds"
+     ],
+     "hi": [
+      "उभयचर",
+      "स्तनधारी",
+      "सरीसृप",
+      "पक्षी"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Amphibians live on land and in water.",
+     "hi": "उभयचर ज़मीन और पानी दोनों पर रहते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which sense organ helps us smell?",
+     "hi": "सूँघने में कौन सा ज्ञानेन्द्रिय अंग मदद करता है?"
+    },
+    "o": {
+     "en": [
+      "Nose",
+      "Ear",
+      "Eye",
+      "Tongue"
+     ],
+     "hi": [
+      "नाक",
+      "कान",
+      "आँख",
+      "जीभ"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "We smell with our nose.",
+     "hi": "हम नाक से सूँघते हैं।"
+    }
+   }
+  ],
+  "6": [
+   {
+    "q": {
+     "en": "Which is the largest organ of the human body?",
+     "hi": "मानव शरीर का सबसे बड़ा अंग कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Liver",
+      "Skin",
+      "Heart",
+      "Lungs"
+     ],
+     "hi": [
+      "यकृत",
+      "त्वचा",
+      "हृदय",
+      "फेफड़े"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The skin is the largest organ.",
+     "hi": "त्वचा सबसे बड़ा अंग है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The process by which plants make food is called?",
+     "hi": "पौधों द्वारा भोजन बनाने की प्रक्रिया क्या कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Respiration",
+      "Photosynthesis",
+      "Digestion",
+      "Transpiration"
+     ],
+     "hi": [
+      "श्वसन",
+      "प्रकाश संश्लेषण",
+      "पाचन",
+      "वाष्पोत्सर्जन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Photosynthesis makes food using sunlight.",
+     "hi": "प्रकाश संश्लेषण सूर्य के प्रकाश से भोजन बनाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which planet is known as the Red Planet?",
+     "hi": "किस ग्रह को लाल ग्रह कहा जाता है?"
+    },
+    "o": {
+     "en": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Mercury"
+     ],
+     "hi": [
+      "शुक्र",
+      "मंगल",
+      "बृहस्पति",
+      "बुध"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Mars looks red due to iron oxide in its soil.",
+     "hi": "मंगल की मिट्टी में आयरन ऑक्साइड के कारण यह लाल दिखता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the main source of energy for the Earth?",
+     "hi": "पृथ्वी के लिए ऊर्जा का मुख्य स्रोत क्या है?"
+    },
+    "o": {
+     "en": [
+      "Moon",
+      "Sun",
+      "Wind",
+      "Water"
+     ],
+     "hi": [
+      "चंद्रमा",
+      "सूर्य",
+      "हवा",
+      "पानी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Sun is Earth's main energy source.",
+     "hi": "सूर्य पृथ्वी का मुख्य ऊर्जा स्रोत है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a herbivore?",
+     "hi": "इनमें से शाकाहारी कौन है?"
+    },
+    "o": {
+     "en": [
+      "Lion",
+      "Cow",
+      "Tiger",
+      "Eagle"
+     ],
+     "hi": [
+      "शेर",
+      "गाय",
+      "बाघ",
+      "चील"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "A cow eats only plants.",
+     "hi": "गाय केवल पौधे खाती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which vitamin do we get from sunlight?",
+     "hi": "धूप से हमें कौन सा विटामिन मिलता है?"
+    },
+    "o": {
+     "en": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+     ],
+     "hi": [
+      "विटामिन A",
+      "विटामिन B",
+      "विटामिन C",
+      "विटामिन D"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Sunlight helps the body make Vitamin D.",
+     "hi": "धूप से शरीर में विटामिन D बनता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which planet has rings around it?",
+     "hi": "किस ग्रह के चारों ओर छल्ले हैं?"
+    },
+    "o": {
+     "en": [
+      "Mars",
+      "Saturn",
+      "Venus",
+      "Mercury"
+     ],
+     "hi": [
+      "मंगल",
+      "शनि",
+      "शुक्र",
+      "बुध"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Saturn has bright rings.",
+     "hi": "शनि के चारों ओर चमकीले छल्ले हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest mammal?",
+     "hi": "सबसे बड़ा स्तनधारी कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Blue whale",
+      "Elephant",
+      "Giraffe",
+      "Hippo"
+     ],
+     "hi": [
+      "नीली व्हेल",
+      "हाथी",
+      "जिराफ़",
+      "दरियाई घोड़ा"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The blue whale is the largest mammal.",
+     "hi": "नीली व्हेल सबसे बड़ा स्तनधारी है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which gas do humans breathe in to live?",
+     "hi": "जीवित रहने के लिए मनुष्य कौन सी गैस लेते हैं?"
+    },
+    "o": {
+     "en": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Helium"
+     ],
+     "hi": [
+      "ऑक्सीजन",
+      "कार्बन डाइऑक्साइड",
+      "नाइट्रोजन",
+      "हीलियम"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Humans need oxygen to live.",
+     "hi": "जीवित रहने के लिए मनुष्य को ऑक्सीजन चाहिए।"
+    }
+   },
+   {
+    "q": {
+     "en": "A tadpole grows into a?",
+     "hi": "टैडपोल बड़ा होकर क्या बनता है?"
+    },
+    "o": {
+     "en": [
+      "Frog",
+      "Fish",
+      "Snake",
+      "Lizard"
+     ],
+     "hi": [
+      "मेंढक",
+      "मछली",
+      "साँप",
+      "छिपकली"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "A tadpole becomes a frog.",
+     "hi": "टैडपोल मेंढक बनता है।"
+    }
+   }
+  ],
+  "7": [
+   {
+    "q": {
+     "en": "Which part of a plant absorbs water and minerals?",
+     "hi": "पौधे का कौन सा भाग पानी और खनिज सोखता है?"
+    },
+    "o": {
+     "en": [
+      "Leaf",
+      "Stem",
+      "Root",
+      "Flower"
+     ],
+     "hi": [
+      "पत्ती",
+      "तना",
+      "जड़",
+      "फूल"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Roots absorb water and minerals from soil.",
+     "hi": "जड़ें मिट्टी से पानी और खनिज सोखती हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "The normal temperature of the human body is about?",
+     "hi": "मानव शरीर का सामान्य तापमान लगभग कितना होता है?"
+    },
+    "o": {
+     "en": [
+      "37°C",
+      "40°C",
+      "30°C",
+      "45°C"
+     ],
+     "hi": [
+      "37°C",
+      "40°C",
+      "30°C",
+      "45°C"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Normal body temperature is about 37°C.",
+     "hi": "सामान्य शरीर तापमान लगभग 37°C होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which acid is present in lemon?",
+     "hi": "नींबू में कौन सा अम्ल होता है?"
+    },
+    "o": {
+     "en": [
+      "Sulphuric",
+      "Citric",
+      "Acetic",
+      "Nitric"
+     ],
+     "hi": [
+      "सल्फ्यूरिक",
+      "साइट्रिक",
+      "एसिटिक",
+      "नाइट्रिक"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Lemon has citric acid.",
+     "hi": "नींबू में साइट्रिक अम्ल होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the smallest unit of matter?",
+     "hi": "पदार्थ की सबसे छोटी इकाई क्या है?"
+    },
+    "o": {
+     "en": [
+      "Atom",
+      "Molecule",
+      "Cell",
+      "Compound"
+     ],
+     "hi": [
+      "परमाणु",
+      "अणु",
+      "कोशिका",
+      "यौगिक"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "An atom is the smallest unit of an element.",
+     "hi": "परमाणु किसी तत्व की सबसे छोटी इकाई है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What causes day and night?",
+     "hi": "दिन और रात किस कारण होते हैं?"
+    },
+    "o": {
+     "en": [
+      "Earth's rotation",
+      "Earth's revolution",
+      "Moon's rotation",
+      "Sun's motion"
+     ],
+     "hi": [
+      "पृथ्वी का घूर्णन",
+      "पृथ्वी का परिक्रमण",
+      "चंद्रमा का घूर्णन",
+      "सूर्य की गति"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Earth rotating on its axis causes day and night.",
+     "hi": "पृथ्वी का अपने अक्ष पर घूमना दिन-रात का कारण है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest desert in the world?",
+     "hi": "दुनिया का सबसे बड़ा रेगिस्तान कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Sahara",
+      "Thar",
+      "Gobi",
+      "Kalahari"
+     ],
+     "hi": [
+      "सहारा",
+      "थार",
+      "गोबी",
+      "कालाहारी"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Sahara is the largest hot desert.",
+     "hi": "सहारा सबसे बड़ा गर्म रेगिस्तान है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which blood cells fight germs?",
+     "hi": "कौन सी रक्त कोशिकाएँ कीटाणुओं से लड़ती हैं?"
+    },
+    "o": {
+     "en": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma"
+     ],
+     "hi": [
+      "लाल रक्त कोशिकाएँ",
+      "श्वेत रक्त कोशिकाएँ",
+      "प्लेटलेट्स",
+      "प्लाज़्मा"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "White blood cells fight germs.",
+     "hi": "श्वेत रक्त कोशिकाएँ कीटाणुओं से लड़ती हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which metal is liquid at room temperature?",
+     "hi": "कौन सी धातु कमरे के तापमान पर तरल होती है?"
+    },
+    "o": {
+     "en": [
+      "Mercury",
+      "Iron",
+      "Copper",
+      "Zinc"
+     ],
+     "hi": [
+      "पारा",
+      "लोहा",
+      "तांबा",
+      "ज़िंक"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Mercury is a liquid metal.",
+     "hi": "पारा एक तरल धातु है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Plants release which gas during photosynthesis?",
+     "hi": "प्रकाश संश्लेषण में पौधे कौन सी गैस छोड़ते हैं?"
+    },
+    "o": {
+     "en": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen",
+      "Hydrogen"
+     ],
+     "hi": [
+      "ऑक्सीजन",
+      "कार्बन डाइऑक्साइड",
+      "नाइट्रोजन",
+      "हाइड्रोजन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Plants release oxygen.",
+     "hi": "पौधे ऑक्सीजन छोड़ते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Water changing into vapour is called?",
+     "hi": "पानी के वाष्प में बदलने की प्रक्रिया क्या कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Evaporation",
+      "Condensation",
+      "Freezing",
+      "Melting"
+     ],
+     "hi": [
+      "वाष्पीकरण",
+      "संघनन",
+      "जमना",
+      "पिघलना"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Water turning to vapour is evaporation.",
+     "hi": "पानी का वाष्प बनना वाष्पीकरण है।"
+    }
+   }
+  ],
+  "8": [
+   {
+    "q": {
+     "en": "Which is the hardest natural substance?",
+     "hi": "सबसे कठोर प्राकृतिक पदार्थ कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Gold",
+      "Iron",
+      "Diamond",
+      "Silver"
+     ],
+     "hi": [
+      "सोना",
+      "लोहा",
+      "हीरा",
+      "चांदी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Diamond is the hardest natural substance.",
+     "hi": "हीरा सबसे कठोर प्राकृतिक पदार्थ है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Sound travels fastest through which material?",
+     "hi": "ध्वनि किस पदार्थ में सबसे तेज चलती है?"
+    },
+    "o": {
+     "en": [
+      "Air",
+      "Water",
+      "Steel",
+      "Vacuum"
+     ],
+     "hi": [
+      "हवा",
+      "पानी",
+      "स्टील",
+      "निर्वात"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Sound travels fastest in solids like steel.",
+     "hi": "ध्वनि ठोस जैसे स्टील में सबसे तेज चलती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which gas is most abundant in Earth's atmosphere?",
+     "hi": "पृथ्वी के वायुमंडल में सबसे अधिक कौन सी गैस है?"
+    },
+    "o": {
+     "en": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Argon"
+     ],
+     "hi": [
+      "ऑक्सीजन",
+      "नाइट्रोजन",
+      "कार्बन डाइऑक्साइड",
+      "आर्गन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Nitrogen makes up about 78% of air.",
+     "hi": "हवा में लगभग 78% नाइट्रोजन होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the unit of force?",
+     "hi": "बल की इकाई क्या है?"
+    },
+    "o": {
+     "en": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Pascal"
+     ],
+     "hi": [
+      "जूल",
+      "न्यूटन",
+      "वाट",
+      "पास्कल"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Force is measured in newtons.",
+     "hi": "बल न्यूटन में मापा जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which organ filters blood in humans?",
+     "hi": "मनुष्य में रक्त को छानने वाला अंग कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Liver",
+      "Kidney",
+      "Heart",
+      "Stomach"
+     ],
+     "hi": [
+      "यकृत",
+      "गुर्दा",
+      "हृदय",
+      "पेट"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Kidneys filter waste from blood.",
+     "hi": "गुर्दे रक्त से अपशिष्ट छानते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the chemical symbol for gold?",
+     "hi": "सोने का रासायनिक प्रतीक क्या है?"
+    },
+    "o": {
+     "en": [
+      "Au",
+      "Ag",
+      "Gd",
+      "Go"
+     ],
+     "hi": [
+      "Au",
+      "Ag",
+      "Gd",
+      "Go"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Gold is Au.",
+     "hi": "सोना Au है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which instrument measures atmospheric pressure?",
+     "hi": "वायुमंडलीय दाब मापने का यंत्र कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Barometer",
+      "Thermometer",
+      "Speedometer",
+      "Altimeter"
+     ],
+     "hi": [
+      "बैरोमीटर",
+      "थर्मामीटर",
+      "स्पीडोमीटर",
+      "अल्टीमीटर"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "A barometer measures air pressure.",
+     "hi": "बैरोमीटर हवा का दाब मापता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which part of the eye controls the light entering it?",
+     "hi": "आँख का कौन सा भाग आने वाली रोशनी को नियंत्रित करता है?"
+    },
+    "o": {
+     "en": [
+      "Iris",
+      "Cornea",
+      "Retina",
+      "Lens"
+     ],
+     "hi": [
+      "आइरिस",
+      "कॉर्निया",
+      "रेटिना",
+      "लेंस"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The iris controls the pupil size.",
+     "hi": "आइरिस पुतली का आकार नियंत्रित करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a non-renewable resource?",
+     "hi": "इनमें से अनवीकरणीय संसाधन कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Wind",
+      "Coal",
+      "Sunlight",
+      "Water"
+     ],
+     "hi": [
+      "हवा",
+      "कोयला",
+      "सूर्य का प्रकाश",
+      "पानी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Coal takes millions of years to form.",
+     "hi": "कोयला बनने में लाखों साल लगते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which force pulls objects towards the Earth?",
+     "hi": "कौन सा बल वस्तुओं को पृथ्वी की ओर खींचता है?"
+    },
+    "o": {
+     "en": [
+      "Friction",
+      "Gravity",
+      "Magnetism",
+      "Tension"
+     ],
+     "hi": [
+      "घर्षण",
+      "गुरुत्वाकर्षण",
+      "चुंबकत्व",
+      "तनाव"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Gravity pulls objects down.",
+     "hi": "गुरुत्वाकर्षण वस्तुओं को नीचे खींचता है।"
+    }
+   }
+  ],
+  "9": [
+   {
+    "q": {
+     "en": "Which law says every action has an equal and opposite reaction?",
+     "hi": "कौन सा नियम कहता है कि हर क्रिया की बराबर और विपरीत प्रतिक्रिया होती है?"
+    },
+    "o": {
+     "en": [
+      "Newton's first law",
+      "Newton's second law",
+      "Newton's third law",
+      "Law of gravitation"
+     ],
+     "hi": [
+      "न्यूटन का पहला नियम",
+      "न्यूटन का दूसरा नियम",
+      "न्यूटन का तीसरा नियम",
+      "गुरुत्वाकर्षण का नियम"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "This is Newton's third law of motion.",
+     "hi": "यह न्यूटन का गति का तीसरा नियम है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the chemical formula of water?",
+     "hi": "पानी का रासायनिक सूत्र क्या है?"
+    },
+    "o": {
+     "en": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+     ],
+     "hi": [
+      "CO2",
+      "H2O",
+      "O2",
+      "NaCl"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Water is H2O.",
+     "hi": "पानी H2O है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which subatomic particle has a negative charge?",
+     "hi": "किस उपपरमाणु कण पर ऋणात्मक आवेश होता है?"
+    },
+    "o": {
+     "en": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Nucleus"
+     ],
+     "hi": [
+      "प्रोटॉन",
+      "न्यूट्रॉन",
+      "इलेक्ट्रॉन",
+      "नाभिक"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Electrons carry a negative charge.",
+     "hi": "इलेक्ट्रॉन पर ऋणात्मक आवेश होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The value of acceleration due to gravity on Earth is about?",
+     "hi": "पृथ्वी पर गुरुत्वीय त्वरण का मान लगभग कितना है?"
+    },
+    "o": {
+     "en": [
+      "9.8 m/s²",
+      "5 m/s²",
+      "20 m/s²",
+      "1 m/s²"
+     ],
+     "hi": [
+      "9.8 m/s²",
+      "5 m/s²",
+      "20 m/s²",
+      "1 m/s²"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "g is about 9.8 m/s² on Earth.",
+     "hi": "पृथ्वी पर g लगभग 9.8 m/s² है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which tissue transports water in plants?",
+     "hi": "पौधों में पानी कौन सा ऊतक पहुंचाता है?"
+    },
+    "o": {
+     "en": [
+      "Xylem",
+      "Phloem",
+      "Cambium",
+      "Cortex"
+     ],
+     "hi": [
+      "जाइलम",
+      "फ्लोएम",
+      "कैम्बियम",
+      "कॉर्टेक्स"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Xylem carries water; phloem carries food.",
+     "hi": "जाइलम पानी ले जाता है; फ्लोएम भोजन।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which organelle is the control centre of the cell?",
+     "hi": "कोशिका का नियंत्रण केंद्र किसे कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Vacuole"
+     ],
+     "hi": [
+      "नाभिक",
+      "माइटोकॉन्ड्रिया",
+      "राइबोसोम",
+      "रिक्तिका"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The nucleus controls the cell.",
+     "hi": "नाभिक कोशिका को नियंत्रित करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The motion of a swinging pendulum is?",
+     "hi": "झूलते पेंडुलम की गति किस प्रकार की होती है?"
+    },
+    "o": {
+     "en": [
+      "Oscillatory",
+      "Rectilinear",
+      "Circular",
+      "Random"
+     ],
+     "hi": [
+      "दोलन गति",
+      "सरल रेखीय",
+      "वृत्तीय",
+      "यादृच्छिक"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "A pendulum moves to and fro.",
+     "hi": "पेंडुलम आगे-पीछे गति करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the chemical symbol for sodium?",
+     "hi": "सोडियम का रासायनिक प्रतीक क्या है?"
+    },
+    "o": {
+     "en": [
+      "So",
+      "Na",
+      "Sd",
+      "Sm"
+     ],
+     "hi": [
+      "So",
+      "Na",
+      "Sd",
+      "Sm"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Sodium is Na.",
+     "hi": "सोडियम Na है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Mushrooms belong to which kingdom?",
+     "hi": "मशरूम किस जगत में आते हैं?"
+    },
+    "o": {
+     "en": [
+      "Plants",
+      "Fungi",
+      "Animals",
+      "Bacteria"
+     ],
+     "hi": [
+      "पौधे",
+      "कवक",
+      "जंतु",
+      "जीवाणु"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Mushrooms are fungi.",
+     "hi": "मशरूम कवक हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Deficiency of which vitamin causes scurvy?",
+     "hi": "किस विटामिन की कमी से स्कर्वी होता है?"
+    },
+    "o": {
+     "en": [
+      "Vitamin A",
+      "Vitamin B",
+      "Vitamin C",
+      "Vitamin D"
+     ],
+     "hi": [
+      "विटामिन A",
+      "विटामिन B",
+      "विटामिन C",
+      "विटामिन D"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Lack of Vitamin C causes scurvy.",
+     "hi": "विटामिन C की कमी से स्कर्वी होता है।"
+    }
+   }
+  ],
+  "10": [
+   {
+    "q": {
+     "en": "Which gas is released when zinc reacts with dilute HCl?",
+     "hi": "जिंक की तनु HCl के साथ अभिक्रिया से कौन सी गैस निकलती है?"
+    },
+    "o": {
+     "en": [
+      "Oxygen",
+      "Hydrogen",
+      "Carbon dioxide",
+      "Nitrogen"
+     ],
+     "hi": [
+      "ऑक्सीजन",
+      "हाइड्रोजन",
+      "कार्बन डाइऑक्साइड",
+      "नाइट्रोजन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Zinc + HCl gives hydrogen gas.",
+     "hi": "जिंक + HCl से हाइड्रोजन गैस बनती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The pH of a neutral solution is?",
+     "hi": "उदासीन विलयन का pH कितना होता है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "7",
+      "14",
+      "1"
+     ],
+     "hi": [
+      "0",
+      "7",
+      "14",
+      "1"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "A neutral solution has pH 7.",
+     "hi": "उदासीन विलयन का pH 7 होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which mirror is used as a rear-view mirror in vehicles?",
+     "hi": "वाहनों में पीछे देखने वाले दर्पण के रूप में कौन सा दर्पण प्रयोग होता है?"
+    },
+    "o": {
+     "en": [
+      "Concave",
+      "Convex",
+      "Plane",
+      "Cylindrical"
+     ],
+     "hi": [
+      "अवतल",
+      "उत्तल",
+      "समतल",
+      "बेलनाकार"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "A convex mirror gives a wide view.",
+     "hi": "उत्तल दर्पण चौड़ा दृश्य देता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the functional unit of the kidney?",
+     "hi": "गुर्दे की कार्यात्मक इकाई क्या है?"
+    },
+    "o": {
+     "en": [
+      "Neuron",
+      "Nephron",
+      "Alveoli",
+      "Villi"
+     ],
+     "hi": [
+      "न्यूरॉन",
+      "नेफ्रॉन",
+      "वायुकोष",
+      "विलाई"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The nephron filters blood in the kidney.",
+     "hi": "नेफ्रॉन गुर्दे में रक्त छानता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a renewable source of energy?",
+     "hi": "इनमें से नवीकरणीय ऊर्जा स्रोत कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Coal",
+      "Petroleum",
+      "Solar",
+      "Natural gas"
+     ],
+     "hi": [
+      "कोयला",
+      "पेट्रोलियम",
+      "सौर",
+      "प्राकृतिक गैस"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Solar energy is renewable.",
+     "hi": "सौर ऊर्जा नवीकरणीय है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which gas do plants take in, that humans breathe out?",
+     "hi": "प्रकाश संश्लेषण में पौधे कौन सी गैस लेते हैं, जो मनुष्य छोड़ते हैं?"
+    },
+    "o": {
+     "en": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Nitrogen",
+      "Helium"
+     ],
+     "hi": [
+      "कार्बन डाइऑक्साइड",
+      "ऑक्सीजन",
+      "नाइट्रोजन",
+      "हीलियम"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Plants take in carbon dioxide.",
+     "hi": "पौधे कार्बन डाइऑक्साइड लेते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which device converts electrical energy into mechanical energy?",
+     "hi": "विद्युत ऊर्जा को यांत्रिक ऊर्जा में बदलने वाला यंत्र कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Motor",
+      "Generator",
+      "Battery",
+      "Transformer"
+     ],
+     "hi": [
+      "मोटर",
+      "जनरेटर",
+      "बैटरी",
+      "ट्रांसफार्मर"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "A motor uses electricity to move.",
+     "hi": "मोटर बिजली से चलती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is called the universal solvent?",
+     "hi": "सार्वत्रिक विलायक किसे कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Water",
+      "Acid",
+      "Alcohol",
+      "Oil"
+     ],
+     "hi": [
+      "पानी",
+      "अम्ल",
+      "अल्कोहल",
+      "तेल"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Water dissolves many things.",
+     "hi": "पानी कई चीज़ें घोल देता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which mirror do dentists use?",
+     "hi": "दंत चिकित्सक कौन सा दर्पण प्रयोग करते हैं?"
+    },
+    "o": {
+     "en": [
+      "Concave",
+      "Convex",
+      "Plane",
+      "None"
+     ],
+     "hi": [
+      "अवतल",
+      "उत्तल",
+      "समतल",
+      "कोई नहीं"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Dentists use concave mirrors.",
+     "hi": "दंत चिकित्सक अवतल दर्पण प्रयोग करते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the chemical name of baking soda?",
+     "hi": "खाने के सोडा का रासायनिक नाम क्या है?"
+    },
+    "o": {
+     "en": [
+      "Sodium bicarbonate",
+      "Sodium chloride",
+      "Calcium carbonate",
+      "Potassium nitrate"
+     ],
+     "hi": [
+      "सोडियम बाइकार्बोनेट",
+      "सोडियम क्लोराइड",
+      "कैल्शियम कार्बोनेट",
+      "पोटेशियम नाइट्रेट"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Baking soda is sodium bicarbonate.",
+     "hi": "खाने का सोडा सोडियम बाइकार्बोनेट है।"
+    }
+   }
+  ],
+  "11": [
+   {
+    "q": {
+     "en": "The branch of biology that studies cells is called?",
+     "hi": "कोशिकाओं का अध्ययन करने वाली जीव विज्ञान की शाखा क्या कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Genetics",
+      "Cytology",
+      "Ecology",
+      "Taxonomy"
+     ],
+     "hi": [
+      "आनुवंशिकी",
+      "कोशिका विज्ञान",
+      "पारिस्थितिकी",
+      "वर्गिकी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Cytology is the study of cells.",
+     "hi": "कोशिका विज्ञान कोशिकाओं का अध्ययन है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which law relates pressure and volume of a gas at constant temperature?",
+     "hi": "स्थिर तापमान पर गैस के दाब और आयतन का संबंध कौन सा नियम बताता है?"
+    },
+    "o": {
+     "en": [
+      "Charles's law",
+      "Boyle's law",
+      "Avogadro's law",
+      "Dalton's law"
+     ],
+     "hi": [
+      "चार्ल्स का नियम",
+      "बॉयल का नियम",
+      "एवोगैड्रो का नियम",
+      "डाल्टन का नियम"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Boyle's law: PV = constant at fixed temperature.",
+     "hi": "बॉयल का नियम: स्थिर ताप पर PV = नियत।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the SI unit of energy?",
+     "hi": "ऊर्जा की SI इकाई क्या है?"
+    },
+    "o": {
+     "en": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Ampere"
+     ],
+     "hi": [
+      "न्यूटन",
+      "जूल",
+      "वाट",
+      "एम्पीयर"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Energy is measured in joules.",
+     "hi": "ऊर्जा जूल में मापी जाती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which organelle is called the powerhouse of the cell?",
+     "hi": "कोशिका का ऊर्जा गृह (powerhouse) किसे कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Nucleus",
+      "Mitochondria",
+      "Ribosome",
+      "Golgi"
+     ],
+     "hi": [
+      "नाभिक",
+      "माइटोकॉन्ड्रिया",
+      "राइबोसोम",
+      "गॉल्जी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Mitochondria produce energy (ATP).",
+     "hi": "माइटोकॉन्ड्रिया ऊर्जा (ATP) बनाते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the atomic number of carbon?",
+     "hi": "कार्बन की परमाणु संख्या क्या है?"
+    },
+    "o": {
+     "en": [
+      "6",
+      "12",
+      "8",
+      "14"
+     ],
+     "hi": [
+      "6",
+      "12",
+      "8",
+      "14"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Carbon has 6 protons.",
+     "hi": "कार्बन में 6 प्रोटॉन होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "The study of fossils is called?",
+     "hi": "जीवाश्मों के अध्ययन को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Palaeontology",
+      "Ecology",
+      "Genetics",
+      "Anatomy"
+     ],
+     "hi": [
+      "जीवाश्म विज्ञान",
+      "पारिस्थितिकी",
+      "आनुवंशिकी",
+      "शरीर विज्ञान"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Palaeontology studies fossils.",
+     "hi": "जीवाश्म विज्ञान जीवाश्मों का अध्ययन है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which law says energy cannot be created or destroyed?",
+     "hi": "कौन सा नियम कहता है कि ऊर्जा न बनाई जा सकती है न नष्ट की जा सकती है?"
+    },
+    "o": {
+     "en": [
+      "First law of thermodynamics",
+      "Second law",
+      "Third law",
+      "Zeroth law"
+     ],
+     "hi": [
+      "ऊष्मागतिकी का पहला नियम",
+      "दूसरा नियम",
+      "तीसरा नियम",
+      "शून्यवाँ नियम"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Energy is conserved.",
+     "hi": "ऊर्जा संरक्षित रहती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest gland in the human body?",
+     "hi": "मानव शरीर की सबसे बड़ी ग्रंथि कौन सी है?"
+    },
+    "o": {
+     "en": [
+      "Liver",
+      "Pancreas",
+      "Thyroid",
+      "Pituitary"
+     ],
+     "hi": [
+      "यकृत",
+      "अग्न्याशय",
+      "थायरॉइड",
+      "पीयूष"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The liver is the largest gland.",
+     "hi": "यकृत सबसे बड़ी ग्रंथि है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which particle has no charge?",
+     "hi": "किस कण पर कोई आवेश नहीं होता?"
+    },
+    "o": {
+     "en": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Ion"
+     ],
+     "hi": [
+      "प्रोटॉन",
+      "न्यूट्रॉन",
+      "इलेक्ट्रॉन",
+      "आयन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Neutrons are neutral.",
+     "hi": "न्यूट्रॉन उदासीन होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "By which process do plants lose water vapour?",
+     "hi": "पौधे जलवाष्प किस प्रक्रिया से बाहर निकालते हैं?"
+    },
+    "o": {
+     "en": [
+      "Transpiration",
+      "Respiration",
+      "Photosynthesis",
+      "Digestion"
+     ],
+     "hi": [
+      "वाष्पोत्सर्जन",
+      "श्वसन",
+      "प्रकाश संश्लेषण",
+      "पाचन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Plants lose water by transpiration.",
+     "hi": "पौधे वाष्पोत्सर्जन से पानी छोड़ते हैं।"
+    }
+   }
+  ],
+  "12": [
+   {
+    "q": {
+     "en": "Which theory explains the inheritance of traits?",
+     "hi": "गुणों की वंशानुक्रम व्याख्या कौन सा सिद्धांत करता है?"
+    },
+    "o": {
+     "en": [
+      "Cell theory",
+      "Theory of evolution",
+      "Mendel's laws",
+      "Germ theory"
+     ],
+     "hi": [
+      "कोशिका सिद्धांत",
+      "विकास का सिद्धांत",
+      "मेंडल के नियम",
+      "रोगाणु सिद्धांत"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Mendel's laws explain inheritance.",
+     "hi": "मेंडल के नियम वंशानुक्रम समझाते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which hormone regulates blood sugar level?",
+     "hi": "रक्त शर्करा को नियंत्रित करने वाला हार्मोन कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Insulin",
+      "Thyroxine",
+      "Adrenaline",
+      "Estrogen"
+     ],
+     "hi": [
+      "इंसुलिन",
+      "थायरॉक्सिन",
+      "एड्रेनालिन",
+      "एस्ट्रोजन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Insulin lowers blood sugar.",
+     "hi": "इंसुलिन रक्त शर्करा घटाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which cell division produces gametes?",
+     "hi": "युग्मक बनाने वाली कोशिका विभाजन प्रक्रिया कौन सी है?"
+    },
+    "o": {
+     "en": [
+      "Mitosis",
+      "Meiosis",
+      "Binary fission",
+      "Budding"
+     ],
+     "hi": [
+      "समसूत्री",
+      "अर्धसूत्री",
+      "द्विखंडन",
+      "मुकुलन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Meiosis produces gametes (sex cells).",
+     "hi": "अर्धसूत्री विभाजन युग्मक बनाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a noble gas?",
+     "hi": "इनमें से उत्कृष्ट गैस (noble gas) कौन सी है?"
+    },
+    "o": {
+     "en": [
+      "Oxygen",
+      "Helium",
+      "Nitrogen",
+      "Chlorine"
+     ],
+     "hi": [
+      "ऑक्सीजन",
+      "हीलियम",
+      "नाइट्रोजन",
+      "क्लोरीन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Helium is a noble gas.",
+     "hi": "हीलियम एक उत्कृष्ट गैस है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In physics, which quantity is a vector?",
+     "hi": "भौतिकी में कौन सी राशि सदिश है?"
+    },
+    "o": {
+     "en": [
+      "Mass",
+      "Speed",
+      "Velocity",
+      "Temperature"
+     ],
+     "hi": [
+      "द्रव्यमान",
+      "चाल",
+      "वेग",
+      "तापमान"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Velocity has both magnitude and direction.",
+     "hi": "वेग में परिमाण और दिशा दोनों होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Where does protein synthesis take place in a cell?",
+     "hi": "कोशिका में प्रोटीन संश्लेषण कहाँ होता है?"
+    },
+    "o": {
+     "en": [
+      "Ribosome",
+      "Nucleus",
+      "Mitochondria",
+      "Lysosome"
+     ],
+     "hi": [
+      "राइबोसोम",
+      "नाभिक",
+      "माइटोकॉन्ड्रिया",
+      "लाइसोसोम"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Ribosomes make proteins.",
+     "hi": "राइबोसोम प्रोटीन बनाते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the unit of electric current?",
+     "hi": "विद्युत धारा की इकाई क्या है?"
+    },
+    "o": {
+     "en": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+     ],
+     "hi": [
+      "वोल्ट",
+      "एम्पीयर",
+      "ओम",
+      "वाट"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Current is measured in amperes.",
+     "hi": "धारा एम्पीयर में मापी जाती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "DNA stands for?",
+     "hi": "DNA का पूरा नाम क्या है?"
+    },
+    "o": {
+     "en": [
+      "Deoxyribonucleic acid",
+      "Dinucleic acid",
+      "Dextroribose acid",
+      "Deoxyribose acid"
+     ],
+     "hi": [
+      "डीऑक्सीराइबोन्यूक्लिक अम्ल",
+      "डाइन्यूक्लिक अम्ल",
+      "डेक्सट्रोराइबोस अम्ल",
+      "डीऑक्सीराइबोस अम्ल"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "DNA is deoxyribonucleic acid.",
+     "hi": "DNA का अर्थ डीऑक्सीराइबोन्यूक्लिक अम्ल है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which hormone is known as the 'fight or flight' hormone?",
+     "hi": "किस हार्मोन को 'लड़ो या भागो' हार्मोन कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Adrenaline",
+      "Insulin",
+      "Thyroxine",
+      "Estrogen"
+     ],
+     "hi": [
+      "एड्रेनालिन",
+      "इंसुलिन",
+      "थायरॉक्सिन",
+      "एस्ट्रोजन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Adrenaline prepares the body for action.",
+     "hi": "एड्रेनालिन शरीर को तैयार करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is biodegradable waste?",
+     "hi": "इनमें से जैव-अपघटनीय कचरा कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Plastic",
+      "Paper",
+      "Glass",
+      "Metal"
+     ],
+     "hi": [
+      "प्लास्टिक",
+      "कागज़",
+      "काँच",
+      "धातु"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Paper breaks down naturally.",
+     "hi": "कागज़ प्राकृतिक रूप से सड़ जाता है।"
+    }
+   }
+  ]
+ },
+ "traditions": {
+  "values": {
+   "name": {
+    "en": "Values",
+    "hi": "संस्कार"
+   },
+   "icon": "💛",
+   "qs": [
+    {
+     "q": {
+      "en": "If you find a lost wallet on the road, what is right?",
+      "hi": "अगर सड़क पर कोई खोया हुआ बटुआ मिले, तो सही क्या है?"
+     },
+     "o": {
+      "en": [
+       "Keep it",
+       "Return it to the owner",
+       "Ignore it",
+       "Throw it"
+      ],
+      "hi": [
+       "रख लें",
+       "मालिक को लौटा दें",
+       "अनदेखा करें",
+       "फेंक दें"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Returning what is not ours is honesty.",
+      "hi": "जो हमारा नहीं उसे लौटाना ईमानदारी है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which of these is a good habit?",
+      "hi": "इनमें से अच्छी आदत कौन सी है?"
+     },
+     "o": {
+      "en": [
+       "Wasting water",
+       "Saving water",
+       "Littering",
+       "Shouting"
+      ],
+      "hi": [
+       "पानी बर्बाद करना",
+       "पानी बचाना",
+       "कचरा फैलाना",
+       "चिल्लाना"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Saving water helps everyone.",
+      "hi": "पानी बचाना सबकी मदद करता है।"
+     }
+    },
+    {
+     "q": {
+      "en": "If a friend is sad, what should you do?",
+      "hi": "अगर कोई दोस्त उदास है, तो क्या करना चाहिए?"
+     },
+     "o": {
+      "en": [
+       "Laugh at them",
+       "Comfort them",
+       "Ignore them",
+       "Tell lies"
+      ],
+      "hi": [
+       "हंसी उड़ाना",
+       "सांत्वना देना",
+       "अनदेखा करना",
+       "झूठ बोलना"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Kindness and comfort help a friend.",
+      "hi": "दया और सांत्वना दोस्त की मदद करती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Why should we speak the truth?",
+      "hi": "हमें सच क्यों बोलना चाहिए?"
+     },
+     "o": {
+      "en": [
+       "It builds trust",
+       "It is difficult",
+       "It is boring",
+       "No reason"
+      ],
+      "hi": [
+       "इससे विश्वास बनता है",
+       "यह कठिन है",
+       "यह उबाऊ है",
+       "कोई कारण नहीं"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Truth builds trust with others.",
+      "hi": "सच बोलने से दूसरों का विश्वास बनता है।"
+     }
+    }
+   ]
+  },
+  "sikh": {
+   "name": {
+    "en": "Sikh",
+    "hi": "सिख"
+   },
+   "icon": "🪯",
+   "qs": [
+    {
+     "q": {
+      "en": "Which is the holy book of Sikhism?",
+      "hi": "सिख धर्म का पवित्र ग्रंथ कौन सा है?"
+     },
+     "o": {
+      "en": [
+       "Guru Granth Sahib",
+       "Bible",
+       "Quran",
+       "Vedas"
+      ],
+      "hi": [
+       "गुरु ग्रंथ साहिब",
+       "बाइबल",
+       "कुरान",
+       "वेद"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Guru Granth Sahib is the holy scripture of Sikhism.",
+      "hi": "गुरु ग्रंथ साहिब सिख धर्म का पवित्र ग्रंथ है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which Sikh festival is known as the festival of lights?",
+      "hi": "कौन सा सिख त्योहार रोशनी के त्योहार के रूप में जाना जाता है?"
+     },
+     "o": {
+      "en": [
+       "Baisakhi",
+       "Bandi Chhor Divas",
+       "Holi",
+       "Teej"
+      ],
+      "hi": [
+       "बैसाखी",
+       "बंदी छोड़ दिवस",
+       "होली",
+       "तीज"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Bandi Chhor Divas is celebrated with lights.",
+      "hi": "बंदी छोड़ दिवस रोशनी के साथ मनाया जाता है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Where do Sikhs gather for worship?",
+      "hi": "सिख उपासना के लिए कहाँ इकट्ठा होते हैं?"
+     },
+     "o": {
+      "en": [
+       "Temple",
+       "Gurdwara",
+       "Church",
+       "Mosque"
+      ],
+      "hi": [
+       "मंदिर",
+       "गुरुद्वारा",
+       "चर्च",
+       "मस्जिद"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Sikhs worship at the Gurdwara.",
+      "hi": "सिख गुरुद्वारे में उपासना करते हैं।"
+     }
+    },
+    {
+     "q": {
+      "en": "What does 'langar' mean in Sikhism?",
+      "hi": "सिख धर्म में 'लंगर' का क्या अर्थ है?"
+     },
+     "o": {
+      "en": [
+       "A weapon",
+       "A free community meal",
+       "A song",
+       "A festival"
+      ],
+      "hi": [
+       "एक हथियार",
+       "मुफ्त सामूहिक भोजन",
+       "एक गीत",
+       "एक त्योहार"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Langar is a free community meal for all.",
+      "hi": "लंगर सबके लिए मुफ्त सामूहिक भोजन है।"
+     }
+    }
+   ]
+  },
+  "hindu": {
+   "name": {
+    "en": "Hindu",
+    "hi": "हिन्दू"
+   },
+   "icon": "🕉️",
+   "qs": [
+    {
+     "q": {
+      "en": "Which festival is known as the festival of lights?",
+      "hi": "कौन सा त्योहार रोशनी का त्योहार कहलाता है?"
+     },
+     "o": {
+      "en": [
+       "Holi",
+       "Diwali",
+       "Eid",
+       "Christmas"
+      ],
+      "hi": [
+       "होली",
+       "दिवाली",
+       "ईद",
+       "क्रिसमस"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Diwali is the festival of lights.",
+      "hi": "दिवाली रोशनी का त्योहार है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which river is considered holy in Hinduism?",
+      "hi": "हिन्दू धर्म में कौन सी नदी पवित्र मानी जाती है?"
+     },
+     "o": {
+      "en": [
+       "Yamuna",
+       "Ganga",
+       "Godavari",
+       "Narmada"
+      ],
+      "hi": [
+       "यमुना",
+       "गंगा",
+       "गोदावरी",
+       "नर्मदा"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "The Ganga is considered holy.",
+      "hi": "गंगा पवित्र मानी जाती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Who is known as the remover of obstacles?",
+      "hi": "विघ्नहर्ता (बाधाएँ दूर करने वाले) कौन कहलाते हैं?"
+     },
+     "o": {
+      "en": [
+       "Shiva",
+       "Ganesha",
+       "Vishnu",
+       "Brahma"
+      ],
+      "hi": [
+       "शिव",
+       "गणेश",
+       "विष्णु",
+       "ब्रह्मा"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Ganesha is worshipped as the remover of obstacles.",
+      "hi": "गणेश जी विघ्नहर्ता माने जाते हैं।"
+     }
+    },
+    {
+     "q": {
+      "en": "Holi is known as the festival of?",
+      "hi": "होली किसका त्योहार कहलाती है?"
+     },
+     "o": {
+      "en": [
+       "Lights",
+       "Colours",
+       "Harvest",
+       "Water"
+      ],
+      "hi": [
+       "रोशनी",
+       "रंगों",
+       "फसल",
+       "पानी"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Holi is the festival of colours.",
+      "hi": "होली रंगों का त्योहार है।"
+     }
+    }
+   ]
+  },
+  "muslim": {
+   "name": {
+    "en": "Muslim",
+    "hi": "मुस्लिम"
+   },
+   "icon": "☪️",
+   "qs": [
+    {
+     "q": {
+      "en": "Which is the holy book of Islam?",
+      "hi": "इस्लाम का पवित्र ग्रंथ कौन सा है?"
+     },
+     "o": {
+      "en": [
+       "Guru Granth Sahib",
+       "Quran",
+       "Bible",
+       "Vedas"
+      ],
+      "hi": [
+       "गुरु ग्रंथ साहिब",
+       "कुरान",
+       "बाइबल",
+       "वेद"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "The Quran is the holy book of Islam.",
+      "hi": "कुरान इस्लाम का पवित्र ग्रंथ है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which festival marks the end of Ramadan?",
+      "hi": "कौन सा त्योहार रमज़ान के अंत का प्रतीक है?"
+     },
+     "o": {
+      "en": [
+       "Eid al-Fitr",
+       "Diwali",
+       "Holi",
+       "Christmas"
+      ],
+      "hi": [
+       "ईद-उल-फ़ितर",
+       "दिवाली",
+       "होली",
+       "क्रिसमस"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Eid al-Fitr marks the end of Ramadan.",
+      "hi": "ईद-उल-फ़ितर रमज़ान के अंत पर मनाई जाती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Where do Muslims gather for prayer?",
+      "hi": "मुस्लिम प्रार्थना के लिए कहाँ इकट्ठा होते हैं?"
+     },
+     "o": {
+      "en": [
+       "Gurdwara",
+       "Mosque",
+       "Temple",
+       "Church"
+      ],
+      "hi": [
+       "गुरुद्वारा",
+       "मस्जिद",
+       "मंदिर",
+       "चर्च"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Muslims pray in a mosque.",
+      "hi": "मुस्लिम मस्जिद में प्रार्थना करते हैं।"
+     }
+    },
+    {
+     "q": {
+      "en": "The month of fasting in Islam is called?",
+      "hi": "इस्लाम में उपवास के महीने को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Ramadan",
+       "Shawwal",
+       "Muharram",
+       "Rajab"
+      ],
+      "hi": [
+       "रमज़ान",
+       "शव्वाल",
+       "मुहर्रम",
+       "रजब"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Ramadan is the month of fasting.",
+      "hi": "रमज़ान उपवास का महीना है।"
+     }
+    }
+   ]
+  },
+  "christian": {
+   "name": {
+    "en": "Christian",
+    "hi": "ईसाई"
+   },
+   "icon": "✝️",
+   "qs": [
+    {
+     "q": {
+      "en": "Which festival celebrates the birth of Jesus Christ?",
+      "hi": "कौन सा त्योहार ईसा मसीह के जन्म का उत्सव है?"
+     },
+     "o": {
+      "en": [
+       "Easter",
+       "Christmas",
+       "Diwali",
+       "Holi"
+      ],
+      "hi": [
+       "ईस्टर",
+       "क्रिसमस",
+       "दिवाली",
+       "होली"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Christmas celebrates the birth of Jesus.",
+      "hi": "क्रिसमस ईसा मसीह के जन्म का उत्सव है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which is the holy book of Christianity?",
+      "hi": "ईसाई धर्म का पवित्र ग्रंथ कौन सा है?"
+     },
+     "o": {
+      "en": [
+       "Quran",
+       "Bible",
+       "Guru Granth Sahib",
+       "Vedas"
+      ],
+      "hi": [
+       "कुरान",
+       "बाइबल",
+       "गुरु ग्रंथ साहिब",
+       "वेद"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "The Bible is the holy book of Christianity.",
+      "hi": "बाइबल ईसाई धर्म का पवित्र ग्रंथ है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Where do Christians gather for worship?",
+      "hi": "ईसाई उपासना के लिए कहाँ इकट्ठा होते हैं?"
+     },
+     "o": {
+      "en": [
+       "Mosque",
+       "Church",
+       "Temple",
+       "Gurdwara"
+      ],
+      "hi": [
+       "मस्जिद",
+       "चर्च",
+       "मंदिर",
+       "गुरुद्वारा"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Christians worship in a church.",
+      "hi": "ईसाई चर्च में उपासना करते हैं।"
+     }
+    },
+    {
+     "q": {
+      "en": "Easter celebrates what?",
+      "hi": "ईस्टर किसका उत्सव है?"
+     },
+     "o": {
+      "en": [
+       "Birth of Jesus",
+       "Resurrection of Jesus",
+       "Harvest",
+       "New year"
+      ],
+      "hi": [
+       "ईसा का जन्म",
+       "ईसा का पुनरुत्थान",
+       "फसल",
+       "नया साल"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Easter celebrates the resurrection of Jesus.",
+      "hi": "ईस्टर ईसा के पुनरुत्थान का उत्सव है।"
+     }
+    }
+   ]
+  },
+  "jain": {
+   "name": {
+    "en": "Jain",
+    "hi": "जैन"
+   },
+   "icon": "🤍",
+   "qs": [
+    {
+     "q": {
+      "en": "Who is regarded as the founder of Jainism?",
+      "hi": "जैन धर्म के संस्थापक किसे माना जाता है?"
+     },
+     "o": {
+      "en": [
+       "Mahavira",
+       "Buddha",
+       "Guru Nanak",
+       "Christ"
+      ],
+      "hi": [
+       "महावीर",
+       "बुद्ध",
+       "गुरु नानक",
+       "ईसा"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Mahavira is regarded as the founder of Jainism.",
+      "hi": "महावीर जी जैन धर्म के संस्थापक माने जाते हैं।"
+     }
+    },
+    {
+     "q": {
+      "en": "What is the Jain principle of non-violence called?",
+      "hi": "जैन धर्म में अहिंसा के सिद्धांत को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Ahimsa",
+       "Karma",
+       "Dharma",
+       "Yoga"
+      ],
+      "hi": [
+       "अहिंसा",
+       "कर्म",
+       "धर्म",
+       "योग"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Ahimsa means non-violence.",
+      "hi": "अहिंसा का अर्थ है किसी को नुकसान न पहुँचाना।"
+     }
+    },
+    {
+     "q": {
+      "en": "Where do Jains worship?",
+      "hi": "जैन लोग कहाँ उपासना करते हैं?"
+     },
+     "o": {
+      "en": [
+       "Temple",
+       "Mosque",
+       "Church",
+       "Gurdwara"
+      ],
+      "hi": [
+       "मंदिर",
+       "मस्जिद",
+       "चर्च",
+       "गुरुद्वारा"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Jains worship in temples.",
+      "hi": "जैन मंदिर में उपासना करते हैं।"
+     }
+    },
+    {
+     "q": {
+      "en": "Why do Jain monks cover their mouth with a cloth?",
+      "hi": "जैन साधु मुँह पर कपड़ा क्यों रखते हैं?"
+     },
+     "o": {
+      "en": [
+       "To stay warm",
+       "To avoid harming tiny life",
+       "To look good",
+       "To hide the face"
+      ],
+      "hi": [
+       "गर्म रहने के लिए",
+       "सूक्ष्म जीवों को बचाने के लिए",
+       "अच्छा दिखने के लिए",
+       "चेहरा छिपाने के लिए"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "It is to avoid harming tiny living beings.",
+      "hi": "यह सूक्ष्म जीवों को नुकसान से बचाने के लिए है।"
+     }
+    }
+   ]
+  },
+  "buddhist": {
+   "name": {
+    "en": "Buddhist",
+    "hi": "बौद्ध"
+   },
+   "icon": "☸️",
+   "qs": [
+    {
+     "q": {
+      "en": "Who founded Buddhism?",
+      "hi": "बौद्ध धर्म की स्थापना किसने की?"
+     },
+     "o": {
+      "en": [
+       "Mahavira",
+       "Gautama Buddha",
+       "Guru Nanak",
+       "Christ"
+      ],
+      "hi": [
+       "महावीर",
+       "गौतम बुद्ध",
+       "गुरु नानक",
+       "ईसा"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Gautama Buddha founded Buddhism.",
+      "hi": "गौतम बुद्ध ने बौद्ध धर्म की स्थापना की।"
+     }
+    },
+    {
+     "q": {
+      "en": "Where did Buddha attain enlightenment?",
+      "hi": "बुद्ध को ज्ञान कहाँ प्राप्त हुआ?"
+     },
+     "o": {
+      "en": [
+       "Bodh Gaya",
+       "Lumbini",
+       "Sarnath",
+       "Kushinagar"
+      ],
+      "hi": [
+       "बोध गया",
+       "लुंबिनी",
+       "सारनाथ",
+       "कुशीनगर"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Buddha attained enlightenment at Bodh Gaya.",
+      "hi": "बुद्ध को बोध गया में ज्ञान प्राप्त हुआ।"
+     }
+    },
+    {
+     "q": {
+      "en": "What is the Buddhist path of right living called?",
+      "hi": "बौद्ध धर्म में सही जीवन के मार्ग को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Eightfold Path",
+       "Ten Commandments",
+       "Five Pillars",
+       "Four Vedas"
+      ],
+      "hi": [
+       "अष्टांगिक मार्ग",
+       "दस आज्ञाएँ",
+       "पाँच स्तंभ",
+       "चार वेद"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "It is called the Noble Eightfold Path.",
+      "hi": "इसे अष्टांगिक मार्ग कहते हैं।"
+     }
+    },
+    {
+     "q": {
+      "en": "Buddhism teaches compassion for?",
+      "hi": "बौद्ध धर्म किसके प्रति करुणा सिखाता है?"
+     },
+     "o": {
+      "en": [
+       "Only humans",
+       "All living beings",
+       "Only friends",
+       "No one"
+      ],
+      "hi": [
+       "केवल मनुष्य",
+       "सभी जीव",
+       "केवल मित्र",
+       "किसी के प्रति नहीं"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Buddhism teaches compassion for all living beings.",
+      "hi": "बौद्ध धर्म सभी जीवों के प्रति करुणा सिखाता है।"
+     }
+    }
+   ]
+  }
+ }
+}

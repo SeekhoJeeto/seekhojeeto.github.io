@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seekho Jeeto</title>
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; min-height: 100%; }
+  body {
+    background: #0b1020;
+    color: #e9ecff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    line-height: 1.5;
+  }
+  body.rtl { direction: rtl; }
+  .app { max-width: 720px; margin: 0 auto; padding: 16px 16px 48px; }
+  header.top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; }
+  .brand { font-size: 20px; font-weight: 800; letter-spacing: .3px; }
+  .brand span { color: #7dd3fc; }
+  select.lang {
+    background: #1a2140; color: #e9ecff; border: 1px solid #2c3663;
+    border-radius: 10px; padding: 8px 10px; font-size: 14px; max-width: 46%;
+  }
+  .screen { display: none; }
+  .screen.active { display: block; animation: fade .25s ease; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .hero { text-align: center; padding: 22px 8px 8px; }
+  .hero h1 { font-size: 26px; margin: 0 0 6px; }
+  .hero p { color: #9aa4d4; margin: 0 0 22px; }
+  .card {
+    background: #141a35; border: 1px solid #232c55; border-radius: 18px;
+    padding: 18px; margin-bottom: 14px;
+  }
+  .big-btn {
+    display: flex; align-items: center; gap: 14px; width: 100%;
+    background: #1a2140; border: 1px solid #2c3663; color: #e9ecff;
+    border-radius: 16px; padding: 18px; font-size: 17px; font-weight: 700;
+    cursor: pointer; margin-bottom: 12px; text-align: start; transition: transform .1s, background .15s;
+  }
+  .big-btn:hover { background: #212a52; }
+  .big-btn:active { transform: scale(.99); }
+  .big-btn .emoji { font-size: 26px; }
+  .big-btn small { display: block; font-weight: 500; color: #9aa4d4; font-size: 13px; }
+  .label { font-size: 13px; color: #9aa4d4; margin: 0 0 8px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .chip {
+    background: #1a2140; border: 1px solid #2c3663; color: #cdd5ff;
+    border-radius: 999px; padding: 9px 16px; font-size: 14px; cursor: pointer; font-weight: 600;
+  }
+  .chip.active { background: #2563eb; border-color: #3b82f6; color: #fff; }
+  .btn {
+    width: 100%; padding: 15px; border: none; border-radius: 14px;
+    background: #22c55e; color: #06210f; font-size: 17px; font-weight: 800; cursor: pointer;
+  }
+  .btn:active { transform: scale(.99); }
+  .btn.secondary { background: #2563eb; color: #fff; }
+  .btn.ghost { background: #1a2140; color: #cdd5ff; border: 1px solid #2c3663; }
+  .hud { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; font-weight: 700; font-size: 15px; }
+  .hud .pill { background: #141a35; border: 1px solid #232c55; border-radius: 999px; padding: 6px 14px; }
+  .hud .sc { color: #6ee7b7; }
+  .hud .lv { color: #fca5a5; }
+  .qtext { font-size: 19px; font-weight: 700; margin: 4px 0 18px; }
+  .opt {
+    display: block; width: 100%; text-align: start; background: #1a2140;
+    border: 2px solid #2c3663; color: #e9ecff; border-radius: 14px;
+    padding: 15px 16px; font-size: 16px; margin-bottom: 10px; cursor: pointer; transition: .15s;
+  }
+  .opt:hover { border-color: #3b82f6; }
+  .opt.correct { background: #103b25; border-color: #22c55e; }
+  .opt.wrong { background: #3b1020; border-color: #ef4444; }
+  .opt:disabled { cursor: default; }
+  .expl { margin-top: 12px; padding: 14px; border-radius: 12px; background: #101731; border: 1px solid #232c55; color: #b9c2ee; font-size: 15px; }
+  .expl b { color: #7dd3fc; }
+  .timerbar { height: 8px; background: #1a2140; border-radius: 999px; overflow: hidden; margin-bottom: 16px; }
+  .timerbar > i { display: block; height: 100%; background: #f59e0b; width: 100%; transition: width 1s linear; }
+  .result { text-align: center; }
+  .result h2 { font-size: 26px; margin: 8px 0; }
+  .badge { font-size: 60px; }
+  .big-score { font-size: 40px; font-weight: 800; color: #6ee7b7; }
+  input.text, .file {
+    width: 100%; padding: 13px; border-radius: 12px; background: #0e1430;
+    border: 1px solid #2c3663; color: #e9ecff; font-size: 16px; margin-bottom: 12px;
+  }
+  canvas.cert { width: 100%; height: auto; border-radius: 14px; border: 1px solid #232c55; margin: 12px 0; background: #fff; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .hint { font-size: 13px; color: #8a93c2; margin-top: 6px; }
+  .progress { height: 14px; background: #1a2140; border-radius: 999px; overflow: hidden; margin: 10px 0 6px; }
+  .progress > i { display: block; height: 100%; background: linear-gradient(90deg,#22c55e,#7dd3fc); width: 0%; transition: width .4s; }
+  .tier { display: flex; align-items: center; justify-content: space-between; gap: 10px; background: #101731; border: 1px solid #232c55; border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; }
+  .voucher { border: 2px dashed #c8a24a; border-radius: 16px; padding: 18px; text-align: center; background: #fffdf5; color: #3a2c00; margin-top: 14px; }
+  .voucher .v-top { font-weight: 800; font-size: 16px; color: #7a1f1f; letter-spacing: .3px; }
+  .voucher .v-val { font-size: 34px; font-weight: 800; margin: 6px 0; color: #111; }
+  .voucher .v-code { font-family: monospace; font-size: 20px; font-weight: 700; letter-spacing: 1px; margin: 8px 0; }
+  .voucher .v-note { font-size: 12px; color: #6b5a2a; }
+  footer { text-align: center; color: #6b74a0; font-size: 12px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand">Seekho<span> Jeeto</span></div>
+    <select class="lang" id="langSel" onchange="setLang(this.value)"></select>
+  </header>
+
+  <!-- HOME -->
+  <section class="screen active" id="scr-home">
+    <div class="hero">
+      <h1 id="home-title">Seekho Jeeto</h1>
+      <p id="home-sub">Khelo, seekho, aur certificate jeeto!</p>
+    </div>
+    <button class="big-btn" onclick="openStudy()">
+      <span class="emoji">🔬</span>
+      <span><span data-k="0">Study</span><small>Science • Class 5–12</small></span>
+    </button>
+    <button class="big-btn" onclick="openSanskar()">
+      <span class="emoji">🪔</span>
+      <span><span data-k="1">Values and Religion</span><small>Har dharm alag • apni marzi se</small></span>
+    </button>
+    <button class="big-btn" onclick="openRewards()">
+      <span class="emoji">🎁</span>
+      <span><span data-r="0">Rewards</span><small>Points → Shreecharanam Vedic Spices voucher</small></span>
+    </button>
+  </section>
+
+  <!-- STUDY SETUP -->
+  <section class="screen" id="scr-setup">
+    <div class="card">
+      <p class="label" data-k="2">Choose your class</p>
+      <div class="chips" id="classChips"></div>
+      <p class="label">Mode</p>
+      <div class="chips" id="modeChips">
+        <div class="chip active" data-mode="practice" data-k="5">Practice mode</div>
+        <div class="chip" data-mode="challenge" data-k="6">Challenge mode</div>
+      </div>
+      <button class="btn" onclick="startStudy()" data-k="4">Start</button>
+      <button class="btn ghost" style="margin-top:10px" onclick="go('scr-home')">← <span data-k="0">Study</span></button>
+    </div>
+  </section>
+
+  <!-- SANSKAR SETUP -->
+  <section class="screen" id="scr-sanskar">
+    <div class="card">
+      <p class="label" data-k="1">Values and Religion</p>
+      <div class="tabs" id="tradTabs"></div>
+      <button class="btn" onclick="startSanskar()" data-k="4">Start</button>
+      <button class="btn ghost" style="margin-top:10px" onclick="go('scr-home')">← Home</button>
+    </div>
+  </section>
+
+  <!-- GAME -->
+  <section class="screen" id="scr-game">
+    <div style="margin-bottom:10px"><button class="chip" onclick="go('scr-home')">← Home</button></div>
+    <div class="hud">
+      <span class="pill"><span data-k="7">Score</span>: <span class="sc" id="hudScore">0</span></span>
+      <span class="pill" id="livesPill" style="display:none"><span data-k="9">Lives</span>: <span class="lv" id="hudLives">3</span></span>
+    </div>
+    <div class="timerbar" id="timerBar" style="display:none"><i id="timerFill"></i></div>
+    <div class="card">
+      <p class="label" id="qCount">Q 1</p>
+      <p class="qtext" id="qText">…</p>
+      <div id="optBox"></div>
+      <div class="expl" id="explBox" style="display:none"></div>
+      <button class="btn" id="nextBtn" style="display:none; margin-top:12px" onclick="nextQ()" data-k="10">Next question</button>
+    </div>
+  </section>
+
+  <!-- RESULT -->
+  <section class="screen" id="scr-result">
+    <div class="result card">
+      <div class="badge" id="resBadge">🏅</div>
+      <h2 data-k="14">Congratulations</h2>
+      <div class="big-score" id="resScore">0</div>
+      <p id="resMsg" style="color:#9aa4d4"></p>
+      <p class="label" style="margin-top:16px" data-k="16">Type your name</p>
+      <input class="text" id="certName" placeholder="Aapka naam">
+      <p class="label" data-k="17">Upload your photo</p>
+      <input class="file" type="file" id="certPhoto" accept="image/*">
+      <canvas class="cert" id="certCanvas" width="1000" height="700"></canvas>
+      <button class="btn" onclick="downloadCert()" data-k="18">Download certificate</button>
+      <button class="btn secondary" style="margin-top:10px" onclick="go('scr-home')" data-k="19">Play again</button>
+      <p class="hint">Certificate aapki site ke naam se banega — badalna ho toh bata dena.</p>
+    </div>
+  </section>
+
+  <!-- REWARDS -->
+  <section class="screen" id="scr-rewards">
+    <div class="card">
+      <p class="label" data-r="1">Your points</p>
+      <div class="big-score" id="rwPoints">0</div>
+      <div class="progress"><i id="rwBar"></i></div>
+      <p class="hint" id="rwNext"></p>
+      <p class="label" style="margin-top:18px">Shreecharanam Vedic Spices</p>
+      <div id="rwTiers"></div>
+      <p class="label" data-r="6">Parent phone number</p>
+      <input class="text" id="rwPhone" placeholder="10-digit mobile" inputmode="numeric">
+      <p class="hint" data-r2="2">One voucher per mobile number</p>
+      <div id="rwVoucher" style="display:none"></div>
+      <a class="btn ghost" style="margin-top:10px; display:block; text-align:center; text-decoration:none" href="https://shreecharanam.github.io/shreecharanam-website" target="_blank" rel="noopener">🛒 Shreecharanam Vedic Spices</a>
+      <button class="btn ghost" style="margin-top:12px" onclick="go('scr-home')">← Home</button>
+    </div>
+  </section>
+
+  <footer>Seekho Jeeto • Science + Sanskar + Rewards</footer>
+</div>
+
+<script>
+/* ============================================================
+   1) LANGUAGES (menu words) — 13 languages
+   ============================================================ */
+const KEYS = ["Study","Values and Religion","Choose your class","Choose your language","Start","Practice mode","Challenge mode","Score","Best","Lives","Next question","Correct","Wrong","Explanation","Congratulations","You earned a certificate","Type your name","Upload your photo","Download certificate","Play again"];
+const LANGS = {
+  en: ["Study","Values and Religion","Choose your class","Choose your language","Start","Practice mode","Challenge mode","Score","Best","Lives","Next question","Correct","Wrong","Explanation","Congratulations","You earned a certificate","Type your name","Upload your photo","Download certificate","Play again"],
+  hi: ["पढ़ाई","मूल्य और धर्म","अपनी क्लास चुनें","अपनी भाषा चुनें","शुरू करें","प्रैक्टिस मोड","चैलेंज मोड","स्कोर","बेस्ट","जीवन","अगला सवाल","सही","गलत","व्याख्या","बधाई हो","आपने सर्टिफिकेट जीता","अपना नाम लिखें","अपनी फोटो अपलोड करें","सर्टिफिकेट डाउनलोड करें","फिर से खेलें"],
+  bn: ["স্টাডি","মূল্যবোধ এবং ধর্ম","তোমার ক্লাস বেছে নাও","তোমার ভাষা বেছে নাও","শুরু করো","প্র্যাকটিস মোড","চ্যালেঞ্জ মোড","স্কোর","সেরা","লাইফ","পরের প্রশ্ন","সঠিক","ভুল","ব্যাখ্যা","অভিনন্দন","তুমি একটি সার্টিফিকেট অর্জন করেছ","তোমার নাম লেখো","তোমার ছবি আপলোড করো","সার্টিফিকেট ডাউনলোড করো","আবার খেলো"],
+  mr: ["अभ्यास","मूल्ये आणि धर्म","तुमचा वर्ग निवडा","तुमची भाषा निवडा","सुरुवात करा","प्रॅक्टिस मोड","चॅलेंज मोड","स्कोर","बेस्ट","लाइव्हज","पुढचा प्रश्न","बरोबर","चूक","स्पष्टीकरण","अभिनंदन","तुम्हाला प्रमाणपत्र मिळाले आहे","तुमचे नाव टाईप करा","फोटो अपलोड करा","प्रमाणपत्र डाउनलोड करा","पुन्हा खेळा"],
+  te: ["స్టడీ","విలువలు మరియు మతం","మీ క్లాస్‌ని ఎంచుకోండి","మీ భాషను ఎంచుకోండి","స్టార్ట్","ప్రాక్టీస్ మోడ్","ఛాలెంజ్ మోడ్","స్కోర్","బెస్ట్","లైవ్స్","తర్వాతి ప్రశ్న","కరెక్ట్","రాంగ్","వివరణ","అభినందనలు","మీకు సర్టిఫికేట్ వచ్చింది","మీ పేరు టైప్ చేయండి","మీ ఫోటో అప్‌లోడ్ చేయండి","సర్టిఫికేట్ డౌన్‌లోడ్ చేసుకోండి","మళ్ళీ ప్లే చేయండి"],
+  ta: ["படிக்க","மதிப்புகள் மற்றும் மதம்","உங்கள் வகுப்பைத் தேர்ந்தெடுக்கவும்","உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்","தொடங்கு","பயிற்சி முறை","சவால் முறை","மதிப்பெண்","சிறந்த","உயிர்கள்","அடுத்த கேள்வி","சரியானது","தவறானது","விளக்கம்","வாழ்த்துகள்","நீங்கள் ஒரு சான்றிதழைப் பெற்றுள்ளீர்கள்","உங்கள் பெயரை உள்ளிடவும்","உங்கள் புகைப்படத்தை பதிவேற்றவும்","சான்றிதழைப் பதிவிறக்கவும்","மீண்டும் விளையாடு"],
+  gu: ["અભ્યાસ","મૂલ્યો અને ધર્મ","તમારો વર્ગ પસંદ કરો","તમારી ભાષા પસંદ કરો","શરૂ કરો","પ્રેક્ટિસ મોડ","ચેલેન્જ મોડ","સ્કોર","શ્રેષ્ઠ","લાઇવ્સ","આગળનો પ્રશ્ન","સાચું","ખોટું","સમજૂતી","અભિનંદન","તમને પ્રમાણપત્ર મળ્યું છે","તમારું નામ લખો","તમારો ફોટો અપલોડ કરો","પ્રમાણપત્ર ડાઉનલોડ કરો","ફરી રમો"],
+  ur: ["سٹڈی","اقدار اور مذہب","اپنی کلاس منتخب کریں","اپنی زبان منتخب کریں","شروع کریں","پریکٹس موڈ","چیلنج موڈ","سکور","بہترین","لائیوز","اگلا سوال","درست","غلط","وضاحت","مبارک ہو","آپ نے سرٹیفکیٹ حاصل کر لیا ہے","اپنا نام لکھیں","اپنی تصویر اپ لوڈ کریں","سرٹیفکیٹ ڈاؤن لوڈ کریں","دوبارہ کھیلیں"],
+  kn: ["ಅಧ್ಯಯನ","ಮೌಲ್ಯಗಳು ಮತ್ತು ಧರ್ಮ","ನಿಮ್ಮ ತರಗತಿಯನ್ನು ಆರಿಸಿಕೊಳ್ಳಿ","ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆರಿಸಿಕೊಳ್ಳಿ","ಪ್ರಾರಂಭಿಸಿ","ಪ್ರಾಕ್ಟೀಸ್ ಮೋಡ್","ಚಾಲೆಂಜ್ ಮೋಡ್","ಸ್ಕೋರ್","ಅತ್ಯುತ್ತಮ","ಲೈವ್ಸ್","ಮುಂದಿನ ಪ್ರಶ್ನೆ","ಸರಿ","ತಪ್ಪು","ವಿವರಣೆ","ಅಭಿನಂದನೆಗಳು","ನಿಮಗೆ ಸರ್ಟಿಫಿಕೇಟ್ ಸಿಕ್ಕಿದೆ","ನಿಮ್ಮ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿ","ನಿಮ್ಮ ಫೋಟೋ ಅಪ್ಲೋಡ್ ಮಾಡಿ","ಸರ್ಟಿಫಿಕೇಟ್ ಡೌನ್ಲೋಡ್ ಮಾಡಿ","ಮತ್ತೆ ಆಟವಾಡಿ"],
+  or: ["ଅଧ୍ୟୟନ","ମୂଲ୍ୟବୋଧ ଏବଂ ଧର୍ମ","ଆପଣଙ୍କ ଶ୍ରେଣୀ ବାଛନ୍ତୁ","ଆପଣଙ୍କ ଭାଷା ବାଛନ୍ତୁ","ଆରମ୍ଭ କରନ୍ତୁ","ପ୍ରାକ୍ଟିସ୍ ମୋଡ୍","ଚ୍ୟାଲେଞ୍ଜ ମୋଡ୍","ସ୍କୋର୍","ଶ୍ରେଷ୍ଠ","ଲାଇଭ୍ସ","ପରବର୍ତ୍ତୀ ପ୍ରଶ୍ନ","ସଠିକ୍","ଭୁଲ୍","ବ୍ୟାଖ୍ୟା","ଅଭିନନ୍ଦନ","ଆପଣ ଏକ ସାର୍ଟିଫିକେଟ୍ ପାଇଛନ୍ତି","ଆପଣଙ୍କ ନାମ ଟାଇପ୍ କରନ୍ତୁ","ଆପଣଙ୍କ ଫଟୋ ଅପଲୋଡ୍ କରନ୍ତୁ","ସାର୍ଟିଫିକେଟ୍ ଡାଉନଲୋଡ୍ କରନ୍ତୁ","ପୁଣି ଖେଳନ୍ତୁ"],
+  ml: ["പഠനം","മൂല്യങ്ങളും മതവും","നിങ്ങളുടെ ക്ലാസ് തിരഞ്ഞെടുക്കുക","നിങ്ങളുടെ ഭാഷ തിരഞ്ഞെടുക്കുക","തുടങ്ങുക","പ്രാക്ടീസ് മോഡ്","ചലഞ്ച് മോഡ്","സ്കോർ","മികച്ചത്","ലൈവ്സ്","അടുത്ത ചോദ്യം","ശരി","തെറ്റ്","വിശദീകരണം","അഭിനന്ദനങ്ങൾ","നിങ്ങൾക്ക് ഒരു സർട്ടിഫിക്കറ്റ് ലഭിച്ചു","നിങ്ങളുടെ പേര് നൽകുക","നിങ്ങളുടെ ഫോട്ടോ അപ്ലോഡ് ചെയ്യുക","സർട്ടിഫിക്കറ്റ് ഡൗൺലോഡ് ചെയ്യുക","വീണ്ടും കളിക്കുക"],
+  pa: ["ਸਟੱਡੀ","ਕਦਰਾਂ-ਕੀਮਤਾਂ ਅਤੇ ਧਰਮ","ਆਪਣੀ ਕਲਾਸ ਚੁਣੋ","ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ","ਸ਼ੁਰੂ ਕਰੋ","ਪ੍ਰੈਕਟਿਸ ਮੋਡ","ਚੈਲੇਂਜ ਮੋਡ","ਸਕੋਰ","ਸਭ ਤੋਂ ਵਧੀਆ","ਲਾਈਵਜ਼","ਅਗਲਾ ਸਵਾਲ","ਸਹੀ","ਗਲਤ","ਵਿਆਖਿਆ","ਮੁਬਾਰਕਾਂ","ਤੁਹਾਨੂੰ ਇੱਕ ਸਰਟੀਫਿਕੇਟ ਮਿਲਿਆ ਹੈ","ਆਪਣਾ ਨਾਮ ਭਰੋ","ਆਪਣੀ ਫੋਟੋ ਅੱਪਲੋਡ ਕਰੋ","ਸਰਟੀਫਿਕੇਟ ਡਾਊਨਲੋਡ ਕਰੋ","ਦੁਬਾਰਾ ਖੇਡੋ"],
+  as: ["অধ্যয়ন","মূল্যবোধ আৰু ধৰ্ম","আপোনাৰ শ্ৰেণী বাছক","আপোনাৰ ভাষা বাছক","আৰম্ভ কৰক","প্ৰেকটিচ মোড","চেলেঞ্জ মোড","স্ক'ৰ","শ্ৰেষ্ঠ","জীৱন","পৰৱৰ্তী প্ৰশ্ন","শুদ্ধ","ভুল","ব্যাখ্যা","অভিনন্দন","আপুনি এটা প্ৰমাণপত্ৰ লাভ কৰিছে","আপোনাৰ নাম লিখক","আপোনাৰ ফটো আপলোড কৰক","প্ৰমাণপত্ৰ ডাউনলোড কৰক","আকৌ খেলক"]
+};
+const LANG_NAMES = { en:"English", hi:"हिन्दी", bn:"বাংলা", mr:"मराठी", te:"తెలుగు", ta:"தமிழ்", gu:"ગુજરાતી", ur:"اردو", kn:"ಕನ್ನಡ", or:"ଓଡ଼ିଆ", ml:"മലയാളം", pa:"ਪੰਜਾਬੀ", as:"অসমীয়া" };
+
+// Rewards-section words (7)
+const RW = {
+  en: ["Rewards","Your points","Redeem now","Voucher code","Show this at the shop","Not enough points","Parent phone number"],
+  hi: ["रिवॉर्ड्स","आपके पॉइंट्स","अभी रिडीम करें","वाउचर कोड","दुकान पर इसे दिखाएं","पॉइंट्स कम हैं","पैरेंट का फोन नंबर"],
+  bn: ["রিওয়ার্ডস","আপনার পয়েন্ট","এখনই রিডিম করুন","ভাউচার কোড","দোকানে এটা দেখান","যথেষ্ট পয়েন্ট নেই","পিতামাতার ফোন নম্বর"],
+  mr: ["रिवॉर्ड्स","तुमचे पॉइंट्स","आता रिडीम करा","व्हॉउचर कोड","दुकानात हे दाखवा","पुरेसे पॉइंट्स नाहीत","पालकांचा फोन नंबर"],
+  te: ["రివార్డ్స్","మీ పాయింట్లు","ఇప్పుడే రీడీమ్ చేసుకోండి","వౌచర్ కోడ్","షాపులో ఇది చూపించండి","తగినన్ని పాయింట్లు లేవు","పేరెంట్ ఫోన్ నంబర్"],
+  ta: ["பரிசுகள்","உங்கள் புள்ளிகள்","இப்போதே மீட்கவும்","வவுச்சர் குறியீடு","கடைக்கு இதை காட்டுங்கள்","போதுமான புள்ளிகள் இல்லை","பெற்றோரின் தொலைபேசி எண்"],
+  gu: ["રિવોર્ડ્સ","તમારા પોઈન્ટ્સ","અત્યારે જ રિડીમ કરો","વાઉચર કોડ","આ દુકાને બતાવો","પૂરતા પોઈન્ટ્સ નથી","માતા-પિતાનો ફોન નંબર"],
+  ur: ["ریوارڈز","آپ کے پوائنٹس","ابھی ریڈیم کریں","واؤچر کوڈ","دکان پر یہ دکھائیں","پوائنٹس کم ہیں","والدین کا فون نمبر"],
+  kn: ["ಬಹುಮಾನಗಳು","ನಿಮ್ಮ ಪಾಯಿಂಟ್‌ಗಳು","ಈಗಲೇ ರಿಡೀಮ್ ಮಾಡಿ","ವೋಚರ್ ಕೋಡ್","ಇದನ್ನು ಅಂಗಡಿಯಲ್ಲಿ ತೋರಿಸಿ","ಸಾಕಷ್ಟು ಪಾಯಿಂಟ್‌ಗಳಿಲ್ಲ","ಪೋಷಕರ ಫೋನ್ ನಂಬರ್"],
+  or: ["ପୁରସ୍କାର","ଆପଣଙ୍କ ପଏଣ୍ଟ","ବର୍ତ୍ତମାନ ରିଡିମ୍ କରନ୍ତୁ","ଭାଉଚର କୋଡ୍","ଦୋକାନରେ ଏହା ଦେଖାନ୍ତୁ","ପର୍ଯ୍ୟାପ୍ତ ପଏଣ୍ଟ ନାହିଁ","ପିତାମାତାଙ୍କ ଫୋନ୍ ନମ୍ବର"],
+  ml: ["റിവാർഡുകൾ","നിങ്ങളുടെ പോയിന്റുകൾ","ഇപ്പോൾ റിഡീം ചെയ്യുക","വൗച്ചർ കോഡ്","കടയിൽ ഇത് കാണിക്കുക","ആവശ്യത്തിന് പോയിന്റുകളില്ല","രക്ഷിതാവിന്റെ ഫോൺ നമ്പർ"],
+  pa: ["ਇਨਾਮ","ਤੁਹਾਡੇ ਪੁਆਇੰਟ","ਹੁਣੇ ਰਿਡੀਮ ਕਰੋ","ਵੌਚਰ ਕੋਡ","ਦੁਕਾਨ 'ਤੇ ਇਹ ਦਿਖਾਓ","ਕਾਫ਼ੀ ਪੁਆਇੰਟ ਨਹੀਂ ਹਨ","ਮਾਪਿਆਂ ਦਾ ਫ਼ੋਨ ਨੰਬਰ"],
+  as: ["ৰিৱাৰ্ডছ","আপোনাৰ পইণ্টসমূহ","এতিয়াই ৰিডিম কৰক","ভাউচাৰ ক'ড","দোকানত এইটো দেখুৱাওক","যথেষ্ট পইণ্ট নাই","অভিভাৱকৰ ফোন নম্বৰ"]
+};
+const TIERS = [ {pts:2000, val:25}, {pts:5000, val:50}, {pts:10000, val:100} ];
+
+// Redeem-guard messages (3)
+const RW2 = {
+  en: ["Please enter a valid 10-digit mobile number","This mobile number has already redeemed a voucher","One voucher per mobile number"],
+  hi: ["कृपया एक सही 10-अंकों का मोबाइल नंबर डालें।","इस मोबाइल नंबर से पहले ही एक वाउचर रिडीम किया जा चुका है।","हर मोबाइल नंबर के लिए एक वाउचर।"],
+  bn: ["দয়া করে একটি বৈধ ১০-ডিজিটের মোবাইল নম্বর দিন","এই মোবাইল নম্বরটি দিয়ে ইতিমধ্যেই একটি ভাউচার রিডিম করা হয়েছে","প্রতিটি মোবাইল নম্বরের জন্য একটি ভাউচার"],
+  mr: ["कृपया 10 अंकी वैध मोबाईल नंबर टाका","या मोबाईल नंबरवर आधीच एक व्हाउचर रिडीम केले आहे","प्रत्येक मोबाईल नंबरसाठी एकच व्हाउचर"],
+  te: ["దయచేసి సరైన 10 అంకెల మొబైల్ నంబర్ ఎంటర్ చేయండి.","ఈ మొబైల్ నంబర్ ఇప్పటికే వోచర్‌ను వాడుకుంది.","ఒక మొబైల్ నంబర్‌కు ఒక వోచర్ మాత్రమే."],
+  ta: ["தயவுசெய்து சரியான 10 இலக்க மொபைல் எண்ணை உள்ளிடவும்","இந்த மொபைல் எண் ஏற்கனவே ஒரு வவுச்சரை ரீடீம் செய்துவிட்டது","ஒவ்வொரு மொபைல் எண்ணுக்கும் ஒரு வவுச்சர்"],
+  gu: ["કૃપા કરીને 10 અંકનો માન્ય મોબાઇલ નંબર દાખલ કરો","આ મોબાઇલ નંબર પર પહેલેથી જ વાઉચર રિડીમ થઈ ગયું છે","દરેક મોબાઇલ નંબર માટે એક જ વાઉચર"],
+  ur: ["براہ کرم 10 ہندسوں کا ایک درست موبائل نمبر درج کریں۔","اس موبائل نمبر سے پہلے ہی واؤچر ریڈیم کیا جا چکا ہے۔","ہر موبائل نمبر پر ایک واؤچر۔"],
+  kn: ["ದಯವಿಟ್ಟು ಸರಿಯಾದ 10-ಅಂಕಿಯ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ","ಈ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಗೆ ಈಗಾಗಲೇ ವೋಚರ್ ರಿಡೀಮ್ ಮಾಡಲಾಗಿದೆ","ಪ್ರತಿ ಮೊಬೈಲ್ ಸಂಖ್ಯೆಗೆ ಒಂದು ವೋಚರ್"],
+  or: ["ଦୟାକରି ଏକ ବୈଧ 10-ଅଙ୍କ ବିଶିଷ୍ଟ ମୋବାଇଲ୍ ନମ୍ବର ଦିଅନ୍ତୁ।","ଏହି ମୋବାଇଲ୍ ନମ୍ବରରେ ପୂର୍ବରୁ ଏକ ଭାଉଚର୍ ରିଡିମ୍ କରାଯାଇଛି।","ପ୍ରତି ମୋବାଇଲ୍ ନମ୍ବର ପାଇଁ ଗୋଟିଏ ଭାଉଚର୍।"],
+  ml: ["ദയവായി 10 അക്കങ്ങളുള്ള ശരിയായ മൊബൈൽ നമ്പർ നൽകുക.","ഈ മൊബൈൽ നമ്പർ ഇതിനകം ഒരു വൗച്ചർ റിഡീം ചെയ്തിട്ടുണ്ട്.","ഒരു മൊബൈൽ നമ്പറിന് ഒരു വൗച്ചർ മാത്രം."],
+  pa: ["ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਸਹੀ 10-ਅੰਕਾਂ ਵਾਲਾ ਮੋਬਾਈਲ ਨੰਬਰ ਭਰੋ","ਇਸ ਮੋਬਾਈਲ ਨੰਬਰ 'ਤੇ ਪਹਿਲਾਂ ਹੀ ਵਾਊਚਰ ਰਿਡੀਮ ਕੀਤਾ ਜਾ ਚੁੱਕਾ ਹੈ","ਪ੍ਰਤੀ ਮੋਬਾਈਲ ਨੰਬਰ ਸਿਰਫ਼ ਇੱਕ ਵਾਊਚਰ"],
+  as: ["অনুগ্ৰহ কৰি এটা বৈধ 10-অংকৰ ম'বাইল নম্বৰ দিয়ক","এই ম'বাইল নম্বৰটোৰে ইতিমধ্যে এটা ভাউচাৰ ৰিডিম কৰা হৈছে","প্ৰতিটো ম'বাইল নম্বৰত মাত্ৰ এটা ভাউচাৰ"]
+};
+const RKEY = "gq_redeemed";
+
+let LANG = "en";
+function t(i){ return (LANGS[LANG] && LANGS[LANG][i]) || LANGS.en[i]; }
+function tr(i){ return (RW[LANG] && RW[LANG][i]) || RW.en[i]; }
+function tr2(i){ return (RW2[LANG] && RW2[LANG][i]) || RW2.en[i]; }
+function applyLang(){
+  document.body.classList.toggle("rtl", LANG === "ur");
+  document.querySelectorAll("[data-k]").forEach(el => { el.textContent = t(Number(el.dataset.k)); });
+  document.querySelectorAll("[data-r]").forEach(el => { el.textContent = tr(Number(el.dataset.r)); });
+  document.querySelectorAll("[data-r2]").forEach(el => { el.textContent = tr2(Number(el.dataset.r2)); });
+  document.getElementById("home-sub").textContent = "Khelo, seekho, aur certificate jeeto!";
+  if(document.getElementById("scr-rewards").classList.contains("active")) renderRewards();
+}
+
+/* ============================================================
+   2) SCIENCE QUESTION BANK — Class 5 to 12 (English + Hindi)
+   Each: q, options o, correct index a, explanation e
+   ============================================================ */
+let SCIENCE = {};   // loaded from questions.json
+
+/* ============================================================
+   3) SANSKAR / DHARM SECTION — each tradition separate & optional
+   ============================================================ */
+let TRADITIONS = {}; // loaded from questions.json
+
+/* ============================================================
+   4) GAME LOGIC
+   ============================================================ */
+let state = { list:[], idx:0, score:0, streak:0, lives:3, mode:"practice", answered:false, timer:null, timeLeft:0, title:"" };
+
+function showScreen(id){
+  clearInterval(state.timer);
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+  window.scrollTo(0,0);
+}
+function go(id){
+  if(document.getElementById(id).classList.contains("active")) return;
+  history.pushState({scr:id}, "", "");
+  showScreen(id);
+}
+function replaceScreen(id){
+  history.replaceState({scr:id}, "", "");
+  showScreen(id);
+}
+window.addEventListener("popstate", (e) => {
+  const scr = (e.state && e.state.scr) || "scr-home";
+  showScreen(scr);
+  if(scr === "scr-rewards") renderRewards();
+});
+function dataGuard(){ if(!window.__dataReady){ alert("Ek pal — sawaal load ho rahe hain. Internet se kholiye, phir dobara dabaiye."); return false; } return true; }
+function openStudy(){ if(!dataGuard()) return; buildClassChips(); go("scr-setup"); }
+function openSanskar(){ if(!dataGuard()) return; buildTradTabs(); go("scr-sanskar"); }
+
+// progress memory: yaad rakho kaun se sawaal ho chuke
+function seenKey(k){ return "sj_seen_" + k; }
+function getSeen(k){ try { return JSON.parse(localStorage.getItem(seenKey(k)) || "[]"); } catch(e){ return []; } }
+function addSeen(k, i){ const s = getSeen(k); if(s.indexOf(i) === -1){ s.push(i); localStorage.setItem(seenKey(k), JSON.stringify(s)); } }
+function buildList(allQs, k){
+  const seen = getSeen(k);
+  let idxs = allQs.map((q, i) => i).filter(i => seen.indexOf(i) === -1);
+  let reset = false;
+  if(idxs.length === 0){ idxs = allQs.map((q, i) => i); reset = true; }
+  return { list: idxs.map(i => Object.assign({}, allQs[i], { __i: i })), reset: reset };
+}
+
+// class chips
+function buildClassChips(){
+  const box = document.getElementById("classChips");
+  box.innerHTML = "";
+  for(let c=5;c<=12;c++){
+    const d = document.createElement("div");
+    d.className = "chip" + (c===8?" active":"");
+    d.textContent = "Class " + c;
+    d.onclick = () => { box.querySelectorAll(".chip").forEach(x=>x.classList.remove("active")); d.classList.add("active"); };
+    box.appendChild(d);
+  }
+}
+document.getElementById("modeChips").addEventListener("click", (e) => {
+  const c = e.target.closest(".chip"); if(!c) return;
+  document.querySelectorAll("#modeChips .chip").forEach(x=>x.classList.remove("active"));
+  c.classList.add("active");
+});
+
+function startStudy(){
+  const cls = document.querySelector("#classChips .chip.active").textContent.replace("Class ","").trim();
+  const mode = document.querySelector("#modeChips .chip.active").dataset.mode;
+  const allQs = SCIENCE[Number(cls)] || [];
+  const key = "sci_" + cls;
+  const b = buildList(allQs, key);
+  if(b.reset) localStorage.removeItem(seenKey(key));
+  state.title = "Science • Class " + cls;
+  state.trackKey = key;
+  beginQuiz(b.list, mode);
+}
+function startSanskar(){
+  const key = document.querySelector("#tradTabs .chip.active").dataset.key;
+  const trad = TRADITIONS[key];
+  const k = "trad_" + key;
+  const b = buildList(trad.qs, k);
+  if(b.reset) localStorage.removeItem(seenKey(k));
+  state.title = trad.name.en + " • " + trad.name.hi;
+  state.trackKey = k;
+  beginQuiz(b.list, "practice");
+}
+function buildTradTabs(){
+  const box = document.getElementById("tradTabs");
+  box.innerHTML = "";
+  Object.keys(TRADITIONS).forEach((key, i) => {
+    const d = document.createElement("div");
+    d.className = "chip" + (i===0?" active":"");
+    d.dataset.key = key;
+    d.textContent = TRADITIONS[key].icon + " " + TRADITIONS[key].name[LANG] ;
+    if(!TRADITIONS[key].name[LANG]) d.textContent = TRADITIONS[key].icon + " " + TRADITIONS[key].name.en;
+    d.onclick = () => { box.querySelectorAll(".chip").forEach(x=>x.classList.remove("active")); d.classList.add("active"); };
+    box.appendChild(d);
+  });
+}
+
+function beginQuiz(list, mode){
+  state.list = list.slice();
+  state.idx = 0; state.score = 0; state.streak = 0; state.lives = 3;
+  state.mode = mode; state.answered = false;
+  document.getElementById("hudScore").textContent = 0;
+  document.getElementById("livesPill").style.display = (mode==="challenge") ? "inline-block" : "none";
+  document.getElementById("hudLives").textContent = 3;
+  document.getElementById("timerBar").style.display = (mode==="challenge") ? "block" : "none";
+  go("scr-game");
+  renderQ();
+}
+
+function L(obj){ return obj[LANG] || obj.en; }
+
+function renderQ(){
+  clearInterval(state.timer);
+  state.answered = false;
+  const q = state.list[state.idx];
+  document.getElementById("qCount").textContent = "Q " + (state.idx+1) + " / " + state.list.length;
+  document.getElementById("qText").textContent = L(q.q);
+  const box = document.getElementById("optBox");
+  box.innerHTML = "";
+  const opts = L(q.o);
+  opts.forEach((txt, i) => {
+    const b = document.createElement("button");
+    b.className = "opt";
+    b.textContent = txt;
+    b.onclick = () => pick(i);
+    box.appendChild(b);
+  });
+  document.getElementById("explBox").style.display = "none";
+  document.getElementById("nextBtn").style.display = "none";
+
+  if(state.mode === "challenge"){
+    state.timeLeft = 20;
+    const fill = document.getElementById("timerFill");
+    fill.style.transition = "none"; fill.style.width = "100%";
+    setTimeout(()=>{ fill.style.transition = "width 1s linear"; }, 30);
+    state.timer = setInterval(() => {
+      state.timeLeft--;
+      fill.style.width = (state.timeLeft/20*100) + "%";
+      if(state.timeLeft <= 0){ clearInterval(state.timer); pick(-1); }
+    }, 1000);
+  }
+}
+
+function pick(i){
+  if(state.answered) return;
+  state.answered = true;
+  clearInterval(state.timer);
+  const q = state.list[state.idx];
+  if(q && q.__i !== undefined && state.trackKey) addSeen(state.trackKey, q.__i);
+  const buttons = document.querySelectorAll("#optBox .opt");
+  buttons.forEach((b, k) => {
+    b.disabled = true;
+    if(k === q.a) b.classList.add("correct");
+    if(k === i && i !== q.a) b.classList.add("wrong");
+  });
+
+  if(i === q.a){
+    state.streak++;
+    const bonus = Math.min(state.streak, 5) * 2;
+    state.score += 10 + bonus;
+    document.getElementById("hudScore").textContent = state.score;
+  } else {
+    state.streak = 0;
+    if(state.mode === "challenge"){
+      state.lives--;
+      document.getElementById("hudLives").textContent = Math.max(state.lives,0);
+    }
+  }
+  const ex = document.getElementById("explBox");
+  ex.style.display = "block";
+  ex.innerHTML = "<b>" + t(13) + ":</b> " + L(q.e);
+  document.getElementById("nextBtn").style.display = "block";
+
+  if(state.mode === "challenge" && state.lives <= 0){
+    document.getElementById("nextBtn").style.display = "none";
+    setTimeout(finish, 900);
+  }
+}
+
+function nextQ(){
+  if(state.mode === "challenge" && state.lives <= 0){ finish(); return; }
+  state.idx++;
+  if(state.idx >= state.list.length){ finish(); return; }
+  renderQ();
+}
+
+function finish(){
+  clearInterval(state.timer);
+  const total = state.list.length;
+  const maxScore = total * 10;
+  const pct = Math.round((state.score / (maxScore || 1)) * 100);
+  let badge = "🥉", msg = "Achhi koshish! Phir se khelo aur sudharo.";
+  if(pct >= 80){ badge = "🥇"; msg = "Shandar! Aap topper ho!"; }
+  else if(pct >= 50){ badge = "🥈"; msg = "Bahut badhiya! Thoda aur practice."; }
+  document.getElementById("resBadge").textContent = badge;
+  document.getElementById("resScore").textContent = state.score + " pts";
+  document.getElementById("resMsg").textContent = msg + "  (" + state.title + ")";
+  addPoints(state.score);   // save earned points to the wallet for rewards
+  drawCert();
+  replaceScreen("scr-result");
+}
+
+/* ============================================================
+   5) CERTIFICATE (name + photo)
+   ============================================================ */
+let photoImg = null;
+document.getElementById("certName").addEventListener("input", drawCert);
+document.getElementById("certPhoto").addEventListener("change", (e) => {
+  const f = e.target.files[0]; if(!f) return;
+  const r = new FileReader();
+  r.onload = (ev) => { const im = new Image(); im.onload = () => { photoImg = im; drawCert(); }; im.src = ev.target.result; };
+  r.readAsDataURL(f);
+});
+
+function drawCert(){
+  const cv = document.getElementById("certCanvas");
+  const x = cv.getContext("2d");
+  const W = cv.width, H = cv.height;
+  const name = (document.getElementById("certName").value || "").trim() || "____________";
+
+  // background
+  x.fillStyle = "#ffffff"; x.fillRect(0,0,W,H);
+  // border
+  x.strokeStyle = "#1e3a8a"; x.lineWidth = 12; x.strokeRect(24,24,W-48,H-48);
+  x.strokeStyle = "#c8a24a"; x.lineWidth = 3; x.strokeRect(44,44,W-88,H-88);
+  // header band
+  x.fillStyle = "#1e3a8a"; x.fillRect(24,24,W-48,110);
+  x.fillStyle = "#ffffff"; x.font = "bold 44px Georgia, serif"; x.textAlign = "center";
+  x.fillText("Seekho Jeeto", W/2, 92);
+
+  x.fillStyle = "#1e3a8a"; x.font = "bold 38px Georgia, serif";
+  x.fillText("Certificate of Achievement", W/2, 205);
+  x.fillStyle = "#555"; x.font = "22px Georgia, serif";
+  x.fillText("This certificate is proudly presented to", W/2, 250);
+
+  // name
+  x.fillStyle = "#111"; x.font = "bold 46px Georgia, serif";
+  x.fillText(name, W/2, 320);
+  x.strokeStyle = "#c8a24a"; x.lineWidth = 2;
+  x.beginPath(); x.moveTo(W/2-260, 338); x.lineTo(W/2+260, 338); x.stroke();
+
+  // details
+  x.fillStyle = "#333"; x.font = "22px Georgia, serif";
+  x.fillText("for completing " + state.title, W/2, 392);
+  x.fillText("with a score of " + state.score + " points", W/2, 426);
+
+  // date
+  const d = new Date();
+  const dateStr = d.getDate() + "/" + (d.getMonth()+1) + "/" + d.getFullYear();
+  x.fillStyle = "#666"; x.font = "20px Georgia, serif";
+  x.fillText("Date: " + dateStr, W/2, 620);
+
+  // photo (circle, right side) or default seal
+  if(photoImg){
+    x.save();
+    x.beginPath(); x.arc(845, 500, 70, 0, Math.PI*2); x.closePath(); x.clip();
+    x.drawImage(photoImg, 775, 430, 140, 140);
+    x.restore();
+    x.strokeStyle = "#c8a24a"; x.lineWidth = 4;
+    x.beginPath(); x.arc(845, 500, 70, 0, Math.PI*2); x.stroke();
+  } else {
+    x.fillStyle = "#eef2ff"; x.beginPath(); x.arc(845, 500, 70, 0, Math.PI*2); x.fill();
+    x.strokeStyle = "#c8a24a"; x.lineWidth = 3; x.beginPath(); x.arc(845, 500, 70, 0, Math.PI*2); x.stroke();
+    x.fillStyle = "#94a3b8"; x.font = "16px Georgia, serif"; x.textAlign = "center";
+    x.fillText("PHOTO", 845, 505);
+  }
+  // seal text
+  x.fillStyle = "#1e3a8a"; x.font = "bold 20px Georgia, serif";
+  x.fillText("★ AWARDED ★", 200, 620);
+  x.textAlign = "start";
+}
+
+function downloadCert(){
+  const cv = document.getElementById("certCanvas");
+  const a = document.createElement("a");
+  a.download = "SeekhoJeeto-Certificate.png";
+  a.href = cv.toDataURL("image/png");
+  a.click();
+}
+
+/* ============================================================
+   5b) REWARDS / WALLET — points → Shreecharanam Vedic Spices voucher
+   ============================================================ */
+const WKEY = "gq_points";
+function getPoints(){ return Number(localStorage.getItem(WKEY) || 0); }
+function addPoints(n){ localStorage.setItem(WKEY, getPoints() + n); }
+function rand(n){ const c = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; let s = ""; for(let i=0;i<n;i++) s += c[Math.floor(Math.random()*c.length)]; return s; }
+function dateCompact(){ const d = new Date(); return String(d.getDate()).padStart(2,"0") + String(d.getMonth()+1).padStart(2,"0") + String(d.getFullYear()).slice(2); }
+
+function openRewards(){ renderRewards(); go("scr-rewards"); }
+function renderRewards(){
+  const p = getPoints();
+  document.getElementById("rwPoints").textContent = p;
+  const bar = document.getElementById("rwBar");
+  const label = document.getElementById("rwNext");
+  const next = TIERS.find(x => x.pts > p);
+  if(next){
+    const below = TIERS.filter(x => x.pts <= p).map(x => x.pts);
+    const prevPts = below.length ? Math.max.apply(null, below) : 0;
+    const span = next.pts - prevPts;
+    bar.style.width = Math.max(0, Math.min(100, ((p - prevPts) / span) * 100)) + "%";
+    label.textContent = (next.pts - p) + " points → ₹" + next.val + " voucher";
+  } else {
+    bar.style.width = "100%";
+    label.textContent = "Sab rewards unlock ho gaye!";
+  }
+  const box = document.getElementById("rwTiers");
+  box.innerHTML = "";
+  TIERS.forEach(tier => {
+    const can = p >= tier.pts;
+    const row = document.createElement("div");
+    row.className = "tier";
+    const info = document.createElement("div");
+    info.innerHTML = "<b>₹" + tier.val + "</b> &nbsp;—&nbsp; " + tier.pts + " pts";
+    const b = document.createElement("button");
+    b.className = "btn";
+    b.style.width = "auto"; b.style.padding = "10px 16px"; b.style.fontSize = "14px";
+    b.textContent = can ? tr(2) : tr(5);
+    b.disabled = !can;
+    if(can) b.onclick = () => redeem(tier);
+    row.appendChild(info); row.appendChild(b);
+    box.appendChild(row);
+  });
+}
+
+function getRedeemed(){ try { return JSON.parse(localStorage.getItem(RKEY) || "[]"); } catch(e){ return []; } }
+function redeem(tier){
+  const phone = document.getElementById("rwPhone").value.trim();
+  if(!/^[0-9]{10}$/.test(phone)){ alert(tr2(0)); return; }
+  if(getRedeemed().indexOf(phone) !== -1){ alert(tr2(1)); return; }
+  let p = getPoints();
+  if(p < tier.pts) return;
+  localStorage.setItem(WKEY, p - tier.pts);
+  const done = getRedeemed(); done.push(phone); localStorage.setItem(RKEY, JSON.stringify(done));
+  const code = "SCV-" + tier.val + "-" + rand(5) + "-" + dateCompact();
+  const v = document.getElementById("rwVoucher");
+  v.style.display = "block";
+  v.innerHTML =
+    '<div class="voucher">' +
+      '<div class="v-top">Shreecharanam Vedic Spices</div>' +
+      '<div class="v-val">₹' + tier.val + ' OFF</div>' +
+      '<div class="v-note">Min purchase ₹500 • Valid 30 days • One per family</div>' +
+      '<div class="v-code">' + code + '</div>' +
+      '<div class="v-note">' + tr(4) + ' • ' + phone + '</div>' +
+    '</div>';
+  renderRewards();
+}
+
+/* ============================================================
+   6) INIT
+   ============================================================ */
+(function init(){
+  const sel = document.getElementById("langSel");
+  Object.keys(LANG_NAMES).forEach(code => {
+    const o = document.createElement("option");
+    o.value = code; o.textContent = LANG_NAMES[code];
+    sel.appendChild(o);
+  });
+  sel.value = "en";
+  applyLang();
+  fetch("questions.json")
+    .then(r => r.json())
+    .then(d => { SCIENCE = d.science; TRADITIONS = d.traditions; window.__dataReady = true; })
+    .catch(() => { window.__dataReady = false; });
+})();
+</script>
+</body>
+</html>
