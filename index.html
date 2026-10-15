@@ -274,6 +274,11 @@ function applyLang(){
   document.getElementById("home-sub").textContent = "Khelo, seekho, aur certificate jeeto!";
   if(document.getElementById("scr-rewards").classList.contains("active")) renderRewards();
 }
+function setLang(code){
+  LANG = code;
+  applyLang();
+  if(document.getElementById("scr-sanskar").classList.contains("active")) buildTradTabs();
+}
 
 /* ============================================================
    2) SCIENCE QUESTION BANK — Class 5 to 12 (English + Hindi)
