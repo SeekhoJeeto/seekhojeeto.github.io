@@ -42,6 +42,10 @@
   .big-btn:active { transform: scale(.99); }
   .big-btn .emoji { font-size: 26px; }
   .big-btn small { display: block; font-weight: 500; color: #9aa4d4; font-size: 13px; }
+  .stats { background: #141a35; border: 1px solid #232c55; border-radius: 14px; padding: 12px 14px; margin: 0 0 16px; text-align: center; }
+  .stats .stat-row { font-weight: 700; font-size: 14px; color: #cdd5ff; }
+  .stats .stat-row.small { font-weight: 500; font-size: 12px; color: #9aa4d4; margin-top: 5px; }
+  .stats b { color: #7dd3fc; }
   .label { font-size: 13px; color: #9aa4d4; margin: 0 0 8px; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
   .chip {
@@ -108,6 +112,10 @@
     <div class="hero">
       <h1 id="home-title">Seekho Jeeto</h1>
       <p id="home-sub">Khelo, seekho, aur certificate jeeto!</p>
+    </div>
+    <div class="stats" id="homeStats" style="display:none">
+      <div class="stat-row" id="statRow1"></div>
+      <div class="stat-row small" id="statRow2"></div>
     </div>
     <button class="big-btn" onclick="openStudy()">
       <span class="emoji">🔬</span>
@@ -226,6 +234,24 @@ const LANGS = {
 };
 const LANG_NAMES = { en:"English", hi:"हिन्दी", bn:"বাংলা", mr:"मराठी", te:"తెలుగు", ta:"தமிழ்", gu:"ગુજરાતી", ur:"اردو", kn:"ಕನ್ನಡ", or:"ଓଡ଼ିଆ", ml:"മലയാളം", pa:"ਪੰਜਾਬੀ", as:"অসমীয়া" };
 
+// Stats-strip words (4) appended so indices 20-23 work with t()
+const STAT_LANGS = {
+  en: ["Science","Total","Last updated","today"],
+  hi: ["विज्ञान","कुल","अंतिम अपडेट","आज"],
+  bn: ["বিজ্ঞান","মোট","শেষ আপডেট","আজ"],
+  mr: ["विज्ञान","एकूण","शेवटचे अपडेट","आज"],
+  te: ["సైన్స్","మొత్తం","చివరి అప్‌డేట్","ఈరోజు"],
+  ta: ["அறிவியல்","மொத்தம்","கடைசி புதுப்பிப்பு","இன்று"],
+  gu: ["વિજ્ઞાન","કુલ","છેલ્લું અપડેટ","આજે"],
+  ur: ["سائنس","کل","آخری اپ ڈیٹ","آج"],
+  kn: ["ವಿಜ್ಞಾನ","ಒಟ್ಟು","ಕೊನೆಯ ಅಪ್‌ಡೇಟ್","ಇಂದು"],
+  or: ["ବିଜ୍ଞାନ","ମୋଟ","ଶେଷ ଅପଡେଟ୍","ଆଜି"],
+  ml: ["ശാസ്ത്രം","ആകെ","അവസാന അപ്ഡേറ്റ്","ഇന്ന്"],
+  pa: ["ਵਿਗਿਆਨ","ਕੁੱਲ","ਆਖਰੀ ਅੱਪਡੇਟ","ਅੱਜ"],
+  as: ["বিজ্ঞান","মুঠ","শেষ আপডেট","আজি"]
+};
+Object.keys(STAT_LANGS).forEach(function(l){ if(LANGS[l]) LANGS[l] = LANGS[l].concat(STAT_LANGS[l]); });
+
 // Rewards-section words (7)
 const RW = {
   en: ["Rewards","Your points","Redeem now","Voucher code","Show this at the shop","Not enough points","Parent phone number"],
@@ -273,6 +299,30 @@ function applyLang(){
   document.querySelectorAll("[data-r2]").forEach(el => { el.textContent = tr2(Number(el.dataset.r2)); });
   document.getElementById("home-sub").textContent = "Khelo, seekho, aur certificate jeeto!";
   if(document.getElementById("scr-rewards").classList.contains("active")) renderRewards();
+  renderStats();
+}
+function renderStats(){
+  var box = document.getElementById("homeStats");
+  if(!box) return;
+  var sci = 0; Object.keys(SCIENCE).forEach(function(k){ sci += SCIENCE[k].length; });
+  var trad = 0; Object.keys(TRADITIONS).forEach(function(k){ var v = TRADITIONS[k]; if(Array.isArray(v)) trad += v.length; else if(v && Array.isArray(v.qs)) trad += v.qs.length; });
+  var total = sci + trad;
+  var r1 = document.getElementById("statRow1");
+  var r2 = document.getElementById("statRow2");
+  if(r1) r1.innerHTML = t(20) + ": <b>" + sci + "</b> &nbsp;\u2022&nbsp; " + t(1) + ": <b>" + trad + "</b> &nbsp;\u2022&nbsp; " + t(21) + ": <b>" + total + "</b>";
+  var m = window.__meta || {};
+  var line2 = "";
+  if(m.last_updated){
+    var p = String(m.last_updated).split("-");
+    var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    var dstr = (p.length === 3) ? (Number(p[2]) + " " + (MON[Number(p[1]) - 1] || "") + " " + p[0]) : m.last_updated;
+    var now = new Date();
+    var today = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
+    line2 = t(22) + ": " + dstr;
+    if(m.last_added){ line2 += "  (+" + m.last_added + (m.last_updated === today ? " " + t(23) : "") + ")"; }
+  }
+  if(r2) r2.textContent = line2;
+  box.style.display = "block";
 }
 function setLang(code){
   LANG = code;
@@ -652,7 +702,7 @@ function redeem(tier){
   applyLang();
   fetch("questions.json", { cache: "no-cache" })
     .then(r => r.json())
-    .then(d => { SCIENCE = d.science; TRADITIONS = d.traditions; window.__dataReady = true; })
+    .then(d => { SCIENCE = d.science; TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
     .catch(() => { window.__dataReady = false; });
 })();
 </script>
