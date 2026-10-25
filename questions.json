@@ -3842,6 +3842,131 @@
      "pa": "ਸੁੰਡੀ ਦੇ ਤਿਤਲੀ ਵਿੱਚ ਬਦਲਣ ਨੂੰ ਰੂਪਾਂਤਰਣ ਕਿਹਾ ਜਾਂਦਾ ਹੈ।",
      "as": "পলু এটা পখিলালৈ সলনি হোৱা প্ৰক্ৰিয়াটোক ৰূপান্তৰ বোলা হয়।"
     }
+   },
+   {
+    "q": {
+     "en": "How many legs does an insect have?",
+     "hi": "कीट के कितने पैर होते हैं?"
+    },
+    "o": {
+     "en": [
+      "4",
+      "6",
+      "8",
+      "10"
+     ],
+     "hi": [
+      "4",
+      "6",
+      "8",
+      "10"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Insects have six legs.",
+     "hi": "कीटों के छह पैर होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What do we call the young one of a cat?",
+     "hi": "बिल्ली के बच्चे को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Puppy",
+      "Kitten",
+      "Calf",
+      "Cub"
+     ],
+     "hi": [
+      "पिल्ला",
+      "किटन",
+      "बछड़ा",
+      "शावक"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "A baby cat is called a kitten.",
+     "hi": "बिल्ली के बच्चे को किटन कहते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these birds cannot fly?",
+     "hi": "इनमें से कौन सा पक्षी उड़ नहीं सकता?"
+    },
+    "o": {
+     "en": [
+      "Sparrow",
+      "Penguin",
+      "Crow",
+      "Parrot"
+     ],
+     "hi": [
+      "गौरैया",
+      "पेंगुइन",
+      "कौआ",
+      "तोता"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The penguin cannot fly; it uses its wings to swim.",
+     "hi": "पेंगुइन उड़ नहीं सकता; यह अपने पंखों की सहायता से तैरता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these animals lives only in water?",
+     "hi": "इनमें से कौन सा जानवर केवल पानी में रहता है?"
+    },
+    "o": {
+     "en": [
+      "Fish",
+      "Cow",
+      "Dog",
+      "Cat"
+     ],
+     "hi": [
+      "मछली",
+      "गाय",
+      "कुत्ता",
+      "बिल्ली"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Fish live in water and breathe through gills.",
+     "hi": "मछलियाँ पानी में रहती हैं और गिल्स से साँस लेती हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these animals is an omnivore?",
+     "hi": "इनमें से कौन सा जानवर सर्वाहारी है?"
+    },
+    "o": {
+     "en": [
+      "Cow",
+      "Lion",
+      "Bear",
+      "Deer"
+     ],
+     "hi": [
+      "गाय",
+      "शेर",
+      "भालू",
+      "हिरण"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "An omnivore eats both plants and animals; a bear is an example.",
+     "hi": "सर्वाहारी पौधे और जानवर दोनों खाता है; भालू इसका एक उदाहरण है।"
+    }
    }
   ],
   "6": [
@@ -7347,6 +7472,131 @@
      "pa": "ਪਾਣੀ ਦੀ ਭਾਫ਼ ਦੇ ਠੰਢੇ ਹੋ ਕੇ ਬੂੰਦਾਂ ਬਣਨ ਨੂੰ ਸੰਘਣਾਪਣ ਕਿਹਾ ਜਾਂਦਾ ਹੈ।",
      "as": "জলীয় বাষ্প ঠাণ্ডা হৈ পানীৰ টোপাললৈ সলনি হোৱা প্ৰক্ৰিয়াটোক ঘনীভৱন বোলা হয়।"
     }
+   },
+   {
+    "q": {
+     "en": "Which is the largest continent on Earth?",
+     "hi": "पृथ्वी का सबसे बड़ा महाद्वीप कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Africa",
+      "Europe",
+      "Asia",
+      "Australia"
+     ],
+     "hi": [
+      "अफ्रीका",
+      "यूरोप",
+      "एशिया",
+      "ऑस्ट्रेलिया"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Asia is the largest continent by area and population.",
+     "hi": "एशिया क्षेत्रफल और जनसंख्या के अनुसार सबसे बड़ा महाद्वीप है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a good source of calcium?",
+     "hi": "इनमें से कैल्शियम का अच्छा स्रोत कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Sugar",
+      "Milk",
+      "Oil",
+      "Salt"
+     ],
+     "hi": [
+      "चीनी",
+      "दूध",
+      "तेल",
+      "नमक"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Milk and dairy products are rich in calcium, needed for strong bones and teeth.",
+     "hi": "दूध और दुग्ध उत्पाद कैल्शियम से भरपूर हैं, जो मजबूत हड्डियों और दाँतों के लिए आवश्यक है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a cereal grain?",
+     "hi": "इनमें से कौन सा अनाज है?"
+    },
+    "o": {
+     "en": [
+      "Mango",
+      "Potato",
+      "Rice",
+      "Tomato"
+     ],
+     "hi": [
+      "आम",
+      "आलू",
+      "चावल",
+      "टमाटर"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Rice is a cereal grain and a staple food in many parts of India.",
+     "hi": "चावल एक अनाज है और भारत के कई भागों में मुख्य भोजन है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which vitamin is needed for the clotting of blood?",
+     "hi": "रक्त के थक्के बनने के लिए कौन सा विटामिन आवश्यक है?"
+    },
+    "o": {
+     "en": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K"
+     ],
+     "hi": [
+      "विटामिन ए",
+      "विटामिन सी",
+      "विटामिन डी",
+      "विटामिन के"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Vitamin K is needed for the clotting of blood.",
+     "hi": "रक्त के थक्के बनने के लिए विटामिन के आवश्यक है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these foods is a rich source of iron?",
+     "hi": "इनमें से लोहे (आयरन) का अच्छा स्रोत कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Sugar",
+      "Spinach",
+      "Butter",
+      "Salt"
+     ],
+     "hi": [
+      "चीनी",
+      "पालक",
+      "मक्खन",
+      "नमक"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Green leafy vegetables like spinach are rich in iron.",
+     "hi": "पालक जैसी हरी पत्तेदार सब्जियाँ लोहे से भरपूर होती हैं।"
+    }
    }
   ],
   "7": [
@@ -10739,6 +10989,131 @@
      "pa": "ਕਲੋਰੋਫਿਲ ਹਰਾ ਰੰਗਕ ਹੈ ਜੋ ਪ੍ਰਕਾਸ਼ ਸੰਸ਼ਲੇਸ਼ਣ ਲਈ ਸੂਰਜ ਦੀ ਰੌਸ਼ਨੀ ਨੂੰ ਫੜਦਾ ਹੈ।",
      "as": "ক্ল'ৰ'ফিল হৈছে সেউজীয়া ৰঞ্জক পদাৰ্থ যিয়ে সালোকসংশ্লেষণৰ বাবে সূৰ্যৰ পোহৰ ধৰি ৰাখে।"
     }
+   },
+   {
+    "q": {
+     "en": "Which of these plants is an insectivorous plant?",
+     "hi": "इनमें से कौन सा पौधा कीटभक्षी है?"
+    },
+    "o": {
+     "en": [
+      "Rose",
+      "Mango",
+      "Neem",
+      "Pitcher plant"
+     ],
+     "hi": [
+      "गुलाब",
+      "आम",
+      "नीम",
+      "घटपर्णी (पिचर प्लांट)"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The pitcher plant traps insects to get nutrients as it grows in nitrogen-poor soil.",
+     "hi": "घटपर्णी पौधा कीड़ों को पकड़कर पोषक तत्व प्राप्त करता है क्योंकि यह नाइट्रोजन-रहित मिट्टी में उगता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which instrument is used to measure rainfall?",
+     "hi": "वर्षा की मात्रा मापने वाला यंत्र कौन सा है?"
+    },
+    "o": {
+     "en": [
+      "Barometer",
+      "Rain gauge",
+      "Thermometer",
+      "Anemometer"
+     ],
+     "hi": [
+      "बैरोमीटर",
+      "वर्षामापी",
+      "थर्मामीटर",
+      "वायुवेगमापी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "A rain gauge measures the amount of rainfall.",
+     "hi": "वर्षामापी वर्षा की मात्रा मापता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which bacterium fixes nitrogen in the root nodules of leguminous plants?",
+     "hi": "फलीदार पौधों की जड़ ग्रंथियों में नाइट्रोजन स्थिरीकरण कौन सा जीवाणु करता है?"
+    },
+    "o": {
+     "en": [
+      "E. coli",
+      "Yeast",
+      "Rhizobium",
+      "Amoeba"
+     ],
+     "hi": [
+      "ई. कोलाई",
+      "यीस्ट",
+      "राइज़ोबियम",
+      "अमीबा"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Rhizobium lives in the root nodules of legumes and fixes atmospheric nitrogen.",
+     "hi": "राइज़ोबियम फलीदार पौधों की जड़ ग्रंथियों में रहता है और वायुमंडलीय नाइट्रोजन स्थिर करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a parasitic plant?",
+     "hi": "इनमें से कौन सा परजीवी पौधा है?"
+    },
+    "o": {
+     "en": [
+      "Rose",
+      "Cuscuta",
+      "Mango",
+      "Neem"
+     ],
+     "hi": [
+      "गुलाब",
+      "अमरबेल (कस्कुटा)",
+      "आम",
+      "नीम"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Cuscuta (amarbel) is a parasite that takes food from the host plant.",
+     "hi": "अमरबेल एक परजीवी है जो मेज़बान पौधे से भोजन लेती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In lichens, an alga and a fungus live together and help each other. This is an example of?",
+     "hi": "लाइकेन में शैवाल और कवक साथ रहते हैं और एक-दूसरे की मदद करते हैं। यह किसका उदाहरण है?"
+    },
+    "o": {
+     "en": [
+      "Parasitism",
+      "Predation",
+      "Competition",
+      "Symbiosis"
+     ],
+     "hi": [
+      "परजीविता",
+      "परभक्षण",
+      "प्रतिस्पर्धा",
+      "सहजीवन"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Lichens show symbiosis, in which both partners benefit.",
+     "hi": "लाइकेन सहजीवन दर्शाते हैं, जिसमें दोनों साथी लाभ पाते हैं।"
+    }
    }
   ],
   "8": [
@@ -13904,6 +14279,131 @@
      "ml": "ഭൂമിയിൽ നിന്ന് നോക്കുമ്പോൾ ഏറ്റവും തിളക്കമുള്ള ഗ്രഹമാണ് ശുക്രൻ.",
      "pa": "ਧਰਤੀ ਤੋਂ ਦੇਖਣ 'ਤੇ ਸ਼ੁੱਕਰ ਸਭ ਤੋਂ ਚਮਕਦਾਰ ਗ੍ਰਹਿ ਹੈ।",
      "as": "পৃথিৱীৰ পৰা দেখা পোৱা আটাইতকৈ উজ্জ্বল গ্ৰহটো হৈছে শুক্ৰ।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a non-contact force?",
+     "hi": "इनमें से कौन सा असंपर्क बल है?"
+    },
+    "o": {
+     "en": [
+      "Friction",
+      "Muscular force",
+      "Magnetic force",
+      "Tension"
+     ],
+     "hi": [
+      "घर्षण",
+      "पेशीय बल",
+      "चुंबकीय बल",
+      "तनाव"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Magnetic force acts at a distance without contact.",
+     "hi": "चुंबकीय बल बिना संपर्क के दूर से कार्य करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which gas is used to fill balloons so that they float in air?",
+     "hi": "गुब्बारों को हवा में तैराने के लिए कौन सी गैस भरी जाती है?"
+    },
+    "o": {
+     "en": [
+      "Oxygen",
+      "Helium",
+      "Nitrogen",
+      "Carbon dioxide"
+     ],
+     "hi": [
+      "ऑक्सीजन",
+      "हीलियम",
+      "नाइट्रोजन",
+      "कार्बन डाइऑक्साइड"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Helium is lighter than air, so balloons filled with it float.",
+     "hi": "हीलियम हवा से हल्की होती है, इसलिए इसमें भरे गुब्बारे तैरते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these diseases is spread by the bite of a mosquito?",
+     "hi": "इनमें से कौन सा रोग मच्छर के काटने से फैलता है?"
+    },
+    "o": {
+     "en": [
+      "Common cold",
+      "Chickenpox",
+      "Tuberculosis",
+      "Malaria"
+     ],
+     "hi": [
+      "सर्दी-जुकाम",
+      "चेचक",
+      "तपेदिक",
+      "मलेरिया"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Malaria is spread by the bite of an infected Anopheles mosquito.",
+     "hi": "मलेरिया संक्रमित एनोफिलीज मच्छर के काटने से फैलता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a synthetic acid-base indicator?",
+     "hi": "इनमें से कौन सा संश्लेषित अम्ल-क्षार सूचक है?"
+    },
+    "o": {
+     "en": [
+      "Litmus",
+      "Turmeric",
+      "Red cabbage",
+      "Phenolphthalein"
+     ],
+     "hi": [
+      "लिटमस",
+      "हल्दी",
+      "लाल पत्तागोभी",
+      "फिनॉल्फ्थेलिन"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Phenolphthalein is a synthetic indicator used to test acids and bases.",
+     "hi": "फिनॉल्फ्थेलिन एक संश्लेषित सूचक है जो अम्ल और क्षार की जाँच में प्रयोग होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which acid gives vinegar its sour taste?",
+     "hi": "सिरके को खट्टा स्वाद कौन सा अम्ल देता है?"
+    },
+    "o": {
+     "en": [
+      "Citric acid",
+      "Acetic acid",
+      "Lactic acid",
+      "Formic acid"
+     ],
+     "hi": [
+      "साइट्रिक अम्ल",
+      "एसिटिक अम्ल",
+      "लैक्टिक अम्ल",
+      "फॉर्मिक अम्ल"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Vinegar is a dilute solution of acetic acid.",
+     "hi": "सिरका एसिटिक अम्ल का तनु विलयन है।"
     }
    }
   ],
@@ -17410,6 +17910,131 @@
      "pa": "ਆਕਸੀਜਨ ਵਿੱਚ 8 ਪ੍ਰੋਟੋਨ ਹੁੰਦੇ ਹਨ, ਇਸ ਲਈ ਇਸਦਾ ਪਰਮਾਣੂ ਨੰਬਰ 8 ਹੈ।",
      "as": "অক্সিজেনত 8 টা প্ৰ'টন থাকে, সেয়েহে ইয়াৰ পাৰমাণৱিক সংখ্যা 8।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the momentum of a body of mass 2 kg moving at 3 m/s?",
+     "hi": "3 मी/से की चाल से चल रहे 2 किग्रा द्रव्यमान के पिंड का संवेग क्या है?"
+    },
+    "o": {
+     "en": [
+      "1.5 kg m/s",
+      "5 kg m/s",
+      "6 kg m/s",
+      "8 kg m/s"
+     ],
+     "hi": [
+      "1.5 किग्रा मी/से",
+      "5 किग्रा मी/से",
+      "6 किग्रा मी/से",
+      "8 किग्रा मी/से"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Momentum = mass x velocity = 2 x 3 = 6 kg m/s.",
+     "hi": "संवेग = द्रव्यमान x वेग = 2 x 3 = 6 किग्रा मी/से।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a metalloid?",
+     "hi": "इनमें से कौन सा उपधातु है?"
+    },
+    "o": {
+     "en": [
+      "Sodium",
+      "Chlorine",
+      "Sulphur",
+      "Silicon"
+     ],
+     "hi": [
+      "सोडियम",
+      "क्लोरीन",
+      "सल्फर",
+      "सिलिकॉन"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Silicon is a metalloid, showing properties of both metals and non-metals.",
+     "hi": "सिलिकॉन एक उपधातु है जो धातु और अधातु दोनों के गुण दिखाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The loudness of a sound depends on which of these?",
+     "hi": "ध्वनि की तीव्रता किस पर निर्भर करती है?"
+    },
+    "o": {
+     "en": [
+      "Amplitude",
+      "Speed",
+      "Wavelength",
+      "Colour"
+     ],
+     "hi": [
+      "आयाम",
+      "चाल",
+      "तरंगदैर्ध्य",
+      "रंग"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Loudness depends on the amplitude of the sound wave.",
+     "hi": "तीव्रता ध्वनि तरंग के आयाम पर निर्भर करती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a homogeneous mixture?",
+     "hi": "इनमें से कौन सा समांगी मिश्रण है?"
+    },
+    "o": {
+     "en": [
+      "Sand and water",
+      "Salt solution",
+      "Oil and water",
+      "Soil"
+     ],
+     "hi": [
+      "रेत और पानी",
+      "नमक का विलयन",
+      "तेल और पानी",
+      "मिट्टी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "A salt solution has uniform composition throughout, so it is homogeneous.",
+     "hi": "नमक के विलयन की संरचना हर जगह एक समान होती है, इसलिए यह समांगी है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the atomicity of an ozone molecule (O3)?",
+     "hi": "ओज़ोन अणु (O3) की परमाणुकता क्या है?"
+    },
+    "o": {
+     "en": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ],
+     "hi": [
+      "1",
+      "2",
+      "3",
+      "4"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Ozone has three atoms, so its atomicity is 3.",
+     "hi": "ओज़ोन में तीन परमाणु होते हैं, इसलिए इसकी परमाणुकता 3 है।"
+    }
    }
   ],
   "10": [
@@ -20801,6 +21426,131 @@
      "ml": "മുഴുവൻ ധാന്യങ്ങൾ, പഴങ്ങൾ, പച്ചക്കറികൾ എന്നിവയിൽ ഡയറ്ററി ഫൈബർ ധാരാളമുണ്ട്.",
      "pa": "ਸਾਬਤ ਅਨਾਜ, ਫਲ ਅਤੇ ਸਬਜ਼ੀਆਂ ਖੁਰਾਕੀ ਫਾਈਬਰ ਨਾਲ ਭਰਪੂਰ ਹੁੰਦੇ ਹਨ।",
      "as": "গোটা শস্য, ফলমূল আৰু শাক-পাচলিত খাদ্যৰ আঁহ প্ৰচুৰ পৰিমাণে থাকে।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which part of the brain controls involuntary actions like heartbeat?",
+     "hi": "हृदय की धड़कन जैसी अनैच्छिक क्रियाओं को मस्तिष्क का कौन सा भाग नियंत्रित करता है?"
+    },
+    "o": {
+     "en": [
+      "Medulla",
+      "Cerebrum",
+      "Cerebellum",
+      "Spinal cord"
+     ],
+     "hi": [
+      "मेडुला",
+      "प्रमस्तिष्क",
+      "अनुमस्तिष्क",
+      "मेरुरज्जु"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The medulla oblongata controls involuntary actions such as heartbeat and breathing.",
+     "hi": "मेडुला ऑब्लांगेटा हृदय की धड़कन और श्वसन जैसी अनैच्छिक क्रियाओं को नियंत्रित करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Heating calcium carbonate to give lime and carbon dioxide is an example of which reaction?",
+     "hi": "कैल्शियम कार्बोनेट को गर्म करने पर चूना और कार्बन डाइऑक्साइड बनना किस अभिक्रिया का उदाहरण है?"
+    },
+    "o": {
+     "en": [
+      "Burning of magnesium in air",
+      "Rusting of iron",
+      "Neutralisation of an acid with a base",
+      "Decomposition reaction"
+     ],
+     "hi": [
+      "हवा में मैग्नीशियम का जलना",
+      "लोहे का जंग लगना",
+      "अम्ल और क्षार का उदासीनीकरण",
+      "अपघटन अभिक्रिया"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "A single compound breaking into simpler substances on heating is a decomposition reaction.",
+     "hi": "गर्म करने पर एक यौगिक का सरल पदार्थों में टूटना अपघटन अभिक्रिया है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Iron nails dipped in copper sulphate solution show which type of reaction?",
+     "hi": "कॉपर सल्फेट विलयन में डुबोई लोहे की कीलें किस प्रकार की अभिक्रिया दर्शाती हैं?"
+    },
+    "o": {
+     "en": [
+      "Mixing salt in water",
+      "Melting of ice",
+      "Displacement reaction",
+      "Rusting of iron"
+     ],
+     "hi": [
+      "नमक को पानी में घोलना",
+      "बर्फ का पिघलना",
+      "विस्थापन अभिक्रिया",
+      "लोहे का जंग लगना"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Iron displaces copper from copper sulphate, so it is a displacement reaction.",
+     "hi": "लोहा कॉपर सल्फेट से कॉपर को विस्थापित करता है, इसलिए यह विस्थापन अभिक्रिया है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the approximate pH of human blood?",
+     "hi": "मानव रक्त का अनुमानित pH क्या है?"
+    },
+    "o": {
+     "en": [
+      "About 4",
+      "About 7.4",
+      "About 9",
+      "About 2"
+     ],
+     "hi": [
+      "लगभग 4",
+      "लगभग 7.4",
+      "लगभग 9",
+      "लगभग 2"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The pH of human blood is slightly basic, about 7.4.",
+     "hi": "मानव रक्त का pH थोड़ा क्षारीय, लगभग 7.4 होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is used as a fuel in nuclear power plants?",
+     "hi": "परमाणु ऊर्जा संयंत्रों में ईंधन के रूप में किसका उपयोग होता है?"
+    },
+    "o": {
+     "en": [
+      "Coal",
+      "Uranium",
+      "Petrol",
+      "Wood"
+     ],
+     "hi": [
+      "कोयला",
+      "यूरेनियम",
+      "पेट्रोल",
+      "लकड़ी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Uranium is used as nuclear fuel in nuclear power plants.",
+     "hi": "परमाणु ऊर्जा संयंत्रों में यूरेनियम का उपयोग परमाणु ईंधन के रूप में होता है।"
     }
    }
   ],
@@ -24194,6 +24944,131 @@
      "pa": "ਧਰਤੀ ਦੀ ਪੇਪੜੀ ਵਿੱਚ ਐਲੂਮੀਨੀਅਮ ਸਭ ਤੋਂ ਵੱਧ ਪਾਇਆ ਜਾਣ ਵਾਲਾ ਧਾਤ ਹੈ।",
      "as": "পৃথিৱীৰ ভূত্বকত এলুমিনিয়াম আটাইতকৈ বেছি পৰিমাণে পোৱা ধাতু।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the dimensional formula of force?",
+     "hi": "बल का विमीय सूत्र क्या है?"
+    },
+    "o": {
+     "en": [
+      "ML^2T^-2",
+      "MLT^-1",
+      "MLT^-2",
+      "ML^2T^-1"
+     ],
+     "hi": [
+      "ML^2T^-2",
+      "MLT^-1",
+      "MLT^-2",
+      "ML^2T^-1"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Force = mass x acceleration, so its dimensional formula is MLT^-2.",
+     "hi": "बल = द्रव्यमान x त्वरण, इसलिए इसका विमीय सूत्र MLT^-2 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a state function in thermodynamics?",
+     "hi": "ऊष्मागतिकी में इनमें से कौन सा अवस्था फलन है?"
+    },
+    "o": {
+     "en": [
+      "Work",
+      "Enthalpy",
+      "Heat",
+      "Path length"
+     ],
+     "hi": [
+      "कार्य",
+      "एन्थैल्पी",
+      "ऊष्मा",
+      "पथ लंबाई"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Enthalpy is a state function; work and heat depend on the path.",
+     "hi": "एन्थैल्पी एक अवस्था फलन है; कार्य और ऊष्मा पथ पर निर्भर करते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the usual oxidation state of oxygen in its compounds?",
+     "hi": "अपने यौगिकों में ऑक्सीजन की सामान्य ऑक्सीकरण अवस्था क्या होती है?"
+    },
+    "o": {
+     "en": [
+      "+2",
+      "0",
+      "-1",
+      "-2"
+     ],
+     "hi": [
+      "+2",
+      "0",
+      "-1",
+      "-2"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Oxygen usually has an oxidation state of -2 in its compounds.",
+     "hi": "यौगिकों में ऑक्सीजन की सामान्य ऑक्सीकरण अवस्था -2 होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the unit of molarity?",
+     "hi": "मोलरता की इकाई क्या है?"
+    },
+    "o": {
+     "en": [
+      "mol/L",
+      "g/L",
+      "L/mol",
+      "mol/kg"
+     ],
+     "hi": [
+      "mol/L",
+      "g/L",
+      "L/mol",
+      "mol/kg"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Molarity is the number of moles of solute per litre of solution, so its unit is mol/L.",
+     "hi": "मोलरता विलयन के प्रति लीटर विलेय के मोल है, इसलिए इसकी इकाई mol/L है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the IUPAC name of the compound CH3-CH3?",
+     "hi": "यौगिक CH3-CH3 का IUPAC नाम क्या है?"
+    },
+    "o": {
+     "en": [
+      "Methane",
+      "Ethane",
+      "Propane",
+      "Butane"
+     ],
+     "hi": [
+      "मेथेन",
+      "एथेन",
+      "प्रोपेन",
+      "ब्यूटेन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "CH3-CH3 has two carbon atoms, so it is ethane.",
+     "hi": "CH3-CH3 में दो कार्बन परमाणु हैं, इसलिए यह एथेन है।"
+    }
    }
   ],
   "12": [
@@ -27134,6 +28009,131 @@
      "pa": "ਬੈਂਜ਼ੀਨ C6H6 ਹੈ।",
      "as": "বেনজিনৰ সংকেত হৈছে C6H6।"
     }
+   },
+   {
+    "q": {
+     "en": "Which of these is a semiconductor?",
+     "hi": "इनमें से कौन सा अर्धचालक है?"
+    },
+    "o": {
+     "en": [
+      "Copper",
+      "Aluminium",
+      "Silicon",
+      "Silver"
+     ],
+     "hi": [
+      "तांबा",
+      "एल्युमिनियम",
+      "सिलिकॉन",
+      "चाँदी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Silicon is a semiconductor widely used in electronic devices.",
+     "hi": "सिलिकॉन एक अर्धचालक है जो इलेक्ट्रॉनिक उपकरणों में व्यापक रूप से उपयोग होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a biodegradable polymer?",
+     "hi": "इनमें से कौन सा जैव-अपघटनीय बहुलक है?"
+    },
+    "o": {
+     "en": [
+      "Nylon",
+      "Bakelite",
+      "PHBV",
+      "Teflon"
+     ],
+     "hi": [
+      "नाइलॉन",
+      "बैकेलाइट",
+      "PHBV",
+      "टेफ्लॉन"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "PHBV is a biodegradable polymer made by bacteria.",
+     "hi": "PHBV एक जैव-अपघटनीय बहुलक है जो जीवाणुओं द्वारा बनाया जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is the functional group of aldehydes?",
+     "hi": "इनमें से कौन सा एल्डिहाइड का क्रियात्मक समूह है?"
+    },
+    "o": {
+     "en": [
+      "-COOH",
+      "-CHO",
+      "-OH",
+      "-NH2"
+     ],
+     "hi": [
+      "-COOH",
+      "-CHO",
+      "-OH",
+      "-NH2"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The aldehyde functional group is -CHO.",
+     "hi": "एल्डिहाइड का क्रियात्मक समूह -CHO है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which enzyme unwinds the DNA double helix during replication?",
+     "hi": "प्रतिकृति के दौरान DNA द्विकुंडलिनी को कौन सा एंज़ाइम खोलता है?"
+    },
+    "o": {
+     "en": [
+      "Ligase",
+      "Polymerase",
+      "Primase",
+      "Helicase"
+     ],
+     "hi": [
+      "लाइगेज़",
+      "पॉलिमरेज़",
+      "प्राइमेज़",
+      "हेलिकेज़"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Helicase unwinds the double helix during DNA replication.",
+     "hi": "हेलिकेज़ प्रतिकृति के दौरान द्विकुंडलिनी को खोलता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which part of the mitochondrion does the electron transport chain occur?",
+     "hi": "माइटोकॉन्ड्रिया के किस भाग में इलेक्ट्रॉन परिवहन श्रृंखला होती है?"
+    },
+    "o": {
+     "en": [
+      "Inner membrane",
+      "Outer membrane",
+      "Matrix",
+      "Cytoplasm"
+     ],
+     "hi": [
+      "आंतरिक झिल्ली",
+      "बाहरी झिल्ली",
+      "मैट्रिक्स",
+      "कोशिकाद्रव्य"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The electron transport chain is located in the inner mitochondrial membrane.",
+     "hi": "इलेक्ट्रॉन परिवहन श्रृंखला माइटोकॉन्ड्रिया की आंतरिक झिल्ली में स्थित होती है।"
+    }
    }
   ]
  },
@@ -27477,6 +28477,131 @@
      "pa": "48, 2 ਨਾਲ ਵੰਡਿਆ ਜਾ ਸਕਦਾ ਹੈ, ਇਸ ਲਈ ਇਹ ਇੱਕ ਜਿਸਤ ਸੰਖਿਆ ਹੈ।",
      "as": "48 ক 2 ৰে হৰণ কৰিব পাৰি, গতিকে ই এটা যুগ্ম সংখ্যা।"
     }
+   },
+   {
+    "q": {
+     "en": "What is 7 x 8?",
+     "hi": "7 x 8 कितना होता है?"
+    },
+    "o": {
+     "en": [
+      "48",
+      "54",
+      "56",
+      "64"
+     ],
+     "hi": [
+      "48",
+      "54",
+      "56",
+      "64"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "7 times 8 equals 56.",
+     "hi": "7 गुणा 8 बराबर 56 होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is 100 - 37?",
+     "hi": "100 - 37 कितना होता है?"
+    },
+    "o": {
+     "en": [
+      "53",
+      "57",
+      "63",
+      "67"
+     ],
+     "hi": [
+      "53",
+      "57",
+      "63",
+      "67"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "100 - 37 = 63.",
+     "hi": "100 - 37 = 63।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many sides does a triangle have?",
+     "hi": "त्रिभुज में कितनी भुजाएँ होती हैं?"
+    },
+    "o": {
+     "en": [
+      "3",
+      "2",
+      "4",
+      "5"
+     ],
+     "hi": [
+      "3",
+      "2",
+      "4",
+      "5"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "A triangle has 3 sides.",
+     "hi": "त्रिभुज में 3 भुजाएँ होती हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the place value of 5 in the number 4523?",
+     "hi": "संख्या 4523 में 5 का स्थानीय मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "500",
+      "50",
+      "5000"
+     ],
+     "hi": [
+      "5",
+      "500",
+      "50",
+      "5000"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "5 is in the hundreds place, so its place value is 500.",
+     "hi": "5 सैकड़े के स्थान पर है, इसलिए इसका स्थानीय मान 500 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which fraction is equivalent to 1/2?",
+     "hi": "निम्न में से कौन सी भिन्न 1/2 के बराबर है?"
+    },
+    "o": {
+     "en": [
+      "1/3",
+      "2/3",
+      "3/4",
+      "2/4"
+     ],
+     "hi": [
+      "1/3",
+      "2/3",
+      "3/4",
+      "2/4"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "2/4 simplifies to 1/2, so they are equivalent fractions.",
+     "hi": "2/4 को सरल करने पर 1/2 मिलता है, इसलिए ये तुल्य भिन्न हैं।"
+    }
    }
   ],
   "6": [
@@ -27818,6 +28943,131 @@
      "pa": "ਇੱਕ ਸਮਕੋਣ 90 ਡਿਗਰੀ ਦਾ ਹੁੰਦਾ ਹੈ।",
      "as": "এটা সমকোণৰ জোখ 90 ডিগ্ৰী।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the value of 3/4 + 1/4?",
+     "hi": "3/4 + 1/4 का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "1/2",
+      "3/4",
+      "1",
+      "2"
+     ],
+     "hi": [
+      "1/2",
+      "3/4",
+      "1",
+      "2"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "3/4 + 1/4 = 4/4 = 1.",
+     "hi": "3/4 + 1/4 = 4/4 = 1।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 2 x (3 + 4)?",
+     "hi": "2 x (3 + 4) का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "10",
+      "14",
+      "18",
+      "24"
+     ],
+     "hi": [
+      "10",
+      "14",
+      "18",
+      "24"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "2 x (3 + 4) = 2 x 7 = 14.",
+     "hi": "2 x (3 + 4) = 2 x 7 = 14।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the perimeter of a square of side 5 cm?",
+     "hi": "5 सेमी भुजा वाले वर्ग का परिमाप क्या है?"
+    },
+    "o": {
+     "en": [
+      "10 cm",
+      "15 cm",
+      "20 cm",
+      "25 cm"
+     ],
+     "hi": [
+      "10 सेमी",
+      "15 सेमी",
+      "20 सेमी",
+      "25 सेमी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Perimeter of a square = 4 x side = 4 x 5 = 20 cm.",
+     "hi": "वर्ग का परिमाप = 4 x भुजा = 4 x 5 = 20 सेमी।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a composite number?",
+     "hi": "इनमें से कौन सी संख्या भाज्य है?"
+    },
+    "o": {
+     "en": [
+      "7",
+      "9",
+      "11",
+      "13"
+     ],
+     "hi": [
+      "7",
+      "9",
+      "11",
+      "13"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "9 has factors 1, 3 and 9, so it is a composite number.",
+     "hi": "9 के गुणनखंड 1, 3 और 9 हैं, इसलिए यह भाज्य संख्या है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the LCM (least common multiple) of 4 and 6?",
+     "hi": "4 और 6 का ल.स. (LCM) क्या है?"
+    },
+    "o": {
+     "en": [
+      "10",
+      "18",
+      "24",
+      "12"
+     ],
+     "hi": [
+      "10",
+      "18",
+      "24",
+      "12"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The least common multiple of 4 and 6 is 12.",
+     "hi": "4 और 6 का लघुत्तम समापवर्त्य 12 है।"
+    }
    }
   ],
   "7": [
@@ -28045,6 +29295,131 @@
      "ml": "ഒരു ത്രികോണത്തിന്റെ മൂന്ന് കോണുകളുടെയും തുക എപ്പോഴും 180 ഡിഗ്രി ആയിരിക്കും.",
      "pa": "ਇੱਕ ਤਿਕੋਣ ਦੇ ਤਿੰਨ ਕੋਣਾਂ ਦਾ ਜੋੜ ਹਮੇਸ਼ਾ 180 ਡਿਗਰੀ ਹੁੰਦਾ ਹੈ।",
      "as": "এটা ত্ৰিভুজৰ তিনিটা কোণৰ যোগফল সদায় 180 ডিগ্ৰী হয়।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 8 - (-3)?",
+     "hi": "8 - (-3) का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "11",
+      "-11",
+      "-5"
+     ],
+     "hi": [
+      "5",
+      "11",
+      "-11",
+      "-5"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "8 - (-3) = 8 + 3 = 11.",
+     "hi": "8 - (-3) = 8 + 3 = 11।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the area of a rectangle 6 cm long and 4 cm wide?",
+     "hi": "6 सेमी लंबे और 4 सेमी चौड़े आयत का क्षेत्रफल क्या है?"
+    },
+    "o": {
+     "en": [
+      "10 sq cm",
+      "20 sq cm",
+      "24 sq cm",
+      "28 sq cm"
+     ],
+     "hi": [
+      "10 वर्ग सेमी",
+      "20 वर्ग सेमी",
+      "24 वर्ग सेमी",
+      "28 वर्ग सेमी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Area of a rectangle = length x breadth = 6 x 4 = 24 sq cm.",
+     "hi": "आयत का क्षेत्रफल = लंबाई x चौड़ाई = 6 x 4 = 24 वर्ग सेमी।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is 0.5 written as a fraction in simplest form?",
+     "hi": "0.5 को सरलतम भिन्न में लिखें तो क्या होगा?"
+    },
+    "o": {
+     "en": [
+      "1/5",
+      "2/5",
+      "5/1",
+      "1/2"
+     ],
+     "hi": [
+      "1/5",
+      "2/5",
+      "5/1",
+      "1/2"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "0.5 = 5/10 = 1/2.",
+     "hi": "0.5 = 5/10 = 1/2।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 3 squared plus 4 squared (3^2 + 4^2)?",
+     "hi": "3 का वर्ग और 4 का वर्ग जोड़ने (3^2 + 4^2) पर क्या मिलता है?"
+    },
+    "o": {
+     "en": [
+      "12",
+      "20",
+      "24",
+      "25"
+     ],
+     "hi": [
+      "12",
+      "20",
+      "24",
+      "25"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "3^2 + 4^2 = 9 + 16 = 25.",
+     "hi": "3^2 + 4^2 = 9 + 16 = 25।"
+    }
+   },
+   {
+    "q": {
+     "en": "If x + 5 = 12, what is the value of x?",
+     "hi": "यदि x + 5 = 12 हो, तो x का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "7",
+      "12",
+      "17"
+     ],
+     "hi": [
+      "5",
+      "7",
+      "12",
+      "17"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "x + 5 = 12, so x = 12 - 5 = 7.",
+     "hi": "x + 5 = 12, इसलिए x = 12 - 5 = 7।"
     }
    }
   ],
@@ -28387,6 +29762,131 @@
      "pa": "40 ਨੂੰ 5 ਨਾਲ ਵੰਡਣ 'ਤੇ 8 ਆਉਂਦਾ ਹੈ, ਇਸ ਲਈ ਇੱਕ ਪੈੱਨ ਦੀ ਕੀਮਤ 8 ਰੁਪਏ ਹੈ।",
      "as": "40 ক 5 ৰে হৰণ কৰিলে 8 পোৱা যায়, গতিকে 1 টা কলমৰ দাম 8 টকা।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the square of 15?",
+     "hi": "15 का वर्ग क्या है?"
+    },
+    "o": {
+     "en": [
+      "150",
+      "225",
+      "215",
+      "255"
+     ],
+     "hi": [
+      "150",
+      "225",
+      "215",
+      "255"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "15 x 15 = 225.",
+     "hi": "15 x 15 = 225।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the cube root of 27?",
+     "hi": "27 का घनमूल क्या है?"
+    },
+    "o": {
+     "en": [
+      "3",
+      "6",
+      "9",
+      "27"
+     ],
+     "hi": [
+      "3",
+      "6",
+      "9",
+      "27"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "3 x 3 x 3 = 27, so the cube root of 27 is 3.",
+     "hi": "3 x 3 x 3 = 27, इसलिए 27 का घनमूल 3 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is 25% of 200?",
+     "hi": "200 का 25% कितना है?"
+    },
+    "o": {
+     "en": [
+      "25",
+      "40",
+      "50",
+      "75"
+     ],
+     "hi": [
+      "25",
+      "40",
+      "50",
+      "75"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "25% of 200 = 200 x 25/100 = 50.",
+     "hi": "200 का 25% = 200 x 25/100 = 50।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 2 to the power 5 (2^5)?",
+     "hi": "2 की घात 5 (2^5) का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "10",
+      "16",
+      "25",
+      "32"
+     ],
+     "hi": [
+      "10",
+      "16",
+      "25",
+      "32"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "2^5 = 2 x 2 x 2 x 2 x 2 = 32.",
+     "hi": "2^5 = 2 x 2 x 2 x 2 x 2 = 32।"
+    }
+   },
+   {
+    "q": {
+     "en": "A number divided by 7 gives a quotient of 4. What is the number?",
+     "hi": "किसी संख्या को 7 से भाग देने पर भागफल 4 आता है। संख्या क्या है?"
+    },
+    "o": {
+     "en": [
+      "11",
+      "28",
+      "21",
+      "35"
+     ],
+     "hi": [
+      "11",
+      "28",
+      "21",
+      "35"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Number = quotient x divisor = 4 x 7 = 28.",
+     "hi": "संख्या = भागफल x भाजक = 4 x 7 = 28।"
+    }
    }
   ],
   "9": [
@@ -28614,6 +30114,131 @@
      "ml": "2-ന്റെ വർഗ്ഗമൂലം ഒരു ലഘുഭന്നമായി എഴുതാൻ കഴിയില്ല, അതിനാൽ അതൊരു അഭിന്നകസംഖ്യയാണ്.",
      "pa": "2 ਦਾ ਵਰਗਮੂਲ ਇੱਕ ਸਧਾਰਨ ਭਿੰਨ (fraction) ਵਜੋਂ ਨਹੀਂ ਲਿਖਿਆ ਜਾ ਸਕਦਾ, ਇਸ ਲਈ ਇਹ ਅਪਰਿਮੇਯ ਹੈ।",
      "as": "2 ৰ বৰ্গমূলক এটা সাধাৰণ ভগ্নাংশ হিচাপে লিখিব নোৱাৰি, গতিকে ই অপৰিমেয়।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of the square root of 81?",
+     "hi": "81 का वर्गमूल क्या है?"
+    },
+    "o": {
+     "en": [
+      "7",
+      "8",
+      "9",
+      "11"
+     ],
+     "hi": [
+      "7",
+      "8",
+      "9",
+      "11"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "9 x 9 = 81, so the square root of 81 is 9.",
+     "hi": "9 x 9 = 81, इसलिए 81 का वर्गमूल 9 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the degree of the polynomial x^3 + 2x + 1?",
+     "hi": "बहुपद x^3 + 2x + 1 की घात क्या है?"
+    },
+    "o": {
+     "en": [
+      "1",
+      "3",
+      "2",
+      "4"
+     ],
+     "hi": [
+      "1",
+      "3",
+      "2",
+      "4"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The degree is the highest power of x, which is 3.",
+     "hi": "घात x की उच्चतम घात है, जो 3 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In a right triangle with legs 3 and 4, what is the hypotenuse?",
+     "hi": "3 और 4 लंबाई की भुजाओं वाले समकोण त्रिभुज का कर्ण क्या है?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "6",
+      "7",
+      "12"
+     ],
+     "hi": [
+      "5",
+      "6",
+      "7",
+      "12"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "By Pythagoras theorem, square root of (3^2 + 4^2) = square root of 25 = 5.",
+     "hi": "पाइथागोरस प्रमेय से, (3^2 + 4^2) का वर्गमूल = 25 का वर्गमूल = 5।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is 0.75 in the form of a rational number?",
+     "hi": "0.75 का परिमेय रूप क्या है?"
+    },
+    "o": {
+     "en": [
+      "1/4",
+      "3/4",
+      "1/2",
+      "7/5"
+     ],
+     "hi": [
+      "1/4",
+      "3/4",
+      "1/2",
+      "7/5"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "0.75 = 75/100 = 3/4.",
+     "hi": "0.75 = 75/100 = 3/4।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of (2^3) x (2^2)?",
+     "hi": "(2^3) x (2^2) का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "10",
+      "16",
+      "32",
+      "64"
+     ],
+     "hi": [
+      "10",
+      "16",
+      "32",
+      "64"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "2^3 x 2^2 = 2^(3+2) = 2^5 = 32.",
+     "hi": "2^3 x 2^2 = 2^(3+2) = 2^5 = 32।"
     }
    }
   ],
@@ -28956,6 +30581,131 @@
      "pa": "12 ਅਤੇ 18 ਦਾ ਸਭ ਤੋਂ ਵੱਡਾ ਸਾਂਝਾ ਗੁਣਨਖੰਡ 6 ਹੈ।",
      "as": "12 আৰু 18 ৰ সৰ্বোচ্চ সাধাৰণ উৎপাদক হ'ল 6।"
     }
+   },
+   {
+    "q": {
+     "en": "What are the roots of the equation x^2 - 5x + 6 = 0?",
+     "hi": "समीकरण x^2 - 5x + 6 = 0 के मूल क्या हैं?"
+    },
+    "o": {
+     "en": [
+      "1 and 6",
+      "-2 and -3",
+      "3 and 4",
+      "2 and 3"
+     ],
+     "hi": [
+      "1 और 6",
+      "-2 और -3",
+      "3 और 4",
+      "2 और 3"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "x^2 - 5x + 6 = (x - 2)(x - 3), so the roots are 2 and 3.",
+     "hi": "x^2 - 5x + 6 = (x - 2)(x - 3), इसलिए मूल 2 और 3 हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the 10th term of the arithmetic progression 2, 5, 8, ...?",
+     "hi": "समांतर श्रेढ़ी 2, 5, 8, ... का 10वाँ पद क्या है?"
+    },
+    "o": {
+     "en": [
+      "26",
+      "29",
+      "32",
+      "35"
+     ],
+     "hi": [
+      "26",
+      "29",
+      "32",
+      "35"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "a_n = a + (n-1)d = 2 + 9 x 3 = 29.",
+     "hi": "a_n = a + (n-1)d = 2 + 9 x 3 = 29।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the distance between the points (0,0) and (3,4)?",
+     "hi": "बिंदुओं (0,0) और (3,4) के बीच की दूरी क्या है?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "6",
+      "7",
+      "12"
+     ],
+     "hi": [
+      "5",
+      "6",
+      "7",
+      "12"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Distance = square root of (3^2 + 4^2) = square root of 25 = 5.",
+     "hi": "दूरी = (3^2 + 4^2) का वर्गमूल = 25 का वर्गमूल = 5।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of tan 45 degrees?",
+     "hi": "tan 45 अंश का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "1/2",
+      "1",
+      "root 3"
+     ],
+     "hi": [
+      "0",
+      "1/2",
+      "1",
+      "√3"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "tan 45 degrees = 1.",
+     "hi": "tan 45 अंश = 1।"
+    }
+   },
+   {
+    "q": {
+     "en": "If the probability of an event is 1, the event is called?",
+     "hi": "यदि किसी घटना की प्रायिकता 1 हो, तो उसे क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Impossible event",
+      "Unlikely event",
+      "Equally likely event",
+      "Certain event"
+     ],
+     "hi": [
+      "असंभव घटना",
+      "असंभाव्य घटना",
+      "समप्रायिक घटना",
+      "निश्चित घटना"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "An event with probability 1 is sure to happen, so it is a certain event.",
+     "hi": "जिस घटना की प्रायिकता 1 हो वह निश्चित रूप से होगी, इसलिए वह निश्चित घटना है।"
+    }
    }
   ],
   "11": [
@@ -29184,6 +30934,131 @@
      "pa": "ਇੱਕ ਲੇਟਵੀਂ ਰੇਖਾ ਨਾ ਉੱਪਰ ਜਾਂਦੀ ਹੈ ਅਤੇ ਨਾ ਹੀ ਹੇਠਾਂ ਆਉਂਦੀ ਹੈ, ਇਸ ਲਈ ਇਸਦਾ ਢਲਾਣ 0 ਹੁੰਦਾ ਹੈ।",
      "as": "এডাল অনুভূমিক ৰেখা ওপৰলৈ বা তললৈ নাযায়, গতিকে ইয়াৰ নতি 0।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the value of 0 factorial (0!)?",
+     "hi": "0 क्रमगुणित (0!) का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "1",
+      "2",
+      "Undefined"
+     ],
+     "hi": [
+      "0",
+      "1",
+      "2",
+      "अपरिभाषित"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "By definition, 0! = 1.",
+     "hi": "परिभाषा के अनुसार, 0! = 1।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the slope of the line y = 3x + 2?",
+     "hi": "रेखा y = 3x + 2 की प्रवणता (ढाल) क्या है?"
+    },
+    "o": {
+     "en": [
+      "1",
+      "2",
+      "5",
+      "3"
+     ],
+     "hi": [
+      "1",
+      "2",
+      "5",
+      "3"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "In y = mx + c, the slope m = 3.",
+     "hi": "y = mx + c में प्रवणता m = 3 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the sum of the first 10 natural numbers?",
+     "hi": "प्रथम 10 प्राकृतिक संख्याओं का योग क्या है?"
+    },
+    "o": {
+     "en": [
+      "45",
+      "50",
+      "55",
+      "60"
+     ],
+     "hi": [
+      "45",
+      "50",
+      "55",
+      "60"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Sum = n(n+1)/2 = 10 x 11 / 2 = 55.",
+     "hi": "योग = n(n+1)/2 = 10 x 11 / 2 = 55।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of i^2, where i is the imaginary unit?",
+     "hi": "i^2 का मान क्या है, जहाँ i काल्पनिक इकाई है?"
+    },
+    "o": {
+     "en": [
+      "-1",
+      "0",
+      "1",
+      "i"
+     ],
+     "hi": [
+      "-1",
+      "0",
+      "1",
+      "i"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The imaginary unit i is defined by i^2 = -1.",
+     "hi": "काल्पनिक इकाई i को i^2 = -1 द्वारा परिभाषित किया जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many terms are there in the expansion of (a + b)^4?",
+     "hi": "(a + b)^4 के प्रसार में कितने पद होते हैं?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "4",
+      "8",
+      "16"
+     ],
+     "hi": [
+      "5",
+      "4",
+      "8",
+      "16"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "(a + b)^n has n + 1 terms, so (a + b)^4 has 5 terms.",
+     "hi": "(a + b)^n में n + 1 पद होते हैं, इसलिए (a + b)^4 में 5 पद हैं।"
+    }
    }
   ],
   "12": [
@@ -29411,6 +31286,131 @@
      "ml": "10-ന്റെ പവർ 2 എന്നത് 100 ആണ്, അതിനാൽ log₁₀ 100 എന്നത് 2 ആണ്.",
      "pa": "10 ਦੀ ਘਾਤ 2, 100 ਹੁੰਦੀ ਹੈ, ਇਸ ਲਈ log₁₀ 100, 2 ਹੈ।",
      "as": "10 ৰ ঘাত 2 হ'ল 100, গতিকে log₁₀ 100 হ'ল 2।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the derivative of sin x with respect to x?",
+     "hi": "sin x का x के सापेक्ष अवकलज क्या है?"
+    },
+    "o": {
+     "en": [
+      "cos x",
+      "-cos x",
+      "sin x",
+      "-sin x"
+     ],
+     "hi": [
+      "cos x",
+      "-cos x",
+      "sin x",
+      "-sin x"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "d/dx (sin x) = cos x.",
+     "hi": "d/dx (sin x) = cos x।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of the integral of 1 dx from 0 to 5?",
+     "hi": "0 से 5 तक 1 dx के समाकलन का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "1",
+      "5",
+      "25"
+     ],
+     "hi": [
+      "0",
+      "1",
+      "5",
+      "25"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The integral from 0 to 5 of 1 dx = [x] from 0 to 5 = 5 - 0 = 5.",
+     "hi": "0 से 5 तक 1 dx का समाकलन = [x] (0 से 5) = 5 - 0 = 5।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the determinant of the 2 x 2 identity matrix?",
+     "hi": "2 x 2 तत्समक आव्यूह का सारणिक क्या है?"
+    },
+    "o": {
+     "en": [
+      "1",
+      "0",
+      "2",
+      "4"
+     ],
+     "hi": [
+      "1",
+      "0",
+      "2",
+      "4"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The determinant of the identity matrix I2 is 1 x 1 - 0 x 0 = 1.",
+     "hi": "तत्समक आव्यूह I2 का सारणिक = 1 x 1 - 0 x 0 = 1।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the order of the differential equation dy/dx + y = 0?",
+     "hi": "अवकल समीकरण dy/dx + y = 0 की कोटि क्या है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ],
+     "hi": [
+      "0",
+      "1",
+      "2",
+      "3"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The order is the highest derivative present, which is dy/dx, so the order is 1.",
+     "hi": "कोटि उपस्थित उच्चतम अवकलज है, जो dy/dx है, इसलिए कोटि 1 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the dot product of two perpendicular vectors?",
+     "hi": "दो लंबवत सदिशों का अदिश गुणनफल क्या होता है?"
+    },
+    "o": {
+     "en": [
+      "-1",
+      "1",
+      "0",
+      "Depends on the vectors"
+     ],
+     "hi": [
+      "-1",
+      "1",
+      "0",
+      "सदिशों पर निर्भर करता है"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "For perpendicular vectors the angle is 90 degrees and cos 90 = 0, so the dot product is 0.",
+     "hi": "लंबवत सदिशों के बीच कोण 90 अंश होता है और cos 90 = 0, इसलिए उनका अदिश गुणनफल 0 होता है।"
     }
    }
   ]
@@ -31682,6 +33682,56 @@
       "pa": "ਦੂਜਿਆਂ ਦੀ ਮਦਦ ਕਰਨਾ ਦਿਆਲਤਾ ਦਾ ਕੰਮ ਹੈ।",
       "as": "আনক সহায় কৰাটো দয়াৰ কাম।"
      }
+    },
+    {
+     "q": {
+      "en": "What should you do if a classmate asks you to copy answers during an exam?",
+      "hi": "अगर कोई सहपाठी परीक्षा में उत्तर कॉपी करने को कहे तो आपको क्या करना चाहिए?"
+     },
+     "o": {
+      "en": [
+       "Let them copy",
+       "Politely refuse and encourage them to study",
+       "Give wrong answers",
+       "Ignore the exam"
+      ],
+      "hi": [
+       "उन्हें कॉपी करने दें",
+       "विनम्रता से मना करें और उन्हें पढ़ने के लिए प्रेरित करें",
+       "गलत उत्तर दें",
+       "परीक्षा को अनदेखा करें"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Honesty in exams matters; it is better to refuse politely and help them study.",
+      "hi": "परीक्षा में ईमानदारी महत्वपूर्ण है; विनम्रता से मना करना और उन्हें पढ़ने में मदद करना बेहतर है।"
+     }
+    },
+    {
+     "q": {
+      "en": "What is the right way to solve a disagreement with a friend?",
+      "hi": "मित्र से मतभेद सुलझाने का सही तरीका क्या है?"
+     },
+     "o": {
+      "en": [
+       "Shout at them",
+       "Stop talking forever",
+       "Talk calmly and listen to each other",
+       "Complain to everyone"
+      ],
+      "hi": [
+       "उन पर चिल्लाना",
+       "हमेशा के लिए बात बंद कर देना",
+       "शांति से बात करना और एक-दूसरे को सुनना",
+       "सबको शिकायत करना"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Talking calmly and listening helps solve disagreements peacefully.",
+      "hi": "शांति से बात करना और सुनना मतभेद शांतिपूर्वक सुलझाने में मदद करता है।"
+     }
     }
    ]
   },
@@ -33950,6 +36000,56 @@
       "ml": "ഗുരുദ്വാരയിൽ എല്ലാവർക്കും വിതരണം ചെയ്യുന്ന ഒരു മധുരപലഹാരമാണ് കരാഹ് പ്രസാദ്.",
       "pa": "ਕਰਹ ਪ੍ਰਸ਼ਾਦ ਇੱਕ ਮਿੱਠਾ ਪ੍ਰਸ਼ਾਦ ਹੈ ਜੋ ਗੁਰਦੁਆਰੇ ਵਿੱਚ ਸਾਰਿਆਂ ਨੂੰ ਵੰਡਿਆ ਜਾਂਦਾ ਹੈ।",
       "as": "কৰহ প্ৰসাদ হৈছে গুৰুদ্বাৰত সকলোলৈ বিতৰণ কৰা এক প্ৰকাৰৰ মিঠাই।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Sikhism, what does 'Vand Chhakna' mean?",
+      "hi": "सिख धर्म में 'वंड छकना' का क्या अर्थ है?"
+     },
+     "o": {
+      "en": [
+       "Meditating on God's name",
+       "Sharing one's earnings with others",
+       "Wearing the five Ks",
+       "Serving in the community kitchen"
+      ],
+      "hi": [
+       "ईश्वर के नाम का ध्यान",
+       "अपनी कमाई दूसरों के साथ बाँटना",
+       "पाँच ककार धारण करना",
+       "सामुदायिक रसोई में सेवा करना"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Vand Chhakna is the Sikh practice of sharing one's earnings with others.",
+      "hi": "वंड छकना सिखों की अपनी कमाई दूसरों के साथ बाँटने की परंपरा है।"
+     }
+    },
+    {
+     "q": {
+      "en": "What is the Sikh flag flown at Gurdwaras called?",
+      "hi": "गुरुद्वारों पर फहराया जाने वाला सिख ध्वज क्या कहलाता है?"
+     },
+     "o": {
+      "en": [
+       "Nishan Sahib",
+       "Kirpan",
+       "Chaur",
+       "Palki"
+      ],
+      "hi": [
+       "निशान साहिब",
+       "कृपाण",
+       "चौर",
+       "पालकी"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Nishan Sahib is the Sikh flag flown at Gurdwaras.",
+      "hi": "निशान साहिब गुरुद्वारों पर फहराया जाने वाला सिख ध्वज है।"
      }
     }
    ]
@@ -36220,6 +38320,56 @@
       "pa": "ਰਾਮ ਨੌਮੀ ਭਗਵਾਨ ਰਾਮ ਦੇ ਜਨਮ ਦਾ ਜਸ਼ਨ ਮਨਾਉਂਦੀ ਹੈ।",
       "as": "ৰাম নৱমী উৎসৱত ভগৱান ৰামৰ জন্ম উদযাপন কৰা হয়।"
      }
+    },
+    {
+     "q": {
+      "en": "Who is traditionally believed to have composed the epic Ramayana?",
+      "hi": "रामायण महाकाव्य की रचना पारंपरिक रूप से किसने की मानी जाती है?"
+     },
+     "o": {
+      "en": [
+       "Valmiki",
+       "Ved Vyasa",
+       "Tulsidas",
+       "Kalidasa"
+      ],
+      "hi": [
+       "वाल्मीकि",
+       "वेद व्यास",
+       "तुलसीदास",
+       "कालिदास"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Ramayana is traditionally attributed to the sage Valmiki.",
+      "hi": "रामायण पारंपरिक रूप से ऋषि वाल्मीकि की रचना मानी जाती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which Hindu festival is celebrated with kite flying and marks the harvest season?",
+      "hi": "कौन सा हिंदू त्योहार पतंगबाज़ी के साथ मनाया जाता है और फसल के मौसम का प्रतीक है?"
+     },
+     "o": {
+      "en": [
+       "Diwali",
+       "Navratri",
+       "Makar Sankranti",
+       "Janmashtami"
+      ],
+      "hi": [
+       "दिवाली",
+       "नवरात्रि",
+       "मकर संक्रांति",
+       "जन्माष्टमी"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Makar Sankranti is a harvest festival celebrated in January, often with kite flying.",
+      "hi": "मकर संक्रांति जनवरी में मनाया जाने वाला फसल त्योहार है, जिसमें अक्सर पतंग उड़ाई जाती है।"
+     }
     }
    ]
   },
@@ -38488,6 +40638,56 @@
       "ml": "ഇസ്ലാമിലെ വെള്ളിയാഴ്ചകളിലെ കൂട്ടപ്രാർത്ഥനയാണ് ജുമുഅ.",
       "pa": "ਜੁਮਾ ਇਸਲਾਮ ਵਿੱਚ ਸ਼ੁੱਕਰਵਾਰ ਦੀ ਸਮੂਹਿਕ ਪ੍ਰਾਰਥਨਾ ਹੈ।",
       "as": "জুমুয়াহ হৈছে ইছলাম ধৰ্মত শুকুৰবাৰৰ জামাতৰ নামাজ।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Islam, what is the call to prayer called?",
+      "hi": "इस्लाम में नमाज़ के लिए दी जाने वाली पुकार को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Adhan",
+       "Wudu",
+       "Sadaqah",
+       "Tawaf"
+      ],
+      "hi": [
+       "अज़ान",
+       "वुज़ू",
+       "सदक़ा",
+       "तवाफ़"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Adhan is the Islamic call to prayer announced from a mosque.",
+      "hi": "अज़ान मस्जिद से दी जाने वाली नमाज़ की पुकार है।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Islam, what is the ritual washing before prayer called?",
+      "hi": "इस्लाम में नमाज़ से पहले किए जाने वाले शुद्धिकरण को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Adhan",
+       "Wudu",
+       "Zakat",
+       "Sawm"
+      ],
+      "hi": [
+       "अज़ान",
+       "वुज़ू",
+       "ज़कात",
+       "सौम"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Wudu is the ritual purification with water performed before prayers.",
+      "hi": "वुज़ू नमाज़ से पहले पानी से किया जाने वाला शुद्धिकरण है।"
      }
     }
    ]
@@ -40758,6 +42958,56 @@
       "pa": "ਯਿਸੂ ਮਸੀਹ ਦਾ ਜਨਮ ਬੈਤਲਹਮ ਵਿੱਚ ਹੋਇਆ ਸੀ।",
       "as": "যীচু খ্ৰীষ্ট বেথলেহেমত জন্মগ্ৰহণ কৰিছিল।"
      }
+    },
+    {
+     "q": {
+      "en": "In Christianity, what are the ten laws given to Moses on Mount Sinai called?",
+      "hi": "ईसाई धर्म में सीनै पर्वत पर मूसा को दिए गए दस नियम क्या कहलाते हैं?"
+     },
+     "o": {
+      "en": [
+       "The Ten Commandments",
+       "The Beatitudes",
+       "The Psalms",
+       "The Proverbs"
+      ],
+      "hi": [
+       "दस आज्ञाएँ",
+       "धन्य वचन",
+       "भजन",
+       "नीतिवचन"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Ten Commandments are moral laws given to Moses, according to the Bible.",
+      "hi": "बाइबल के अनुसार दस आज्ञाएँ वे नैतिक नियम हैं जो मूसा को दिए गए थे।"
+     }
+    },
+    {
+     "q": {
+      "en": "In which garden did Jesus pray before his arrest?",
+      "hi": "ईसा मसीह ने अपनी गिरफ़्तारी से पहले किस बाग में प्रार्थना की?"
+     },
+     "o": {
+      "en": [
+       "Eden",
+       "Golgotha",
+       "Canaan",
+       "Gethsemane"
+      ],
+      "hi": [
+       "एदेन",
+       "गुलगुथा",
+       "कनान",
+       "गेथसेमनी"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "Jesus prayed in the Garden of Gethsemane before his arrest.",
+      "hi": "ईसा मसीह ने अपनी गिरफ़्तारी से पहले गेथसेमनी के बाग में प्रार्थना की।"
+     }
     }
    ]
   },
@@ -43026,6 +45276,56 @@
       "ml": "'ജിന' എന്നാൽ വിജയി എന്നാണ് അർത്ഥം, ആഗ്രഹവും ദേഷ്യവും പോലുള്ള ആന്തരിക ശത്രുക്കളെ കീഴടക്കിയവൻ.",
       "pa": "'ਜਿਨ' ਦਾ ਅਰਥ ਜੇਤੂ ਹੈ, ਉਹ ਜਿਸਨੇ ਇੱਛਾ ਅਤੇ ਗੁੱਸੇ ਵਰਗੇ ਅੰਦਰੂਨੀ ਦੁਸ਼ਮਣਾਂ ਨੂੰ ਜਿੱਤ ਲਿਆ ਹੈ।",
       "as": "'জিনা' মানে বিজয়ী, যিজনে কামনা আৰু খঙৰ দৰে অন্তৰৰ শত্ৰুক জয় কৰিছে।"
+     }
+    },
+    {
+     "q": {
+      "en": "Who was the 23rd Tirthankara of Jainism?",
+      "hi": "जैन धर्म के 23वें तीर्थंकर कौन थे?"
+     },
+     "o": {
+      "en": [
+       "Lord Rishabhanatha",
+       "Lord Parshvanatha",
+       "Lord Neminatha",
+       "Lord Mahavira"
+      ],
+      "hi": [
+       "भगवान ऋषभनाथ",
+       "भगवान पार्श्वनाथ",
+       "भगवान नेमिनाथ",
+       "भगवान महावीर"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Lord Parshvanatha was the 23rd Tirthankara of Jainism.",
+      "hi": "भगवान पार्श्वनाथ जैन धर्म के 23वें तीर्थंकर थे।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Jainism, what is the practice of reflecting on and repenting for one's actions called?",
+      "hi": "जैन धर्म में अपने कर्मों पर चिंतन और प्रायश्चित की प्रथा को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Paryushana",
+       "Samayika",
+       "Pratikraman",
+       "Kayotsarga"
+      ],
+      "hi": [
+       "पर्युषण",
+       "सामायिक",
+       "प्रतिक्रमण",
+       "कायोत्सर्ग"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Pratikraman is the Jain practice of repentance and introspection.",
+      "hi": "प्रतिक्रमण जैन धर्म में प्रायश्चित और आत्मचिंतन की प्रथा है।"
      }
     }
    ]
@@ -45296,12 +47596,62 @@
       "pa": "ਬੋਧੀ ਮੱਠ ਜਾਂ ਪੂਜਾ ਸਥਾਨ ਨੂੰ ਵਿਹਾਰ ਕਿਹਾ ਜਾਂਦਾ ਹੈ।",
       "as": "বৌদ্ধ মঠ বা উপাসনা স্থলীটোক বিহাৰ বোলা হয়।"
      }
+    },
+    {
+     "q": {
+      "en": "In Buddhism, what is the collection of sacred scriptures called?",
+      "hi": "बौद्ध धर्म में पवित्र ग्रंथों के संग्रह को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Tripitaka",
+       "Vedas",
+       "Upanishads",
+       "Puranas"
+      ],
+      "hi": [
+       "त्रिपिटक",
+       "वेद",
+       "उपनिषद",
+       "पुराण"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Tripitaka (Three Baskets) is the traditional collection of Buddhist scriptures.",
+      "hi": "त्रिपिटक (तीन टोकरियाँ) बौद्ध ग्रंथों का पारंपरिक संग्रह है।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Buddhism, what is a person who seeks enlightenment to help all beings called?",
+      "hi": "बौद्ध धर्म में सभी प्राणियों की सहायता के लिए ज्ञान प्राप्त करने वाले को क्या कहते हैं?"
+     },
+     "o": {
+      "en": [
+       "Tirthankara",
+       "Guru",
+       "Bhikkhu",
+       "Bodhisattva"
+      ],
+      "hi": [
+       "तीर्थंकर",
+       "गुरु",
+       "भिक्षु",
+       "बोधिसत्व"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "A Bodhisattva is one who seeks enlightenment out of compassion to help all beings.",
+      "hi": "बोधिसत्व वह है जो सभी प्राणियों की सहायता के लिए करुणा से ज्ञान प्राप्त करना चाहता है।"
+     }
     }
    ]
   }
  },
  "meta": {
-  "last_updated": "2026-10-24",
-  "last_added": 34
+  "last_updated": "2026-10-25",
+  "last_added": 94
  }
 }
