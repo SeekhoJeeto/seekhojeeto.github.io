@@ -4092,6 +4092,131 @@
      "en": "Fruits and vegetables supply vitamins and minerals that protect us from disease.",
      "hi": "फल और सब्जियाँ विटामिन तथा खनिज देते हैं जो हमें रोगों से बचाते हैं।"
     }
+   },
+   {
+    "q": {
+     "en": "Carrot is which part of a plant?",
+     "hi": "गाजर पौधे का कौन-सा भाग है?"
+    },
+    "o": {
+     "en": [
+      "Stem",
+      "Leaf",
+      "Root",
+      "Flower"
+     ],
+     "hi": [
+      "तना",
+      "पत्ती",
+      "जड़",
+      "फूल"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Carrot is an underground root that stores food for the plant.",
+     "hi": "गाजर एक भूमिगत जड़ है जो पौधे के लिए भोजन संचित करती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Birds such as ducks that swim in water have which type of feet?",
+     "hi": "बत्तख जैसे पानी में तैरने वाले पक्षियों के पैर किस प्रकार के होते हैं?"
+    },
+    "o": {
+     "en": [
+      "Clawed feet",
+      "Webbed feet",
+      "Hooves",
+      "Long thin toes"
+     ],
+     "hi": [
+      "पंजे वाले पैर",
+      "जालीदार पैर",
+      "खुर",
+      "लंबी पतली उँगलियाँ"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Webbed feet push against water like a paddle, which helps ducks swim easily.",
+     "hi": "जालीदार पैर पतवार की तरह पानी को धकेलते हैं, जिससे बत्तख आसानी से तैरती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What do we call the layer of air that surrounds the Earth?",
+     "hi": "पृथ्वी को चारों ओर से घेरने वाली वायु की परत को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Lithosphere",
+      "Hydrosphere",
+      "Biosphere",
+      "Atmosphere"
+     ],
+     "hi": [
+      "स्थलमंडल",
+      "जलमंडल",
+      "जैवमंडल",
+      "वायुमंडल"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The blanket of air around the Earth is called the atmosphere.",
+     "hi": "पृथ्वी के चारों ओर फैली वायु की चादर को वायुमंडल कहते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these seeds is usually carried by water to a new place?",
+     "hi": "इनमें से कौन-सा बीज सामान्यतः पानी के द्वारा दूर तक पहुँचाया जाता है?"
+    },
+    "o": {
+     "en": [
+      "Coconut",
+      "Rice",
+      "Mustard",
+      "Groundnut"
+     ],
+     "hi": [
+      "नारियल",
+      "चावल",
+      "सरसों",
+      "मूँगफली"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The coconut's fibrous covering floats, so sea water carries it to distant shores.",
+     "hi": "नारियल का रेशेदार छिलका पानी पर तैरता है, इसलिए समुद्री जल उसे दूर के किनारों तक पहुँचा देता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many planets are there in our solar system?",
+     "hi": "हमारे सौरमंडल में कितने ग्रह हैं?"
+    },
+    "o": {
+     "en": [
+      "Seven",
+      "Nine",
+      "Ten",
+      "Eight"
+     ],
+     "hi": [
+      "सात",
+      "नौ",
+      "दस",
+      "आठ"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Eight planets move around the Sun: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune.",
+     "hi": "आठ ग्रह सूर्य के चारों ओर घूमते हैं: बुध, शुक्र, पृथ्वी, मंगल, बृहस्पति, शनि, यूरेनस और वरुण।"
+    }
    }
   ],
   "6": [
@@ -7847,6 +7972,131 @@
      "en": "Cinnamon is the dried inner bark of the cinnamon tree.",
      "hi": "दालचीनी दालचीनी के पेड़ की सुखाई गई भीतरी छाल है।"
     }
+   },
+   {
+    "q": {
+     "en": "Which of these is the method used to separate cream from milk?",
+     "hi": "दूध से क्रीम अलग करने की विधि कौन-सी है?"
+    },
+    "o": {
+     "en": [
+      "Winnowing",
+      "Churning",
+      "Sieving",
+      "Handpicking"
+     ],
+     "hi": [
+      "ओसाना",
+      "मथना",
+      "छानना",
+      "हाथ से चुनना"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Churning makes the lighter cream collect at the top, where it can be removed.",
+     "hi": "मथने से हल्की क्रीम ऊपर आ जाती है, जहाँ से उसे अलग किया जा सकता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The hands of a clock show which type of motion?",
+     "hi": "घड़ी की सुइयाँ किस प्रकार की गति दर्शाती हैं?"
+    },
+    "o": {
+     "en": [
+      "Straight line motion",
+      "Back and forth motion",
+      "Circular motion",
+      "No motion at all"
+     ],
+     "hi": [
+      "सरल रेखीय गति",
+      "आगे-पीछे की गति",
+      "वृत्तीय गति",
+      "कोई गति नहीं"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The hands move along a circular path around the centre of the dial, so the motion is circular.",
+     "hi": "सुइयाँ डायल के केंद्र के चारों ओर वृत्ताकार पथ पर चलती हैं, इसलिए यह वृत्तीय गति है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which method would you use to remove small stones from a bowl of rice before cooking?",
+     "hi": "पकाने से पहले चावल में से छोटे कंकड़ हटाने के लिए कौन-सी विधि उपयुक्त है?"
+    },
+    "o": {
+     "en": [
+      "Handpicking",
+      "Filtration",
+      "Evaporation",
+      "Condensation"
+     ],
+     "hi": [
+      "हाथ से चुनना",
+      "छानना",
+      "वाष्पीकरण",
+      "संघनन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Stones look different from rice grains, so they can simply be picked out by hand.",
+     "hi": "कंकड़ चावल के दानों से अलग दिखते हैं, इसलिए उन्हें हाथ से चुनकर हटाया जा सकता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Tulsi is an example of which type of plant?",
+     "hi": "तुलसी किस प्रकार का पौधा है?"
+    },
+    "o": {
+     "en": [
+      "Tree",
+      "Shrub",
+      "Climber",
+      "Herb"
+     ],
+     "hi": [
+      "वृक्ष",
+      "झाड़ी",
+      "लता",
+      "शाक"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Tulsi has a soft, short stem with no woody branches, so it is a herb.",
+     "hi": "तुलसी का तना कोमल और छोटा होता है तथा उसमें कठोर शाखाएँ नहीं होतीं, इसलिए यह शाक है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these birds has a strong, hooked beak used for tearing flesh?",
+     "hi": "इनमें से किस पक्षी की चोंच मज़बूत और मुड़ी हुई होती है, जिससे वह माँस फाड़ सकता है?"
+    },
+    "o": {
+     "en": [
+      "Sparrow",
+      "Eagle",
+      "Duck",
+      "Hummingbird"
+     ],
+     "hi": [
+      "गौरैया",
+      "चील",
+      "बत्तख",
+      "हमिंगबर्ड"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Eagles are flesh-eating birds; their hooked beaks help them tear their food.",
+     "hi": "चील माँस खाने वाला पक्षी है; उसकी मुड़ी हुई चोंच भोजन फाड़ने में सहायक होती है।"
+    }
    }
   ],
   "7": [
@@ -11489,6 +11739,131 @@
      "en": "Salt is a single substance, while air, milk and sea water are mixtures.",
      "hi": "नमक एक ही पदार्थ है, जबकि हवा, दूध और समुद्र का पानी मिश्रण हैं।"
     }
+   },
+   {
+    "q": {
+     "en": "Which type of soil can hold the most water?",
+     "hi": "किस प्रकार की मिट्टी सबसे अधिक पानी रोक सकती है?"
+    },
+    "o": {
+     "en": [
+      "Sandy soil",
+      "Loamy soil",
+      "Clayey soil",
+      "Gravelly soil"
+     ],
+     "hi": [
+      "बलुई मिट्टी",
+      "दोमट मिट्टी",
+      "चिकनी मिट्टी",
+      "कंकड़ी मिट्टी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Clay particles are very fine and tightly packed, so clayey soil holds the most water.",
+     "hi": "चिकनी मिट्टी के कण बहुत महीन और कसे हुए होते हैं, इसलिए यह सबसे अधिक पानी रोकती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is produced in our muscles during anaerobic respiration?",
+     "hi": "अवायवीय श्वसन के दौरान हमारी मांसपेशियों में क्या बनता है?"
+    },
+    "o": {
+     "en": [
+      "Citric acid",
+      "Acetic acid",
+      "Carbonic acid",
+      "Lactic acid"
+     ],
+     "hi": [
+      "साइट्रिक अम्ल",
+      "एसिटिक अम्ल",
+      "कार्बोनिक अम्ल",
+      "लैक्टिक अम्ल"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "When oxygen is short during heavy exercise, muscles make lactic acid, which causes cramps.",
+     "hi": "कठोर व्यायाम में ऑक्सीजन की कमी होने पर मांसपेशियों में लैक्टिक अम्ल बनता है, जिससे ऐंठन होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which part of a flower produces pollen grains?",
+     "hi": "फूल का कौन-सा भाग पराग कण बनाता है?"
+    },
+    "o": {
+     "en": [
+      "Pistil",
+      "Stamen",
+      "Sepal",
+      "Ovary"
+     ],
+     "hi": [
+      "स्त्रीकेसर",
+      "पुंकेसर",
+      "बाह्यदल",
+      "अंडाशय"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The stamen is the male part; its anther produces pollen grains.",
+     "hi": "पुंकेसर नर भाग है; इसके परागकोष में पराग कण बनते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which alloy is used as the heating element in electric irons and heaters?",
+     "hi": "विद्युत इस्त्री और हीटर में तापन तत्व के रूप में कौन-सी मिश्रातु प्रयोग होती है?"
+    },
+    "o": {
+     "en": [
+      "Nichrome",
+      "Brass",
+      "Bronze",
+      "Solder"
+     ],
+     "hi": [
+      "नाइक्रोम",
+      "पीतल",
+      "कांसा",
+      "सोल्डर"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Nichrome has high resistance and does not melt easily at high temperature, so it is used for heating elements.",
+     "hi": "नाइक्रोम का प्रतिरोध अधिक होता है और वह ऊँचे तापमान पर आसानी से नहीं पिघलता, इसलिए वह तापन तत्व बनता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The image formed by a plane mirror is always?",
+     "hi": "समतल दर्पण में बना प्रतिबिंब सदैव कैसा होता है?"
+    },
+    "o": {
+     "en": [
+      "Real and inverted",
+      "Real and erect",
+      "Virtual and erect",
+      "Virtual and inverted"
+     ],
+     "hi": [
+      "वास्तविक और उल्टा",
+      "वास्तविक और सीधा",
+      "आभासी और सीधा",
+      "आभासी और उल्टा"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "A plane mirror always forms a virtual, erect image of the same size as the object.",
+     "hi": "समतल दर्पण सदैव वस्तु के आकार का आभासी और सीधा प्रतिबिंब बनाता है।"
+    }
    }
   ],
   "8": [
@@ -14904,6 +15279,131 @@
     "e": {
      "en": "Red blood cells contain haemoglobin, which carries oxygen.",
      "hi": "लाल रक्त कोशिकाओं में हीमोग्लोबिन होता है जो ऑक्सीजन ले जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is used to reduce friction between the moving parts of a machine?",
+     "hi": "मशीन के चलते भागों के बीच घर्षण कम करने के लिए इनमें से किसका उपयोग किया जाता है?"
+    },
+    "o": {
+     "en": [
+      "Sand",
+      "Lubricant",
+      "A rougher surface",
+      "Extra weight"
+     ],
+     "hi": [
+      "रेत",
+      "स्नेहक",
+      "और खुरदरी सतह",
+      "अतिरिक्त भार"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Oil or grease forms a thin layer that keeps the surfaces apart, so friction is reduced.",
+     "hi": "तेल या ग्रीस एक पतली परत बनाकर सतहों को अलग रखते हैं, जिससे घर्षण कम हो जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Sound cannot travel through which of these?",
+     "hi": "ध्वनि इनमें से किसमें से नहीं चल सकती?"
+    },
+    "o": {
+     "en": [
+      "Steel",
+      "Water",
+      "Air",
+      "Vacuum"
+     ],
+     "hi": [
+      "स्टील",
+      "पानी",
+      "हवा",
+      "निर्वात"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Sound needs a material medium; a vacuum has no particles, so sound cannot pass through it.",
+     "hi": "ध्वनि को माध्यम चाहिए; निर्वात में कण नहीं होते, इसलिए ध्वनि उसमें से नहीं जा सकती।"
+    }
+   },
+   {
+    "q": {
+     "en": "The process of depositing a thin layer of one metal on another using electric current is called?",
+     "hi": "विद्युत धारा द्वारा एक धातु की पतली परत दूसरी धातु पर जमाने की विधि क्या कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Electroplating",
+      "Galvanisation",
+      "Alloying",
+      "Annealing"
+     ],
+     "hi": [
+      "विद्युत लेपन",
+      "गैल्वनीकरण",
+      "मिश्रधातु बनाना",
+      "तापानुशीलन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "In electroplating, electric current deposits a layer of one metal over another.",
+     "hi": "विद्युत लेपन में विद्युत धारा से एक धातु की परत दूसरी धातु पर जमा दी जाती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which bacterium is used to convert milk into curd?",
+     "hi": "दूध को दही में बदलने में कौन-सा जीवाणु सहायक है?"
+    },
+    "o": {
+     "en": [
+      "Rhizobium",
+      "Yeast",
+      "Lactobacillus",
+      "Penicillium"
+     ],
+     "hi": [
+      "राइज़ोबियम",
+      "यीस्ट",
+      "लैक्टोबैसिलस",
+      "पेनिसिलियम"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Lactobacillus turns the sugar in milk into acid, which makes the milk set into curd.",
+     "hi": "लैक्टोबैसिलस दूध की शर्करा को अम्ल में बदल देता है, जिससे दूध दही में जम जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The splitting of white light into its seven colours by a prism is called?",
+     "hi": "प्रिज़्म द्वारा सफेद प्रकाश के सात रंगों में बँटने की क्रिया क्या कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Reflection",
+      "Dispersion",
+      "Absorption",
+      "Diffusion"
+     ],
+     "hi": [
+      "परावर्तन",
+      "विक्षेपण",
+      "अवशोषण",
+      "विसरण"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Different colours bend by different amounts inside a prism, so white light splits into seven colours - this is dispersion.",
+     "hi": "प्रिज़्म में अलग-अलग रंग अलग-अलग मात्रा में मुड़ते हैं, इसलिए सफेद प्रकाश सात रंगों में बँट जाता है - इसे विक्षेपण कहते हैं।"
     }
    }
   ],
@@ -18660,6 +19160,131 @@
      "en": "Tuberculosis is caused by the bacterium Mycobacterium tuberculosis.",
      "hi": "तपेदिक जीवाणु माइकोबैक्टीरियम ट्यूबरकुलोसिस से होता है।"
     }
+   },
+   {
+    "q": {
+     "en": "Which of these is a colloid?",
+     "hi": "इनमें से कौन-सा कोलॉइड है?"
+    },
+    "o": {
+     "en": [
+      "Salt solution",
+      "Milk",
+      "Sand in water",
+      "Sugar solution"
+     ],
+     "hi": [
+      "नमक का विलयन",
+      "दूध",
+      "पानी में रेत",
+      "चीनी का विलयन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Milk is a colloid: its particles are larger than those in a solution but too small to settle or be seen.",
+     "hi": "दूध एक कोलॉइड है: इसके कण विलयन के कणों से बड़े होते हैं, पर इतने बड़े नहीं कि बैठ जाएँ या दिखाई दें।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many atoms are present in one molecule of H2SO4?",
+     "hi": "H2SO4 के एक अणु में कितने परमाणु होते हैं?"
+    },
+    "o": {
+     "en": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+     ],
+     "hi": [
+      "पाँच",
+      "छह",
+      "सात",
+      "आठ"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "H2SO4 has 2 hydrogen, 1 sulphur and 4 oxygen atoms, making seven atoms in all.",
+     "hi": "H2SO4 में 2 हाइड्रोजन, 1 गंधक और 4 ऑक्सीजन परमाणु मिलाकर सात परमाणु होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "A car covers 60 km in 1.5 hours. What is its average speed?",
+     "hi": "एक कार 1.5 घंटे में 60 किमी चलती है। उसकी औसत चाल क्या है?"
+    },
+    "o": {
+     "en": [
+      "40 km/h",
+      "90 km/h",
+      "30 km/h",
+      "45 km/h"
+     ],
+     "hi": [
+      "40 किमी/घंटा",
+      "90 किमी/घंटा",
+      "30 किमी/घंटा",
+      "45 किमी/घंटा"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Average speed = distance / time = 60 / 1.5 = 40 km per hour.",
+     "hi": "औसत चाल = दूरी / समय = 60 / 1.5 = 40 किमी प्रति घंटा।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which plant tissue gives flexibility and mechanical strength to the plant body?",
+     "hi": "पौधे के शरीर को लचीलापन और यांत्रिक मज़बूती कौन-सा ऊतक देता है?"
+    },
+    "o": {
+     "en": [
+      "Parenchyma",
+      "Collenchyma",
+      "Sclerenchyma",
+      "Phloem"
+     ],
+     "hi": [
+      "पैरेन्काइमा",
+      "कॉलेन्काइमा",
+      "स्क्लेरेन्काइमा",
+      "फ्लोएम"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Collenchyma cells have thickened corners with pectin, giving the plant flexibility along with strength.",
+     "hi": "कॉलेन्काइमा की कोशिकाओं के कोने पेक्टिन से मोटे होते हैं, जिससे पौधे को मज़बूती के साथ लचीलापन मिलता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the weight of a body of mass 10 kg on Earth? (Take g = 10 m/s squared)",
+     "hi": "10 किग्रा द्रव्यमान वाली वस्तु का पृथ्वी पर भार कितना होगा? (g = 10 m/s² लें)"
+    },
+    "o": {
+     "en": [
+      "10 N",
+      "1 N",
+      "1000 N",
+      "100 N"
+     ],
+     "hi": [
+      "10 N",
+      "1 N",
+      "1000 N",
+      "100 N"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Weight = mass x g = 10 x 10 = 100 newton.",
+     "hi": "भार = द्रव्यमान × g = 10 × 10 = 100 न्यूटन।"
+    }
    }
   ],
   "10": [
@@ -22301,6 +22926,131 @@
     "e": {
      "en": "Blinking is a quick automatic response controlled by the spinal cord.",
      "hi": "पलक झपकना एक तेज़ स्वचालित प्रतिक्रिया है जिसे मेरुदंड नियंत्रित करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "According to Ohm's law, the potential difference V across a conductor is equal to?",
+     "hi": "ओम के नियम के अनुसार चालक के सिरों का विभवांतर V किसके बराबर होता है?"
+    },
+    "o": {
+     "en": [
+      "R divided by I",
+      "I divided by R",
+      "I multiplied by R",
+      "I plus R"
+     ],
+     "hi": [
+      "R ÷ I",
+      "I ÷ R",
+      "I × R",
+      "I + R"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Ohm's law gives V = I x R, where I is the current and R the resistance.",
+     "hi": "ओम के नियम से V = I × R, जहाँ I धारा और R प्रतिरोध है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the power of a convex lens of focal length 50 cm?",
+     "hi": "50 सेमी फोकस दूरी वाले उत्तल लेंस की क्षमता कितनी है?"
+    },
+    "o": {
+     "en": [
+      "+2 D",
+      "+0.5 D",
+      "-2 D",
+      "+5 D"
+     ],
+     "hi": [
+      "+2 D",
+      "+0.5 D",
+      "-2 D",
+      "+5 D"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Power = 1 / focal length in metres = 1 / 0.5 = +2 dioptre.",
+     "hi": "क्षमता = 1 / फोकस दूरी (मीटर में) = 1 / 0.5 = +2 डायोप्टर।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the general formula of alkynes?",
+     "hi": "ऐल्काइन का सामान्य सूत्र क्या है?"
+    },
+    "o": {
+     "en": [
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnH2n",
+      "CnH2n+1"
+     ],
+     "hi": [
+      "CnH2n+2",
+      "CnH2n-2",
+      "CnH2n",
+      "CnH2n+1"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Alkynes have a triple bond between two carbon atoms, so their formula is CnH2n-2.",
+     "hi": "ऐल्काइन में दो कार्बन परमाणुओं के बीच त्रिबंध होता है, इसलिए सूत्र CnH2n-2 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is an alloy of iron?",
+     "hi": "इनमें से कौन-सी लोहे की मिश्रधातु है?"
+    },
+    "o": {
+     "en": [
+      "Brass",
+      "Bronze",
+      "Solder",
+      "Stainless steel"
+     ],
+     "hi": [
+      "पीतल",
+      "कांसा",
+      "सोल्डर",
+      "स्टेनलेस स्टील"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Stainless steel is an alloy of iron with chromium and nickel, which prevents rusting.",
+     "hi": "स्टेनलेस स्टील लोहे के साथ क्रोमियम और निकल की मिश्रधातु है, जिससे जंग नहीं लगती।"
+    }
+   },
+   {
+    "q": {
+     "en": "In a monohybrid cross between pure tall and pure short pea plants, what is the ratio of tall to short plants in the F2 generation?",
+     "hi": "शुद्ध लंबे और शुद्ध बौने मटर के पौधों के संकरण में F2 पीढ़ी में लंबे और बौने पौधों का अनुपात क्या होता है?"
+    },
+    "o": {
+     "en": [
+      "1 : 1",
+      "1 : 3",
+      "3 : 1",
+      "9 : 3"
+     ],
+     "hi": [
+      "1 : 1",
+      "1 : 3",
+      "3 : 1",
+      "9 : 3"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The F2 generation of a monohybrid cross gives tall and short plants in the ratio 3 : 1.",
+     "hi": "एकल संकर संकरण की F2 पीढ़ी में लंबे और बौने पौधे 3 : 1 के अनुपात में मिलते हैं।"
     }
    }
   ],
@@ -25944,6 +26694,131 @@
      "en": "Using 2(+1) + x + 4(-2) = 0, we get x = +6.",
      "hi": "2(+1) + x + 4(-2) = 0 से x = +6 प्राप्त होता है।"
     }
+   },
+   {
+    "q": {
+     "en": "A body moves in a circle with constant speed. Its acceleration is?",
+     "hi": "कोई वस्तु वृत्ताकार पथ पर एकसमान चाल से चल रही है। उसका त्वरण किस दिशा में होता है?"
+    },
+    "o": {
+     "en": [
+      "Zero",
+      "Directed towards the centre",
+      "Directed away from the centre",
+      "Along the tangent"
+     ],
+     "hi": [
+      "शून्य",
+      "केंद्र की ओर",
+      "केंद्र से दूर",
+      "स्पर्श रेखा के अनुदिश"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "In uniform circular motion the acceleration is centripetal, that is, directed towards the centre.",
+     "hi": "एकसमान वृत्तीय गति में त्वरण अभिकेंद्रीय होता है, अर्थात् केंद्र की ओर।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the dimensional formula of pressure?",
+     "hi": "दाब का विमीय सूत्र क्या है?"
+    },
+    "o": {
+     "en": [
+      "[MLT^-2]",
+      "[ML^2T^-2]",
+      "[ML^-1T^-1]",
+      "[ML^-1T^-2]"
+     ],
+     "hi": [
+      "[MLT⁻²]",
+      "[ML²T⁻²]",
+      "[ML⁻¹T⁻¹]",
+      "[ML⁻¹T⁻²]"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Pressure = force / area, so its dimensional formula is [ML^-1T^-2].",
+     "hi": "दाब = बल / क्षेत्रफल, इसलिए विमीय सूत्र [ML⁻¹T⁻²] है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the pH of a 0.01 M solution of HCl?",
+     "hi": "0.01 M HCl विलयन का pH क्या है?"
+    },
+    "o": {
+     "en": [
+      "2",
+      "1",
+      "12",
+      "0.01"
+     ],
+     "hi": [
+      "2",
+      "1",
+      "12",
+      "0.01"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Hydrogen ion concentration is 0.01 = 10^-2 M, so pH = 2.",
+     "hi": "हाइड्रोजन आयन सांद्रता 0.01 = 10⁻² M है, इसलिए pH = 2।"
+    }
+   },
+   {
+    "q": {
+     "en": "According to VSEPR theory, what is the shape of a methane (CH4) molecule?",
+     "hi": "VSEPR सिद्धांत के अनुसार मेथेन (CH4) अणु की आकृति क्या है?"
+    },
+    "o": {
+     "en": [
+      "Square planar",
+      "Pyramidal",
+      "Tetrahedral",
+      "Linear"
+     ],
+     "hi": [
+      "वर्ग समतलीय",
+      "पिरामिडी",
+      "चतुष्फलकीय",
+      "रेखीय"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Carbon in methane has four bonding pairs around it, so the molecule is tetrahedral.",
+     "hi": "मेथेन में कार्बन के चारों ओर चार बंध युग्म होते हैं, इसलिए अणु चतुष्फलकीय है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which part of the cell does glycolysis take place?",
+     "hi": "कोशिका के किस भाग में ग्लाइकोलिसिस होता है?"
+    },
+    "o": {
+     "en": [
+      "Mitochondrial matrix",
+      "Cytoplasm",
+      "Nucleus",
+      "Ribosome"
+     ],
+     "hi": [
+      "माइटोकॉन्ड्रिया का मैट्रिक्स",
+      "कोशिकाद्रव्य",
+      "केंद्रक",
+      "राइबोसोम"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Glycolysis happens in the cytoplasm, where glucose is broken down into pyruvic acid.",
+     "hi": "ग्लाइकोलिसिस कोशिकाद्रव्य में होता है, जहाँ ग्लूकोज टूटकर पाइरुविक अम्ल बनता है।"
+    }
    }
   ],
   "12": [
@@ -29134,6 +30009,131 @@
      "en": "Light travels at about 3 x 10^8 m/s in vacuum.",
      "hi": "निर्वात में प्रकाश लगभग 3 x 10^8 m/s की चाल से चलता है।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the SI unit of magnetic field strength (magnetic flux density)?",
+     "hi": "चुंबकीय क्षेत्र (चुंबकीय फ्लक्स घनत्व) का SI मात्रक क्या है?"
+    },
+    "o": {
+     "en": [
+      "Weber",
+      "Henry",
+      "Tesla",
+      "Gauss"
+     ],
+     "hi": [
+      "वेबर",
+      "हेनरी",
+      "टेस्ला",
+      "गॉस"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Magnetic flux density is measured in tesla; gauss is the CGS unit.",
+     "hi": "चुंबकीय फ्लक्स घनत्व का SI मात्रक टेस्ला है; गॉस CGS मात्रक है।"
+    }
+   },
+   {
+    "q": {
+     "en": "When a p-n junction diode is forward biased, what happens to the width of the depletion layer?",
+     "hi": "p-n संधि डायोड को अग्र अभिनत करने पर अवक्षय परत की चौड़ाई का क्या होता है?"
+    },
+    "o": {
+     "en": [
+      "It increases",
+      "It becomes permanently zero",
+      "It stays unchanged",
+      "It decreases"
+     ],
+     "hi": [
+      "वह बढ़ जाती है",
+      "वह स्थायी रूप से शून्य हो जाती है",
+      "वह अपरिवर्तित रहती है",
+      "वह घट जाती है"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The applied forward voltage opposes the barrier potential, so the depletion layer becomes narrower.",
+     "hi": "लगाई गई अग्र वोल्टता रोधक विभव का विरोध करती है, इसलिए अवक्षय परत पतली हो जाती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the coordination number of the central metal ion in an octahedral complex?",
+     "hi": "अष्टफलकीय संकुल में केंद्रीय धातु आयन की समन्वय संख्या कितनी होती है?"
+    },
+    "o": {
+     "en": [
+      "6",
+      "4",
+      "8",
+      "2"
+     ],
+     "hi": [
+      "6",
+      "4",
+      "8",
+      "2"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "In an octahedral complex, six ligands are arranged around the central metal ion.",
+     "hi": "अष्टफलकीय संकुल में छह लिगैंड केंद्रीय धातु आयन के चारों ओर व्यवस्थित होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a colligative property?",
+     "hi": "इनमें से कौन-सा अणुसंख्यक गुण है?"
+    },
+    "o": {
+     "en": [
+      "Refractive index",
+      "Osmotic pressure",
+      "Viscosity",
+      "Surface tension"
+     ],
+     "hi": [
+      "अपवर्तनांक",
+      "परासरण दाब",
+      "श्यानता",
+      "पृष्ठ तनाव"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Osmotic pressure depends on the number of solute particles, so it is a colligative property.",
+     "hi": "परासरण दाब विलेय कणों की संख्या पर निर्भर करता है, इसलिए यह अणुसंख्यक गुण है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which technique is used in the laboratory to make many copies of a small sample of DNA?",
+     "hi": "प्रयोगशाला में DNA के थोड़े से नमूने की बहुत अधिक प्रतियाँ बनाने की तकनीक कौन-सी है?"
+    },
+    "o": {
+     "en": [
+      "Gel electrophoresis",
+      "Chromatography",
+      "Polymerase chain reaction",
+      "Centrifugation"
+     ],
+     "hi": [
+      "जेल इलेक्ट्रोफोरेसिस",
+      "क्रोमैटोग्राफी",
+      "पॉलिमरेज़ शृंखला अभिक्रिया",
+      "अपकेंद्रण"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The polymerase chain reaction (PCR) copies a DNA segment millions of times in a few hours.",
+     "hi": "पॉलिमरेज़ शृंखला अभिक्रिया (PCR) कुछ ही घंटों में DNA खंड की लाखों प्रतियाँ बना देती है।"
+    }
    }
   ]
  },
@@ -29727,6 +30727,131 @@
      "en": "A circle is a smooth curve with no corners and no straight sides.",
      "hi": "वृत्त एक चिकना वक्र है जिसमें कोई कोना और कोई सीधी भुजा नहीं होती।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the next number in the pattern 2, 4, 6, 8, ...?",
+     "hi": "क्रम 2, 4, 6, 8, ... में अगली संख्या क्या होगी?"
+    },
+    "o": {
+     "en": [
+      "9",
+      "10",
+      "12",
+      "11"
+     ],
+     "hi": [
+      "9",
+      "10",
+      "12",
+      "11"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Each number is 2 more than the one before it, so the next number is 10.",
+     "hi": "प्रत्येक संख्या पिछली संख्या से 2 अधिक है, इसलिए अगली संख्या 10 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many millimetres are there in one centimetre?",
+     "hi": "एक सेंटीमीटर में कितने मिलीमीटर होते हैं?"
+    },
+    "o": {
+     "en": [
+      "100",
+      "1000",
+      "5",
+      "10"
+     ],
+     "hi": [
+      "100",
+      "1000",
+      "5",
+      "10"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "1 centimetre = 10 millimetres.",
+     "hi": "1 सेंटीमीटर = 10 मिलीमीटर।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is 84 divided by 7?",
+     "hi": "84 ÷ 7 कितना होता है?"
+    },
+    "o": {
+     "en": [
+      "12",
+      "14",
+      "11",
+      "13"
+     ],
+     "hi": [
+      "12",
+      "14",
+      "11",
+      "13"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "7 x 12 = 84, so 84 divided by 7 is 12.",
+     "hi": "7 × 12 = 84, इसलिए 84 ÷ 7 = 12।"
+    }
+   },
+   {
+    "q": {
+     "en": "A rectangle is 5 cm long and 3 cm wide. What is its perimeter?",
+     "hi": "एक आयत की लंबाई 5 सेमी और चौड़ाई 3 सेमी है। उसका परिमाप क्या है?"
+    },
+    "o": {
+     "en": [
+      "8 cm",
+      "15 cm",
+      "16 cm",
+      "30 cm"
+     ],
+     "hi": [
+      "8 सेमी",
+      "15 सेमी",
+      "16 सेमी",
+      "30 सेमी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Perimeter = 2 x (length + breadth) = 2 x (5 + 3) = 16 cm.",
+     "hi": "परिमाप = 2 × (लंबाई + चौड़ाई) = 2 × (5 + 3) = 16 सेमी।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a proper fraction?",
+     "hi": "इनमें से कौन-सी उचित भिन्न है?"
+    },
+    "o": {
+     "en": [
+      "5/3",
+      "3/5",
+      "7/4",
+      "9/2"
+     ],
+     "hi": [
+      "5/3",
+      "3/5",
+      "7/4",
+      "9/2"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "In a proper fraction the numerator is smaller than the denominator, as in 3/5.",
+     "hi": "उचित भिन्न में अंश हर से छोटा होता है, जैसे 3/5 में 3 < 5 है।"
+    }
    }
   ],
   "6": [
@@ -30318,6 +31443,131 @@
      "en": "Area of a square is side x side, so 6 x 6 = 36 cm2.",
      "hi": "वर्ग का क्षेत्रफल भुजा x भुजा है, इसलिए 6 x 6 = 36 सेमी2।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the value of 1/2 + 1/3?",
+     "hi": "1/2 + 1/3 का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "2/5",
+      "1/6",
+      "5/6",
+      "2/6"
+     ],
+     "hi": [
+      "2/5",
+      "1/6",
+      "5/6",
+      "2/6"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Taking the LCM 6 gives 3/6 + 2/6 = 5/6.",
+     "hi": "हरों का लघुत्तम समापवर्त्य 6 लेने पर 3/6 + 2/6 = 5/6 प्राप्त होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many lines of symmetry does a square have?",
+     "hi": "एक वर्ग में सममिति की कितनी रेखाएँ होती हैं?"
+    },
+    "o": {
+     "en": [
+      "4",
+      "2",
+      "1",
+      "8"
+     ],
+     "hi": [
+      "4",
+      "2",
+      "1",
+      "8"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "A square has four lines of symmetry: two through the midpoints of opposite sides and two along the diagonals.",
+     "hi": "वर्ग में सममिति की चार रेखाएँ होती हैं: दो सम्मुख भुजाओं के मध्य बिंदुओं से और दो विकर्णों के अनुदिश।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the greatest three-digit number?",
+     "hi": "तीन अंकों की सबसे बड़ी संख्या कौन-सी है?"
+    },
+    "o": {
+     "en": [
+      "100",
+      "900",
+      "989",
+      "999"
+     ],
+     "hi": [
+      "100",
+      "900",
+      "989",
+      "999"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The greatest three-digit number is 999.",
+     "hi": "तीन अंकों की सबसे बड़ी संख्या 999 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "A dozen bananas cost Rs 60. What is the cost of one banana?",
+     "hi": "एक दर्जन केले ₹60 के हैं। एक केले का मूल्य क्या है?"
+    },
+    "o": {
+     "en": [
+      "Rs 12",
+      "Rs 5",
+      "Rs 6",
+      "Rs 10"
+     ],
+     "hi": [
+      "₹12",
+      "₹5",
+      "₹6",
+      "₹10"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "One dozen means 12 items, so 60 divided by 12 gives Rs 5 per banana.",
+     "hi": "एक दर्जन में 12 वस्तुएँ होती हैं, इसलिए 60 ÷ 12 = ₹5 प्रति केला।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 7 x 8 - 6 x 5?",
+     "hi": "7 × 8 − 6 × 5 का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "10",
+      "56",
+      "26",
+      "86"
+     ],
+     "hi": [
+      "10",
+      "56",
+      "26",
+      "86"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Multiply first: 56 - 30 = 26.",
+     "hi": "पहले गुणा कीजिए: 56 − 30 = 26।"
+    }
    }
   ],
   "7": [
@@ -30795,6 +32045,131 @@
     "e": {
      "en": "Supplementary angles add up to 180 degrees, so 180 minus 60 is 120 degrees.",
      "hi": "संपूरक कोणों का योग 180 अंश होता है, इसलिए 180 में से 60 घटाने पर 120 अंश आता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of (-4) x (-6)?",
+     "hi": "(−4) × (−6) का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "24",
+      "-24",
+      "10",
+      "-10"
+     ],
+     "hi": [
+      "24",
+      "−24",
+      "10",
+      "−10"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The product of two negative numbers is positive, so the answer is 24.",
+     "hi": "दो ऋणात्मक संख्याओं का गुणनफल धनात्मक होता है, इसलिए उत्तर 24 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 2.5 x 4?",
+     "hi": "2.5 × 4 का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "1",
+      "10",
+      "6.5",
+      "100"
+     ],
+     "hi": [
+      "1",
+      "10",
+      "6.5",
+      "100"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "2.5 multiplied by 4 gives 10.",
+     "hi": "2.5 × 4 = 10 होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of (-15) divided by 3?",
+     "hi": "(−15) ÷ 3 का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "-5",
+      "5",
+      "-45",
+      "45"
+     ],
+     "hi": [
+      "−5",
+      "5",
+      "−45",
+      "45"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Dividing a negative number by a positive number gives a negative answer: -15 / 3 = -5.",
+     "hi": "ऋणात्मक संख्या को धनात्मक संख्या से भाग देने पर परिणाम ऋणात्मक होता है: −15 ÷ 3 = −5।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the area of a circle of radius 7 cm? (Take pi = 22/7)",
+     "hi": "7 सेमी त्रिज्या वाले वृत्त का क्षेत्रफल क्या है? (π = 22/7 लें)"
+    },
+    "o": {
+     "en": [
+      "44 sq cm",
+      "22 sq cm",
+      "154 sq cm",
+      "49 sq cm"
+     ],
+     "hi": [
+      "44 वर्ग सेमी",
+      "22 वर्ग सेमी",
+      "154 वर्ग सेमी",
+      "49 वर्ग सेमी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Area = pi x r x r = (22/7) x 7 x 7 = 154 sq cm.",
+     "hi": "क्षेत्रफल = πr² = (22/7) × 7 × 7 = 154 वर्ग सेमी।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the median of the numbers 3, 7, 5, 9, 11?",
+     "hi": "संख्याओं 3, 7, 5, 9, 11 का माध्यक क्या है?"
+    },
+    "o": {
+     "en": [
+      "7",
+      "5",
+      "9",
+      "11"
+     ],
+     "hi": [
+      "7",
+      "5",
+      "9",
+      "11"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Arranged in order they are 3, 5, 7, 9, 11; the middle value is 7.",
+     "hi": "क्रम में लिखने पर 3, 5, 7, 9, 11 मिलता है; बीच का मान 7 है।"
     }
    }
   ],
@@ -31387,6 +32762,131 @@
      "en": "(a + b)^2 = a^2 + 2ab + b^2, a standard algebraic identity.",
      "hi": "(a + b)^2 = a^2 + 2ab + b^2, यह एक मानक बीजीय सर्वसमिका है।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the square root of 625?",
+     "hi": "625 का वर्गमूल क्या है?"
+    },
+    "o": {
+     "en": [
+      "15",
+      "35",
+      "45",
+      "25"
+     ],
+     "hi": [
+      "15",
+      "35",
+      "45",
+      "25"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "25 x 25 = 625, so the square root is 25.",
+     "hi": "25 × 25 = 625, इसलिए वर्गमूल 25 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 4 cubed minus 3 cubed?",
+     "hi": "4³ − 3³ का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "1",
+      "37",
+      "19",
+      "91"
+     ],
+     "hi": [
+      "1",
+      "37",
+      "19",
+      "91"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "4 cubed is 64 and 3 cubed is 27, so 64 - 27 = 37.",
+     "hi": "4³ = 64 और 3³ = 27, इसलिए 64 − 27 = 37।"
+    }
+   },
+   {
+    "q": {
+     "en": "A shopkeeper buys a pen for Rs 20 and sells it for Rs 25. What is the profit per cent?",
+     "hi": "एक दुकानदार एक पेन ₹20 में खरीदकर ₹25 में बेचता है। उसका लाभ प्रतिशत क्या है?"
+    },
+    "o": {
+     "en": [
+      "5%",
+      "20%",
+      "25%",
+      "125%"
+     ],
+     "hi": [
+      "5%",
+      "20%",
+      "25%",
+      "125%"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Profit is Rs 5, so profit per cent = (5/20) x 100 = 25%.",
+     "hi": "लाभ ₹5 है, इसलिए लाभ प्रतिशत = (5/20) × 100 = 25%।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is 2/5 of 150?",
+     "hi": "150 का 2/5 कितना है?"
+    },
+    "o": {
+     "en": [
+      "60",
+      "75",
+      "30",
+      "50"
+     ],
+     "hi": [
+      "60",
+      "75",
+      "30",
+      "50"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "150 divided by 5 is 30, and 30 x 2 = 60.",
+     "hi": "150 ÷ 5 = 30 और 30 × 2 = 60।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 5 to the power 0?",
+     "hi": "5⁰ का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "5",
+      "25",
+      "1"
+     ],
+     "hi": [
+      "0",
+      "5",
+      "25",
+      "1"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Any non-zero number raised to the power zero equals 1.",
+     "hi": "किसी भी शून्येतर संख्या की घात शून्य 1 होती है।"
+    }
    }
   ],
   "9": [
@@ -31864,6 +33364,131 @@
     "e": {
      "en": "Any non-zero number raised to the power 0 is 1, so 1 + 1 = 2.",
      "hi": "किसी भी शून्येतर संख्या की घात 0 = 1 होती है, इसलिए 1 + 1 = 2।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of 27^(1/3) + 16^(1/2)?",
+     "hi": "27^(1/3) + 16^(1/2) का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "6",
+      "7",
+      "9"
+     ],
+     "hi": [
+      "5",
+      "6",
+      "7",
+      "9"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The cube root of 27 is 3 and the square root of 16 is 4, so 3 + 4 = 7.",
+     "hi": "27 का घनमूल 3 और 16 का वर्गमूल 4 है, इसलिए 3 + 4 = 7।"
+    }
+   },
+   {
+    "q": {
+     "en": "In the equation 2x + 3y = 12, if x = 3, what is the value of y?",
+     "hi": "समीकरण 2x + 3y = 12 में यदि x = 3 है, तो y का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "2",
+      "3",
+      "4",
+      "6"
+     ],
+     "hi": [
+      "2",
+      "3",
+      "4",
+      "6"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "2(3) + 3y = 12 gives 3y = 6, so y = 2.",
+     "hi": "2(3) + 3y = 12 से 3y = 6, इसलिए y = 2।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the total surface area of a cube of edge 5 cm?",
+     "hi": "5 सेमी भुजा वाले घन का संपूर्ण पृष्ठ क्षेत्रफल क्या है?"
+    },
+    "o": {
+     "en": [
+      "25 sq cm",
+      "150 sq cm",
+      "125 sq cm",
+      "60 sq cm"
+     ],
+     "hi": [
+      "25 वर्ग सेमी",
+      "150 वर्ग सेमी",
+      "125 वर्ग सेमी",
+      "60 वर्ग सेमी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Surface area of a cube = 6 x side x side = 6 x 25 = 150 sq cm.",
+     "hi": "घन का पृष्ठ क्षेत्रफल = 6 × भुजा² = 6 × 25 = 150 वर्ग सेमी।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is (x squared - 9) divided by (x - 3)?",
+     "hi": "(x² − 9) को (x − 3) से भाग देने पर क्या प्राप्त होता है?"
+    },
+    "o": {
+     "en": [
+      "x - 3",
+      "x + 9",
+      "x squared + 3",
+      "x + 3"
+     ],
+     "hi": [
+      "x − 3",
+      "x + 9",
+      "x² + 3",
+      "x + 3"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "x squared - 9 = (x - 3)(x + 3), so the quotient is x + 3.",
+     "hi": "x² − 9 = (x − 3)(x + 3), इसलिए भागफल x + 3 है।"
+    }
+   },
+   {
+    "q": {
+     "en": "The angles of a quadrilateral are in the ratio 1 : 2 : 3 : 4. What is the largest angle?",
+     "hi": "एक चतुर्भुज के कोण 1 : 2 : 3 : 4 के अनुपात में हैं। सबसे बड़ा कोण कितना है?"
+    },
+    "o": {
+     "en": [
+      "36 degrees",
+      "72 degrees",
+      "144 degrees",
+      "108 degrees"
+     ],
+     "hi": [
+      "36°",
+      "72°",
+      "144°",
+      "108°"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The angles add up to 360 degrees, so 10 parts = 360 and the largest, 4 parts, is 144 degrees.",
+     "hi": "कोणों का योग 360° है, इसलिए 10 भाग = 360° और सबसे बड़ा कोण, अर्थात् 4 भाग = 144°।"
     }
    }
   ],
@@ -32456,6 +34081,131 @@
      "en": "The midpoint is ((2+6)/2, (4+8)/2), which is (4, 6).",
      "hi": "मध्य-बिंदु ((2+6)/2, (4+8)/2) = (4, 6) है।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the value of sec 60 degrees?",
+     "hi": "sec 60° का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "1/2",
+      "2",
+      "sqrt 3",
+      "2/sqrt 3"
+     ],
+     "hi": [
+      "1/2",
+      "2",
+      "√3",
+      "2/√3"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "cos 60 degrees = 1/2, so sec 60 degrees = 2.",
+     "hi": "cos 60° = 1/2, इसलिए sec 60° = 2।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the sum of the first 20 odd natural numbers?",
+     "hi": "प्रथम 20 विषम प्राकृत संख्याओं का योग क्या है?"
+    },
+    "o": {
+     "en": [
+      "210",
+      "40",
+      "200",
+      "400"
+     ],
+     "hi": [
+      "210",
+      "40",
+      "200",
+      "400"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The sum of the first n odd numbers is n squared, so 20 squared = 400.",
+     "hi": "प्रथम n विषम संख्याओं का योग n² होता है, इसलिए 20² = 400।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the area of a circle of radius 10 cm, in terms of pi?",
+     "hi": "10 सेमी त्रिज्या वाले वृत्त का क्षेत्रफल π के पदों में क्या है?"
+    },
+    "o": {
+     "en": [
+      "100 pi sq cm",
+      "20 pi sq cm",
+      "10 pi sq cm",
+      "50 pi sq cm"
+     ],
+     "hi": [
+      "100π वर्ग सेमी",
+      "20π वर्ग सेमी",
+      "10π वर्ग सेमी",
+      "50π वर्ग सेमी"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Area = pi x r x r = pi x 10 x 10 = 100 pi sq cm.",
+     "hi": "क्षेत्रफल = πr² = π × 10 × 10 = 100π वर्ग सेमी।"
+    }
+   },
+   {
+    "q": {
+     "en": "Two tangents drawn from an external point to a circle are?",
+     "hi": "बाहरी बिंदु से वृत्त पर खींची गई दो स्पर्श रेखाएँ कैसी होती हैं?"
+    },
+    "o": {
+     "en": [
+      "Parallel to each other",
+      "Always unequal",
+      "Equal in length",
+      "Perpendicular to each other"
+     ],
+     "hi": [
+      "एक-दूसरे के समांतर",
+      "सदैव असमान",
+      "बराबर लंबाई की",
+      "एक-दूसरे के लंबवत"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The two tangent segments from an external point to a circle are equal in length.",
+     "hi": "बाहरी बिंदु से वृत्त तक खींचे गए दोनों स्पर्श खंड बराबर लंबाई के होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the volume of a sphere of radius 3 cm, in terms of pi?",
+     "hi": "3 सेमी त्रिज्या वाले गोले का आयतन π के पदों में क्या है?"
+    },
+    "o": {
+     "en": [
+      "9 pi cubic cm",
+      "36 pi cubic cm",
+      "27 pi cubic cm",
+      "12 pi cubic cm"
+     ],
+     "hi": [
+      "9π घन सेमी",
+      "36π घन सेमी",
+      "27π घन सेमी",
+      "12π घन सेमी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Volume of a sphere = (4/3) x pi x r cubed = (4/3) x pi x 27 = 36 pi cubic cm.",
+     "hi": "गोले का आयतन = (4/3) × π × r³ = (4/3) × π × 27 = 36π घन सेमी।"
+    }
    }
   ],
   "11": [
@@ -32934,6 +34684,131 @@
      "en": "9 - 5 = 4 and 13 - 9 = 4, so the common difference is 4.",
      "hi": "9 - 5 = 4 और 13 - 9 = 4, इसलिए सार्व अंतर 4 है।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the value of C(5, 2), the number of ways of choosing 2 objects from 5?",
+     "hi": "C(5, 2), अर्थात् 5 वस्तुओं में से 2 चुनने के तरीकों की संख्या क्या है?"
+    },
+    "o": {
+     "en": [
+      "5",
+      "20",
+      "10",
+      "25"
+     ],
+     "hi": [
+      "5",
+      "20",
+      "10",
+      "25"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "C(5,2) = 5! / (2! x 3!) = 10.",
+     "hi": "C(5,2) = 5! / (2! × 3!) = 10।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the sum of the roots of the equation 2x squared - 8x + 6 = 0?",
+     "hi": "समीकरण 2x² − 8x + 6 = 0 के मूलों का योग क्या है?"
+    },
+    "o": {
+     "en": [
+      "-4",
+      "3",
+      "8",
+      "4"
+     ],
+     "hi": [
+      "−4",
+      "3",
+      "8",
+      "4"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Sum of roots = -b/a = 8/2 = 4.",
+     "hi": "मूलों का योग = −b/a = 8/2 = 4।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the solution of the inequality 2x - 3 > 5?",
+     "hi": "असमिका 2x − 3 > 5 का हल क्या है?"
+    },
+    "o": {
+     "en": [
+      "x > 4",
+      "x < 4",
+      "x > 1",
+      "x < 1"
+     ],
+     "hi": [
+      "x > 4",
+      "x < 4",
+      "x > 1",
+      "x < 1"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Adding 3 to both sides gives 2x > 8, so x > 4.",
+     "hi": "दोनों पक्षों में 3 जोड़ने पर 2x > 8, इसलिए x > 4।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the period of the function sin 2x?",
+     "hi": "फलन sin 2x का आवर्तकाल क्या है?"
+    },
+    "o": {
+     "en": [
+      "2 pi",
+      "pi",
+      "pi/2",
+      "4 pi"
+     ],
+     "hi": [
+      "2π",
+      "π",
+      "π/2",
+      "4π"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The period of sin kx is 2 pi / k, so here it is 2 pi / 2 = pi.",
+     "hi": "sin kx का आवर्तकाल 2π/k होता है, इसलिए यहाँ 2π/2 = π है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the equation of the circle with centre at the origin and radius 5?",
+     "hi": "मूल बिंदु को केंद्र और 5 त्रिज्या वाले वृत्त का समीकरण क्या है?"
+    },
+    "o": {
+     "en": [
+      "x squared + y squared = 5",
+      "x squared + y squared = 10",
+      "x squared + y squared = 25",
+      "x squared - y squared = 25"
+     ],
+     "hi": [
+      "x² + y² = 5",
+      "x² + y² = 10",
+      "x² + y² = 25",
+      "x² − y² = 25"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "A circle with centre (0,0) and radius r has the equation x squared + y squared = r squared.",
+     "hi": "केंद्र (0,0) और त्रिज्या r वाले वृत्त का समीकरण x² + y² = r² होता है।"
+    }
    }
   ],
   "12": [
@@ -33411,6 +35286,131 @@
     "e": {
      "en": "Rewriting as y = -(2/3)x + 2 shows the slope is minus 2/3.",
      "hi": "y = -(2/3)x + 2 लिखने पर प्रवणता minus 2/3 प्राप्त होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the integral of 1/x with respect to x?",
+     "hi": "∫ (1/x) dx का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "x log x + C",
+      "1/(x squared) + C",
+      "-1/(x squared) + C",
+      "log |x| + C"
+     ],
+     "hi": [
+      "x log x + C",
+      "1/x² + C",
+      "−1/x² + C",
+      "log |x| + C"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The integral of 1/x is log |x| + C.",
+     "hi": "1/x का समाकलन log |x| + C होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the derivative of tan x with respect to x?",
+     "hi": "tan x का x के सापेक्ष अवकलज क्या है?"
+    },
+    "o": {
+     "en": [
+      "cot x",
+      "sec squared x",
+      "-cosec squared x",
+      "sec x tan x"
+     ],
+     "hi": [
+      "cot x",
+      "sec²x",
+      "−cosec²x",
+      "sec x tan x"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The derivative of tan x is sec squared x.",
+     "hi": "tan x का अवकलज sec²x होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "If A is a 2 x 2 matrix with determinant 5, what is the determinant of 2A?",
+     "hi": "यदि A 2 × 2 आव्यूह है और |A| = 5 है, तो |2A| क्या है?"
+    },
+    "o": {
+     "en": [
+      "20",
+      "10",
+      "5",
+      "40"
+     ],
+     "hi": [
+      "20",
+      "10",
+      "5",
+      "40"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "For an n x n matrix, |kA| = k^n |A|, so |2A| = 4 x 5 = 20.",
+     "hi": "n × n आव्यूह के लिए |kA| = kⁿ|A|, इसलिए |2A| = 4 × 5 = 20।"
+    }
+   },
+   {
+    "q": {
+     "en": "For the direction cosines l, m, n of a line, what is the value of l squared + m squared + n squared?",
+     "hi": "किसी रेखा की दिक्कोसाइन l, m, n के लिए l² + m² + n² का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "2",
+      "1",
+      "l + m + n"
+     ],
+     "hi": [
+      "0",
+      "2",
+      "1",
+      "l + m + n"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Direction cosines always satisfy l squared + m squared + n squared = 1.",
+     "hi": "दिक्कोसाइन सदैव l² + m² + n² = 1 को संतुष्ट करते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the value of the integral of sin x dx from 0 to pi/2?",
+     "hi": "0 से π/2 तक ∫ sin x dx का मान क्या है?"
+    },
+    "o": {
+     "en": [
+      "0",
+      "pi/2",
+      "2",
+      "1"
+     ],
+     "hi": [
+      "0",
+      "π/2",
+      "2",
+      "1"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The integral of sin x is -cos x; putting the limits gives 0 + 1 = 1.",
+     "hi": "sin x का समाकलन −cos x है; सीमाएँ रखने पर 0 + 1 = 1 प्राप्त होता है।"
     }
    }
   ]
@@ -35782,6 +37782,56 @@
       "en": "Helping someone who is hurt matters more than being a few minutes late.",
       "hi": "किसी घायल की मदद करना कुछ मिनट देर होने से अधिक महत्वपूर्ण है।"
      }
+    },
+    {
+     "q": {
+      "en": "Your team loses a match because a teammate missed an easy chance. What is the best response?",
+      "hi": "आपकी टीम एक साथी की आसान चूक के कारण मैच हार जाती है। सबसे अच्छा व्यवहार क्या है?"
+     },
+     "o": {
+      "en": [
+       "Blame the teammate in front of everyone",
+       "Encourage the teammate and practise together for the next match",
+       "Stop talking to the teammate",
+       "Ask the coach to remove the teammate from the team"
+      ],
+      "hi": [
+       "सबके सामने साथी को दोष देना",
+       "साथी का हौसला बढ़ाना और अगले मैच के लिए साथ अभ्यास करना",
+       "साथी से बात करना बंद कर देना",
+       "कोच से कहना कि साथी को टीम से हटा दें"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Encouraging a teammate and working together builds trust; blaming someone only makes things worse for everyone.",
+      "hi": "साथी का हौसला बढ़ाना और मिलकर मेहनत करना विश्वास बनाता है; दोष देने से सबका नुकसान होता है।"
+     }
+    },
+    {
+     "q": {
+      "en": "A classmate is being teased because of their religion. What is the right thing to do?",
+      "hi": "किसी सहपाठी को उसके धर्म के कारण चिढ़ाया जा रहा है। सही क्या है?"
+     },
+     "o": {
+      "en": [
+       "Join in so that you also fit in",
+       "Stay silent and walk away",
+       "Speak up against the teasing and treat everyone with equal respect",
+       "Tell the classmate to hide their religion"
+      ],
+      "hi": [
+       "साथ में शामिल होकर चिढ़ाना ताकि आप भी सबके साथ रहें",
+       "चुप रहकर वहाँ से चले जाना",
+       "चिढ़ाने का विरोध करना और सबका समान सम्मान करना",
+       "सहपाठी से कहना कि वह अपना धर्म छिपा ले"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Every person deserves respect whatever their religion; staying silent lets the wrong continue.",
+      "hi": "हर व्यक्ति किसी भी धर्म का हो, सम्मान का अधिकारी है; चुप रहने से अन्याय जारी रहता है।"
+     }
     }
    ]
   },
@@ -38150,6 +40200,56 @@
      "e": {
       "en": "Ardas is a prayer offered while standing, usually at the end of a service.",
       "hi": "अरदास खड़े होकर की जाने वाली प्रार्थना है, जो सामान्यतः सेवा के अंत में की जाती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which Sikh Guru settled at Kartarpur and began the practice of langar, the community kitchen open to all?",
+      "hi": "किस सिख गुरु ने करतारपुर में निवास किया और सबके लिए खुली सामूहिक रसोई 'लंगर' की परंपरा आरंभ की?"
+     },
+     "o": {
+      "en": [
+       "Guru Nanak Dev Ji",
+       "Guru Gobind Singh Ji",
+       "Guru Ram Das Ji",
+       "Guru Arjan Dev Ji"
+      ],
+      "hi": [
+       "गुरु नानक देव जी",
+       "गुरु गोबिंद सिंह जी",
+       "गुरु राम दास जी",
+       "गुरु अर्जन देव जी"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Guru Nanak Dev Ji settled at Kartarpur and shared meals with all who came, which began the langar tradition.",
+      "hi": "गुरु नानक देव जी करतारपुर में रहे और आने वाले सभी लोगों के साथ भोजन बाँटा, इससे लंगर की परंपरा शुरू हुई।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Sikhism, what does the prayer 'Sarbat da Bhala' ask for?",
+      "hi": "सिख धर्म में प्रार्थना 'सरबत दा भला' में किसकी कामना की जाती है?"
+     },
+     "o": {
+      "en": [
+       "Victory in battle",
+       "Long life only for oneself",
+       "Wealth only for one's own family",
+       "The welfare and well-being of all people"
+      ],
+      "hi": [
+       "युद्ध में विजय",
+       "केवल अपने लिए लंबी आयु",
+       "केवल अपने परिवार के लिए धन",
+       "सभी लोगों का कल्याण और भला"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "'Sarbat da Bhala' means seeking the well-being of the whole world, not only of oneself.",
+      "hi": "'सरबत दा भला' का अर्थ है पूरे संसार का भला माँगना, केवल अपना नहीं।"
      }
     }
    ]
@@ -40520,6 +42620,56 @@
       "en": "The Rigveda is the oldest Veda and is a collection of hymns.",
       "hi": "ऋग्वेद सबसे प्राचीन वेद है और यह स्तोत्रों का संग्रह है।"
      }
+    },
+    {
+     "q": {
+      "en": "Which Hindu festival, called the 'great night of Shiva', is observed with fasting and night-long worship of Lord Shiva?",
+      "hi": "किस हिंदू पर्व को 'शिव की महान रात' कहा जाता है, जिसमें व्रत रखकर रातभर भगवान शिव की पूजा की जाती है?"
+     },
+     "o": {
+      "en": [
+       "Maha Shivaratri",
+       "Navratri",
+       "Onam",
+       "Pongal"
+      ],
+      "hi": [
+       "महाशिवरात्रि",
+       "नवरात्रि",
+       "ओणम",
+       "पोंगल"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Maha Shivaratri is dedicated to Lord Shiva and is kept with fasting and a night-long vigil.",
+      "hi": "महाशिवरात्रि भगवान शिव को समर्पित है और इसमें व्रत तथा रातभर जागरण किया जाता है।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Hindu tradition, what does the term 'Samsara' refer to?",
+      "hi": "हिंदू परंपरा में 'संसार' शब्द किसकी ओर संकेत करता है?"
+     },
+     "o": {
+      "en": [
+       "A temple ritual",
+       "A sacred fire ceremony",
+       "The cycle of birth, death and rebirth",
+       "The final liberation of the soul"
+      ],
+      "hi": [
+       "मंदिर की एक रीति",
+       "पवित्र अग्नि का संस्कार",
+       "जन्म, मृत्यु और पुनर्जन्म का चक्र",
+       "आत्मा की अंतिम मुक्ति"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Samsara is the cycle of birth, death and rebirth, and moksha is release from it.",
+      "hi": "संसार जन्म, मृत्यु और पुनर्जन्म का चक्र है, और मोक्ष इससे मुक्ति है।"
+     }
     }
    ]
   },
@@ -42888,6 +45038,56 @@
      "e": {
       "en": "Sadaqah is voluntary giving, while Zakat is the obligatory charity.",
       "hi": "सदक़ा स्वैच्छिक दान है, जबकि ज़कात अनिवार्य दान है।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Islam, which night of Ramadan is believed to be the night when the Quran was first revealed?",
+      "hi": "इस्लाम में रमज़ान की किस रात को कुरान के पहली बार अवतरित होने की रात माना जाता है?"
+     },
+     "o": {
+      "en": [
+       "The first night of Muharram",
+       "Laylat al-Qadr, the Night of Power",
+       "The night before Eid al-Adha",
+       "The night of the Hijra"
+      ],
+      "hi": [
+       "मुहर्रम की पहली रात",
+       "लैलतुल क़द्र, शक्ति की रात",
+       "ईद-उल-अज़हा से पहले की रात",
+       "हिजरत की रात"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Laylat al-Qadr, the Night of Power, is believed to be the night on which the Quran was first revealed.",
+      "hi": "लैलतुल क़द्र, अर्थात् शक्ति की रात, वह रात मानी जाती है जिसमें कुरान पहली बार अवतरित हुआ।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Islam, what does the term 'Halal' mean?",
+      "hi": "इस्लाम में 'हलाल' शब्द का अर्थ क्या है?"
+     },
+     "o": {
+      "en": [
+       "Anything cooked at home",
+       "A special night prayer",
+       "Food and actions permitted by Islamic law",
+       "The pilgrimage to Makkah"
+      ],
+      "hi": [
+       "घर पर बना कोई भी भोजन",
+       "एक विशेष रात्रि प्रार्थना",
+       "इस्लामी कानून से अनुमत भोजन और कार्य",
+       "मक्का की तीर्थयात्रा"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Halal means that which is permitted by Islamic law, and the word is most often used for food.",
+      "hi": "हलाल वह है जो इस्लामी कानून से अनुमत हो; यह शब्द मुख्यतः भोजन के लिए प्रयोग होता है।"
      }
     }
    ]
@@ -45258,6 +47458,56 @@
       "en": "Gospel comes from an Old English word meaning 'good news', the message of Jesus.",
       "hi": "गॉस्पेल शब्द का अर्थ 'शुभ समाचार' है — यीशु का संदेश।"
      }
+    },
+    {
+     "q": {
+      "en": "Which apostle of Jesus is remembered for denying him three times before the crucifixion and later leading the early Church?",
+      "hi": "यीशु के किस शिष्य को क्रूस पर चढ़ाए जाने से पहले तीन बार इनकार करने और बाद में आरंभिक चर्च का नेतृत्व करने के लिए याद किया जाता है?"
+     },
+     "o": {
+      "en": [
+       "Thomas",
+       "Matthew",
+       "Peter",
+       "Judas Iscariot"
+      ],
+      "hi": [
+       "थॉमस",
+       "मत्ती",
+       "पतरस",
+       "यहूदा इस्करियोती"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Peter denied Jesus three times before the crucifixion and later became a leader of the early Church.",
+      "hi": "पतरस ने क्रूस पर चढ़ाए जाने से पहले यीशु को तीन बार इनकार किया और बाद में आरंभिक चर्च के नेता बने।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which book of the Bible tells how the Israelites were led out of slavery in Egypt?",
+      "hi": "बाइबल की कौन-सी पुस्तक बताती है कि इस्राएलियों को मिस्र की दासता से कैसे बाहर निकाला गया?"
+     },
+     "o": {
+      "en": [
+       "Genesis",
+       "Exodus",
+       "Psalms",
+       "Revelation"
+      ],
+      "hi": [
+       "उत्पत्ति",
+       "निर्गमन",
+       "भजन संहिता",
+       "प्रकाशितवाक्य"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "The book of Exodus describes the escape of the Israelites from slavery in Egypt.",
+      "hi": "निर्गमन की पुस्तक मिस्र की दासता से इस्राएलियों के निकलने का वर्णन करती है।"
+     }
     }
    ]
   },
@@ -47626,6 +49876,56 @@
      "e": {
       "en": "Kshamavani, the day of forgiveness, closes Paryushana.",
       "hi": "क्षमावाणी, क्षमा का दिन, पर्युषण का समापन करता है।"
+     }
+    },
+    {
+     "q": {
+      "en": "In Jainism, what does 'Kevala Jnana' mean?",
+      "hi": "जैन धर्म में 'केवल ज्ञान' का अर्थ क्या है?"
+     },
+     "o": {
+      "en": [
+       "The vow of non-violence",
+       "The community of monks",
+       "Ritual fasting",
+       "Perfect or absolute knowledge"
+      ],
+      "hi": [
+       "अहिंसा का व्रत",
+       "साधुओं का समुदाय",
+       "अनुष्ठानिक उपवास",
+       "पूर्ण या केवल ज्ञान"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "Kevala Jnana is the state of perfect, all-embracing knowledge that a soul attains on liberation.",
+      "hi": "केवल ज्ञान वह पूर्ण, सर्वव्यापी ज्ञान की अवस्था है जो आत्मा को मोक्ष पर प्राप्त होती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which Jain festival celebrates the birth of Lord Mahavira?",
+      "hi": "कौन-सा जैन पर्व भगवान महावीर के जन्म का उत्सव है?"
+     },
+     "o": {
+      "en": [
+       "Mahavir Jayanti",
+       "Paryushana",
+       "Kshamavani",
+       "Diwali"
+      ],
+      "hi": [
+       "महावीर जयंती",
+       "पर्युषण",
+       "क्षमावाणी",
+       "दीवाली"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Mahavir Jayanti marks the birth of Lord Mahavira, the 24th Tirthankara.",
+      "hi": "महावीर जयंती चौबीसवें तीर्थंकर भगवान महावीर के जन्म का पर्व है।"
      }
     }
    ]
@@ -49996,12 +52296,62 @@
       "en": "Stupas are dome-shaped structures built to hold relics and mark sacred places.",
       "hi": "स्तूप गुंबदाकार संरचनाएँ हैं जो अवशेष रखने और पवित्र स्थलों के चिह्न के रूप में बनाई जाती हैं।"
      }
+    },
+    {
+     "q": {
+      "en": "In Buddhism, what does the teaching of 'Anatta' (non-self) mean?",
+      "hi": "बौद्ध धर्म में 'अनत्ता' (अनात्मा) की शिक्षा का अर्थ क्या है?"
+     },
+     "o": {
+      "en": [
+       "The soul is eternal and unchanging",
+       "There is no permanent, unchanging self",
+       "All beings share one single soul",
+       "The self is the same as the body"
+      ],
+      "hi": [
+       "आत्मा शाश्वत और अपरिवर्तनशील है",
+       "कोई स्थायी, अपरिवर्तनशील आत्मा नहीं है",
+       "सभी प्राणियों की एक ही आत्मा है",
+       "आत्मा और शरीर एक ही हैं"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Anatta teaches that what we call the self is a changing process with no permanent core.",
+      "hi": "अनत्ता सिखाती है कि जिसे हम आत्मा कहते हैं वह बदलता हुआ प्रक्रम है, जिसका कोई स्थायी सार नहीं।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which Buddhist meditation practice is based on mindful insight into the true nature of body and mind?",
+      "hi": "कौन-सी बौद्ध ध्यान विधि शरीर और मन की सच्ची प्रकृति को सचेतन रूप से देखने पर आधारित है?"
+     },
+     "o": {
+      "en": [
+       "Mantra chanting",
+       "Fire offering",
+       "Vipassana",
+       "Pilgrimage"
+      ],
+      "hi": [
+       "मंत्र जाप",
+       "अग्नि हवन",
+       "विपश्यना",
+       "तीर्थयात्रा"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "Vipassana is insight meditation, observing the breath and bodily sensations with steady awareness.",
+      "hi": "विपश्यना अंतर्दृष्टि का ध्यान है, जिसमें श्वास और शरीर की संवेदनाओं को स्थिर सचेतनता से देखा जाता है।"
+     }
     }
    ]
   }
  },
  "meta": {
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-27",
   "last_added": 94
  }
 }
