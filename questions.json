@@ -37541,6 +37541,381 @@
      "en": "Rajasthan is the largest state by area, while Uttar Pradesh has the largest population.",
      "hi": "क्षेत्रफल में राजस्थान सबसे बड़ा राज्य है, जबकि जनसंख्या में उत्तर प्रदेश सबसे बड़ा है।"
     }
+   },
+   {
+    "q": {
+     "en": "Which is the largest ocean on Earth?",
+     "hi": "पृथ्वी पर सबसे बड़ा महासागर कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+     ],
+     "hi": [
+      "अटलांटिक महासागर",
+      "हिंद महासागर",
+      "प्रशांत महासागर",
+      "आर्कटिक महासागर"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The Pacific Ocean is the largest and deepest of the world's oceans.",
+     "hi": "प्रशांत महासागर विश्व के महासागरों में सबसे बड़ा और सबसे गहरा है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which state is the Sun Temple of Konark located?",
+     "hi": "कोणार्क का सूर्य मंदिर किस राज्य में स्थित है?"
+    },
+    "o": {
+     "en": [
+      "Bihar",
+      "Odisha",
+      "Gujarat",
+      "Kerala"
+     ],
+     "hi": [
+      "बिहार",
+      "ओडिशा",
+      "गुजरात",
+      "केरल"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Sun Temple at Konark in Odisha is a famous temple built in the 13th century.",
+     "hi": "ओडिशा के कोणार्क का सूर्य मंदिर 13वीं सदी में बना एक प्रसिद्ध मंदिर है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the elected head of a village panchayat called?",
+     "hi": "ग्राम पंचायत के निर्वाचित प्रमुख को क्या कहा जाता है?"
+    },
+    "o": {
+     "en": [
+      "Tehsildar",
+      "Collector",
+      "Mayor",
+      "Sarpanch"
+     ],
+     "hi": [
+      "तहसीलदार",
+      "कलेक्टर",
+      "मेयर",
+      "सरपंच"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The sarpanch leads the gram panchayat, which looks after the needs of the village.",
+     "hi": "सरपंच ग्राम पंचायत का नेतृत्व करता है, जो गाँव की आवश्यकताओं का ध्यान रखती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which festival is celebrated as the harvest festival of Punjab?",
+     "hi": "पंजाब का फसल उत्सव किस त्योहार के रूप में मनाया जाता है?"
+    },
+    "o": {
+     "en": [
+      "Baisakhi",
+      "Onam",
+      "Pongal",
+      "Bihu"
+     ],
+     "hi": [
+      "बैसाखी",
+      "ओणम",
+      "पोंगल",
+      "बिहू"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Baisakhi in April marks the harvest of the rabi crop in Punjab and is also the Sikh new year.",
+     "hi": "अप्रैल में बैसाखी पंजाब में रबी फसल की कटाई का प्रतीक है और सिख नववर्ष भी है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the national animal of India?",
+     "hi": "भारत का राष्ट्रीय पशु कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Lion",
+      "Elephant",
+      "Tiger",
+      "Peacock"
+     ],
+     "hi": [
+      "शेर",
+      "हाथी",
+      "बाघ",
+      "मोर"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The tiger is the national animal of India, while the peacock is the national bird.",
+     "hi": "बाघ भारत का राष्ट्रीय पशु है, जबकि मोर राष्ट्रीय पक्षी है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest country in the world by area?",
+     "hi": "क्षेत्रफल की दृष्टि से विश्व का सबसे बड़ा देश कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "China",
+      "Russia",
+      "Canada",
+      "India"
+     ],
+     "hi": [
+      "चीन",
+      "रूस",
+      "कनाडा",
+      "भारत"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Russia covers the largest area of any country in the world.",
+     "hi": "विश्व के सभी देशों में रूस का क्षेत्रफल सबसे अधिक है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which ocean lies to the south of India?",
+     "hi": "भारत के दक्षिण में कौन-सा महासागर है?"
+    },
+    "o": {
+     "en": [
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Atlantic Ocean",
+      "Arctic Ocean"
+     ],
+     "hi": [
+      "हिंद महासागर",
+      "प्रशांत महासागर",
+      "अटलांटिक महासागर",
+      "आर्कटिक महासागर"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Indian Ocean washes India's long southern coastline.",
+     "hi": "हिंद महासागर भारत के लंबे दक्षिणी तट को छूता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the place where a river begins called?",
+     "hi": "नदी जहाँ से शुरू होती है, उस स्थान को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Mouth",
+      "Delta",
+      "Source",
+      "Bank"
+     ],
+     "hi": [
+      "मुहाना",
+      "डेल्टा",
+      "उद्गम",
+      "किनारा"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "A river starts at its source, usually in the mountains, and ends at its mouth.",
+     "hi": "नदी अपने उद्गम से, प्रायः पहाड़ों में, शुरू होती है और मुहाने पर समाप्त होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the national bird of India?",
+     "hi": "भारत का राष्ट्रीय पक्षी कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Parrot",
+      "Sparrow",
+      "Eagle",
+      "Peacock"
+     ],
+     "hi": [
+      "तोता",
+      "गौरैया",
+      "चील",
+      "मोर"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The peacock is the national bird of India.",
+     "hi": "मोर भारत का राष्ट्रीय पक्षी है।"
+    }
+   },
+   {
+    "q": {
+     "en": "How many colours are there in the Indian national flag?",
+     "hi": "भारतीय राष्ट्रीय ध्वज में कितने रंग हैं?"
+    },
+    "o": {
+     "en": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+     ],
+     "hi": [
+      "दो",
+      "तीन",
+      "चार",
+      "पाँच"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The flag has three colours: saffron, white and green, with the Ashoka Chakra in the middle.",
+     "hi": "ध्वज में तीन रंग हैं: केसरिया, सफ़ेद और हरा, बीच में अशोक चक्र है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who wrote the national anthem of India?",
+     "hi": "भारत का राष्ट्रगान किसने लिखा?"
+    },
+    "o": {
+     "en": [
+      "Rabindranath Tagore",
+      "Bankim Chandra Chatterjee",
+      "Mahatma Gandhi",
+      "Sarojini Naidu"
+     ],
+     "hi": [
+      "रवींद्रनाथ टैगोर",
+      "बंकिम चंद्र चट्टोपाध्याय",
+      "महात्मा गांधी",
+      "सरोजिनी नायडू"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Rabindranath Tagore wrote 'Jana Gana Mana', the national anthem.",
+     "hi": "रवींद्रनाथ टैगोर ने 'जन गण मन' लिखा, जो हमारा राष्ट्रगान है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which city is the capital of India?",
+     "hi": "भारत की राजधानी कौन-सा शहर है?"
+    },
+    "o": {
+     "en": [
+      "Mumbai",
+      "Kolkata",
+      "New Delhi",
+      "Chennai"
+     ],
+     "hi": [
+      "मुंबई",
+      "कोलकाता",
+      "नई दिल्ली",
+      "चेन्नई"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "New Delhi is the capital of India.",
+     "hi": "नई दिल्ली भारत की राजधानी है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest desert in India?",
+     "hi": "भारत का सबसे बड़ा रेगिस्तान कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Rann of Kutch",
+      "Thar",
+      "Ladakh cold desert",
+      "Deccan"
+     ],
+     "hi": [
+      "कच्छ का रण",
+      "थार",
+      "लद्दाख का ठंडा रेगिस्तान",
+      "दक्कन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Thar desert spreads across Rajasthan and parts of neighbouring states.",
+     "hi": "थार रेगिस्तान राजस्थान और पड़ोसी राज्यों के कुछ भागों में फैला है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What do we call the money used in a country?",
+     "hi": "किसी देश में चलने वाले धन को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Capital",
+      "Tax",
+      "Trade",
+      "Currency"
+     ],
+     "hi": [
+      "पूँजी",
+      "कर",
+      "व्यापार",
+      "मुद्रा"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Each country has its own currency; India's currency is the rupee.",
+     "hi": "हर देश की अपनी मुद्रा होती है; भारत की मुद्रा रुपया है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the smallest state of India by area?",
+     "hi": "क्षेत्रफल की दृष्टि से भारत का सबसे छोटा राज्य कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Sikkim",
+      "Tripura",
+      "Goa",
+      "Nagaland"
+     ],
+     "hi": [
+      "सिक्किम",
+      "त्रिपुरा",
+      "गोवा",
+      "नागालैंड"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Goa is the smallest Indian state by area.",
+     "hi": "क्षेत्रफल में गोवा भारत का सबसे छोटा राज्य है।"
+    }
    }
   ],
   "6": [
@@ -37667,6 +38042,381 @@
     "e": {
      "en": "The Equator lies at 0 degrees latitude and divides the Earth into two equal hemispheres.",
      "hi": "भूमध्य रेखा 0° अक्षांश पर स्थित है और पृथ्वी को दो बराबर गोलार्धों में बाँटती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which ancient centre of learning in present-day Bihar attracted students from many countries?",
+     "hi": "आज के बिहार में स्थित कौन-सा प्राचीन शिक्षा केंद्र अनेक देशों से विद्यार्थियों को आकर्षित करता था?"
+    },
+    "o": {
+     "en": [
+      "Taxila",
+      "Nalanda",
+      "Vikramshila",
+      "Ujjain"
+     ],
+     "hi": [
+      "तक्षशिला",
+      "नालंदा",
+      "विक्रमशिला",
+      "उज्जैन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Nalanda was a great Buddhist university where students came from China, Korea and Central Asia.",
+     "hi": "नालंदा एक महान बौद्ध विश्वविद्यालय था, जहाँ चीन, कोरिया और मध्य एशिया से विद्यार्थी आते थे।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who founded the Maurya dynasty?",
+     "hi": "मौर्य वंश की स्थापना किसने की?"
+    },
+    "o": {
+     "en": [
+      "Chandragupta Maurya",
+      "Ashoka",
+      "Bindusara",
+      "Samudragupta"
+     ],
+     "hi": [
+      "चंद्रगुप्त मौर्य",
+      "अशोक",
+      "बिंदुसार",
+      "समुद्रगुप्त"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Chandragupta Maurya founded the Maurya empire around 321 BCE with the help of Chanakya.",
+     "hi": "चंद्रगुप्त मौर्य ने चाणक्य की सहायता से लगभग 321 ईसा पूर्व मौर्य साम्राज्य की स्थापना की।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the southernmost tip of mainland India called?",
+     "hi": "मुख्य भूमि भारत के सबसे दक्षिणी छोर को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Rameswaram",
+      "Puri",
+      "Dwaraka",
+      "Kanyakumari"
+     ],
+     "hi": [
+      "रामेश्वरम",
+      "पुरी",
+      "द्वारका",
+      "कन्याकुमारी"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Kanyakumari in Tamil Nadu is the southernmost point of the Indian mainland.",
+     "hi": "तमिलनाडु में कन्याकुमारी भारतीय मुख्य भूमि का सबसे दक्षिणी बिंदु है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the outermost layer of the Earth, on which we live, called?",
+     "hi": "पृथ्वी की सबसे बाहरी परत, जिस पर हम रहते हैं, क्या कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Core",
+      "Mantle",
+      "Crust",
+      "Atmosphere"
+     ],
+     "hi": [
+      "क्रोड",
+      "मैंटल",
+      "भूपर्पटी",
+      "वायुमंडल"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The crust is the thin outer layer of the Earth; below it lie the mantle and the core.",
+     "hi": "भूपर्पटी पृथ्वी की पतली बाहरी परत है; इसके नीचे मैंटल और क्रोड हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the main occupation of most people living in Indian villages?",
+     "hi": "भारतीय गाँवों में रहने वाले अधिकांश लोगों का मुख्य व्यवसाय क्या है?"
+    },
+    "o": {
+     "en": [
+      "Software development",
+      "Farming",
+      "Banking",
+      "Air travel"
+     ],
+     "hi": [
+      "सॉफ्टवेयर विकास",
+      "खेती",
+      "बैंकिंग",
+      "हवाई यात्रा"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Farming and related work such as dairy and poultry are the main occupations in villages.",
+     "hi": "खेती तथा डेयरी और पोल्ट्री जैसे संबंधित काम गाँवों के मुख्य व्यवसाय हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which present-day state is the Sanchi Stupa located?",
+     "hi": "साँची का स्तूप वर्तमान के किस राज्य में स्थित है?"
+    },
+    "o": {
+     "en": [
+      "Bihar",
+      "Uttar Pradesh",
+      "Madhya Pradesh",
+      "Maharashtra"
+     ],
+     "hi": [
+      "बिहार",
+      "उत्तर प्रदेश",
+      "मध्य प्रदेश",
+      "महाराष्ट्र"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The Sanchi Stupa, built by Ashoka, is in Madhya Pradesh.",
+     "hi": "अशोक द्वारा बनवाया गया साँची का स्तूप मध्य प्रदेश में है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state of India has the largest population?",
+     "hi": "भारत में सर्वाधिक जनसंख्या किस राज्य की है?"
+    },
+    "o": {
+     "en": [
+      "Uttar Pradesh",
+      "Maharashtra",
+      "Bihar",
+      "West Bengal"
+     ],
+     "hi": [
+      "उत्तर प्रदेश",
+      "महाराष्ट्र",
+      "बिहार",
+      "पश्चिम बंगाल"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Uttar Pradesh has the largest population of any Indian state.",
+     "hi": "भारत के किसी भी राज्य की तुलना में उत्तर प्रदेश की जनसंख्या सबसे अधिक है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is a globe?",
+     "hi": "ग्लोब क्या है?"
+    },
+    "o": {
+     "en": [
+      "A picture of a city",
+      "A kind of map book",
+      "A measuring instrument",
+      "A model of the Earth"
+     ],
+     "hi": [
+      "किसी शहर का चित्र",
+      "नक्शों की किताब",
+      "मापने का यंत्र",
+      "पृथ्वी का प्रतिरूप"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "A globe is a small model of the Earth that shows continents and oceans in true shape.",
+     "hi": "ग्लोब पृथ्वी का छोटा प्रतिरूप है, जो महाद्वीपों और महासागरों को सही आकार में दिखाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the book of rules by which a country is governed called?",
+     "hi": "जिस नियम-पुस्तक से किसी देश का शासन चलता है, उसे क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Atlas",
+      "Constitution",
+      "Gazette",
+      "Census"
+     ],
+     "hi": [
+      "एटलस",
+      "संविधान",
+      "राजपत्र",
+      "जनगणना"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Constitution lays down the main rules of government and the rights of citizens.",
+     "hi": "संविधान शासन के मुख्य नियम और नागरिकों के अधिकार निर्धारित करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which festival is celebrated as the harvest festival of Tamil Nadu?",
+     "hi": "तमिलनाडु का फसल उत्सव किस त्योहार के रूप में मनाया जाता है?"
+    },
+    "o": {
+     "en": [
+      "Onam",
+      "Lohri",
+      "Pongal",
+      "Bihu"
+     ],
+     "hi": [
+      "ओणम",
+      "लोहड़ी",
+      "पोंगल",
+      "बिहू"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Pongal in January thanks the sun and the farm animals for a good harvest.",
+     "hi": "जनवरी में पोंगल अच्छी फसल के लिए सूर्य और पशुओं का आभार व्यक्त करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the seasonal wind that brings rain to India called?",
+     "hi": "भारत में वर्षा लाने वाली मौसमी हवा को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Monsoon",
+      "Typhoon",
+      "Trade wind",
+      "Breeze"
+     ],
+     "hi": [
+      "मानसून",
+      "टाइफून",
+      "व्यापारिक पवन",
+      "समीर"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The south-west monsoon blows from the sea in June and brings most of India's rain.",
+     "hi": "दक्षिण-पश्चिम मानसून जून में समुद्र से चलकर भारत की अधिकांश वर्षा लाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the highest mountain peak in the world?",
+     "hi": "विश्व का सबसे ऊँचा पर्वत शिखर कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "K2",
+      "Mount Everest",
+      "Kangchenjunga",
+      "Nanda Devi"
+     ],
+     "hi": [
+      "के2",
+      "माउंट एवरेस्ट",
+      "कंचनजंगा",
+      "नंदा देवी"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Mount Everest in the Himalayas is the highest peak in the world.",
+     "hi": "हिमालय में माउंट एवरेस्ट विश्व का सबसे ऊँचा शिखर है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who was the first woman Prime Minister of India?",
+     "hi": "भारत की पहली महिला प्रधानमंत्री कौन थीं?"
+    },
+    "o": {
+     "en": [
+      "Sarojini Naidu",
+      "Pratibha Patil",
+      "Sucheta Kripalani",
+      "Indira Gandhi"
+     ],
+     "hi": [
+      "सरोजिनी नायडू",
+      "प्रतिभा पाटिल",
+      "सुचेता कृपलानी",
+      "इंदिरा गांधी"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Indira Gandhi became India's first woman Prime Minister in 1966.",
+     "hi": "इंदिरा गांधी 1966 में भारत की पहली महिला प्रधानमंत्री बनीं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which river is known as the 'Ganga of the South'?",
+     "hi": "कौन-सी नदी 'दक्षिण की गंगा' कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Godavari",
+      "Kaveri",
+      "Krishna",
+      "Tungabhadra"
+     ],
+     "hi": [
+      "गोदावरी",
+      "कावेरी",
+      "कृष्णा",
+      "तुंगभद्रा"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Godavari is the longest peninsular river and is called the Ganga of the South.",
+     "hi": "गोदावरी सबसे लंबी प्रायद्वीपीय नदी है और इसे दक्षिण की गंगा कहा जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest island in the Indian Ocean?",
+     "hi": "हिंद महासागर का सबसे बड़ा द्वीप कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Sri Lanka",
+      "Maldives",
+      "Madagascar",
+      "Mauritius"
+     ],
+     "hi": [
+      "श्रीलंका",
+      "मालदीव",
+      "मेडागास्कर",
+      "मॉरीशस"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Madagascar, off the east coast of Africa, is the largest island in the Indian Ocean.",
+     "hi": "अफ्रीका के पूर्वी तट के पास स्थित मेडागास्कर हिंद महासागर का सबसे बड़ा द्वीप है।"
     }
    }
   ],
@@ -37795,6 +38545,381 @@
      "en": "In a democracy the people elect their representatives, and power rests with them.",
      "hi": "लोकतंत्र में जनता अपने प्रतिनिधि चुनती है और सत्ता जनता में निहित होती है।"
     }
+   },
+   {
+    "q": {
+     "en": "Which Chola ruler built the Brihadeeswarar Temple at Thanjavur?",
+     "hi": "तंजावुर का बृहदेश्वर मंदिर किस चोल शासक ने बनवाया?"
+    },
+    "o": {
+     "en": [
+      "Rajendra Chola I",
+      "Karikala Chola",
+      "Vijayalaya Chola",
+      "Raja Raja Chola I"
+     ],
+     "hi": [
+      "राजेंद्र चोल प्रथम",
+      "करिकाल चोल",
+      "विजयालय चोल",
+      "राजराज चोल प्रथम"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Raja Raja Chola I built the Brihadeeswarar Temple, a masterpiece of Chola architecture.",
+     "hi": "राजराज चोल प्रथम ने बृहदेश्वर मंदिर बनवाया, जो चोल स्थापत्य कला का उत्कृष्ट उदाहरण है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who wrote the Ain-i-Akbari, a detailed account of Akbar's empire?",
+     "hi": "अकबर के साम्राज्य का विस्तृत विवरण 'आइन-ए-अकबरी' किसने लिखा?"
+    },
+    "o": {
+     "en": [
+      "Birbal",
+      "Todar Mal",
+      "Abul Fazl",
+      "Amir Khusro"
+     ],
+     "hi": [
+      "बीरबल",
+      "टोडरमल",
+      "अबुल फ़ज़ल",
+      "अमीर खुसरो"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Abul Fazl wrote the Ain-i-Akbari as part of the Akbarnama, covering administration and revenue.",
+     "hi": "अबुल फ़ज़ल ने अकबरनामा के भाग के रूप में आइन-ए-अकबरी लिखी, जिसमें प्रशासन और राजस्व का वर्णन है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which river is known as the 'Sorrow of Bihar' because of its floods?",
+     "hi": "अपनी बाढ़ के कारण कौन-सी नदी 'बिहार का शोक' कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Kosi",
+      "Gandak",
+      "Son",
+      "Damodar"
+     ],
+     "hi": [
+      "कोसी",
+      "गंडक",
+      "सोन",
+      "दामोदर"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Kosi changes course often and floods large parts of north Bihar, so it is called the Sorrow of Bihar.",
+     "hi": "कोसी बार-बार अपना मार्ग बदलती है और उत्तर बिहार के बड़े भाग में बाढ़ लाती है, इसलिए इसे बिहार का शोक कहते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the local government body at the district level in India called?",
+     "hi": "भारत में जिला स्तर की स्थानीय शासन संस्था को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Gram Panchayat",
+      "Zila Parishad",
+      "Panchayat Samiti",
+      "Municipal Council"
+     ],
+     "hi": [
+      "ग्राम पंचायत",
+      "ज़िला परिषद",
+      "पंचायत समिति",
+      "नगर परिषद"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Zila Parishad works at the district level, above the block-level Panchayat Samiti.",
+     "hi": "ज़िला परिषद जिला स्तर पर काम करती है, जो प्रखंड स्तर की पंचायत समिति से ऊपर है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state of India has the largest area under forest?",
+     "hi": "भारत में सबसे अधिक वन क्षेत्र किस राज्य में है?"
+    },
+    "o": {
+     "en": [
+      "Punjab",
+      "Haryana",
+      "Rajasthan",
+      "Madhya Pradesh"
+     ],
+     "hi": [
+      "पंजाब",
+      "हरियाणा",
+      "राजस्थान",
+      "मध्य प्रदेश"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Madhya Pradesh has the largest forest area of any Indian state.",
+     "hi": "भारत के किसी भी राज्य की तुलना में मध्य प्रदेश में सबसे अधिक वन क्षेत्र है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who founded the Slave Dynasty in Delhi?",
+     "hi": "दिल्ली में गुलाम वंश की स्थापना किसने की?"
+    },
+    "o": {
+     "en": [
+      "Qutb-ud-din Aibak",
+      "Iltutmish",
+      "Balban",
+      "Razia Sultan"
+     ],
+     "hi": [
+      "कुतुबुद्दीन ऐबक",
+      "इल्तुतमिश",
+      "बलबन",
+      "रज़िया सुल्तान"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Qutb-ud-din Aibak founded the Slave Dynasty in 1206 and began the Qutb Minar.",
+     "hi": "कुतुबुद्दीन ऐबक ने 1206 में गुलाम वंश की स्थापना की और कुतुब मीनार शुरू करवाई।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which traveller from Morocco wrote an account of India during the Tughlaq period?",
+     "hi": "तुगलक काल में भारत का विवरण लिखने वाला मोरक्को का यात्री कौन था?"
+    },
+    "o": {
+     "en": [
+      "Marco Polo",
+      "Fa Hien",
+      "Ibn Battuta",
+      "Al-Biruni"
+     ],
+     "hi": [
+      "मार्को पोलो",
+      "फाह्यान",
+      "इब्न बतूता",
+      "अल-बिरूनी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Ibn Battuta visited India in the 14th century and described the country in his travel book.",
+     "hi": "इब्न बतूता 14वीं सदी में भारत आया और अपनी यात्रा-पुस्तक में देश का वर्णन किया।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who built the Red Fort in Delhi?",
+     "hi": "दिल्ली का लाल किला किसने बनवाया?"
+    },
+    "o": {
+     "en": [
+      "Akbar",
+      "Shah Jahan",
+      "Aurangzeb",
+      "Humayun"
+     ],
+     "hi": [
+      "अकबर",
+      "शाहजहाँ",
+      "औरंगज़ेब",
+      "हुमायूँ"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Shah Jahan built the Red Fort when he shifted his capital to Delhi.",
+     "hi": "शाहजहाँ ने राजधानी दिल्ली ले जाने पर लाल किला बनवाया।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the highest plateau in the world?",
+     "hi": "विश्व का सबसे ऊँचा पठार कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Deccan Plateau",
+      "Colorado Plateau",
+      "Iranian Plateau",
+      "Tibetan Plateau"
+     ],
+     "hi": [
+      "दक्कन का पठार",
+      "कोलोराडो पठार",
+      "ईरानी पठार",
+      "तिब्बत का पठार"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Tibetan Plateau is called the 'roof of the world' because of its great height.",
+     "hi": "अपनी अधिक ऊँचाई के कारण तिब्बत के पठार को 'विश्व की छत' कहा जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which layer of the atmosphere does most weather take place?",
+     "hi": "अधिकांश मौसम वायुमंडल की किस परत में होता है?"
+    },
+    "o": {
+     "en": [
+      "Troposphere",
+      "Stratosphere",
+      "Mesosphere",
+      "Thermosphere"
+     ],
+     "hi": [
+      "क्षोभमंडल",
+      "समतापमंडल",
+      "मध्यमंडल",
+      "तापमंडल"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Clouds, rain and storms form in the troposphere, the lowest layer of the atmosphere.",
+     "hi": "बादल, वर्षा और तूफान वायुमंडल की सबसे निचली परत क्षोभमंडल में बनते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the minimum age to become a member of the Lok Sabha?",
+     "hi": "लोकसभा का सदस्य बनने की न्यूनतम आयु कितनी है?"
+    },
+    "o": {
+     "en": [
+      "18 years",
+      "21 years",
+      "25 years",
+      "30 years"
+     ],
+     "hi": [
+      "18 वर्ष",
+      "21 वर्ष",
+      "25 वर्ष",
+      "30 वर्ष"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "A person must be at least 25 years old to be elected to the Lok Sabha.",
+     "hi": "लोकसभा के लिए चुने जाने के लिए व्यक्ति की आयु कम से कम 25 वर्ष होनी चाहिए।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state of India has the longest coastline?",
+     "hi": "भारत के किस राज्य की तटरेखा सबसे लंबी है?"
+    },
+    "o": {
+     "en": [
+      "Tamil Nadu",
+      "Gujarat",
+      "Andhra Pradesh",
+      "Kerala"
+     ],
+     "hi": [
+      "तमिलनाडु",
+      "गुजरात",
+      "आंध्र प्रदेश",
+      "केरल"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Gujarat has the longest coastline of any Indian state.",
+     "hi": "भारत के किसी भी राज्य की तुलना में गुजरात की तटरेखा सबसे लंबी है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What type of plants grow in the Thar desert?",
+     "hi": "थार रेगिस्तान में किस प्रकार के पौधे उगते हैं?"
+    },
+    "o": {
+     "en": [
+      "Thorny bushes",
+      "Tall evergreen trees",
+      "Mangroves",
+      "Ferns"
+     ],
+     "hi": [
+      "कंटीली झाड़ियाँ",
+      "ऊँचे सदाबहार पेड़",
+      "मैंग्रोव",
+      "फर्न"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Deserts have thorny bushes with long roots and small leaves that save water.",
+     "hi": "रेगिस्तान में लंबी जड़ों और छोटी पत्तियों वाली कंटीली झाड़ियाँ होती हैं जो पानी बचाती हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who founded the Vijayanagara Empire?",
+     "hi": "विजयनगर साम्राज्य की स्थापना किसने की?"
+    },
+    "o": {
+     "en": [
+      "Krishnadeva Raya",
+      "Raja Raja Chola",
+      "Pulakeshin II",
+      "Harihara and Bukka"
+     ],
+     "hi": [
+      "कृष्णदेव राय",
+      "राजराज चोल",
+      "पुलकेशिन द्वितीय",
+      "हरिहर और बुक्का"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Harihara and Bukka founded Vijayanagara in the 14th century on the Tungabhadra river.",
+     "hi": "हरिहर और बुक्का ने 14वीं सदी में तुंगभद्रा नदी पर विजयनगर की स्थापना की।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the main cash crop of West Bengal?",
+     "hi": "पश्चिम बंगाल की मुख्य नकदी फ़सल कौन-सी है?"
+    },
+    "o": {
+     "en": [
+      "Cotton",
+      "Jute",
+      "Sugarcane",
+      "Groundnut"
+     ],
+     "hi": [
+      "कपास",
+      "जूट",
+      "गन्ना",
+      "मूँगफली"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "West Bengal is the leading producer of jute in India.",
+     "hi": "पश्चिम बंगाल भारत में जूट का प्रमुख उत्पादक है।"
+    }
    }
   ],
   "8": [
@@ -37921,6 +39046,381 @@
     "e": {
      "en": "Solar, wind and biogas are non-conventional and renewable sources, unlike coal and petroleum.",
      "hi": "सौर, पवन और बायोगैस गैर-पारंपरिक तथा नवीकरणीय स्रोत हैं, कोयला और पेट्रोलियम की तरह नहीं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who was the first Governor-General of independent India?",
+     "hi": "स्वतंत्र भारत के पहले गवर्नर-जनरल कौन थे?"
+    },
+    "o": {
+     "en": [
+      "Lord Mountbatten",
+      "C. Rajagopalachari",
+      "Lord Wavell",
+      "Rajendra Prasad"
+     ],
+     "hi": [
+      "लॉर्ड माउंटबेटन",
+      "सी. राजगोपालाचारी",
+      "लॉर्ड वेवेल",
+      "राजेंद्र प्रसाद"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Lord Mountbatten was the first Governor-General of independent India; C. Rajagopalachari was the last.",
+     "hi": "लॉर्ड माउंटबेटन स्वतंत्र भारत के पहले गवर्नर-जनरल थे; सी. राजगोपालाचारी अंतिम गवर्नर-जनरल रहे।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which year was the Constitution of India adopted by the Constituent Assembly?",
+     "hi": "संविधान सभा ने भारत का संविधान किस वर्ष अपनाया?"
+    },
+    "o": {
+     "en": [
+      "1947",
+      "1948",
+      "1950",
+      "1949"
+     ],
+     "hi": [
+      "1947",
+      "1948",
+      "1950",
+      "1949"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950.",
+     "hi": "संविधान 26 नवंबर 1949 को अपनाया गया और 26 जनवरी 1950 से लागू हुआ।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who led the Bardoli Satyagraha of 1928?",
+     "hi": "1928 के बारदोली सत्याग्रह का नेतृत्व किसने किया?"
+    },
+    "o": {
+     "en": [
+      "Mahatma Gandhi",
+      "Vallabhbhai Patel",
+      "Jawaharlal Nehru",
+      "Subhas Chandra Bose"
+     ],
+     "hi": [
+      "महात्मा गांधी",
+      "वल्लभभाई पटेल",
+      "जवाहरलाल नेहरू",
+      "सुभाष चंद्र बोस"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Vallabhbhai Patel led the Bardoli Satyagraha against a rise in land revenue, and the farmers gave him the title 'Sardar'.",
+     "hi": "वल्लभभाई पटेल ने लगान बढ़ाने के विरुद्ध बारदोली सत्याग्रह का नेतृत्व किया, और किसानों ने उन्हें 'सरदार' की उपाधि दी।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a cash crop?",
+     "hi": "इनमें से कौन-सी नकदी फ़सल है?"
+    },
+    "o": {
+     "en": [
+      "Wheat",
+      "Bajra",
+      "Sugarcane",
+      "Maize"
+     ],
+     "hi": [
+      "गेहूँ",
+      "बाजरा",
+      "गन्ना",
+      "मक्का"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Cash crops such as sugarcane, cotton and jute are grown mainly to be sold, not eaten by the farmer.",
+     "hi": "गन्ना, कपास और जूट जैसी नकदी फसलें मुख्य रूप से बेचने के लिए उगाई जाती हैं, किसान के खाने के लिए नहीं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a Fundamental Right guaranteed by the Indian Constitution?",
+     "hi": "इनमें से कौन-सा भारतीय संविधान द्वारा दिया गया मूल अधिकार है?"
+    },
+    "o": {
+     "en": [
+      "Right to Education",
+      "Right to own a car",
+      "Right to free electricity",
+      "Right to a government job"
+     ],
+     "hi": [
+      "शिक्षा का अधिकार",
+      "कार रखने का अधिकार",
+      "मुफ़्त बिजली का अधिकार",
+      "सरकारी नौकरी का अधिकार"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Right to Education is a Fundamental Right under Article 21A for children aged 6 to 14 years.",
+     "hi": "शिक्षा का अधिकार अनुच्छेद 21A के अंतर्गत 6 से 14 वर्ष के बच्चों के लिए मूल अधिकार है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who was the last Mughal emperor?",
+     "hi": "अंतिम मुगल सम्राट कौन थे?"
+    },
+    "o": {
+     "en": [
+      "Aurangzeb",
+      "Shah Alam II",
+      "Akbar II",
+      "Bahadur Shah Zafar"
+     ],
+     "hi": [
+      "औरंगज़ेब",
+      "शाह आलम द्वितीय",
+      "अकबर द्वितीय",
+      "बहादुर शाह ज़फ़र"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Bahadur Shah Zafar was the last Mughal emperor and was exiled after the revolt of 1857.",
+     "hi": "बहादुर शाह ज़फ़र अंतिम मुगल सम्राट थे और 1857 के विद्रोह के बाद निर्वासित किए गए।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who founded the Brahmo Samaj?",
+     "hi": "ब्रह्म समाज की स्थापना किसने की?"
+    },
+    "o": {
+     "en": [
+      "Swami Dayanand Saraswati",
+      "Raja Ram Mohan Roy",
+      "Ishwar Chandra Vidyasagar",
+      "Jyotiba Phule"
+     ],
+     "hi": [
+      "स्वामी दयानंद सरस्वती",
+      "राजा राममोहन राय",
+      "ईश्वरचंद्र विद्यासागर",
+      "ज्योतिबा फुले"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828 and worked against social evils.",
+     "hi": "राजा राममोहन राय ने 1828 में ब्रह्म समाज की स्थापना की और सामाजिक कुरीतियों के विरुद्ध काम किया।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which year was the Rowlatt Act passed?",
+     "hi": "रौलट एक्ट किस वर्ष पारित हुआ?"
+    },
+    "o": {
+     "en": [
+      "1919",
+      "1909",
+      "1929",
+      "1935"
+     ],
+     "hi": [
+      "1919",
+      "1909",
+      "1929",
+      "1935"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Rowlatt Act of 1919 allowed arrest without trial and led to protests across India.",
+     "hi": "1919 का रौलट एक्ट बिना मुकदमे के गिरफ़्तारी की अनुमति देता था, जिससे देशभर में विरोध हुआ।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the lower house of the Indian Parliament?",
+     "hi": "भारतीय संसद का निचला सदन कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Rajya Sabha",
+      "Vidhan Parishad",
+      "Lok Sabha",
+      "Supreme Court"
+     ],
+     "hi": [
+      "राज्यसभा",
+      "विधान परिषद",
+      "लोकसभा",
+      "सर्वोच्च न्यायालय"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The Lok Sabha is the lower house, and its members are elected directly by the people.",
+     "hi": "लोकसभा निचला सदन है, और इसके सदस्य जनता द्वारा सीधे चुने जाते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a metallic mineral?",
+     "hi": "इनमें से कौन-सा धात्विक खनिज है?"
+    },
+    "o": {
+     "en": [
+      "Limestone",
+      "Mica",
+      "Coal",
+      "Iron ore"
+     ],
+     "hi": [
+      "चूना पत्थर",
+      "अभ्रक",
+      "कोयला",
+      "लौह अयस्क"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Iron ore, bauxite and copper ore are metallic minerals; limestone, mica and coal are not.",
+     "hi": "लौह अयस्क, बॉक्साइट और ताँबे का अयस्क धात्विक खनिज हैं; चूना पत्थर, अभ्रक और कोयला नहीं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is it called when two or more crops are grown together in the same field?",
+     "hi": "जब एक ही खेत में दो या अधिक फसलें साथ उगाई जाएँ तो उसे क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Terrace farming",
+      "Mixed cropping",
+      "Shifting cultivation",
+      "Plantation"
+     ],
+     "hi": [
+      "सीढ़ीदार खेती",
+      "मिश्रित फसल",
+      "स्थानांतरित कृषि",
+      "बागान"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Mixed cropping reduces the risk of total crop failure and keeps the soil healthy.",
+     "hi": "मिश्रित फसल से पूरी फसल खराब होने का जोखिम घटता है और मिट्टी स्वस्थ रहती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state is the largest producer of wheat in India?",
+     "hi": "भारत में गेहूँ का सबसे बड़ा उत्पादक राज्य कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Uttar Pradesh",
+      "Punjab",
+      "Haryana",
+      "Madhya Pradesh"
+     ],
+     "hi": [
+      "उत्तर प्रदेश",
+      "पंजाब",
+      "हरियाणा",
+      "मध्य प्रदेश"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Uttar Pradesh produces the largest quantity of wheat in India.",
+     "hi": "भारत में सबसे अधिक गेहूँ उत्तर प्रदेश में पैदा होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who is called the 'Father of the Nation' in India?",
+     "hi": "भारत में 'राष्ट्रपिता' किसे कहा जाता है?"
+    },
+    "o": {
+     "en": [
+      "Jawaharlal Nehru",
+      "Sardar Patel",
+      "Mahatma Gandhi",
+      "Subhas Chandra Bose"
+     ],
+     "hi": [
+      "जवाहरलाल नेहरू",
+      "सरदार पटेल",
+      "महात्मा गांधी",
+      "सुभाष चंद्र बोस"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Mahatma Gandhi is called the Father of the Nation for leading India's freedom struggle.",
+     "hi": "भारत के स्वतंत्रता संग्राम का नेतृत्व करने के लिए महात्मा गांधी को राष्ट्रपिता कहा जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which body conducts elections in India?",
+     "hi": "भारत में चुनाव कौन-सी संस्था कराती है?"
+    },
+    "o": {
+     "en": [
+      "Supreme Court",
+      "Election Commission",
+      "Parliament",
+      "NITI Aayog"
+     ],
+     "hi": [
+      "सर्वोच्च न्यायालय",
+      "चुनाव आयोग",
+      "संसद",
+      "नीति आयोग"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Election Commission of India conducts elections and enforces the model code of conduct.",
+     "hi": "भारत का चुनाव आयोग चुनाव कराता है और आदर्श आचार संहिता लागू करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the highest court of India?",
+     "hi": "भारत का सर्वोच्च न्यायालय कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "High Court",
+      "District Court",
+      "Lok Adalat",
+      "Supreme Court"
+     ],
+     "hi": [
+      "उच्च न्यायालय",
+      "जिला न्यायालय",
+      "लोक अदालत",
+      "सर्वोच्च न्यायालय"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Supreme Court is the highest court and its decisions bind all other courts in India.",
+     "hi": "सर्वोच्च न्यायालय सबसे बड़ा न्यायालय है और उसके निर्णय भारत के सभी न्यायालयों पर लागू होते हैं।"
     }
    }
   ],
@@ -38049,6 +39549,381 @@
      "en": "GDP, or Gross Domestic Product, is the total value of all goods and services produced in a country in a year.",
      "hi": "GDP यानी सकल घरेलू उत्पाद, किसी देश में एक वर्ष में उत्पादित सभी वस्तुओं और सेवाओं का कुल मूल्य है।"
     }
+   },
+   {
+    "q": {
+     "en": "Which is the largest river island in the world?",
+     "hi": "विश्व का सबसे बड़ा नदी द्वीप कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Sriharikota",
+      "Divar",
+      "Majuli",
+      "Munroe Island"
+     ],
+     "hi": [
+      "श्रीहरिकोटा",
+      "दिवार",
+      "माजुली",
+      "मुनरो द्वीप"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Majuli, on the Brahmaputra in Assam, is the largest river island in the world.",
+     "hi": "असम में ब्रह्मपुत्र नदी पर स्थित माजुली विश्व का सबसे बड़ा नदी द्वीप है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which mountain pass connects Sikkim with the Tibetan plateau?",
+     "hi": "कौन-सा दर्रा सिक्किम को तिब्बत के पठार से जोड़ता है?"
+    },
+    "o": {
+     "en": [
+      "Rohtang Pass",
+      "Nathu La",
+      "Zoji La",
+      "Shipki La"
+     ],
+     "hi": [
+      "रोहतांग दर्रा",
+      "नाथू ला",
+      "ज़ोजिला",
+      "शिपकी ला"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Nathu La lies on the border of Sikkim and Tibet and was an old trade route.",
+     "hi": "नाथू ला सिक्किम और तिब्बत की सीमा पर है और पुराना व्यापार मार्ग था।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which year did the First World War begin?",
+     "hi": "प्रथम विश्व युद्ध किस वर्ष शुरू हुआ था?"
+    },
+    "o": {
+     "en": [
+      "1918",
+      "1939",
+      "1945",
+      "1914"
+     ],
+     "hi": [
+      "1918",
+      "1939",
+      "1945",
+      "1914"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The First World War began in 1914 and ended in 1918.",
+     "hi": "प्रथम विश्व युद्ध 1914 में शुरू हुआ और 1918 में समाप्त हुआ।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is an essential feature of a democratic government?",
+     "hi": "इनमें से कौन-सा लोकतांत्रिक सरकार की अनिवार्य विशेषता है?"
+    },
+    "o": {
+     "en": [
+      "Free and fair elections",
+      "Rule by one family",
+      "Censorship of newspapers",
+      "Rule by the army"
+     ],
+     "hi": [
+      "स्वतंत्र और निष्पक्ष चुनाव",
+      "एक परिवार का शासन",
+      "अखबारों पर सेंसरशिप",
+      "सेना का शासन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "In a democracy people choose their rulers through free and fair elections held at regular intervals.",
+     "hi": "लोकतंत्र में लोग नियमित अंतराल पर स्वतंत्र और निष्पक्ष चुनावों के माध्यम से अपने शासक चुनते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "The word 'Palaeolithic' refers to which period?",
+     "hi": "'पुरापाषाण' शब्द किस काल को दर्शाता है?"
+    },
+    "o": {
+     "en": [
+      "New Stone Age",
+      "Iron Age",
+      "Old Stone Age",
+      "Bronze Age"
+     ],
+     "hi": [
+      "नवपाषाण काल",
+      "लौह युग",
+      "पुरापाषाण काल (पुराना पत्थर युग)",
+      "कांस्य युग"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Palaeolithic means the Old Stone Age, when people used rough stone tools and lived by hunting and gathering.",
+     "hi": "पुरापाषाण का अर्थ है पुराना पत्थर युग, जब लोग खुरदुरे पत्थर के औज़ार बनाते और शिकार तथा संग्रह से जीवन बिताते थे।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the narrow strip of sea between India and Sri Lanka called?",
+     "hi": "भारत और श्रीलंका के बीच स्थित संकरे समुद्री भाग को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Gulf of Khambhat",
+      "Gulf of Mannar",
+      "Palk Strait",
+      "Ten Degree Channel"
+     ],
+     "hi": [
+      "खंभात की खाड़ी",
+      "मन्नार की खाड़ी",
+      "पाक जलडमरूमध्य",
+      "दस डिग्री चैनल"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The Palk Strait separates India from Sri Lanka, with Adam's Bridge between them.",
+     "hi": "पाक जलडमरूमध्य भारत को श्रीलंका से अलग करता है, बीच में रामसेतु है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is usually the coldest month in northern India?",
+     "hi": "उत्तर भारत में सामान्यतः सबसे ठंडा महीना कौन-सा होता है?"
+    },
+    "o": {
+     "en": [
+      "January",
+      "December",
+      "February",
+      "November"
+     ],
+     "hi": [
+      "जनवरी",
+      "दिसंबर",
+      "फरवरी",
+      "नवंबर"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "January is usually the coldest month in most of northern India.",
+     "hi": "उत्तर भारत के अधिकांश भाग में जनवरी सामान्यतः सबसे ठंडा महीना होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the largest delta in the world?",
+     "hi": "विश्व का सबसे बड़ा डेल्टा कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Nile delta",
+      "Sundarbans delta",
+      "Mekong delta",
+      "Mississippi delta"
+     ],
+     "hi": [
+      "नील डेल्टा",
+      "सुंदरबन डेल्टा",
+      "मेकांग डेल्टा",
+      "मिसिसिपी डेल्टा"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The delta of the Ganga and Brahmaputra, called the Sundarbans, is the largest delta in the world.",
+     "hi": "गंगा और ब्रह्मपुत्र का डेल्टा, जिसे सुंदरबन कहते हैं, विश्व का सबसे बड़ा डेल्टा है।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which year did the Russian Revolution take place?",
+     "hi": "रूसी क्रांति किस वर्ष हुई थी?"
+    },
+    "o": {
+     "en": [
+      "1905",
+      "1914",
+      "1921",
+      "1917"
+     ],
+     "hi": [
+      "1905",
+      "1914",
+      "1921",
+      "1917"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Russian Revolution of 1917 brought the Bolsheviks to power under Lenin.",
+     "hi": "1917 की रूसी क्रांति ने लेनिन के नेतृत्व में बोल्शेविकों को सत्ता में लाया।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the boundary line between India and Pakistan called?",
+     "hi": "भारत और पाकिस्तान के बीच की सीमा रेखा क्या कहलाती है?"
+    },
+    "o": {
+     "en": [
+      "Durand Line",
+      "McMahon Line",
+      "Radcliffe Line",
+      "Line of Control"
+     ],
+     "hi": [
+      "डूरंड रेखा",
+      "मैकमोहन रेखा",
+      "रेडक्लिफ रेखा",
+      "नियंत्रण रेखा"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The Radcliffe Line was drawn in 1947; the Durand Line is between Pakistan and Afghanistan.",
+     "hi": "रेडक्लिफ रेखा 1947 में खींची गई; डूरंड रेखा पाकिस्तान और अफगानिस्तान के बीच है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What does 'universal adult franchise' mean?",
+     "hi": "'सार्वभौमिक वयस्क मताधिकार' का क्या अर्थ है?"
+    },
+    "o": {
+     "en": [
+      "Every adult citizen has the right to vote",
+      "Only landowners can vote",
+      "Only men can vote",
+      "Voting is compulsory"
+     ],
+     "hi": [
+      "हर वयस्क नागरिक को मतदान का अधिकार है",
+      "केवल भूमिधारक मतदान कर सकते हैं",
+      "केवल पुरुष मतदान कर सकते हैं",
+      "मतदान अनिवार्य है"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "In India every citizen aged 18 or above can vote, whatever their caste, religion, sex or income.",
+     "hi": "भारत में 18 वर्ष या अधिक का हर नागरिक मतदान कर सकता है, चाहे उसकी जाति, धर्म, लिंग या आय कोई भी हो।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state of north-east India has the largest area?",
+     "hi": "पूर्वोत्तर भारत के किस राज्य का क्षेत्रफल सबसे बड़ा है?"
+    },
+    "o": {
+     "en": [
+      "Assam",
+      "Arunachal Pradesh",
+      "Nagaland",
+      "Manipur"
+     ],
+     "hi": [
+      "असम",
+      "अरुणाचल प्रदेश",
+      "नागालैंड",
+      "मणिपुर"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Arunachal Pradesh is the largest state of north-east India by area.",
+     "hi": "क्षेत्रफल में अरुणाचल प्रदेश पूर्वोत्तर भारत का सबसे बड़ा राज्य है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a natural hazard?",
+     "hi": "इनमें से कौन-सी प्राकृतिक आपदा है?"
+    },
+    "o": {
+     "en": [
+      "Traffic jam",
+      "Strike",
+      "Earthquake",
+      "Power cut"
+     ],
+     "hi": [
+      "यातायात जाम",
+      "हड़ताल",
+      "भूकंप",
+      "बिजली कटौती"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Earthquakes, floods and cyclones are natural hazards that can become disasters.",
+     "hi": "भूकंप, बाढ़ और चक्रवात प्राकृतिक खतरे हैं जो आपदा बन सकते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who was the leader of Nazi Germany?",
+     "hi": "नाज़ी जर्मनी का नेता कौन था?"
+    },
+    "o": {
+     "en": [
+      "Mussolini",
+      "Stalin",
+      "Churchill",
+      "Adolf Hitler"
+     ],
+     "hi": [
+      "मुसोलिनी",
+      "स्टालिन",
+      "चर्चिल",
+      "एडोल्फ हिटलर"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Adolf Hitler led the Nazi Party and Germany from 1933 to 1945.",
+     "hi": "एडोल्फ हिटलर ने 1933 से 1945 तक नाज़ी पार्टी और जर्मनी का नेतृत्व किया।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state of India has the largest tribal population?",
+     "hi": "भारत में सर्वाधिक जनजातीय जनसंख्या किस राज्य में है?"
+    },
+    "o": {
+     "en": [
+      "Madhya Pradesh",
+      "Kerala",
+      "Punjab",
+      "Goa"
+     ],
+     "hi": [
+      "मध्य प्रदेश",
+      "केरल",
+      "पंजाब",
+      "गोवा"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Madhya Pradesh has the largest tribal population of any Indian state.",
+     "hi": "भारत के किसी भी राज्य की तुलना में मध्य प्रदेश में जनजातीय जनसंख्या सबसे अधिक है।"
+    }
    }
   ],
   "10": [
@@ -38175,6 +40050,381 @@
     "e": {
      "en": "The services sector, including trade, banking and IT, contributes the largest share of India's GDP.",
      "hi": "व्यापार, बैंकिंग और आईटी सहित सेवा क्षेत्र भारत के GDP में सबसे बड़ा हिस्सा देता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which treaty formally ended the First World War?",
+     "hi": "प्रथम विश्व युद्ध किस संधि के साथ औपचारिक रूप से समाप्त हुआ?"
+    },
+    "o": {
+     "en": [
+      "Treaty of Paris",
+      "Treaty of Versailles",
+      "Treaty of Vienna",
+      "Treaty of Waitangi"
+     ],
+     "hi": [
+      "पेरिस की संधि",
+      "वर्साय की संधि",
+      "वियना की संधि",
+      "वाइतांगी की संधि"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Treaty of Versailles was signed in 1919 and placed heavy penalties on Germany.",
+     "hi": "वर्साय की संधि 1919 में हुई और इसमें जर्मनी पर भारी दंड लगाए गए।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which crop is grown mainly in the black soil region of Maharashtra?",
+     "hi": "महाराष्ट्र के काली मिट्टी क्षेत्र में मुख्य रूप से कौन-सी फ़सल उगाई जाती है?"
+    },
+    "o": {
+     "en": [
+      "Tea",
+      "Jute",
+      "Coffee",
+      "Cotton"
+     ],
+     "hi": [
+      "चाय",
+      "जूट",
+      "कॉफ़ी",
+      "कपास"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Black soil holds moisture well, which makes it ideal for cotton in Maharashtra and Gujarat.",
+     "hi": "काली मिट्टी नमी बनाए रखती है, इसलिए यह महाराष्ट्र और गुजरात में कपास के लिए आदर्श है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which organisation issues currency notes in India?",
+     "hi": "भारत में नोट कौन-सी संस्था जारी करती है?"
+    },
+    "o": {
+     "en": [
+      "Reserve Bank of India",
+      "State Bank of India",
+      "Ministry of Finance",
+      "NITI Aayog"
+     ],
+     "hi": [
+      "भारतीय रिज़र्व बैंक",
+      "भारतीय स्टेट बैंक",
+      "वित्त मंत्रालय",
+      "नीति आयोग"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Reserve Bank of India issues currency notes on behalf of the Government of India.",
+     "hi": "भारतीय रिज़र्व बैंक भारत सरकार की ओर से नोट जारी करता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What does the Right to Information allow a citizen to do?",
+     "hi": "सूचना का अधिकार एक नागरिक को क्या करने की अनुमति देता है?"
+    },
+    "o": {
+     "en": [
+      "Avoid paying taxes",
+      "Skip school",
+      "Ask for information from government offices",
+      "Travel without documents"
+     ],
+     "hi": [
+      "कर देने से बचना",
+      "स्कूल न जाना",
+      "सरकारी कार्यालयों से जानकारी माँगना",
+      "बिना दस्तावेज़ यात्रा करना"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The RTI Act of 2005 lets citizens ask public authorities for information about their work and decisions.",
+     "hi": "2005 का सूचना का अधिकार कानून नागरिकों को सार्वजनिक संस्थाओं से उनके काम और निर्णयों की जानकारी माँगने की सुविधा देता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is an example of investing in human capital?",
+     "hi": "इनमें से कौन-सा मानव पूँजी में निवेश का उदाहरण है?"
+    },
+    "o": {
+     "en": [
+      "Buying more land",
+      "Training and education of workers",
+      "Importing machines",
+      "Building a road"
+     ],
+     "hi": [
+      "अधिक ज़मीन खरीदना",
+      "श्रमिकों का प्रशिक्षण और शिक्षा",
+      "मशीनें आयात करना",
+      "सड़क बनाना"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Education, training and health care raise the skills of people and are investments in human capital.",
+     "hi": "शिक्षा, प्रशिक्षण और स्वास्थ्य देखभाल लोगों के कौशल बढ़ाते हैं और मानव पूँजी में निवेश हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who led the Indian National Army (INA)?",
+     "hi": "आज़ाद हिंद फ़ौज (आईएनए) का नेतृत्व किसने किया?"
+    },
+    "o": {
+     "en": [
+      "Bhagat Singh",
+      "Subhas Chandra Bose",
+      "Lala Lajpat Rai",
+      "Chandrashekhar Azad"
+     ],
+     "hi": [
+      "भगत सिंह",
+      "सुभाष चंद्र बोस",
+      "लाला लाजपत राय",
+      "चंद्रशेखर आज़ाद"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Subhas Chandra Bose led the INA and gave the slogan 'Give me blood and I will give you freedom'.",
+     "hi": "सुभाष चंद्र बोस ने आईएनए का नेतृत्व किया और 'तुम मुझे खून दो, मैं तुम्हें आज़ादी दूँगा' का नारा दिया।"
+    }
+   },
+   {
+    "q": {
+     "en": "In which year did the Jallianwala Bagh massacre take place?",
+     "hi": "जलियाँवाला बाग हत्याकांड किस वर्ष हुआ था?"
+    },
+    "o": {
+     "en": [
+      "1920",
+      "1930",
+      "1942",
+      "1919"
+     ],
+     "hi": [
+      "1920",
+      "1930",
+      "1942",
+      "1919"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "It took place at Amritsar on 13 April 1919 during a protest against the Rowlatt Act.",
+     "hi": "यह 13 अप्रैल 1919 को अमृतसर में रौलट एक्ट के विरोध के दौरान हुआ।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state is the largest producer of coffee in India?",
+     "hi": "भारत में कॉफ़ी का सबसे बड़ा उत्पादक राज्य कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Karnataka",
+      "Kerala",
+      "Tamil Nadu",
+      "Assam"
+     ],
+     "hi": [
+      "कर्नाटक",
+      "केरल",
+      "तमिलनाडु",
+      "असम"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Karnataka grows most of India's coffee, mainly in the Western Ghats.",
+     "hi": "भारत की अधिकांश कॉफ़ी कर्नाटक में, मुख्यतः पश्चिमी घाट में उगाई जाती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the growth of industries in a country's economy called?",
+     "hi": "किसी देश की अर्थव्यवस्था में उद्योगों के बढ़ने को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Urbanisation",
+      "Globalisation",
+      "Industrialisation",
+      "Privatisation"
+     ],
+     "hi": [
+      "शहरीकरण",
+      "वैश्वीकरण",
+      "औद्योगीकरण",
+      "निजीकरण"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Industrialisation means a growing share of factories and manufacturing in the economy.",
+     "hi": "औद्योगीकरण का अर्थ है अर्थव्यवस्था में कारखानों और विनिर्माण का बढ़ता हिस्सा।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a feature of a federal government?",
+     "hi": "इनमें से कौन-सी संघीय सरकार की विशेषता है?"
+    },
+    "o": {
+     "en": [
+      "Only one level of government",
+      "Two or more levels of government",
+      "Rule by the army",
+      "No written constitution"
+     ],
+     "hi": [
+      "सरकार का केवल एक स्तर",
+      "सरकार के दो या अधिक स्तर",
+      "सेना का शासन",
+      "कोई लिखित संविधान नहीं"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "In a federation power is shared between the central government and the states.",
+     "hi": "संघ में सत्ता केंद्र सरकार और राज्यों के बीच बँटी होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which is the highest mountain peak located entirely within India?",
+     "hi": "पूरी तरह भारत में स्थित सबसे ऊँचा पर्वत शिखर कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Nanda Devi",
+      "K2",
+      "Kamet",
+      "Kangchenjunga"
+     ],
+     "hi": [
+      "नंदा देवी",
+      "के2",
+      "कामेट",
+      "कंचनजंगा"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Kangchenjunga, on the Sikkim-Nepal border, is the highest peak within India.",
+     "hi": "सिक्किम-नेपाल सीमा पर स्थित कंचनजंगा भारत में सबसे ऊँचा शिखर है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a public sector enterprise?",
+     "hi": "इनमें से कौन-सा सार्वजनिक क्षेत्र का उद्यम है?"
+    },
+    "o": {
+     "en": [
+      "Indian Railways",
+      "Tata Steel",
+      "Infosys",
+      "Reliance Industries"
+     ],
+     "hi": [
+      "भारतीय रेल",
+      "टाटा स्टील",
+      "इंफोसिस",
+      "रिलायंस इंडस्ट्रीज़"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Indian Railways is owned and run by the Government of India.",
+     "hi": "भारतीय रेल भारत सरकार के स्वामित्व और संचालन में है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which movement did Gandhiji launch in 1942?",
+     "hi": "गांधीजी ने 1942 में कौन-सा आंदोलन शुरू किया?"
+    },
+    "o": {
+     "en": [
+      "Khilafat Movement",
+      "Quit India Movement",
+      "Home Rule Movement",
+      "Swadeshi Movement"
+     ],
+     "hi": [
+      "खिलाफ़त आंदोलन",
+      "भारत छोड़ो आंदोलन",
+      "होम रूल आंदोलन",
+      "स्वदेशी आंदोलन"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The Quit India Movement of 1942 demanded an immediate end to British rule.",
+     "hi": "1942 के भारत छोड़ो आंदोलन में ब्रिटिश शासन का तुरंत अंत माँगा गया।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is a self-help group in Indian villages mainly for?",
+     "hi": "भारतीय गाँवों में स्वयं सहायता समूह मुख्य रूप से किसके लिए होता है?"
+    },
+    "o": {
+     "en": [
+      "Collecting taxes",
+      "Running the police station",
+      "Saving small amounts and giving loans to members",
+      "Printing currency"
+     ],
+     "hi": [
+      "कर वसूलना",
+      "थाना चलाना",
+      "छोटी बचत करना और सदस्यों को ऋण देना",
+      "मुद्रा छापना"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Members, often women, save together and give small loans to each other at low interest.",
+     "hi": "सदस्य, प्रायः महिलाएँ, मिलकर बचत करती हैं और कम ब्याज पर एक-दूसरे को छोटे ऋण देती हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state was formed in 2014 as India's 29th state?",
+     "hi": "2014 में भारत के 29वें राज्य के रूप में कौन-सा राज्य बना?"
+    },
+    "o": {
+     "en": [
+      "Telangana",
+      "Chhattisgarh",
+      "Uttarakhand",
+      "Jharkhand"
+     ],
+     "hi": [
+      "तेलंगाना",
+      "छत्तीसगढ़",
+      "उत्तराखंड",
+      "झारखंड"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Telangana was carved out of Andhra Pradesh and became a state on 2 June 2014.",
+     "hi": "तेलंगाना आंध्र प्रदेश से अलग होकर 2 जून 2014 को राज्य बना।"
     }
    }
   ],
@@ -38303,6 +40553,381 @@
      "en": "Article 51A lists the Fundamental Duties, which include protecting the environment and respecting the Constitution.",
      "hi": "अनुच्छेद 51A में मूल कर्तव्य दिए गए हैं, जिनमें पर्यावरण की रक्षा और संविधान का सम्मान शामिल है।"
     }
+   },
+   {
+    "q": {
+     "en": "What is the imaginary line at 0 degrees longitude called?",
+     "hi": "0° देशांतर पर स्थित काल्पनिक रेखा को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Equator",
+      "Tropic of Capricorn",
+      "International Date Line",
+      "Prime Meridian"
+     ],
+     "hi": [
+      "भूमध्य रेखा",
+      "मकर रेखा",
+      "अंतर्राष्ट्रीय तिथि रेखा",
+      "प्रधान याम्योत्तर"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Prime Meridian passes through Greenwich, and longitude is measured east and west from it.",
+     "hi": "प्रधान याम्योत्तर ग्रीनविच से गुजरती है, और देशांतर इससे पूर्व तथा पश्चिम में मापा जाता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which type of farming is common on steep Himalayan slopes?",
+     "hi": "हिमालय की खड़ी ढलानों पर कौन-सी कृषि आम है?"
+    },
+    "o": {
+     "en": [
+      "Terrace farming",
+      "Shifting cultivation",
+      "Plantation farming",
+      "Intensive farming"
+     ],
+     "hi": [
+      "सीढ़ीदार खेती",
+      "स्थानांतरित कृषि",
+      "बागान कृषि",
+      "गहन कृषि"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Farmers cut step-like terraces on slopes so that water does not wash the soil away.",
+     "hi": "किसान ढलानों पर सीढ़ी जैसी सतहें बनाते हैं ताकि पानी मिट्टी को बहा न ले जाए।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the upper house of a state legislature in India called?",
+     "hi": "भारत में राज्य विधानमंडल के उच्च सदन को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Vidhan Sabha",
+      "Lok Sabha",
+      "Vidhan Parishad",
+      "Rajya Sabha"
+     ],
+     "hi": [
+      "विधान सभा",
+      "लोकसभा",
+      "विधान परिषद",
+      "राज्यसभा"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The Vidhan Parishad or Legislative Council is the upper house, and only some states have one.",
+     "hi": "विधान परिषद उच्च सदन है, और केवल कुछ राज्यों में ही यह होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a factor that helps in the formation of soil?",
+     "hi": "इनमें से कौन-सा मिट्टी के निर्माण में सहायक कारक है?"
+    },
+    "o": {
+     "en": [
+      "Ocean currents",
+      "Climate and parent rock",
+      "Wind speed at sea",
+      "Moon phases"
+     ],
+     "hi": [
+      "महासागरीय धाराएँ",
+      "जलवायु और मूल शैल",
+      "समुद्र पर हवा की गति",
+      "चंद्रमा की कलाएँ"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Soil forms from the weathering of parent rock, helped by climate, relief, plants and time.",
+     "hi": "मिट्टी मूल शैल के अपक्षय से बनती है, जिसमें जलवायु, उच्चावच, पौधे और समय सहायक होते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Who is the constitutional head of a state in India?",
+     "hi": "भारत में राज्य का संवैधानिक प्रमुख कौन होता है?"
+    },
+    "o": {
+     "en": [
+      "Chief Minister",
+      "Chief Justice",
+      "Speaker",
+      "Governor"
+     ],
+     "hi": [
+      "मुख्यमंत्री",
+      "मुख्य न्यायाधीश",
+      "अध्यक्ष",
+      "राज्यपाल"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Governor is appointed by the President and acts as the constitutional head of the state.",
+     "hi": "राज्यपाल राष्ट्रपति द्वारा नियुक्त होता है और राज्य का संवैधानिक प्रमुख होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which theory explains the origin of the universe?",
+     "hi": "ब्रह्मांड की उत्पत्ति कौन-सा सिद्धांत समझाता है?"
+    },
+    "o": {
+     "en": [
+      "Big Bang theory",
+      "Theory of evolution",
+      "Plate tectonic theory",
+      "Nebular theory"
+     ],
+     "hi": [
+      "बिग बैंग सिद्धांत",
+      "विकास का सिद्धांत",
+      "प्लेट विवर्तनिकी सिद्धांत",
+      "नीहारिका सिद्धांत"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Big Bang theory says the universe began from an extremely hot, dense state.",
+     "hi": "बिग बैंग सिद्धांत के अनुसार ब्रह्मांड अत्यंत गर्म और घने रूप से शुरू हुआ।"
+    }
+   },
+   {
+    "q": {
+     "en": "What was the ancient supercontinent of all landmasses called?",
+     "hi": "प्राचीन काल के सभी भूभागों वाले महाद्वीप का नाम क्या था?"
+    },
+    "o": {
+     "en": [
+      "Gondwana",
+      "Laurasia",
+      "Pangaea",
+      "Panama"
+     ],
+     "hi": [
+      "गोंडवाना",
+      "लॉरेशिया",
+      "पैंजिया",
+      "पनामा"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Pangaea was the single supercontinent that later broke into Gondwana and Laurasia.",
+     "hi": "पैंजिया एक ही महाद्वीप था जो बाद में गोंडवाना और लॉरेशिया में टूट गया।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a cold ocean current?",
+     "hi": "इनमें से कौन-सी ठंडी महासागरीय धारा है?"
+    },
+    "o": {
+     "en": [
+      "Gulf Stream",
+      "Kuroshio Current",
+      "Brazil Current",
+      "Labrador Current"
+     ],
+     "hi": [
+      "गल्फ स्ट्रीम",
+      "कुरोशियो धारा",
+      "ब्राज़ील धारा",
+      "लैब्राडोर धारा"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Labrador Current flows from the Arctic southwards along Canada and is cold.",
+     "hi": "लैब्राडोर धारा आर्कटिक से कनाडा के साथ दक्षिण की ओर बहती है और ठंडी होती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which instrument records the waves of an earthquake?",
+     "hi": "भूकंप की तरंगों को कौन-सा यंत्र दर्ज करता है?"
+    },
+    "o": {
+     "en": [
+      "Barometer",
+      "Seismograph",
+      "Hygrometer",
+      "Anemometer"
+     ],
+     "hi": [
+      "बैरोमीटर",
+      "भूकंपलेखी",
+      "हाइग्रोमीटर",
+      "एनीमोमीटर"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "A seismograph records earthquake waves, and their study is called seismology.",
+     "hi": "भूकंपलेखी भूकंप की तरंगें दर्ज करता है, और इसके अध्ययन को भूकंप विज्ञान कहते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which scale measures the magnitude of an earthquake?",
+     "hi": "भूकंप की तीव्रता किस पैमाने पर मापी जाती है?"
+    },
+    "o": {
+     "en": [
+      "Richter scale",
+      "Celsius scale",
+      "Beaufort scale",
+      "Mohs scale"
+     ],
+     "hi": [
+      "रिक्टर पैमाना",
+      "सेल्सियस पैमाना",
+      "ब्यूफोर्ट पैमाना",
+      "मोह्स पैमाना"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Richter scale measures the energy released by an earthquake.",
+     "hi": "रिक्टर पैमाना भूकंप से निकली ऊर्जा को मापता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these rivers flows into the Arabian Sea?",
+     "hi": "इनमें से कौन-सी नदी अरब सागर में गिरती है?"
+    },
+    "o": {
+     "en": [
+      "Ganga",
+      "Mahanadi",
+      "Narmada",
+      "Brahmaputra"
+     ],
+     "hi": [
+      "गंगा",
+      "महानदी",
+      "नर्मदा",
+      "ब्रह्मपुत्र"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The Narmada flows west through a rift valley into the Arabian Sea.",
+     "hi": "नर्मदा एक भ्रंश घाटी से होकर पश्चिम की ओर बहती हुई अरब सागर में गिरती है।"
+    }
+   },
+   {
+    "q": {
+     "en": "What does the term 'biosphere' mean?",
+     "hi": "'जीवमंडल' शब्द का क्या अर्थ है?"
+    },
+    "o": {
+     "en": [
+      "The layer of rocks",
+      "The zone of life on Earth",
+      "The water bodies only",
+      "The upper atmosphere"
+     ],
+     "hi": [
+      "चट्टानों की परत",
+      "पृथ्वी पर जीवन का क्षेत्र",
+      "केवल जल निकाय",
+      "ऊपरी वायुमंडल"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The biosphere is the zone where land, water and air support life.",
+     "hi": "जीवमंडल वह क्षेत्र है जहाँ भूमि, जल और वायु मिलकर जीवन को सहारा देते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a Directive Principle of State Policy?",
+     "hi": "इनमें से कौन-सा राज्य के नीति निदेशक तत्व है?"
+    },
+    "o": {
+     "en": [
+      "Right to freedom of speech",
+      "Right to life",
+      "Right against exploitation",
+      "Equal pay for equal work"
+     ],
+     "hi": [
+      "वाक् स्वतंत्रता का अधिकार",
+      "जीवन का अधिकार",
+      "शोषण के विरुद्ध अधिकार",
+      "समान काम के लिए समान वेतन"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Directive Principles guide the government; equal pay for equal work is one of them.",
+     "hi": "नीति निदेशक तत्व सरकार का मार्गदर्शन करते हैं; समान काम के लिए समान वेतन इनमें से एक है।"
+    }
+   },
+   {
+    "q": {
+     "en": "By which process can the President of India be removed?",
+     "hi": "भारत के राष्ट्रपति को किस प्रक्रिया से हटाया जा सकता है?"
+    },
+    "o": {
+     "en": [
+      "Impeachment",
+      "A vote of no confidence",
+      "A Supreme Court order",
+      "A governor's request"
+     ],
+     "hi": [
+      "महाभियोग",
+      "अविश्वास प्रस्ताव",
+      "सर्वोच्च न्यायालय का आदेश",
+      "राज्यपाल का अनुरोध"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The President can be removed by impeachment for violation of the Constitution.",
+     "hi": "संविधान के उल्लंघन पर महाभियोग द्वारा राष्ट्रपति को हटाया जा सकता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a low pressure belt?",
+     "hi": "इनमें से कौन-सा निम्न वायुदाब पेटी है?"
+    },
+    "o": {
+     "en": [
+      "Subtropical high pressure belt",
+      "Polar high pressure belt",
+      "Equatorial low pressure belt",
+      "Subpolar low ridge"
+     ],
+     "hi": [
+      "उपोष्ण उच्च वायुदाब पेटी",
+      "ध्रुवीय उच्च वायुदाब पेटी",
+      "भूमध्यरेखीय निम्न वायुदाब पेटी",
+      "उपध्रुवीय निम्न कटक"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "The equatorial belt is a low pressure zone because hot air rises there.",
+     "hi": "भूमध्यरेखीय पेटी निम्न वायुदाब क्षेत्र है क्योंकि वहाँ गर्म हवा ऊपर उठती है।"
+    }
    }
   ],
   "12": [
@@ -38429,6 +41054,381 @@
     "e": {
      "en": "Globalisation means freer movement of goods, services, capital and people across countries.",
      "hi": "वैश्वीकरण का अर्थ है वस्तुओं, सेवाओं, पूँजी और लोगों का देशों के बीच अधिक स्वतंत्र आवागमन।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a 'pull' factor for migration?",
+     "hi": "प्रवास के लिए इनमें से कौन-सा 'कर्षण' कारक है?"
+    },
+    "o": {
+     "en": [
+      "Drought in the home village",
+      "Flood in the home district",
+      "Better job opportunities in the destination",
+      "Loss of family land"
+     ],
+     "hi": [
+      "गाँव में सूखा",
+      "जिले में बाढ़",
+      "गंतव्य में रोज़गार के बेहतर अवसर",
+      "पारिवारिक भूमि का नुकसान"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Pull factors attract people to a new place, while push factors such as drought force them to leave.",
+     "hi": "कर्षण कारक लोगों को नए स्थान की ओर आकर्षित करते हैं, जबकि सूखा जैसे अपकर्षण कारक उन्हें जाने पर विवश करते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What does the Human Development Index (HDI) measure?",
+     "hi": "मानव विकास सूचकांक (HDI) क्या मापता है?"
+    },
+    "o": {
+     "en": [
+      "Health, education and income of a country's people",
+      "Only the size of a country's army",
+      "Only the number of factories",
+      "Only the length of roads"
+     ],
+     "hi": [
+      "किसी देश के लोगों का स्वास्थ्य, शिक्षा और आय",
+      "केवल देश की सेना का आकार",
+      "केवल कारखानों की संख्या",
+      "केवल सड़कों की लंबाई"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The HDI combines life expectancy, schooling and per capita income to compare countries.",
+     "hi": "HDI देशों की तुलना के लिए जीवन प्रत्याशा, शिक्षा और प्रति व्यक्ति आय को जोड़ता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "How long is a non-permanent member of the UN Security Council elected for?",
+     "hi": "संयुक्त राष्ट्र सुरक्षा परिषद का अस्थायी सदस्य कितने समय के लिए चुना जाता है?"
+    },
+    "o": {
+     "en": [
+      "One year",
+      "Five years",
+      "Ten years",
+      "Two years"
+     ],
+     "hi": [
+      "एक वर्ष",
+      "पाँच वर्ष",
+      "दस वर्ष",
+      "दो वर्ष"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Ten non-permanent members are elected by the General Assembly for two-year terms.",
+     "hi": "दस अस्थायी सदस्य महासभा द्वारा दो वर्ष के कार्यकाल के लिए चुने जाते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the economic policy of 1991 that removed many trade barriers in India called?",
+     "hi": "1991 की वह आर्थिक नीति क्या कहलाती है जिसने भारत में कई व्यापार अवरोध हटाए?"
+    },
+    "o": {
+     "en": [
+      "Nationalisation",
+      "Liberalisation",
+      "Colonisation",
+      "Isolation"
+     ],
+     "hi": [
+      "राष्ट्रीयकरण",
+      "उदारीकरण",
+      "उपनिवेशीकरण",
+      "अलगाव"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "The 1991 reforms, known as liberalisation, reduced licences, tariffs and restrictions on foreign investment.",
+     "hi": "1991 के सुधार, जिन्हें उदारीकरण कहते हैं, लाइसेंस, शुल्क और विदेशी निवेश पर लगे प्रतिबंध कम किए।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a megacity of India?",
+     "hi": "इनमें से कौन-सा भारत का महानगर (मेगासिटी) है?"
+    },
+    "o": {
+     "en": [
+      "Shimla",
+      "Puri",
+      "Mumbai",
+      "Tezpur"
+     ],
+     "hi": [
+      "शिमला",
+      "पुरी",
+      "मुंबई",
+      "तेज़पुर"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "A megacity has a population of over ten million; Mumbai, Delhi and Kolkata are Indian examples.",
+     "hi": "महानगर की आबादी एक करोड़ से अधिक होती है; मुंबई, दिल्ली और कोलकाता इसके भारतीय उदाहरण हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the movement of people from villages to towns and cities called?",
+     "hi": "लोगों का गाँवों से कस्बों और शहरों की ओर जाना क्या कहलाता है?"
+    },
+    "o": {
+     "en": [
+      "Industrialisation",
+      "Mechanisation",
+      "Irrigation",
+      "Urbanisation"
+     ],
+     "hi": [
+      "औद्योगीकरण",
+      "यंत्रीकरण",
+      "सिंचाई",
+      "शहरीकरण"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Urbanisation is the growing share of a country's people living in towns and cities.",
+     "hi": "शहरीकरण का अर्थ है देश की बढ़ती आबादी का कस्बों और शहरों में रहना।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a secondary sector activity?",
+     "hi": "इनमें से कौन-सी द्वितीयक क्षेत्र की गतिविधि है?"
+    },
+    "o": {
+     "en": [
+      "Manufacturing cloth",
+      "Growing wheat",
+      "Mining coal",
+      "Selling in a shop"
+     ],
+     "hi": [
+      "कपड़ा बनाना",
+      "गेहूँ उगाना",
+      "कोयला खनन",
+      "दुकान में बेचना"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "Secondary activities change raw materials into goods, as in factories and workshops.",
+     "hi": "द्वितीयक गतिविधियाँ कच्चे माल को वस्तुओं में बदलती हैं, जैसे कारखानों और कार्यशालाओं में।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is the decline in the quality of land called?",
+     "hi": "भूमि की गुणवत्ता में कमी को क्या कहते हैं?"
+    },
+    "o": {
+     "en": [
+      "Land reclamation",
+      "Land degradation",
+      "Land use",
+      "Land ceiling"
+     ],
+     "hi": [
+      "भूमि सुधार",
+      "भूमि क्षरण",
+      "भूमि उपयोग",
+      "भूमि सीमा"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "Overgrazing, deforestation and excessive irrigation cause land degradation.",
+     "hi": "अत्यधिक चराई, वनों की कटाई और अत्यधिक सिंचाई से भूमि क्षरण होता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which state is the largest producer of iron ore in India?",
+     "hi": "भारत में लौह अयस्क का सबसे बड़ा उत्पादक राज्य कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Punjab",
+      "Kerala",
+      "Odisha",
+      "Haryana"
+     ],
+     "hi": [
+      "पंजाब",
+      "केरल",
+      "ओडिशा",
+      "हरियाणा"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "Odisha leads in iron ore production, followed by Chhattisgarh and Karnataka.",
+     "hi": "लौह अयस्क उत्पादन में ओडिशा अग्रणी है, इसके बाद छत्तीसगढ़ और कर्नाटक आते हैं।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which treaty established the European Union?",
+     "hi": "यूरोपीय संघ की स्थापना किस संधि से हुई?"
+    },
+    "o": {
+     "en": [
+      "Treaty of Rome",
+      "Treaty of Versailles",
+      "Treaty of Lisbon",
+      "Maastricht Treaty"
+     ],
+     "hi": [
+      "रोम की संधि",
+      "वर्साय की संधि",
+      "लिस्बन संधि",
+      "मास्ट्रिख्ट संधि"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "The Maastricht Treaty of 1992 created the European Union and its common currency plans.",
+     "hi": "1992 की मास्ट्रिख्ट संधि ने यूरोपीय संघ और साझा मुद्रा की योजना बनाई।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these describes the Cold War?",
+     "hi": "शीत युद्ध का सही वर्णन कौन-सा है?"
+    },
+    "o": {
+     "en": [
+      "Ideological rivalry between the USA and the USSR without direct war",
+      "A war fought in Europe",
+      "A trade agreement",
+      "A United Nations peace mission"
+     ],
+     "hi": [
+      "अमेरिका और सोवियत संघ के बीच सीधे युद्ध के बिना वैचारिक प्रतिस्पर्धा",
+      "यूरोप में लड़ा गया युद्ध",
+      "एक व्यापार समझौता",
+      "संयुक्त राष्ट्र का शांति मिशन"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "The Cold War was a long rivalry of ideas, arms and alliances between the two superpowers after 1945.",
+     "hi": "शीत युद्ध 1945 के बाद दो महाशक्तियों के बीच विचारों, हथियारों और गठबंधनों की लंबी प्रतिस्पर्धा थी।"
+    }
+   },
+   {
+    "q": {
+     "en": "What is SAARC?",
+     "hi": "सार्क (SAARC) क्या है?"
+    },
+    "o": {
+     "en": [
+      "South Atlantic Aid and Relief Council",
+      "A world trade body",
+      "South Asian Association for Regional Cooperation",
+      "A United Nations agency"
+     ],
+     "hi": [
+      "दक्षिण अटलांटिक सहायता परिषद",
+      "एक विश्व व्यापार संस्था",
+      "दक्षिण एशियाई क्षेत्रीय सहयोग संगठन",
+      "संयुक्त राष्ट्र की एजेंसी"
+     ]
+    },
+    "a": 2,
+    "e": {
+     "en": "SAARC was formed in 1985 to promote cooperation among South Asian countries.",
+     "hi": "दक्षिण एशियाई देशों के बीच सहयोग बढ़ाने के लिए 1985 में सार्क बना।"
+    }
+   },
+   {
+    "q": {
+     "en": "What was the basis of India's foreign policy after independence?",
+     "hi": "स्वतंत्रता के बाद भारत की विदेश नीति का आधार क्या था?"
+    },
+    "o": {
+     "en": [
+      "Military alliance with the USA",
+      "Non-alignment",
+      "Colonialism",
+      "Isolation from the world"
+     ],
+     "hi": [
+      "अमेरिका से सैन्य गठबंधन",
+      "गुटनिरपेक्षता",
+      "उपनिवेशवाद",
+      "विश्व से अलगाव"
+     ]
+    },
+    "a": 1,
+    "e": {
+     "en": "India followed non-alignment and did not join either of the two Cold War blocs.",
+     "hi": "भारत ने गुटनिरपेक्षता अपनाई और शीत युद्ध के दोनों गुटों में शामिल नहीं हुआ।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which scheme guarantees wage employment in rural areas of India?",
+     "hi": "कौन-सी योजना भारत के ग्रामीण क्षेत्रों में मजदूरी पर रोज़गार की गारंटी देती है?"
+    },
+    "o": {
+     "en": [
+      "MGNREGA",
+      "Mid-Day Meal Scheme",
+      "Ayushman Bharat",
+      "Beti Bachao Beti Padhao"
+     ],
+     "hi": [
+      "मनरेगा",
+      "मध्याह्न भोजन योजना",
+      "आयुष्मान भारत",
+      "बेटी बचाओ बेटी पढ़ाओ"
+     ]
+    },
+    "a": 0,
+    "e": {
+     "en": "MGNREGA gives at least 100 days of paid work a year to a rural household that asks for it.",
+     "hi": "मनरेगा माँगने वाले ग्रामीण परिवार को वर्ष में कम से कम 100 दिन का भुगतान वाला काम देता है।"
+    }
+   },
+   {
+    "q": {
+     "en": "Which of these is a major global environmental concern?",
+     "hi": "इनमें से कौन-सी प्रमुख वैश्विक पर्यावरणीय चिंता है?"
+    },
+    "o": {
+     "en": [
+      "Higher literacy",
+      "Better roads",
+      "More mobile phones",
+      "Climate change"
+     ],
+     "hi": [
+      "बढ़ती साक्षरता",
+      "बेहतर सड़कें",
+      "अधिक मोबाइल फोन",
+      "जलवायु परिवर्तन"
+     ]
+    },
+    "a": 3,
+    "e": {
+     "en": "Climate change, loss of biodiversity and pollution need cooperation between all countries.",
+     "hi": "जलवायु परिवर्तन, जैव विविधता की हानि और प्रदूषण सभी देशों के सहयोग की माँग करते हैं।"
     }
    }
   ]
@@ -55720,6 +58720,6 @@
  },
  "meta": {
   "last_updated": "2026-10-28",
-  "last_added": 134
+  "last_added": 254
  }
 }
