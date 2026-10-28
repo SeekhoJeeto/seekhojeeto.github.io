@@ -125,6 +125,10 @@
       <span class="emoji">➗</span>
       <span><span data-k="24">Maths</span><small>Class 5–12</small></span>
     </button>
+    <button class="big-btn" onclick="openSst()">
+      <span class="emoji">🌍</span>
+      <span><span data-k="25">SST</span><small>Class 5–12</small></span>
+    </button>
     <button class="big-btn" onclick="openSanskar()">
       <span class="emoji">🪔</span>
       <span><span data-k="1">Values and Religion</span><small>Har dharm alag • apni marzi se</small></span>
@@ -213,7 +217,7 @@
     </div>
   </section>
 
-  <footer>Seekho Jeeto • Science + Sanskar + Rewards • v2</footer>
+  <footer>Seekho Jeeto • Science + Maths + SST + Sanskar + Rewards • v2</footer>
 </div>
 
 <script>
@@ -262,6 +266,13 @@ const MATHW = {
   gu: "ગણિત", ur: "ریاضی", kn: "ಗಣಿತ", or: "ଗଣିତ", ml: "ഗണിതം", pa: "ਗਣਿਤ", as: "গণিত"
 };
 Object.keys(MATHW).forEach(function(l){ if(LANGS[l]) LANGS[l][24] = MATHW[l]; });
+
+// Subject word "SST" appended at index 25
+const SSTW = {
+  en: "SST", hi: "सामाजिक विज्ञान", bn: "সামাজিক বিজ্ঞান", mr: "सामाजिक विज्ञान", te: "సామాజిక శాస్త్రం", ta: "சமூக அறிவியல்",
+  gu: "સામાજિક વિજ્ઞાન", ur: "سماجی سائنس", kn: "ಸಮಾಜ ವಿಜ್ಞಾನ", or: "ସାମାଜିକ ବିଜ୍ଞାନ", ml: "സാമൂഹ്യശാസ്ത്രം", pa: "ਸਮਾਜਿਕ ਵਿਗਿਆਨ", as: "সমাজ বিজ্ঞান"
+};
+Object.keys(SSTW).forEach(function(l){ if(LANGS[l]) LANGS[l][25] = SSTW[l]; });
 
 // Rewards-section words (7)
 const RW = {
@@ -317,11 +328,12 @@ function renderStats(){
   if(!box) return;
   var sci = 0; Object.keys(SCIENCE).forEach(function(k){ sci += SCIENCE[k].length; });
   var math = 0; Object.keys(MATHS).forEach(function(k){ math += MATHS[k].length; });
+  var sst = 0; Object.keys(SST).forEach(function(k){ sst += SST[k].length; });
   var trad = 0; Object.keys(TRADITIONS).forEach(function(k){ var v = TRADITIONS[k]; if(Array.isArray(v)) trad += v.length; else if(v && Array.isArray(v.qs)) trad += v.qs.length; });
-  var total = sci + math + trad;
+  var total = sci + math + sst + trad;
   var r1 = document.getElementById("statRow1");
   var r2 = document.getElementById("statRow2");
-  if(r1) r1.innerHTML = t(20) + ": <b>" + sci + "</b> &nbsp;\u2022&nbsp; " + t(24) + ": <b>" + math + "</b> &nbsp;\u2022&nbsp; " + t(1) + ": <b>" + trad + "</b> &nbsp;\u2022&nbsp; " + t(21) + ": <b>" + total + "</b>";
+  if(r1) r1.innerHTML = t(20) + ": <b>" + sci + "</b> &nbsp;\u2022&nbsp; " + t(24) + ": <b>" + math + "</b> &nbsp;\u2022&nbsp; " + t(25) + ": <b>" + sst + "</b> &nbsp;\u2022&nbsp; " + t(1) + ": <b>" + trad + "</b> &nbsp;\u2022&nbsp; " + t(21) + ": <b>" + total + "</b>";
   var m = window.__meta || {};
   var line2 = "";
   if(m.last_updated){
@@ -354,6 +366,7 @@ let SCIENCE = {};   // loaded from questions.json
    ============================================================ */
 let TRADITIONS = {}; // loaded from questions.json
 let MATHS = {};      // loaded from questions.json (maths)
+let SST = {};        // loaded from questions.json (sst)
 
 /* ============================================================
    4) GAME LOGIC
@@ -383,6 +396,7 @@ window.addEventListener("popstate", (e) => {
 function dataGuard(){ if(!window.__dataReady){ alert("Ek pal — sawaal load ho rahe hain. Internet se kholiye, phir dobara dabaiye."); return false; } return true; }
 function openStudy(){ if(!dataGuard()) return; state.subject = "science"; buildClassChips(); go("scr-setup"); }
 function openMaths(){ if(!dataGuard()) return; state.subject = "maths"; buildClassChips(); go("scr-setup"); }
+function openSst(){ if(!dataGuard()) return; state.subject = "sst"; buildClassChips(); go("scr-setup"); }
 function openSanskar(){ if(!dataGuard()) return; buildTradTabs(); go("scr-sanskar"); }
 
 // progress memory: yaad rakho kaun se sawaal ho chuke
@@ -419,11 +433,13 @@ function startStudy(){
   const cls = document.querySelector("#classChips .chip.active").textContent.replace("Class ","").trim();
   const mode = document.querySelector("#modeChips .chip.active").dataset.mode;
   const isMath = (state.subject === "maths");
-  const allQs = (isMath ? MATHS : SCIENCE)[Number(cls)] || [];
-  const key = (isMath ? "math_" : "sci_") + cls;
+  const isSst = (state.subject === "sst");
+  const bank = isMath ? MATHS : (isSst ? SST : SCIENCE);
+  const allQs = bank[Number(cls)] || [];
+  const key = (isMath ? "math_" : (isSst ? "sst_" : "sci_")) + cls;
   const b = buildList(allQs, key);
   if(b.reset) localStorage.removeItem(seenKey(key));
-  state.title = (isMath ? t(24) : "Science") + " • Class " + cls;
+  state.title = (isMath ? t(24) : (isSst ? t(25) : t(20))) + " • Class " + cls;
   state.trackKey = key;
   beginQuiz(b.list, mode);
 }
@@ -717,7 +733,7 @@ function redeem(tier){
   applyLang();
   fetch("questions.json", { cache: "no-cache" })
     .then(r => r.json())
-    .then(d => { SCIENCE = d.science; MATHS = d.maths || {}; TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
+    .then(d => { SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
     .catch(() => { window.__dataReady = false; });
 })();
 </script>
