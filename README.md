@@ -24,3 +24,13 @@ Check the file before committing - CI runs the same check on every push:
 
 A new subject only needs a new top-level key with class keys `"5"`..`"12"`
 (like `science`, `maths`, `sst`); both the site and the app pick it up.
+
+## Daily target
+
+Each class (5-12) should carry **20 questions per subject** - that is 160
+questions per subject (Science, Maths, SST), 40 per class across the three.
+Values & Religion keeps 2 per category per batch.
+
+New questions are written in **English and Hindi only**. The older questions
+that already have 13 languages are left untouched; translation of the new ones
+is a later task, after the bank is big enough.
