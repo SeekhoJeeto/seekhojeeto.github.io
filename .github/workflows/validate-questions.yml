@@ -1,0 +1,35 @@
+name: Validate questions.json
+
+# Guards the question bank on every change:
+#   - the file must be valid UTF-8 JSON (no mojibake, no BOM)
+#   - every question needs en + hi text and 4 options in every language
+#   - the answer index must be in range
+#   - no question may repeat one already in the bank
+# Run it by hand any time from the Actions tab.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'questions.json'
+      - 'tool/validate_questions.py'
+      - '.github/workflows/validate-questions.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate the question bank
+        run: python3 tool/validate_questions.py questions.json
