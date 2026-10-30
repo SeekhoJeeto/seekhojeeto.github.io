@@ -129,6 +129,10 @@
       <span class="emoji">🌍</span>
       <span><span data-k="25">SST</span><small>Class 5–12</small></span>
     </button>
+    <button class="big-btn" onclick="openEnglish()">
+      <span class="emoji">📘</span>
+      <span><span data-k="26">English</span><small>Grammar • Vocabulary • Literature • Class 5–12</small></span>
+    </button>
     <button class="big-btn" onclick="openSanskar()">
       <span class="emoji">🪔</span>
       <span><span data-k="1">Values and Religion</span><small>Har dharm alag • apni marzi se</small></span>
@@ -144,6 +148,10 @@
     <div class="card">
       <p class="label" data-k="2">Choose your class</p>
       <div class="chips" id="classChips"></div>
+      <div id="engPartWrap" style="display:none">
+        <p class="label" data-k="30">Choose part</p>
+        <div class="chips" id="partChips"></div>
+      </div>
       <p class="label">Mode</p>
       <div class="chips" id="modeChips">
         <div class="chip active" data-mode="practice" data-k="5">Practice mode</div>
@@ -274,6 +282,24 @@ const SSTW = {
 };
 Object.keys(SSTW).forEach(function(l){ if(LANGS[l]) LANGS[l][25] = SSTW[l]; });
 
+// English subject words (indices 26-30): English, Grammar, Vocabulary, Literature, Part
+const ENGW = {
+  en: ["English","Grammar","Vocabulary","Literature","Choose part"],
+  hi: ["अंग्रेज़ी","व्याकरण","शब्दावली","साहित्य","भाग चुनें"],
+  bn: ["ইংরেজি","ব্যাকরণ","শব্দভাণ্ডার","সাহিত্য","অংশ বাছুন"],
+  mr: ["इंग्रजी","व्याकरण","शब्दसंग्रह","साहित्य","भाग निवडा"],
+  te: ["ఆంగ్లం","వ్యాకరణం","పదసంపద","సాహిత్యం","భాగం ఎంచుకోండి"],
+  ta: ["ஆங்கிலம்","இலக்கணம்","சொற்களஞ்சியம்","இலக்கியம்","பகுதியைத் தேர்ந்தெடுக்கவும்"],
+  gu: ["અંગ્રેજી","વ્યાકરણ","શબ્દભંડોળ","સાહિત્ય","ભાગ પસંદ કરો"],
+  ur: ["انگریزی","گرامر","الفاظ","ادب","حصہ منتخب کریں"],
+  kn: ["ಇಂಗ್ಲಿಷ್","ವ್ಯಾಕರಣ","ಪದಸಂಪತ್ತು","ಸಾಹಿತ್ಯ","ಭಾಗ ಆಯ್ಕೆಮಾಡಿ"],
+  or: ["ଇଂରାଜୀ","ବ୍ୟାକରଣ","ଶବ୍ଦକୋଷ","ସାହିତ୍ୟ","ଅଂଶ ବାଛନ୍ତୁ"],
+  ml: ["ഇംഗ്ലീഷ്","വ്യാകരണം","പദസമ്പത്ത്","സാഹിത്യം","ഭാഗം തിരഞ്ഞെടുക്കുക"],
+  pa: ["ਅੰਗਰੇਜ਼ੀ","ਵਿਆਕਰਨ","ਸ਼ਬਦਾਵਲੀ","ਸਾਹਿਤ","ਭਾਗ ਚੁਣੋ"],
+  as: ["ইংৰাজী","ব্যাকৰণ","শব্দভঁৰাল","সাহিত্য","অংশ বাছক"]
+};
+Object.keys(ENGW).forEach(function(l){ if(LANGS[l]){ for(var i=0;i<ENGW[l].length;i++){ LANGS[l][26+i] = ENGW[l][i]; } } });
+
 // Rewards-section words (7)
 const RW = {
   en: ["Rewards","Your points","Redeem now","Voucher code","Show this at the shop","Not enough points","Parent phone number"],
@@ -330,10 +356,11 @@ function renderStats(){
   var math = 0; Object.keys(MATHS).forEach(function(k){ math += MATHS[k].length; });
   var sst = 0; Object.keys(SST).forEach(function(k){ sst += SST[k].length; });
   var trad = 0; Object.keys(TRADITIONS).forEach(function(k){ var v = TRADITIONS[k]; if(Array.isArray(v)) trad += v.length; else if(v && Array.isArray(v.qs)) trad += v.qs.length; });
-  var total = sci + math + sst + trad;
+  var eng = 0; ["grammar","vocabulary","literature"].forEach(function(p){ var b = ENGLISH[p] || {}; Object.keys(b).forEach(function(k){ eng += b[k].length; }); });
+  var total = sci + math + sst + trad + eng;
   var r1 = document.getElementById("statRow1");
   var r2 = document.getElementById("statRow2");
-  if(r1) r1.innerHTML = t(20) + ": <b>" + sci + "</b> &nbsp;\u2022&nbsp; " + t(24) + ": <b>" + math + "</b> &nbsp;\u2022&nbsp; " + t(25) + ": <b>" + sst + "</b> &nbsp;\u2022&nbsp; " + t(1) + ": <b>" + trad + "</b> &nbsp;\u2022&nbsp; " + t(21) + ": <b>" + total + "</b>";
+  if(r1) r1.innerHTML = t(20) + ": <b>" + sci + "</b> &nbsp;\u2022&nbsp; " + t(24) + ": <b>" + math + "</b> &nbsp;\u2022&nbsp; " + t(25) + ": <b>" + sst + "</b> &nbsp;\u2022&nbsp; " + t(26) + ": <b>" + eng + "</b> &nbsp;\u2022&nbsp; " + t(1) + ": <b>" + trad + "</b> &nbsp;\u2022&nbsp; " + t(21) + ": <b>" + total + "</b>";
   var m = window.__meta || {};
   var line2 = "";
   if(m.last_updated){
@@ -352,6 +379,7 @@ function setLang(code){
   LANG = code;
   applyLang();
   if(document.getElementById("scr-sanskar").classList.contains("active")) buildTradTabs();
+  if(document.getElementById("scr-setup").classList.contains("active") && state.subject === "english") buildPartChips();
   if(document.getElementById("scr-game").classList.contains("active")) renderQ();
 }
 
@@ -367,6 +395,7 @@ let SCIENCE = {};   // loaded from questions.json
 let TRADITIONS = {}; // loaded from questions.json
 let MATHS = {};      // loaded from questions.json (maths)
 let SST = {};        // loaded from questions.json (sst)
+let ENGLISH = {};    // loaded from questions.json (english: grammar/vocabulary/literature)
 
 /* ============================================================
    4) GAME LOGIC
@@ -394,9 +423,25 @@ window.addEventListener("popstate", (e) => {
   if(scr === "scr-rewards") renderRewards();
 });
 function dataGuard(){ if(!window.__dataReady){ alert("Ek pal — sawaal load ho rahe hain. Internet se kholiye, phir dobara dabaiye."); return false; } return true; }
-function openStudy(){ if(!dataGuard()) return; state.subject = "science"; buildClassChips(); go("scr-setup"); }
-function openMaths(){ if(!dataGuard()) return; state.subject = "maths"; buildClassChips(); go("scr-setup"); }
-function openSst(){ if(!dataGuard()) return; state.subject = "sst"; buildClassChips(); go("scr-setup"); }
+function openStudy(){ if(!dataGuard()) return; showPartWrap(false); state.subject = "science"; buildClassChips(); go("scr-setup"); }
+function openMaths(){ if(!dataGuard()) return; showPartWrap(false); state.subject = "maths"; buildClassChips(); go("scr-setup"); }
+function openSst(){ if(!dataGuard()) return; state.subject = "sst"; showPartWrap(false); buildClassChips(); go("scr-setup"); }
+function openEnglish(){ if(!dataGuard()) return; state.subject = "english"; state.part = state.part || "grammar"; showPartWrap(true); buildClassChips(); buildPartChips(); go("scr-setup"); }
+function showPartWrap(on){ var w = document.getElementById("engPartWrap"); if(w) w.style.display = on ? "block" : "none"; }
+const PART_KEY = { grammar:27, vocabulary:28, literature:29 };
+function buildPartChips(){
+  const box = document.getElementById("partChips");
+  if(!box) return;
+  box.innerHTML = "";
+  ["grammar","vocabulary","literature"].forEach(function(p){
+    const d = document.createElement("div");
+    d.className = "chip" + (((state.part || "grammar") === p) ? " active" : "");
+    d.dataset.part = p;
+    d.textContent = t(PART_KEY[p]);
+    d.onclick = function(){ state.part = p; box.querySelectorAll(".chip").forEach(function(x){ x.classList.remove("active"); }); d.classList.add("active"); };
+    box.appendChild(d);
+  });
+}
 function openSanskar(){ if(!dataGuard()) return; buildTradTabs(); go("scr-sanskar"); }
 
 // progress memory: yaad rakho kaun se sawaal ho chuke
@@ -434,12 +479,22 @@ function startStudy(){
   const mode = document.querySelector("#modeChips .chip.active").dataset.mode;
   const isMath = (state.subject === "maths");
   const isSst = (state.subject === "sst");
-  const bank = isMath ? MATHS : (isSst ? SST : SCIENCE);
+  const isEng = (state.subject === "english");
+  let bank, key, title;
+  if(isEng){
+    const part = state.part || "grammar";
+    bank = (ENGLISH[part] || {});
+    key = "eng_" + part + "_" + cls;
+    title = t(26) + " • " + t(PART_KEY[part]) + " • Class " + cls;
+  } else {
+    bank = isMath ? MATHS : (isSst ? SST : SCIENCE);
+    key = (isMath ? "math_" : (isSst ? "sst_" : "sci_")) + cls;
+    title = (isMath ? t(24) : (isSst ? t(25) : t(20))) + " • Class " + cls;
+  }
   const allQs = bank[Number(cls)] || [];
-  const key = (isMath ? "math_" : (isSst ? "sst_" : "sci_")) + cls;
   const b = buildList(allQs, key);
   if(b.reset) localStorage.removeItem(seenKey(key));
-  state.title = (isMath ? t(24) : (isSst ? t(25) : t(20))) + " • Class " + cls;
+  state.title = title;
   state.trackKey = key;
   beginQuiz(b.list, mode);
 }
@@ -733,7 +788,7 @@ function redeem(tier){
   applyLang();
   fetch("questions.json", { cache: "no-cache" })
     .then(r => r.json())
-    .then(d => { SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
+    .then(d => { SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; ENGLISH = d.english || {}; TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
     .catch(() => { window.__dataReady = false; });
 })();
 </script>
