@@ -788,7 +788,7 @@ function redeem(tier){
   applyLang();
   fetch("questions.json", { cache: "no-cache" })
     .then(r => r.json())
-    .then(d => { SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; ENGLISH = d.english || {}; TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
+    .then(d => { SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; ENGLISH = { grammar: d.english_grammar || {}, vocabulary: d.english_vocabulary || {}, literature: d.english_literature || {} }; TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
     .catch(() => { window.__dataReady = false; });
 })();
 </script>
