@@ -786,10 +786,17 @@ function redeem(tier){
   });
   sel.value = "en";
   applyLang();
-  fetch("questions.json", { cache: "no-cache" })
-    .then(r => r.json())
-    .then(d => { SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; ENGLISH = { grammar: {}, vocabulary: {}, literature: {} };
-      if(d.english){ Object.keys(d.english).forEach(function(g){ var grp = d.english[g] || {}; var gq = grp.qs || []; var i = g.lastIndexOf("_"); var part = g.slice(0, i), cls = g.slice(i + 1); if(ENGLISH[part]){ ENGLISH[part][cls] = (ENGLISH[part][cls] || []).concat(gq); } }); } TRADITIONS = d.traditions; window.__meta = d.meta || {}; window.__dataReady = true; renderStats(); })
+  Promise.all([
+    fetch("questions.json", { cache: "no-cache" }).then(function(r){ return r.json(); }),
+    fetch("languages.json", { cache: "no-cache" }).then(function(r){ return r.json(); }).catch(function(){ return {}; })
+  ]).then(function(res){
+      var d = res[0] || {}, x = res[1] || {};
+      SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; TRADITIONS = d.traditions;
+      ENGLISH = { grammar: {}, vocabulary: {}, literature: {} };
+      var eng = x.english || {};
+      Object.keys(eng).forEach(function(g){ var grp = eng[g] || {}; var gq = grp.qs || []; var i = g.lastIndexOf("_"); var part = g.slice(0, i), cls = g.slice(i + 1); if(ENGLISH[part]){ ENGLISH[part][cls] = (ENGLISH[part][cls] || []).concat(gq); } });
+      window.__meta = d.meta || {}; window.__dataReady = true; renderStats();
+  })
     .catch(() => { window.__dataReady = false; });
 })();
 </script>
