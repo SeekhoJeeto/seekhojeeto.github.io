@@ -1,4 +1,4 @@
-name: Validate questions.json
+name: Validate question bank
 
 # Guards the question bank on every change:
 #   - the file must be valid UTF-8 JSON (no mojibake, no BOM)
@@ -11,8 +11,9 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'questions.json'
+      - '*.json'
       - 'tool/validate_questions.py'
+      - 'tool/validate_all.py'
       - '.github/workflows/validate-questions.yml'
   workflow_dispatch:
 
@@ -32,4 +33,6 @@ jobs:
           python-version: '3.12'
 
       - name: Validate the question bank
-        run: python3 tool/validate_questions.py questions.json
+        # The bank lives in several files listed in manifest.json; this merges
+        # them and runs the same checks on the result.
+        run: python3 tool/validate_all.py

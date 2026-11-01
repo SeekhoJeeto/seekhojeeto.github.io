@@ -786,19 +786,29 @@ function redeem(tier){
   });
   sel.value = "en";
   applyLang();
-  Promise.all([
-    fetch("questions.json", { cache: "no-cache" }).then(function(r){ return r.json(); }),
-    fetch("languages.json", { cache: "no-cache" }).then(function(r){ return r.json(); }).catch(function(){ return {}; }),
-    fetch("english.json", { cache: "no-cache" }).then(function(r){ return r.json(); }).catch(function(){ return {}; })
-  ]).then(function(res){
-      var d = res[0] || {}, x = res[1] || {}, ex = res[2] || {};
-      SCIENCE = d.science; MATHS = d.maths || {}; SST = d.sst || {}; TRADITIONS = d.traditions;
-      ENGLISH = { grammar: {}, vocabulary: {}, literature: {} };
-      var eng = ex.english || x.english || {};
-      Object.keys(eng).forEach(function(g){ var grp = eng[g] || {}; var gq = grp.qs || []; var i = g.lastIndexOf("_"); var part = g.slice(0, i), cls = g.slice(i + 1); if(ENGLISH[part]){ ENGLISH[part][cls] = (ENGLISH[part][cls] || []).concat(gq); } });
-      window.__meta = d.meta || {}; window.__dataReady = true; renderStats();
-  })
-    .catch(() => { window.__dataReady = false; });
+  (async function(){
+    var merged = {};
+    try {
+      var mf = await (await fetch("manifest.json", { cache: "no-cache" })).json();
+      var files = (mf && mf.files) || [];
+      for (var i = 0; i < files.length; i++) {
+        try {
+          var resp = await fetch(files[i], { cache: "no-cache" });
+          if (!resp.ok) continue;
+          var j = await resp.json();
+          if (files[i] === "meta.json") { merged.meta = j; } else { Object.assign(merged, j); }
+        } catch (e) {}
+      }
+    } catch (e) {}
+    if (!merged.science) {
+      try { merged = await (await fetch("questions.json", { cache: "no-cache" })).json(); } catch (e) {}
+    }
+    SCIENCE = merged.science || {}; MATHS = merged.maths || {}; SST = merged.sst || {}; TRADITIONS = merged.traditions || {};
+    ENGLISH = { grammar: {}, vocabulary: {}, literature: {} };
+    var eng = merged.english || {};
+    Object.keys(eng).forEach(function(g){ var grp = eng[g] || {}; var gq = grp.qs || []; var i = g.lastIndexOf("_"); var part = g.slice(0, i), cls = g.slice(i + 1); if(ENGLISH[part]){ ENGLISH[part][cls] = (ENGLISH[part][cls] || []).concat(gq); } });
+    window.__meta = merged.meta || {}; window.__dataReady = true; renderStats();
+  })().catch(function(){ window.__dataReady = false; });
 })();
 </script>
 </body>
