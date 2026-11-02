@@ -154,15 +154,34 @@ def main():
         if not isinstance(block, dict):
             err("%s: must be an object of classes" % section)
             continue
+        # A section is either classed ({"5": [...], "6": [...]}) or grouped
+        # ({"5": {"name": {...}, "qs": [...]}, "physics_11": {...}}). Grouped
+        # sections let a subject split into parts for the senior classes.
+        grouped = any(
+            isinstance(v, dict) and isinstance(v.get("qs"), list)
+            for v in block.values()
+        )
         count = 0
-        for cls in CLASSES:
-            arr = block.get(cls)
-            if not isinstance(arr, list) or not arr:
-                err("%s.%s: missing or empty class list" % (section, cls))
-                continue
-            for i, q in enumerate(arr):
-                check_question(q, "%s.%s[%d]" % (section, cls, i), seen)
-            count += len(arr)
+        if grouped:
+            for key, group in block.items():
+                if not isinstance(group, dict) or not isinstance(group.get("qs"), list):
+                    err("%s.%s: missing 'qs' list" % (section, key))
+                    continue
+                name = group.get("name")
+                if not isinstance(name, dict) or not name.get("en"):
+                    err("%s.%s: missing name.en" % (section, key))
+                for i, q in enumerate(group["qs"]):
+                    check_question(q, "%s.%s[%d]" % (section, key, i), seen)
+                count += len(group["qs"])
+        else:
+            for cls in CLASSES:
+                arr = block.get(cls)
+                if not isinstance(arr, list) or not arr:
+                    err("%s.%s: missing or empty class list" % (section, cls))
+                    continue
+                for i, q in enumerate(arr):
+                    check_question(q, "%s.%s[%d]" % (section, cls, i), seen)
+                count += len(arr)
         totals[section] = count
 
     traditions = data.get("traditions")
