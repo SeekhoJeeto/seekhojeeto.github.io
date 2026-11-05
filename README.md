@@ -34,3 +34,18 @@ Values & Religion keeps 2 per category per batch.
 New questions are written in **English and Hindi only**. The older questions
 that already have 13 languages are left untouched; translation of the new ones
 is a later task, after the bank is big enough.
+
+## Daily updates: drop files, do not rewrite the bank
+
+The data files are 1-3 MB each. Appending a daily batch used to mean sending
+the whole file inline through an API call, which is the step that kept
+failing: the questions were generated but the commit never landed.
+
+New questions are now delivered as small JSON drops under `inbox/` - only the
+new items, a few dozen KB per file. The `Apply inbox drops` workflow
+(`.github/workflows/apply-inbox.yml` + `tool/apply_inbox.py`) appends them to
+the right lists, updates `meta.last_updated` / `meta.last_added`, runs
+`tool/validate_all.py` and commits `Daily: add questions`. Nothing is
+committed if a drop is malformed or the merged bank fails validation.
+
+See `inbox/README.md` for the drop format and the checks that run on it.

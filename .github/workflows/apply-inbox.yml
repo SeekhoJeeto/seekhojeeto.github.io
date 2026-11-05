@@ -1,0 +1,65 @@
+name: Apply inbox drops
+
+# The daily question update never rewrites the multi-megabyte data files
+# itself. It only pushes the NEW questions, a few dozen KB each, as JSON
+# files under inbox/. This job appends them to the right lists, updates
+# meta.json, validates the merged bank and commits the result.
+#
+# Why: a 1-3 MB data file cannot be sent inline through an API call, and that
+# is exactly what used to fail - the questions were generated but the commit
+# never happened. Here the big files are rewritten on the runner, where size
+# does not matter, and the drop that reaches GitHub stays small.
+#
+# Drop format and checks are documented at the top of tool/apply_inbox.py.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'inbox/**.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# One drop at a time: two runs appending to the same file would race.
+concurrency:
+  group: apply-inbox
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Apply inbox drops
+        # Fails before touching anything if a drop is malformed, so a bad drop
+        # leaves the bank exactly as it was.
+        run: python3 tool/apply_inbox.py
+
+      - name: Validate the merged bank
+        # Same checks as the push-time validator; nothing is committed if this
+        # fails, so a broken batch can never go live.
+        run: python3 tool/validate_all.py
+
+      - name: Commit the applied drops
+        run: |
+          set -e
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          git config user.name "seekhojeeto-bot"
+          git config user.email "seekhojeeto-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "Daily: add questions"
+          git push
