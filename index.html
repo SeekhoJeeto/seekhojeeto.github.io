@@ -796,7 +796,7 @@ function redeem(tier){
           var resp = await fetch(files[i], { cache: "no-cache" });
           if (!resp.ok) continue;
           var j = await resp.json();
-          if (files[i] === "meta.json") { merged.meta = j; } else { Object.assign(merged, j); }
+          if (files[i] === "meta.json") { merged.meta = j; } else { Object.keys(j).forEach(function(k){ merged[k] = Object.assign(merged[k] || {}, j[k]); }); }
         } catch (e) {}
       }
     } catch (e) {}
