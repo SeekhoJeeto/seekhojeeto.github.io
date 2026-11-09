@@ -21,7 +21,13 @@ def main():
         if name == "meta.json":
             merged["meta"] = data
         else:
-            merged.update(data)
+            # A section can be split across several files (science.json +
+            # science_2.json), so merge per section key instead of replacing it.
+            for key, value in data.items():
+                if isinstance(value, dict) and isinstance(merged.get(key), dict):
+                    merged[key].update(value)
+                else:
+                    merged[key] = value
     for key in ("science", "maths", "sst", "traditions"):
         if key not in merged:
             print("merged data has no '%s' section" % key)
