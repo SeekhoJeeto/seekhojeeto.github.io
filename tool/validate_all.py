@@ -25,7 +25,16 @@ def main():
             # science_2.json), so merge per section key instead of replacing it.
             for key, value in data.items():
                 if isinstance(value, dict) and isinstance(merged.get(key), dict):
-                    merged[key].update(value)
+                    dst = merged[key]
+                    for g, item in value.items():
+                        cur = dst.get(g)
+                        if isinstance(cur, list) and isinstance(item, list):
+                            dst[g] = cur + item
+                        elif (isinstance(cur, dict) and isinstance(item, dict)
+                              and isinstance(cur.get("qs"), list) and isinstance(item.get("qs"), list)):
+                            cur["qs"] = cur["qs"] + item["qs"]
+                        else:
+                            dst[g] = item
                 else:
                     merged[key] = value
     for key in ("science", "maths", "sst", "traditions"):

@@ -352,9 +352,10 @@ function applyLang(){
 function renderStats(){
   var box = document.getElementById("homeStats");
   if(!box) return;
-  var sci = 0; Object.keys(SCIENCE).forEach(function(k){ sci += SCIENCE[k].length; });
-  var math = 0; Object.keys(MATHS).forEach(function(k){ math += MATHS[k].length; });
-  var sst = 0; Object.keys(SST).forEach(function(k){ sst += SST[k].length; });
+  function qlen(v){ if (Array.isArray(v)) return v.length; if (v && Array.isArray(v.qs)) return v.qs.length; return 0; }
+  var sci = 0; Object.keys(SCIENCE).forEach(function(k){ sci += qlen(SCIENCE[k]); });
+  var math = 0; Object.keys(MATHS).forEach(function(k){ math += qlen(MATHS[k]); });
+  var sst = 0; Object.keys(SST).forEach(function(k){ sst += qlen(SST[k]); });
   var trad = 0; Object.keys(TRADITIONS).forEach(function(k){ var v = TRADITIONS[k]; if(Array.isArray(v)) trad += v.length; else if(v && Array.isArray(v.qs)) trad += v.qs.length; });
   var eng = 0; ["grammar","vocabulary","literature"].forEach(function(p){ var b = ENGLISH[p] || {}; Object.keys(b).forEach(function(k){ eng += b[k].length; }); });
   var total = sci + math + sst + trad + eng;
@@ -796,7 +797,7 @@ function redeem(tier){
           var resp = await fetch(files[i], { cache: "no-cache" });
           if (!resp.ok) continue;
           var j = await resp.json();
-          if (files[i] === "meta.json") { merged.meta = j; } else { Object.keys(j).forEach(function(k){ merged[k] = Object.assign(merged[k] || {}, j[k]); }); }
+          if (files[i] === "meta.json") { merged.meta = j; } else { Object.keys(j).forEach(function(k){ var dst = merged[k] || {}; var src = j[k] || {}; Object.keys(src).forEach(function(g){ var a = dst[g], b = src[g]; if (Array.isArray(a) && Array.isArray(b)) { dst[g] = a.concat(b); } else if (a && b && Array.isArray(a.qs) && Array.isArray(b.qs)) { dst[g] = { name: a.name || b.name, icon: a.icon || b.icon, qs: a.qs.concat(b.qs) }; } else { dst[g] = b; } }); merged[k] = dst; }); }
         } catch (e) {}
       }
     } catch (e) {}
