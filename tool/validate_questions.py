@@ -28,6 +28,9 @@ MOJIBAKE_MARKERS = ("Ã", "Â", "à¤", "à¥", "â€", "\ufffd")
 CLASSES = [str(c) for c in range(5, 13)]
 REQUIRED_TOP = ("science", "maths", "traditions", "meta")
 CLASSED_SECTIONS = ("science", "maths", "sst", "gk", "gs", "computer")
+# Core subjects must carry every class 5-12; newer subjects may grow class by
+# class, so a class that is absent or still empty there is not an error.
+STRICT_SECTIONS = ("science", "maths", "sst")
 TEXT_SECTIONS = CLASSED_SECTIONS + ("traditions",)
 
 errors = []
@@ -176,8 +179,13 @@ def main():
         else:
             for cls in CLASSES:
                 arr = block.get(cls)
-                if not isinstance(arr, list) or not arr:
-                    err("%s.%s: missing or empty class list" % (section, cls))
+                if not isinstance(arr, list):
+                    if section in STRICT_SECTIONS:
+                        err("%s.%s: missing class list" % (section, cls))
+                    continue
+                if not arr:
+                    if section in STRICT_SECTIONS:
+                        err("%s.%s: empty class list" % (section, cls))
                     continue
                 for i, q in enumerate(arr):
                     check_question(q, "%s.%s[%d]" % (section, cls, i), seen)
