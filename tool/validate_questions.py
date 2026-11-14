@@ -27,7 +27,7 @@ import sys
 MOJIBAKE_MARKERS = ("Ã", "Â", "à¤", "à¥", "â€", "\ufffd")
 CLASSES = [str(c) for c in range(5, 13)]
 REQUIRED_TOP = ("science", "maths", "traditions", "meta")
-CLASSED_SECTIONS = ("science", "maths", "sst")
+CLASSED_SECTIONS = ("science", "maths", "sst", "gk", "gs", "computer")
 TEXT_SECTIONS = CLASSED_SECTIONS + ("traditions",)
 
 errors = []

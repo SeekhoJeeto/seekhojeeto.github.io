@@ -98,6 +98,7 @@
   .voucher .v-code { font-family: monospace; font-size: 20px; font-weight: 700; letter-spacing: 1px; margin: 8px 0; }
   .voucher .v-note { font-size: 12px; color: #6b5a2a; }
   footer { text-align: center; color: #6b74a0; font-size: 12px; margin-top: 24px; }
+  #classChips .chip.off{opacity:.32;cursor:not-allowed;}
 </style>
 </head>
 <body>
@@ -117,22 +118,7 @@
       <div class="stat-row" id="statRow1"></div>
       <div class="stat-row small" id="statRow2"></div>
     </div>
-    <button class="big-btn" onclick="openStudy()">
-      <span class="emoji">🔬</span>
-      <span><span data-k="0">Study</span><small>Science • Class 5–12</small></span>
-    </button>
-    <button class="big-btn" onclick="openMaths()">
-      <span class="emoji">➗</span>
-      <span><span data-k="24">Maths</span><small>Class 5–12</small></span>
-    </button>
-    <button class="big-btn" onclick="openSst()">
-      <span class="emoji">🌍</span>
-      <span><span data-k="25">SST</span><small>Class 5–12</small></span>
-    </button>
-    <button class="big-btn" onclick="openEnglish()">
-      <span class="emoji">📘</span>
-      <span><span data-k="26">English</span><small>Grammar • Vocabulary • Literature • Class 5–12</small></span>
-    </button>
+    <div id="subjectList"></div>
     <button class="big-btn" onclick="openSanskar()">
       <span class="emoji">🪔</span>
       <span><span data-k="1">Values and Religion</span><small>Har dharm alag • apni marzi se</small></span>
@@ -225,7 +211,7 @@
     </div>
   </section>
 
-  <footer>Seekho Jeeto • Science + Maths + SST + Sanskar + Rewards • v2</footer>
+  <footer>Seekho Jeeto • Subjects load from manifest.json • v3</footer>
 </div>
 
 <script>
@@ -352,16 +338,14 @@ function applyLang(){
 function renderStats(){
   var box = document.getElementById("homeStats");
   if(!box) return;
-  function qlen(v){ if (Array.isArray(v)) return v.length; if (v && Array.isArray(v.qs)) return v.qs.length; return 0; }
-  var sci = 0; Object.keys(SCIENCE).forEach(function(k){ sci += qlen(SCIENCE[k]); });
-  var math = 0; Object.keys(MATHS).forEach(function(k){ math += qlen(MATHS[k]); });
-  var sst = 0; Object.keys(SST).forEach(function(k){ sst += qlen(SST[k]); });
   var trad = 0; Object.keys(TRADITIONS).forEach(function(k){ var v = TRADITIONS[k]; if(Array.isArray(v)) trad += v.length; else if(v && Array.isArray(v.qs)) trad += v.qs.length; });
-  var eng = 0; ["grammar","vocabulary","literature"].forEach(function(p){ var b = ENGLISH[p] || {}; Object.keys(b).forEach(function(k){ eng += b[k].length; }); });
-  var total = sci + math + sst + trad + eng;
+  var total = trad, bits = [];
+  SUBJECTS.forEach(function(sub){ var n = subjectCount(sub); if(!n) return; total += n; bits.push(subName(sub) + ": <b>" + n + "</b>"); });
+  if(trad) bits.push(t(1) + ": <b>" + trad + "</b>");
+  bits.push(t(21) + ": <b>" + total + "</b>");
   var r1 = document.getElementById("statRow1");
   var r2 = document.getElementById("statRow2");
-  if(r1) r1.innerHTML = t(20) + ": <b>" + sci + "</b> &nbsp;\u2022&nbsp; " + t(24) + ": <b>" + math + "</b> &nbsp;\u2022&nbsp; " + t(25) + ": <b>" + sst + "</b> &nbsp;\u2022&nbsp; " + t(26) + ": <b>" + eng + "</b> &nbsp;\u2022&nbsp; " + t(1) + ": <b>" + trad + "</b> &nbsp;\u2022&nbsp; " + t(21) + ": <b>" + total + "</b>";
+  if(r1) r1.innerHTML = bits.join(" &nbsp;\u2022&nbsp; ");
   var m = window.__meta || {};
   var line2 = "";
   if(m.last_updated){
@@ -380,7 +364,8 @@ function setLang(code){
   LANG = code;
   applyLang();
   if(document.getElementById("scr-sanskar").classList.contains("active")) buildTradTabs();
-  if(document.getElementById("scr-setup").classList.contains("active") && state.subject === "english") buildPartChips();
+  renderSubjects();
+  if(document.getElementById("scr-setup").classList.contains("active")){ buildClassChips(); if(state.subjectParts) buildPartChips(); }
   if(document.getElementById("scr-game").classList.contains("active")) renderQ();
 }
 
@@ -388,15 +373,94 @@ function setLang(code){
    2) SCIENCE QUESTION BANK — Class 5 to 12 (English + Hindi)
    Each: q, options o, correct index a, explanation e
    ============================================================ */
-let SCIENCE = {};   // loaded from questions.json
+/* ============================================================
+   2b) SUBJECT REGISTRY — add a subject here, add its data file to
+   manifest.json, and it appears on the home screen by itself.
+
+   key   : section name in the JSON file  ({"gk": {"5": [...]}}  ->  key "gk")
+   parts : optional split, e.g. grammar / vocabulary / literature
+   track : prefix used for "already seen" progress in localStorage
+   A subject with no questions is hidden automatically.
+   ============================================================ */
+const SUBJECTS = [
+  {id:"science", key:"science", emoji:"\u{1F52C}", track:"sci_", nameKey:20, desc:"Class 5\u201312"},
+  {id:"maths", key:"maths", emoji:"\u2797", track:"math_", nameKey:24, desc:"Class 5\u201312"},
+  {id:"sst", key:"sst", emoji:"\u{1F30D}", track:"sst_", nameKey:25, desc:"Class 5\u201312"},
+  {id:"gk", key:"gk", emoji:"\u{1F9E0}", track:"gk_", desc:"Class 5\u201312", name:{
+    en:"GK", hi:"\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u091c\u094d\u091e\u093e\u0928", bn:"\u09b8\u09be\u09a7\u09be\u09b0\u09a3 \u099c\u09cd\u099e\u09be\u09a8", mr:"\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u091c\u094d\u091e\u093e\u0928",
+    te:"\u0c38\u0c3e\u0c27\u0c3e\u0c30\u0c23 \u0c1c\u0c4d\u0c1e\u0c3e\u0c28\u0c02", ta:"\u0baa\u0bca\u0ba4\u0bc1 \u0b85\u0bb1\u0bbf\u0bb5\u0bc1", gu:"\u0ab8\u0abe\u0aae\u0abe\u0aa8\u0acd\u0aaf \u0a9c\u0acd\u0a9e\u0abe\u0aa8",
+    kn:"\u0cb8\u0cbe\u0cae\u0cbe\u0ca8\u0ccd\u0caf \u0c9c\u0ccd\u0c9e\u0cbe\u0ca8", ml:"\u0d2a\u0d4a\u0d24\u0d41\u0d35\u0d3f\u0d1c\u0d4d\u0d1e\u0d3e\u0d28\u0d02",
+    pa:"\u0a06\u0a2e \u0a17\u0a3f\u0a06\u0a28", ur:"\u0639\u0645\u0648\u0645\u06cc \u0645\u0639\u0644\u0648\u0645\u0627\u062a", or:"\u0b38\u0b3e\u0b27\u0b3e\u0b30\u0b23 \u0b1c\u0b4d\u0b1e\u0b3e\u0b28",
+    as:"\u0998\u09b0\u09c7\u09b0 \u099c\u09cd\u099e\u09be\u09a8"}},
+  {id:"gs", key:"gs", emoji:"\u{1F3DB}\uFE0F", track:"gs_", desc:"Class 5\u201312", name:{
+    en:"GS", hi:"\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0905\u0927\u094d\u092f\u092f\u0928", bn:"\u09b8\u09be\u09a7\u09be\u09b0\u09a3 \u0985\u09a7\u09cd\u09af\u09df\u09a8", mr:"\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0905\u092d\u094d\u092f\u093e\u0938",
+    te:"\u0c38\u0c3e\u0c27\u0c3e\u0c30\u0c23 \u0c05\u0c27\u0c4d\u0c2f\u0c2f\u0c28\u0c02", ta:"\u0baa\u0bca\u0ba4\u0bc1 \u0baa\u0b9f\u0bbf\u0baa\u0bcd\u0baa\u0bc1\u0b95\u0bb3\u0bcd", gu:"\u0ab8\u0abe\u0aae\u0abe\u0aa8\u0acd\u0aaf \u0a85\u0aad\u0acd\u0aaf\u0abe\u0ab8",
+    kn:"\u0cb8\u0cbe\u0cae\u0cbe\u0ca8\u0ccd\u0caf \u0c85\u0ca7\u0ccd\u0caf\u0caf\u0ca8", ml:"\u0d2a\u0d4a\u0d24\u0d41\u0d2a\u0d20\u0d28\u0d02",
+    pa:"\u0a06\u0a2e \u0a05\u0a27\u0a48\u0a28", ur:"\u0639\u0645\u0648\u0645\u06cc \u0645\u0637\u0627\u0644\u0639\u06c1", or:"\u0b38\u0b3e\u0b27\u0b3e\u0b30\u0b23 \u0b05\u0b27\u0b4d\u0b5f\u0b5f\u0b28",
+    as:"\u0998\u09b0\u09c7\u09b0 \u0985\u09a7\u09cd\u09af\u09df\u09a8"}},
+  {id:"computer", key:"computer", emoji:"\u{1F4BB}", track:"comp_", desc:"Computer & AI \u2022 Class 5\u201312", name:{
+    en:"Computer & AI", hi:"\u0915\u0902\u092a\u094d\u092f\u0942\u091f\u0930 \u0914\u0930 AI", bn:"\u0995\u09ae\u09cd\u09aa\u09bf\u0989\u099f\u09be\u09b0 \u0993 AI", mr:"\u0938\u0902\u0917\u0923\u0915 \u0906\u0923\u093f AI",
+    te:"\u0c15\u0c02\u0c2a\u0c4d\u0c2f\u0c42\u0c1f\u0c30\u0c4d \u0c2e\u0c30\u0c3f\u0c2f\u0c41 AI", ta:"\u0b95\u0ba3\u0bbf\u0ba9\u0bbf \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd AI", gu:"\u0a95\u0aae\u0acd\u0aaa\u0acd\u0aaf\u0ac2\u0a9f\u0ab0 \u0a85\u0aa8\u0ac7 AI",
+    kn:"\u0c95\u0c82\u0caa\u0ccd\u0caf\u0cc2\u0c9f\u0cb0\u0ccd \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 AI", ml:"\u0d15\u0d7b\u0d2a\u0d4d\u0d2f\u0d42\u0d1f\u0d4d\u0d1f\u0d31\u0d41\u0d02 AI\u0d2f\u0d41\u0d02",
+    pa:"\u0a15\u0a70\u0a2a\u0a42\u0a1f\u0a30 \u0a05\u0a24\u0a47 AI", ur:"\u06a9\u0645\u067e\u06cc\u0648\u0679\u0631 \u0627\u0648\u0631 AI", or:"\u0b15\u0b2e\u0b4d\u0b2a\u0b3f\u0b09\u0b1f\u0b30 \u0b0f\u0b2c\u0b02 AI",
+    as:"\u0995\u09ae\u09cd\u09aa\u09bf\u0989\u099f\u09be\u09f0 \u0986\u09f0\u09c1 AI"}},
+  {id:"english", key:"english", emoji:"\u{1F4D8}", track:"eng_", nameKey:26, parts:["grammar","vocabulary","literature"],
+   desc:"Grammar \u2022 Vocabulary \u2022 Literature \u2022 Class 5\u201312"},
+  {id:"hindi", key:"hindi", emoji:"\u270D\uFE0F", track:"hin_", parts:["grammar","vocabulary","literature"],
+   desc:"\u0935\u094d\u092f\u093e\u0915\u0930\u0923 \u2022 \u0936\u092c\u094d\u0926\u093e\u0935\u0932\u0940 \u2022 \u0938\u093e\u0939\u093f\u0924\u094d\u092f \u2022 Class 5\u201312", name:{
+    en:"Hindi", hi:"\u0939\u093f\u0902\u0926\u0940", bn:"\u09b9\u09bf\u09a8\u09cd\u09a6\u09bf", mr:"\u0939\u093f\u0902\u0926\u0940",
+    te:"\u0c39\u0c3f\u0c02\u0c26\u0c40", ta:"\u0bb9\u0bbf\u0ba8\u0bcd\u0ba4\u0bbf", gu:"\u0ab9\u0abf\u0aa8\u0acd\u0aa6\u0ac0",
+    kn:"\u0cb9\u0cbf\u0c82\u0ca6\u0cbf", ml:"\u0d39\u0d3f\u0d28\u0d4d\u0d26\u0d3f", pa:"\u0a39\u0a3f\u0a70\u0a26\u0a40",
+    ur:"\u06c1\u0646\u062f\u06cc", or:"\u0b39\u0b3f\u0b28\u0b4d\u0b26\u0b40", as:"\u09b9\u09bf\u09a8\u09cd\u09a6\u09c0"}}
+];
 
 /* ============================================================
-   3) SANSKAR / DHARM SECTION — each tradition separate & optional
+   3) DATA — every section of the bank, keyed by section name
    ============================================================ */
-let TRADITIONS = {}; // loaded from questions.json
-let MATHS = {};      // loaded from questions.json (maths)
-let SST = {};        // loaded from questions.json (sst)
-let ENGLISH = {};    // loaded from questions.json (english: grammar/vocabulary/literature)
+let DATA = {science:{}, maths:{}, sst:{}, gk:{}, gs:{}, computer:{}, english:{}, hindi:{}};
+let TRADITIONS = {}; // loaded from values.json
+let ENGLISH = {};    // DATA.english (kept for older code paths)
+let SCIENCE = {}, MATHS = {}, SST = {};   // kept for older code paths
+
+function qlen(v){ if(Array.isArray(v)) return v.length; if(v && Array.isArray(v.qs)) return v.qs.length; return 0; }
+function subName(sub){ if(sub.nameKey !== undefined) return t(sub.nameKey); return (sub.name && (sub.name[LANG] || sub.name.en)) || sub.id; }
+function currentSubject(){ for(var i=0;i<SUBJECTS.length;i++){ if(SUBJECTS[i].id === state.subject) return SUBJECTS[i]; } return SUBJECTS[0]; }
+function subjectCount(sub){
+  var d = DATA[sub.key] || {}, n = 0;
+  if(sub.parts){ sub.parts.forEach(function(p){ var b = d[p] || {}; Object.keys(b).forEach(function(k){ n += qlen(b[k]); }); }); }
+  else { Object.keys(d).forEach(function(k){ n += qlen(d[k]); }); }
+  return n;
+}
+/* questions of one class; also picks up split groups such as physics_11 */
+function classQs(bank, cls){
+  var out = [], direct = bank[cls];
+  function push(v){ if(Array.isArray(v)) { for(var i=0;i<v.length;i++) out.push(v[i]); } else if(v && Array.isArray(v.qs)) { for(var j=0;j<v.qs.length;j++) out.push(v.qs[j]); } }
+  if(direct) push(direct);
+  Object.keys(bank).forEach(function(k){ if(k !== cls && k.length > cls.length && k.slice(-(cls.length+1)) === "_" + cls) push(bank[k]); });
+  return out;
+}
+function subjectBank(sub, part){
+  var d = DATA[sub.key] || {};
+  return part ? (d[part] || {}) : d;
+}
+function renderSubjects(){
+  var box = document.getElementById("subjectList");
+  if(!box) return;
+  box.innerHTML = "";
+  SUBJECTS.forEach(function(sub){
+    if(!subjectCount(sub)) return;   // hide a subject until its data file exists
+    var b = document.createElement("button");
+    b.className = "big-btn";
+    b.onclick = function(){ openSubject(sub.id); };
+    var em = document.createElement("span"); em.className = "emoji"; em.textContent = sub.emoji;
+    var wrap = document.createElement("span");
+    var nm = document.createElement("span"); nm.textContent = subName(sub);
+    var sm = document.createElement("small"); sm.textContent = sub.desc;
+    wrap.appendChild(nm); wrap.appendChild(sm);
+    b.appendChild(em); b.appendChild(wrap);
+    box.appendChild(b);
+  });
+}
 
 /* ============================================================
    4) GAME LOGIC
@@ -424,19 +488,35 @@ window.addEventListener("popstate", (e) => {
   if(scr === "scr-rewards") renderRewards();
 });
 function dataGuard(){ if(!window.__dataReady){ alert("Ek pal — sawaal load ho rahe hain. Internet se kholiye, phir dobara dabaiye."); return false; } return true; }
-function openStudy(){ if(!dataGuard()) return; showPartWrap(false); state.subject = "science"; buildClassChips(); go("scr-setup"); }
-function openMaths(){ if(!dataGuard()) return; showPartWrap(false); state.subject = "maths"; buildClassChips(); go("scr-setup"); }
-function openSst(){ if(!dataGuard()) return; state.subject = "sst"; showPartWrap(false); buildClassChips(); go("scr-setup"); }
-function openEnglish(){ if(!dataGuard()) return; state.subject = "english"; state.part = state.part || "grammar"; showPartWrap(true); buildClassChips(); buildPartChips(); go("scr-setup"); }
+function openSubject(id){
+  if(!dataGuard()) return;
+  var sub = null;
+  for(var i=0;i<SUBJECTS.length;i++){ if(SUBJECTS[i].id === id) sub = SUBJECTS[i]; }
+  if(!sub || !subjectCount(sub)) return;
+  state.subject = sub.id;
+  state.subjectParts = !!sub.parts;
+  if(sub.parts){ state.part = (state.part && sub.parts.indexOf(state.part) >= 0) ? state.part : sub.parts[0]; }
+  showPartWrap(!!sub.parts);
+  buildClassChips();
+  if(sub.parts) buildPartChips();
+  go("scr-setup");
+}
+/* kept so old links still work */
+function openStudy(){ openSubject("science"); }
+function openMaths(){ openSubject("maths"); }
+function openSst(){ openSubject("sst"); }
+function openEnglish(){ openSubject("english"); }
 function showPartWrap(on){ var w = document.getElementById("engPartWrap"); if(w) w.style.display = on ? "block" : "none"; }
 const PART_KEY = { grammar:27, vocabulary:28, literature:29 };
 function buildPartChips(){
   const box = document.getElementById("partChips");
   if(!box) return;
   box.innerHTML = "";
-  ["grammar","vocabulary","literature"].forEach(function(p){
+  var sub = currentSubject();
+  var parts = sub.parts || ["grammar","vocabulary","literature"];
+  parts.forEach(function(p){
     const d = document.createElement("div");
-    d.className = "chip" + (((state.part || "grammar") === p) ? " active" : "");
+    d.className = "chip" + (((state.part || parts[0]) === p) ? " active" : "");
     d.dataset.part = p;
     d.textContent = t(PART_KEY[p]);
     d.onclick = function(){ state.part = p; box.querySelectorAll(".chip").forEach(function(x){ x.classList.remove("active"); }); d.classList.add("active"); };
@@ -461,13 +541,22 @@ function buildList(allQs, k){
 function buildClassChips(){
   const box = document.getElementById("classChips");
   box.innerHTML = "";
+  const sub = currentSubject();
+  const bank = subjectBank(sub, sub.parts ? (state.part || sub.parts[0]) : null);
+  let firstAvail = 0, want = 0;
   for(let c=5;c<=12;c++){
+    const has = classQs(bank, String(c)).length > 0;
+    if(has && !firstAvail) firstAvail = c;
+    if(has && c === 8) want = c;
     const d = document.createElement("div");
-    d.className = "chip" + (c===8?" active":"");
+    d.className = "chip" + (has ? "" : " off");
     d.textContent = "Class " + c;
-    d.onclick = () => { box.querySelectorAll(".chip").forEach(x=>x.classList.remove("active")); d.classList.add("active"); };
+    if(has) d.onclick = () => { box.querySelectorAll(".chip").forEach(x=>x.classList.remove("active")); d.classList.add("active"); };
     box.appendChild(d);
   }
+  const pick = want || firstAvail;
+  const el = pick ? box.querySelectorAll(".chip")[pick-5] : null;
+  if(el) el.classList.add("active");
 }
 document.getElementById("modeChips").addEventListener("click", (e) => {
   const c = e.target.closest(".chip"); if(!c) return;
@@ -476,23 +565,16 @@ document.getElementById("modeChips").addEventListener("click", (e) => {
 });
 
 function startStudy(){
-  const cls = document.querySelector("#classChips .chip.active").textContent.replace("Class ","").trim();
+  const sub = currentSubject();
+  const chipEl = document.querySelector("#classChips .chip.active");
+  if(!chipEl){ alert("Is subject me abhi sawaal nahi hain."); return; }
+  const cls = chipEl.textContent.replace("Class ","").trim();
   const mode = document.querySelector("#modeChips .chip.active").dataset.mode;
-  const isMath = (state.subject === "maths");
-  const isSst = (state.subject === "sst");
-  const isEng = (state.subject === "english");
-  let bank, key, title;
-  if(isEng){
-    const part = state.part || "grammar";
-    bank = (ENGLISH[part] || {});
-    key = "eng_" + part + "_" + cls;
-    title = t(26) + " • " + t(PART_KEY[part]) + " • Class " + cls;
-  } else {
-    bank = isMath ? MATHS : (isSst ? SST : SCIENCE);
-    key = (isMath ? "math_" : (isSst ? "sst_" : "sci_")) + cls;
-    title = (isMath ? t(24) : (isSst ? t(25) : t(20))) + " • Class " + cls;
-  }
-  const allQs = bank[Number(cls)] || [];
+  const part = sub.parts ? (state.part || sub.parts[0]) : null;
+  const bank = subjectBank(sub, part);
+  const key = sub.track + (part ? part + "_" : "") + cls;
+  const title = subName(sub) + (part ? " • " + t(PART_KEY[part]) : "") + " • Class " + cls;
+  const allQs = classQs(bank, cls);
   const b = buildList(allQs, key);
   if(b.reset) localStorage.removeItem(seenKey(key));
   state.title = title;
@@ -804,11 +886,26 @@ function redeem(tier){
     if (!merged.science) {
       try { merged = await (await fetch("questions.json", { cache: "no-cache" })).json(); } catch (e) {}
     }
-    SCIENCE = merged.science || {}; MATHS = merged.maths || {}; SST = merged.sst || {}; TRADITIONS = merged.traditions || {};
-    ENGLISH = { grammar: {}, vocabulary: {}, literature: {} };
-    var eng = merged.english || {};
-    Object.keys(eng).forEach(function(g){ var grp = eng[g] || {}; var gq = grp.qs || []; var i = g.lastIndexOf("_"); var part = g.slice(0, i), cls = g.slice(i + 1); if(ENGLISH[part]){ ENGLISH[part][cls] = (ENGLISH[part][cls] || []).concat(gq); } });
-    window.__meta = merged.meta || {}; window.__dataReady = true; renderStats();
+    TRADITIONS = merged.traditions || {};
+    function splitParts(sec){
+      var out = { grammar: {}, vocabulary: {}, literature: {} };
+      Object.keys(sec || {}).forEach(function(g){
+        var grp = sec[g] || {}, gq = grp.qs || [], i = g.lastIndexOf("_");
+        var part = g.slice(0, i), cls = g.slice(i + 1);
+        if(out[part]) out[part][cls] = (out[part][cls] || []).concat(gq);
+      });
+      return out;
+    }
+    DATA = {};
+    SUBJECTS.forEach(function(sub){
+      var sec = merged[sub.key] || {};
+      DATA[sub.key] = sub.parts ? splitParts(sec) : sec;
+    });
+    SCIENCE = DATA.science; MATHS = DATA.maths; SST = DATA.sst; ENGLISH = DATA.english;
+    window.__meta = merged.meta || {};
+    window.__dataReady = true;
+    renderSubjects();
+    renderStats();
   })().catch(function(){ window.__dataReady = false; });
 })();
 </script>

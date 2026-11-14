@@ -23,7 +23,28 @@ Check the file before committing - CI runs the same check on every push:
     python3 tool/validate_questions.py questions.json
 
 A new subject only needs a new top-level key with class keys `"5"`..`"12"`
-(like `science`, `maths`, `sst`); both the site and the app pick it up.
+(like `science`, `maths`, `sst`, `gk`, `gs`, `computer`); both the site and the
+app pick it up.
+
+## Adding a subject to the website
+
+The home screen is built from the `SUBJECTS` list in `index.html`, not from
+hard-coded buttons, so a new subject needs no layout work:
+
+1. Make a data file whose top-level key is the subject id, e.g.
+   `computer.json` -> `{"computer": {"5": [...], "6": [...]}}`. Class keys are
+   `"5"`..`"12"`; a subject can also be split like science
+   (`physics_11`, `chemistry_11`, ...) and the site groups those per class.
+2. Add the file name to `manifest.json` `files`. The site merges every file it
+   finds there, so no code change is needed for a subject already listed in
+   `SUBJECTS` (`science`, `maths`, `sst`, `gk`, `gs`, `computer`, `english`,
+   `hindi`).
+3. Only for a completely new id, add one line to `SUBJECTS` in `index.html`
+   (id, data key, emoji, name in 13 languages, optional `parts`, and a
+   `track` prefix used to remember seen questions).
+4. Run `python3 tool/validate_all.py`. A subject with no questions yet is
+   hidden automatically, and classes without questions show as disabled
+   chips, so partial data is safe to ship.
 
 ## Daily target
 
