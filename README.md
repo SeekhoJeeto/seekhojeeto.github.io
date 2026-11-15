@@ -88,6 +88,30 @@ has no classes.
 The app still needs a small screen to list and play these papers - until
 then the file is data only.
 
+## File layout (why some files carry a whole subject)
+
+The Flutter app (`seekhojeeto-app`) merges the manifest files by **replacing**
+a section, not appending to it: the last file that contains `science` wins. So
+a subject split across two files showed only the second half in the app -
+`science.json` (classes 5-10) disappeared behind `science_2.json`.
+
+To keep the installed app correct without a rebuild, the complete subject now
+lives in one file:
+
+| section | file |
+|---|---|
+| science | `science_2.json` (all 12 groups) |
+| english | `english_2.json` (all 24 groups) |
+| hindi   | `languages_2.json` (all 24 groups) |
+
+`science.json`, `english.json` and `languages.json` are superseded: they are
+no longer in `manifest.json` and must not be written to. The web app and
+`tool/validate_all.py` only read what the manifest lists.
+
+Do not split these three files again until the next app build is out: the
+merge fix in the app repo makes splits safe, but an installed build that
+predates it would lose half of the subject again.
+
 ## Daily target
 
 Each class (5-12) should carry **20 questions per subject** - that is 160
