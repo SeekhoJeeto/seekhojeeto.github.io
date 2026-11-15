@@ -41,6 +41,9 @@
   .big-btn:hover { background: #212a52; }
   .big-btn:active { transform: scale(.99); }
   .big-btn .emoji { font-size: 26px; }
+  .sbadge { width: 34px; height: 34px; border-radius: 11px; display: flex; align-items: center; justify-content: center;
+            font-weight: 900; font-size: 13px; color: #08101f; flex: 0 0 auto; letter-spacing: .2px; line-height: 1; }
+  .sbadge.sm { width: 26px; height: 26px; border-radius: 8px; font-size: 10.5px; }
   .big-btn small { display: block; font-weight: 500; color: #9aa4d4; font-size: 13px; }
   .stats { background: #141a35; border: 1px solid #232c55; border-radius: 14px; padding: 12px 14px; margin: 0 0 16px; text-align: center; }
   .stats .stat-row { font-weight: 700; font-size: 14px; color: #cdd5ff; }
@@ -132,15 +135,15 @@
     </div>
     <div id="subjectList"></div>
     <button class="big-btn" onclick="openSanskar()">
-      <span class="emoji">🪔</span>
+      <span class="sbadge" style="background:#fde68a">VR</span>
       <span><span data-k="1">Values and Religion</span><small>Har dharm alag • apni marzi se</small></span>
     </button>
     <button class="big-btn" onclick="openCompetitive()">
-      <span class="emoji">🏆</span>
+      <span class="sbadge" style="background:#f3d99a">TS</span>
       <span><span>Competitive Test Series</span><small>SSC • HSSC • Railway • Full Mock</small></span>
     </button>
     <button class="big-btn" onclick="openRewards()">
-      <span class="emoji">🎁</span>
+      <span class="sbadge" style="background:#a7f3d0">RW</span>
       <span><span data-r="0">Rewards</span><small>Points → Shreecharanam Vedic Spices voucher</small></span>
     </button>
   </section>
@@ -483,6 +486,29 @@ function subjectBank(sub, part){
   var d = DATA[sub.key] || {};
   return part ? (d[part] || {}) : d;
 }
+// One badge per subject: two-letter code + colour, used everywhere the app
+// shows a subject (home list, competitive grid, paper rows).
+var BADGES = {
+  science:        {code: "SC", color: "#7dd3fc"},
+  maths:          {code: "MA", color: "#f3d99a"},
+  sst:            {code: "SS", color: "#c7d2fe"},
+  gk:             {code: "GK", color: "#c7d2fe"},
+  computer:       {code: "AI", color: "#fde68a"},
+  english:        {code: "EN", color: "#a7f3d0"},
+  hindi:          {code: "HI", color: "#fbcfe8"},
+  reasoning:      {code: "RE", color: "#ddd6fe"},
+  currentaffairs: {code: "CA", color: "#bfdbfe"},
+  mock:           {code: "FM", color: "#fde68a"}
+};
+function badgeFor(key, small){
+  var b = BADGES[key] || {code: (key || "?").slice(0,2).toUpperCase(), color: "#c7d2fe"};
+  var el = document.createElement("span");
+  el.className = "sbadge" + (small ? " sm" : "");
+  el.style.background = b.color;
+  el.textContent = b.code;
+  return el;
+}
+
 function renderSubjects(){
   var box = document.getElementById("subjectList");
   if(!box) return;
@@ -492,7 +518,7 @@ function renderSubjects(){
     var b = document.createElement("button");
     b.className = "big-btn";
     b.onclick = function(){ openSubject(sub.id); };
-    var em = document.createElement("span"); em.className = "emoji"; em.textContent = sub.emoji;
+    var em = badgeFor(sub.id, false);
     var wrap = document.createElement("span");
     var nm = document.createElement("span"); nm.textContent = subName(sub);
     var sm = document.createElement("small"); sm.textContent = sub.desc;
@@ -722,10 +748,15 @@ function renderCompGrid(){
     const nq = papers.reduce(function(n, p){ return n + (p.questions || []).length; }, 0);
     const d = document.createElement("button");
     d.className = "cc";
-    d.innerHTML = '<div class="bd" style="background:' + s.color + '">' + s.bd + '</div>' +
-      '<div><div class="nm">' + s.label + '</div><div class="mt">' +
-      (papers.length ? (papers.length === 1 ? '1 paper' : papers.length + ' papers') + ' \u2022 ' + nq + ' Q'
-                      : (hasAnyPaper(s.key) ? 'is exam me nahi' : 'jald aa raha hai')) + '</div></div>';
+    d.appendChild(badgeFor(s.key, false));
+    const txt = document.createElement("div");
+    const nm = document.createElement("div"); nm.className = "nm"; nm.textContent = s.label;
+    const mt = document.createElement("div"); mt.className = "mt";
+    mt.textContent = papers.length
+      ? (papers.length === 1 ? '1 paper' : papers.length + ' papers') + ' \u2022 ' + nq + ' Q'
+      : (hasAnyPaper(s.key) ? 'is exam me nahi' : 'jald aa raha hai');
+    txt.appendChild(nm); txt.appendChild(mt);
+    d.appendChild(txt);
     d.onclick = function(){
       if(!papers.length){ alert(s.label + " ke papers abhi nahi hain."); return; }
       openPapers(compExam, "subject", s.key, s.label);
@@ -735,9 +766,13 @@ function renderCompGrid(){
   const mocks = compPapers(compExam, "mock");
   const m = document.createElement("button");
   m.className = "cc gold";
-  m.innerHTML = '<div class="bd" style="background:#fde68a">FM</div>' +
-    '<div><div class="nm">Full Mock Test</div><div class="mt">' +
-    (mocks.length ? (mocks[0].marks + ' Q \u2022 ' + mocks[0].duration_min + ' min') : 'jald aa raha hai') + '</div></div>';
+  m.appendChild(badgeFor("mock", false));
+  const mtxt = document.createElement("div");
+  const mnm = document.createElement("div"); mnm.className = "nm"; mnm.textContent = "Full Mock Test";
+  const mmt = document.createElement("div"); mmt.className = "mt";
+  mmt.textContent = mocks.length ? (mocks[0].marks + ' Q \u2022 ' + mocks[0].duration_min + ' min') : 'jald aa raha hai';
+  mtxt.appendChild(mnm); mtxt.appendChild(mmt);
+  m.appendChild(mtxt);
   m.onclick = function(){
     if(!mocks.length){ alert("Full mock abhi nahi bana."); return; }
     openPapers(compExam, "mock", undefined, "Full Mock Test");
@@ -754,7 +789,9 @@ function openPapers(exam, kind, subject, label){
   list.forEach(function(p){
     const row = document.createElement("div");
     row.className = "paper";
+    row.appendChild(badgeFor(p.subject, true));
     const info = document.createElement("div");
+    info.style.flex = "1";
     const tt = document.createElement("div"); tt.className = "t"; tt.textContent = L(p.title);
     const mm = document.createElement("div"); mm.className = "m";
     mm.textContent = (p.questions || []).length + " questions \u2022 " + p.duration_min + " min \u2022 " + p.marks + " marks";
