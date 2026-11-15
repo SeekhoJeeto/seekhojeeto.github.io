@@ -1,0 +1,5558 @@
+{
+ "tests": {
+  "papers": [
+   {
+    "id": "science-10-2026-11-15",
+    "subject": "science",
+    "class": "10",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 10",
+     "hi": "विज्ञान टेस्ट — कक्षा 10"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "Which of these plant hormones promotes the bending of a stem towards light?",
+       "hi": "कौन सा पादप हार्मोन तने को प्रकाश की ओर झुकने में मदद करता है?"
+      },
+      "o": {
+       "en": [
+        "Abscisic acid",
+        "Cytokinin",
+        "Ethylene",
+        "Auxin"
+       ],
+       "hi": [
+        "एब्सिसिक अम्ल",
+        "साइटोकाइनिन",
+        "एथिलीन",
+        "ऑक्सिन"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Auxin collects on the shaded side and makes those cells grow longer.",
+       "hi": "ऑक्सिन छाया वाली ओर इकट्ठा होकर वहाँ की कोशिकाओं को लंबा कर देता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The mirror formula is",
+       "hi": "दर्पण सूत्र है"
+      },
+      "o": {
+       "en": [
+        "v + u = f",
+        "1/v + 1/u = 1/f",
+        "1/v - 1/u = 1/f",
+        "1/u + 1/f = 1/v"
+       ],
+       "hi": [
+        "v + u = f",
+        "1/v + 1/u = 1/f",
+        "1/v - 1/u = 1/f",
+        "1/u + 1/f = 1/v"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "The mirror formula relates the object distance u, image distance v and focal length f as 1/v + 1/u = 1/f.",
+       "hi": "दर्पण सूत्र वस्तु दूरी u, प्रतिबिंब दूरी v और फोकस दूरी f को 1/v + 1/u = 1/f के रूप में जोड़ता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The brown fumes produced on strongly heating lead nitrate are of",
+       "hi": "लेड नाइट्रेट को तेज़ आँच पर गर्म करने से निकलने वाला भूरा धुआँ किसका होता है?"
+      },
+      "o": {
+       "en": [
+        "sulphur dioxide",
+        "carbon dioxide",
+        "nitrogen dioxide",
+        "nitrous oxide"
+       ],
+       "hi": [
+        "सल्फर डाइऑक्साइड",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन डाइऑक्साइड",
+        "नाइट्रस ऑक्साइड"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Heating lead nitrate releases brown nitrogen dioxide fumes.",
+       "hi": "लेड नाइट्रेट गर्म करने पर भूरे रंग की नाइट्रोजन डाइऑक्साइड गैस निकलती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In an ecosystem, bacteria and fungi act as",
+       "hi": "पारिस्थितिक तंत्र में जीवाणु और कवक किस रूप में कार्य करते हैं?"
+      },
+      "o": {
+       "en": [
+        "decomposers",
+        "producers",
+        "primary consumers",
+        "abiotic factors"
+       ],
+       "hi": [
+        "अपघटक",
+        "उत्पादक",
+        "प्राथमिक उपभोक्ता",
+        "अजैविक घटक"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Bacteria and fungi break down dead matter, so they are decomposers.",
+       "hi": "जीवाणु और कवक मृत पदार्थ का अपघटन करते हैं, इसलिए वे अपघटक हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "An electric motor converts",
+       "hi": "विद्युत मोटर किसे किसमें बदलती है?"
+      },
+      "o": {
+       "en": [
+        "electrical energy into mechanical energy",
+        "mechanical energy into electrical energy",
+        "heat into light",
+        "light into heat"
+       ],
+       "hi": [
+        "विद्युत ऊर्जा को यांत्रिक ऊर्जा में",
+        "यांत्रिक ऊर्जा को विद्युत ऊर्जा में",
+        "ऊष्मा को प्रकाश में",
+        "प्रकाश को ऊष्मा में"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "A generator does the reverse.",
+       "hi": "जनित्र उल्टा काम करता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the effect of the human eye's pupil becoming smaller in bright light?",
+       "hi": "तेज़ प्रकाश में मानव नेत्र की पुतली छोटी होने का क्या प्रभाव होता है?"
+      },
+      "o": {
+       "en": [
+        "The image becomes inverted",
+        "The lens changes colour",
+        "Less light enters the eye",
+        "More light enters the eye"
+       ],
+       "hi": [
+        "प्रतिबिंब उल्टा हो जाता है",
+        "लेंस का रंग बदल जाता है",
+        "आँख में कम प्रकाश प्रवेश करता है",
+        "आँख में अधिक प्रकाश प्रवेश करता है"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "The iris narrows the pupil to protect the retina from too much light.",
+       "hi": "आइरिस पुतली को छोटा करके रेटिना को अधिक प्रकाश से बचाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Speciation occurs mainly when populations are separated and",
+       "hi": "जब समूह अलग हो जाते हैं तब नई प्रजाति बनती है, मुख्यतः इसलिए कि वे"
+      },
+      "o": {
+       "en": [
+        "grow at the same rate",
+        "eat the same food",
+        "have the same genes",
+        "can no longer interbreed"
+       ],
+       "hi": [
+        "समान गति से बढ़ते हैं",
+        "एक ही भोजन खाते हैं",
+        "एक जैसे जीन रखते हैं",
+        "आपस में प्रजनन नहीं कर पाते"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Reproductive isolation stops gene flow between them.",
+       "hi": "प्रजनन अलगाव उनके बीच जीन प्रवाह रोक देता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Green plants are called autotrophs because they",
+       "hi": "हरे पौधों को स्वपोषी कहा जाता है क्योंकि वे"
+      },
+      "o": {
+       "en": [
+        "depend on other organisms for food",
+        "absorb ready-made food from the soil",
+        "break down dead matter for nutrition",
+        "make their own food from simple inorganic substances"
+       ],
+       "hi": [
+        "भोजन के लिए दूसरे जीवों पर निर्भर रहते हैं",
+        "मिट्टी से तैयार भोजन सोख लेते हैं",
+        "पोषण के लिए मृत पदार्थों को तोड़ते हैं",
+        "सरल अकार्बनिक पदार्थों से अपना भोजन स्वयं बनाते हैं"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Autotrophs use carbon dioxide, water and sunlight to prepare their own food, so they need no ready-made food.",
+       "hi": "स्वपोषी कार्बन डाइऑक्साइड, जल और सूर्य के प्रकाश से अपना भोजन बनाते हैं, इसलिए उन्हें तैयार भोजन की आवश्यकता नहीं होती।"
+      }
+     },
+     {
+      "q": {
+       "en": "Protein digestion in the stomach is helped by the enzyme",
+       "hi": "पेट में प्रोटीन का पाचन किस एंजाइम से होता है?"
+      },
+      "o": {
+       "en": [
+        "amylase",
+        "lipase",
+        "trypsin only",
+        "pepsin"
+       ],
+       "hi": [
+        "एमाइलेज",
+        "लाइपेज",
+        "केवल ट्रिप्सिन",
+        "पेप्सिन"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Pepsin works in the acidic medium of the stomach.",
+       "hi": "पेप्सिन पेट के अम्लीय माध्यम में काम करता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a non-renewable source of energy?",
+       "hi": "इनमें से कौन-सा अनवीकरणीय ऊर्जा स्रोत है?"
+      },
+      "o": {
+       "en": [
+        "Wind",
+        "Sunlight",
+        "Coal",
+        "Flowing water"
+       ],
+       "hi": [
+        "पवन",
+        "सूर्य का प्रकाश",
+        "कोयला",
+        "बहता जल"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Coal is a fossil fuel that takes millions of years to form.",
+       "hi": "कोयला जीवाश्म ईंधन है जो करोड़ों वर्षों में बनता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Chlor-alkali process produces chlorine and hydrogen along with",
+       "hi": "क्लोर-क्षार प्रक्रिया से क्लोरीन और हाइड्रोजन के साथ क्या बनता है?"
+      },
+      "o": {
+       "en": [
+        "sodium hydroxide",
+        "sodium chloride",
+        "sulphuric acid",
+        "ammonia"
+       ],
+       "hi": [
+        "सोडियम हाइड्रॉक्साइड",
+        "सोडियम क्लोराइड",
+        "सल्फ्यूरिक अम्ल",
+        "अमोनिया"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "It is the electrolysis of concentrated brine.",
+       "hi": "यह सांद्र नमक जल के विद्युत अपघटन से होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In a food chain, the amount of energy transferred from one trophic level to the next is about",
+       "hi": "खाद्य शृंखला में एक पोषी स्तर से अगले तक लगभग कितनी ऊर्जा पहुँचती है?"
+      },
+      "o": {
+       "en": [
+        "100 per cent",
+        "10 per cent",
+        "50 per cent",
+        "90 per cent"
+       ],
+       "hi": [
+        "100 प्रतिशत",
+        "10 प्रतिशत",
+        "50 प्रतिशत",
+        "90 प्रतिशत"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "This is called the ten per cent law.",
+       "hi": "इसे दस प्रतिशत नियम कहते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The relation between potential difference V, work done W and charge Q is",
+       "hi": "विभवांतर V, किया गया कार्य W और आवेश Q के बीच संबंध है"
+      },
+      "o": {
+       "en": [
+        "V = Q/W",
+        "V = W/Q",
+        "V = W x Q",
+        "V = Q/W^2"
+       ],
+       "hi": [
+        "V = आवेश/कार्य",
+        "V = कार्य/आवेश",
+        "V = कार्य x आवेश",
+        "V = आवेश/कार्य^2"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "One volt is the potential difference when one joule of work moves one coulomb of charge.",
+       "hi": "एक वोल्ट वह विभवांतर है जब एक कूलॉम आवेश को स्थानांतरित करने में एक जूल कार्य हो।"
+      }
+     },
+     {
+      "q": {
+       "en": "In the reaction MnO2 + 4HCl gives MnCl2 + 2H2O + Cl2, the substance that is oxidised is",
+       "hi": "अभिक्रिया MnO2 + 4HCl से MnCl2 + 2H2O + Cl2 में जिस पदार्थ का ऑक्सीकरण होता है, वह है"
+      },
+      "o": {
+       "en": [
+        "MnO2",
+        "MnCl2",
+        "H2O",
+        "HCl"
+       ],
+       "hi": [
+        "MnO2",
+        "MnCl2",
+        "H2O",
+        "HCl"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Hydrochloric acid loses hydrogen and gains chlorine to form chlorine gas, so it is oxidised here.",
+       "hi": "यहाँ हाइड्रोक्लोरिक अम्ल हाइड्रोजन खोकर क्लोरीन गैस बनाता है, इसलिए इसका ऑक्सीकरण होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the correct relation for electrical power?",
+       "hi": "विद्युत शक्ति का सही संबंध कौन सा है?"
+      },
+      "o": {
+       "en": [
+        "P = V/I",
+        "P = V² × I",
+        "P = I/V",
+        "P = V × I"
+       ],
+       "hi": [
+        "P = V/I",
+        "P = V² × I",
+        "P = I/V",
+        "P = V × I"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Power is the product of potential difference and current, measured in watts.",
+       "hi": "शक्ति विभवांतर और धारा का गुणनफल है, जिसे वाट में मापा जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A solution shows no change in colour with either red or blue litmus. Its pH is likely to be",
+       "hi": "एक विलयन लाल और नीले दोनों लिटमस के रंग में कोई परिवर्तन नहीं करता। उसका pH संभवतः कितना होगा?"
+      },
+      "o": {
+       "en": [
+        "11",
+        "13",
+        "7",
+        "2"
+       ],
+       "hi": [
+        "11",
+        "13",
+        "7",
+        "2"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "A neutral solution changes neither red nor blue litmus, and the pH of a neutral solution is 7.",
+       "hi": "उदासीन विलयन लाल या नीले लिटमस में से किसी का रंग नहीं बदलता, और उदासीन विलयन का pH 7 होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Outside a bar magnet, the magnetic field lines run",
+       "hi": "छड़ चुंबक के बाहर चुंबकीय क्षेत्र रेखाएँ चलती हैं"
+      },
+      "o": {
+       "en": [
+        "from the north pole to the south pole",
+        "from the south pole to the north pole",
+        "from the centre outwards only",
+        "in closed circles around the centre"
+       ],
+       "hi": [
+        "उत्तरी ध्रुव से दक्षिणी ध्रुव की ओर",
+        "दक्षिणी ध्रुव से उत्तरी ध्रुव की ओर",
+        "केवल केंद्र से बाहर की ओर",
+        "केंद्र के चारों ओर बंद वृत्तों में"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "By convention field lines emerge from the north pole and enter the south pole outside the magnet.",
+       "hi": "परंपरा के अनुसार चुंबक के बाहर क्षेत्र रेखाएँ उत्तरी ध्रुव से निकलकर दक्षिणी ध्रुव में प्रवेश करती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "A bee sting injects an acid; it can be soothed by rubbing",
+       "hi": "मधुमक्खी का डंक अम्ल छोड़ता है; उस पर रगड़कर आराम पाया जा सकता है"
+      },
+      "o": {
+       "en": [
+        "vinegar",
+        "lemon juice",
+        "baking soda solution",
+        "common salt solution"
+       ],
+       "hi": [
+        "सिरका",
+        "नींबू का रस",
+        "बेकिंग सोडा का घोल",
+        "साधारण नमक का घोल"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Baking soda is basic and neutralises the acid of the sting.",
+       "hi": "बेकिंग सोडा क्षारीय है और डंक के अम्ल को उदासीन कर देता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Tooth decay begins when the pH inside the mouth falls below about",
+       "hi": "मुँह के भीतर pH लगभग कितने से नीचे गिरने पर दाँत सड़ना शुरू होता है?"
+      },
+      "o": {
+       "en": [
+        "5.5",
+        "7.0",
+        "6.8",
+        "8.5"
+       ],
+       "hi": [
+        "5.5",
+        "7.0",
+        "6.8",
+        "8.5"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Below this pH enamel starts to dissolve.",
+       "hi": "इस pH से नीचे इनेमल घुलना शुरू हो जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The chemical formula of gypsum is",
+       "hi": "जिप्सम का रासायनिक सूत्र है"
+      },
+      "o": {
+       "en": [
+        "CaSO4·½H2O",
+        "CaSO4·2H2O",
+        "CaSO4",
+        "CaOCl2"
+       ],
+       "hi": [
+        "CaSO4·½H2O",
+        "CaSO4·2H2O",
+        "CaSO4",
+        "CaOCl2"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Gypsum is calcium sulphate dihydrate, CaSO4·2H2O.",
+       "hi": "जिप्सम कैल्शियम सल्फेट डाइहाइड्रेट है, CaSO4·2H2O।"
+      }
+     },
+     {
+      "q": {
+       "en": "A shiny brown element X turns black when heated in air. X is most likely",
+       "hi": "एक चमकीला भूरा तत्व X वायु में गर्म करने पर काला हो जाता है। X संभवतः है"
+      },
+      "o": {
+       "en": [
+        "Copper",
+        "Silver",
+        "Iron",
+        "Aluminium"
+       ],
+       "hi": [
+        "ताँबा",
+        "चाँदी",
+        "लोहा",
+        "एल्युमिनियम"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Copper forms a black layer of copper oxide on heating in air.",
+       "hi": "ताँबा वायु में गर्म करने पर कॉपर ऑक्साइड की काली परत बनाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which fuel gives only water vapour on burning and is therefore the cleanest?",
+       "hi": "कौन-सा ईंधन जलने पर केवल जलवाष्प देता है और इसलिए सबसे स्वच्छ है?"
+      },
+      "o": {
+       "en": [
+        "Hydrogen",
+        "Coal",
+        "Petrol",
+        "LPG"
+       ],
+       "hi": [
+        "हाइड्रोजन",
+        "कोयला",
+        "पेट्रोल",
+        "एलपीजी"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Hydrogen burns to form only water vapour, with no carbon dioxide or soot.",
+       "hi": "हाइड्रोजन जलकर केवल जलवाष्प बनाती है, कोई कार्बन डाइऑक्साइड या कालिख नहीं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Electricity produced from the energy of flowing water is called",
+       "hi": "बहते जल की ऊर्जा से उत्पन्न विद्युत को कहते हैं"
+      },
+      "o": {
+       "en": [
+        "geothermal energy",
+        "tidal energy",
+        "biomass energy",
+        "hydroelectricity"
+       ],
+       "hi": [
+        "भूतापीय ऊर्जा",
+        "ज्वारीय ऊर्जा",
+        "बायोमास ऊर्जा",
+        "जल-विद्युत"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Hydroelectric power is generated when water falling from a height turns the turbines of a generator.",
+       "hi": "जल-विद्युत तब उत्पन्न होती है जब ऊँचाई से गिरता जल जनित्र की टर्बाइन घुमाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In a human cell, the breakdown of glucose into pyruvate takes place in the",
+       "hi": "मानव कोशिका में ग्लूकोज का पाइरुवेट में विघटन कहाँ होता है?"
+      },
+      "o": {
+       "en": [
+        "mitochondria",
+        "cytoplasm",
+        "nucleus",
+        "chloroplast"
+       ],
+       "hi": [
+        "माइटोकॉन्ड्रिया",
+        "कोशिकाद्रव्य",
+        "केंद्रक",
+        "क्लोरोप्लास्ट"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Glycolysis, the first step of respiration, occurs in the cytoplasm.",
+       "hi": "ग्लाइकोलिसिस, श्वसन का पहला चरण, कोशिकाद्रव्य में होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Fleming's left-hand rule gives the direction of",
+       "hi": "फ्लेमिंग का बाएँ हाथ का नियम किसकी दिशा बताता है?"
+      },
+      "o": {
+       "en": [
+        "the magnetic field around a wire",
+        "the current in a circuit",
+        "the force on a current-carrying conductor in a magnetic field",
+        "the induced current in a coil"
+       ],
+       "hi": [
+        "तार के चारों ओर चुंबकीय क्षेत्र की",
+        "परिपथ में धारा की",
+        "चुंबकीय क्षेत्र में धारावाही चालक पर लगने वाले बल की",
+        "कुंडली में प्रेरित धारा की"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Fleming's left-hand rule relates the field, the current and the force on the conductor, as in an electric motor.",
+       "hi": "फ्लेमिंग का बाएँ हाथ का नियम क्षेत्र, धारा और चालक पर बल को जोड़ता है, जैसे विद्युत मोटर में।"
+      }
+     }
+    ]
+   },
+   {
+    "id": "science-11-2026-11-15",
+    "subject": "science",
+    "class": "11",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 11",
+     "hi": "विज्ञान टेस्ट — कक्षा 11"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "In uniform circular motion, how are the linear speed v and angular speed ω related?",
+       "hi": "एकसमान वृत्तीय गति में रैखिक चाल v तथा कोणीय चाल ω में क्या संबंध है?"
+      },
+      "o": {
+       "en": [
+        "v = ω/r",
+        "v = ω²r",
+        "v = ωr",
+        "v = r/ω"
+       ],
+       "hi": [
+        "v = ω/r",
+        "v = ω²r",
+        "v = ωr",
+        "v = r/ω"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Linear speed equals angular speed multiplied by the radius.",
+       "hi": "रैखिक चाल, कोणीय चाल और त्रिज्या के गुणनफल के बराबर होती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A particle executing simple harmonic motion has its maximum acceleration at",
+       "hi": "सरल आवर्त गति करते कण का अधिकतम त्वरण कहाँ होता है?"
+      },
+      "o": {
+       "en": [
+        "Every point equally",
+        "Midway between mean and extreme",
+        "The extreme position",
+        "The mean position"
+       ],
+       "hi": [
+        "हर बिंदु पर समान",
+        "माध्य और चरम के बीच",
+        "चरम स्थिति पर",
+        "माध्य स्थिति पर"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Acceleration is proportional to displacement, so it is largest at the extreme position.",
+       "hi": "त्वरण विस्थापन के समानुपाती होता है, अतः चरम स्थिति पर अधिकतम होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In an isothermal process, the",
+       "hi": "समतापी प्रक्रिया में क्या स्थिर रहता है?"
+      },
+      "o": {
+       "en": [
+        "temperature remains constant",
+        "pressure remains constant",
+        "volume remains constant",
+        "entropy remains constant"
+       ],
+       "hi": [
+        "तापमान स्थिर रहता है",
+        "दाब स्थिर रहता है",
+        "आयतन स्थिर रहता है",
+        "एंट्रॉपी स्थिर रहती है"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The gas is kept in contact with a reservoir.",
+       "hi": "गैस को जलाशय के संपर्क में रखा जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the functional group of carboxylic acids?",
+       "hi": "इनमें से कार्बोक्सिलिक अम्लों का क्रियात्मक समूह कौन सा है?"
+      },
+      "o": {
+       "en": [
+        "-OH",
+        "-CHO",
+        "-CO-",
+        "-COOH"
+       ],
+       "hi": [
+        "-OH",
+        "-CHO",
+        "-CO-",
+        "-COOH"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Carboxylic acids contain the -COOH group, while -CHO is the aldehyde group.",
+       "hi": "कार्बोक्सिलिक अम्लों में -COOH समूह होता है, जबकि -CHO ऐल्डिहाइड समूह है।"
+      }
+     },
+     {
+      "q": {
+       "en": "What is the respiratory quotient (RQ) when carbohydrate is respired aerobically?",
+       "hi": "कार्बोहाइड्रेट के वायवीय श्वसन में श्वसन गुणांक (RQ) कितना होता है?"
+      },
+      "o": {
+       "en": [
+        "0.7",
+        "1",
+        "more than 1",
+        "0.9"
+       ],
+       "hi": [
+        "0.7",
+        "1",
+        "1 से अधिक",
+        "0.9"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Equal volumes of CO₂ released and O₂ consumed give an RQ of 1.",
+       "hi": "निष्कासित CO₂ तथा उपभुक्त O₂ के आयतन बराबर होने पर RQ का मान 1 होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In liquids, heat is transferred mainly by",
+       "hi": "द्रवों में ऊष्मा का स्थानांतरण मुख्यतः किस प्रकार होता है?"
+      },
+      "o": {
+       "en": [
+        "All three equally",
+        "Conduction",
+        "Convection",
+        "Radiation"
+       ],
+       "hi": [
+        "तीनों समान रूप से",
+        "चालन",
+        "संवहन",
+        "विकिरण"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Liquids transfer heat mainly by convection currents.",
+       "hi": "द्रवों में ऊष्मा मुख्यतः संवहन धाराओं द्वारा स्थानांतरित होती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The movement of water molecules across a semipermeable membrane is called",
+       "hi": "अर्धपारगम्य झिल्ली के आर-पार जल के अणुओं की गति को क्या कहते हैं?"
+      },
+      "o": {
+       "en": [
+        "osmosis",
+        "diffusion",
+        "active transport",
+        "imbibition"
+       ],
+       "hi": [
+        "असमस (परासरण)",
+        "विसरण",
+        "सक्रिय परिवहन",
+        "अंतर्शोषण (इंबिबिशन)"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Osmosis is the movement of water across a semipermeable membrane.",
+       "hi": "असमस अर्धपारगम्य झिल्ली के आर-पार जल की गति है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which plant hormone is called the stress hormone because it closes the stomata during water stress?",
+       "hi": "किस पादप हार्मोन को तनाव हार्मोन कहा जाता है क्योंकि जल तनाव में यह रंध्रों को बंद कर देता है?"
+      },
+      "o": {
+       "en": [
+        "auxin",
+        "abscisic acid",
+        "cytokinin",
+        "ethylene"
+       ],
+       "hi": [
+        "ऑक्सिन",
+        "एब्सिसिक अम्ल",
+        "साइटोकाइनिन",
+        "एथिलीन"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Abscisic acid acts as a stress hormone and promotes stomatal closure to reduce water loss.",
+       "hi": "एब्सिसिक अम्ल तनाव हार्मोन की तरह कार्य करता है और जल हानि घटाने के लिए रंध्र बंद करता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which equation of motion connects final velocity, initial velocity, acceleration and displacement?",
+       "hi": "गति का कौन-सा समीकरण अंतिम वेग, प्रारंभिक वेग, त्वरण और विस्थापन को जोड़ता है?"
+      },
+      "o": {
+       "en": [
+        "v² = u² + 2as",
+        "v = u + at",
+        "s = ut + at²/2",
+        "v = u + a/t"
+       ],
+       "hi": [
+        "v² = u² + 2as",
+        "v = u + at",
+        "s = ut + at²/2",
+        "v = u + a/t"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The relation v² = u² + 2as is the one that does not contain time.",
+       "hi": "यह सम्बंध v² = u² + 2as है, जिसमें समय नहीं आता।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which particle has no charge?",
+       "hi": "किस कण पर कोई आवेश नहीं होता?",
+       "bn": "কোন কণার কোনো আধান নেই?",
+       "mr": "कोणत्या कणावर प्रभार नसतो?",
+       "te": "ఏ కణానికి ఛార్జ్ ఉండదు?",
+       "ta": "எந்தத் துகளுக்கு மின்னூட்டம் இல்லை?",
+       "gu": "કયા કણ પર કોઈ વીજભાર હોતો નથી?",
+       "ur": "کس ذرے پر کوئی چارج نہیں ہوتا؟",
+       "kn": "ಯಾವ ಕಣವು ಆವೇಶವನ್ನು ಹೊಂದಿಲ್ಲ?",
+       "or": "କେଉଁ କଣିକାର କୌଣସି ଚାର୍ଜ ନାହିଁ?",
+       "ml": "ചാർജ്ജില്ലാത്ത കണിക ഏതാണ്?",
+       "pa": "ਕਿਸ ਕਣ 'ਤੇ ਕੋਈ ਚਾਰਜ ਨਹੀਂ ਹੁੰਦਾ?",
+       "as": "কোনটো কণাৰ কোনো আধান নাথাকে?"
+      },
+      "o": {
+       "en": [
+        "Proton",
+        "Neutron",
+        "Electron",
+        "Ion"
+       ],
+       "hi": [
+        "प्रोटॉन",
+        "न्यूट्रॉन",
+        "इलेक्ट्रॉन",
+        "आयन"
+       ],
+       "bn": [
+        "প্রোটন",
+        "নিউট্রন",
+        "ইলেকট্রন",
+        "আয়ন"
+       ],
+       "mr": [
+        "प्रोटॉन",
+        "न्यूट्रॉन",
+        "इलेक्ट्रॉन",
+        "आयन"
+       ],
+       "te": [
+        "ప్రోటాన్",
+        "న్యూట్రాన్",
+        "ఎలక్ట్రాన్",
+        "అయాన్"
+       ],
+       "ta": [
+        "புரோட்டான்",
+        "நியூட்ரான்",
+        "எலக்ட்ரான்",
+        "அயனி"
+       ],
+       "gu": [
+        "પ્રોટોન",
+        "ન્યુટ્રોન",
+        "ઇલેક્ટ્રોન",
+        "આયન"
+       ],
+       "ur": [
+        "پروٹون",
+        "نیوٹران",
+        "الیکٹران",
+        "آئن"
+       ],
+       "kn": [
+        "ಪ್ರೋಟಾನ್",
+        "ನ್ಯೂಟ್ರಾನ್",
+        "ಎಲೆಕ್ಟ್ರಾನ್",
+        "ಅಯಾನ್"
+       ],
+       "or": [
+        "ପ୍ରୋଟନ୍",
+        "ନିଉଟ୍ରନ୍",
+        "ଇଲେକ୍ଟ୍ରନ୍",
+        "ଆୟନ୍"
+       ],
+       "ml": [
+        "പ്രോട്ടോൺ",
+        "ന്യൂട്രോൺ",
+        "ഇലക്ട്രോൺ",
+        "അയോൺ"
+       ],
+       "pa": [
+        "ਪ੍ਰੋਟੋਨ",
+        "ਨਿਊਟ੍ਰੋਨ",
+        "ਇਲੈਕਟ੍ਰੋਨ",
+        "ਆਇਨ"
+       ],
+       "as": [
+        "প্ৰটন",
+        "নিউট্ৰন",
+        "ইলেক্ট্ৰন",
+        "আয়ন"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Neutrons are neutral.",
+       "hi": "न्यूट्रॉन उदासीन होते हैं।",
+       "bn": "নিউট্রন নিরপেক্ষ।",
+       "mr": "न्यूट्रॉन तटस्थ असतात.",
+       "te": "న్యూట్రాన్లు తటస్థంగా ఉంటాయి.",
+       "ta": "நியூட்ரான்கள் நடுநிலையானவை.",
+       "gu": "ન્યુટ્રોન તટસ્થ હોય છે.",
+       "ur": "نیوٹران نیوٹرل ہوتے ہیں۔",
+       "kn": "ನ್ಯೂಟ್ರಾನ್‌ಗಳು ತಟಸ್ಥವಾಗಿವೆ.",
+       "or": "ନିଉଟ୍ରନ୍ ନିରପେକ୍ଷ ଅଟନ୍ତି।",
+       "ml": "ന്യൂട്രോണുകൾ ന്യൂട്രൽ ആണ്.",
+       "pa": "ਨਿਊਟ੍ਰੋਨ ਨਿਰਪੱਖ ਹੁੰਦੇ ਹਨ।",
+       "as": "নিউট্ৰন নিৰপেক্ষ।"
+      }
+     },
+     {
+      "q": {
+       "en": "According to Bohr's model, the angular momentum of an electron in a permitted orbit is an integral multiple of",
+       "hi": "बोर मॉडल के अनुसार अनुमत कक्षा में इलेक्ट्रॉन का कोणीय संवेग किसका पूर्ण गुणज होता है?"
+      },
+      "o": {
+       "en": [
+        "h/2π",
+        "h",
+        "2πh",
+        "h/4π"
+       ],
+       "hi": [
+        "h/2π",
+        "h",
+        "2πh",
+        "h/4π"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "This quantisation condition gives fixed energy levels.",
+       "hi": "यह क्वांटमीकरण शर्त निश्चित ऊर्जा स्तर देती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In which of these processes does the entropy of the system decrease?",
+       "hi": "इनमें से किस प्रक्रिया में निकाय की एंट्रॉपी घटती है?"
+      },
+      "o": {
+       "en": [
+        "Freezing of water",
+        "Dissolving salt in water",
+        "Boiling of water",
+        "Melting of ice"
+       ],
+       "hi": [
+        "जल का जमना",
+        "जल में नमक घोलना",
+        "जल का उबलना",
+        "बर्फ का पिघलना"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "On freezing the molecules become more ordered, so entropy decreases.",
+       "hi": "जमने पर अणु अधिक व्यवस्थित हो जाते हैं, अतः एंट्रॉपी घटती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "For a rigid body rotating about a fixed axis, torque equals the moment of inertia multiplied by the",
+       "hi": "स्थिर अक्ष के परितः घूमते दृढ़ पिंड पर बलाघूर्ण, जड़त्व आघूर्ण और किस राशि के गुणनफल के बराबर होता है?"
+      },
+      "o": {
+       "en": [
+        "Linear momentum",
+        "Angular displacement",
+        "Angular velocity",
+        "Angular acceleration"
+       ],
+       "hi": [
+        "रेखीय संवेग",
+        "कोणीय विस्थापन",
+        "कोणीय वेग",
+        "कोणीय त्वरण"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The rotational form of Newton's second law is torque = I × angular acceleration.",
+       "hi": "न्यूटन के दूसरे नियम का घूर्णन रूप है, बलाघूर्ण = I × कोणीय त्वरण।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which organelle is called the powerhouse of the cell?",
+       "hi": "कोशिका का ऊर्जा गृह (powerhouse) किसे कहते हैं?",
+       "bn": "কোষের পাওয়ারহাউস কোন কোষাণু?",
+       "mr": "पेशीचे ऊर्जा केंद्र म्हणून कोणत्या अंगकाला ओळखले जाते?",
+       "te": "కణానికి పవర్ హౌస్ అని ఏ ఆర్గానెల్ పిలుస్తారు?",
+       "ta": "செல்லின் மின் உற்பத்தி நிலையம் என்று அழைக்கப்படும் உறுப்பு எது?",
+       "gu": "કયા કોષકણને કોષનું પાવરહાઉસ કહેવામાં આવે છે?",
+       "ur": "کس آرگنیل کو سیل کا پاور ہاؤس کہا جاتا ہے؟",
+       "kn": "ಜೀವಕೋಶದ ಶಕ್ತಿ ಕೇಂದ್ರ ಎಂದು ಯಾವ ಅಂಗಕವು ಕರೆಯಲ್ಪಡುತ್ತದೆ?",
+       "or": "କୋଷର ପାୱାରହାଉସ୍ କେଉଁ କୋଷିକାକୁ କୁହାଯାଏ?",
+       "ml": "കോശത്തിന്റെ പവർഹൗസ് എന്ന് വിളിക്കുന്നത് ഏത് കോശാംഗത്തെയാണ്?",
+       "pa": "ਕਿਹੜੇ ਆਰਗੇਨੇਲ ਨੂੰ ਸੈੱਲ ਦਾ ਪਾਵਰਹਾਊਸ ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
+       "as": "কোষৰ শক্তিঘৰ বুলি কোনটো অংগাণুক কোৱা হয়?"
+      },
+      "o": {
+       "en": [
+        "Nucleus",
+        "Mitochondria",
+        "Ribosome",
+        "Golgi"
+       ],
+       "hi": [
+        "नाभिक",
+        "माइटोकॉन्ड्रिया",
+        "राइबोसोम",
+        "गॉल्जी"
+       ],
+       "bn": [
+        "নিউক্লিয়াস",
+        "মাইটোকন্ড্রিয়া",
+        "রাইবোজোম",
+        "গলগি"
+       ],
+       "mr": [
+        "केंद्रक",
+        "मायटोकॉन्ड्रिया",
+        "रायबोझोम",
+        "गॉल्जी"
+       ],
+       "te": [
+        "న్యూక్లియస్",
+        "మైటోకాండ్రియా",
+        "రైబోజోమ్",
+        "గోల్గి"
+       ],
+       "ta": [
+        "உட்கரு",
+        "மைட்டோகாண்ட்ரியா",
+        "ரைபோசோம்",
+        "கோல்கி"
+       ],
+       "gu": [
+        "ન્યુક્લિયસ",
+        "માઇટોકોન્ડ્રિયા",
+        "રિબોઝોમ",
+        "ગોલ્ગી"
+       ],
+       "ur": [
+        "نیوکلئس",
+        "مائٹوکونڈریا",
+        "رائبوسوم",
+        "گالجی"
+       ],
+       "kn": [
+        "ನ್ಯೂಕ್ಲಿಯಸ್",
+        "ಮೈಟೊಕಾಂಡ್ರಿಯಾ",
+        "ರೈಬೋಸೋಮ್",
+        "ಗಾಲ್ಗಿ"
+       ],
+       "or": [
+        "ନ୍ୟୁକ୍ଲିୟସ୍",
+        "ମାଇଟୋକଣ୍ଡ୍ରିଆ",
+        "ରାଇବୋଜୋମ୍",
+        "ଗୋଲ୍ଗି"
+       ],
+       "ml": [
+        "ന്യൂക്ലിയസ്",
+        "മൈറ്റോകോൺഡ്രിയ",
+        "റൈബോസോം",
+        "ഗോൾജി"
+       ],
+       "pa": [
+        "ਨਿਊਕਲੀਅਸ",
+        "ਮਾਈਟੋਕੌਂਡਰੀਆ",
+        "ਰਾਈਬੋਸੋਮ",
+        "ਗੋਲਗੀ"
+       ],
+       "as": [
+        "নিউক্লিয়াছ",
+        "মাইট'কণ্ড্ৰিয়া",
+        "ৰাইব'জ'ম",
+        "গলগি"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Mitochondria produce energy (ATP).",
+       "hi": "माइटोकॉन्ड्रिया ऊर्जा (ATP) बनाते हैं।",
+       "bn": "মাইটোকন্ড্রিয়া শক্তি (ATP) তৈরি করে।",
+       "mr": "मायटोकॉन्ड्रिया ऊर्जा (ATP) तयार करतात.",
+       "te": "మైటోకాండ్రియా శక్తిని (ATP) ఉత్పత్తి చేస్తుంది.",
+       "ta": "மைட்டோகாண்ட்ரியா ஆற்றலை (ATP) உற்பத்தி செய்கிறது.",
+       "gu": "માઇટોકોન્ડ્રિયા ઊર્જા (ATP) ઉત્પન્ન કરે છે.",
+       "ur": "مائٹوکونڈریا توانائی (ATP) پیدا کرتے ہیں۔",
+       "kn": "ಮೈಟೊಕಾಂಡ್ರಿಯಾ ಶಕ್ತಿಯನ್ನು (ATP) ಉತ್ಪಾದಿಸುತ್ತದೆ.",
+       "or": "ମାଇଟୋକଣ୍ଡ୍ରିଆ ଶକ୍ତି (ATP) ଉତ୍ପାଦନ କରେ।",
+       "ml": "മൈറ്റോകോൺഡ്രിയ ഊർജ്ജം (ATP) ഉത്പാദിപ്പിക്കുന്നു.",
+       "pa": "ਮਾਈਟੋਕੌਂਡਰੀਆ ਊਰਜਾ (ATP) ਪੈਦਾ ਕਰਦੇ ਹਨ।",
+       "as": "মাইট'কণ্ড্ৰিয়াই শক্তি (ATP) উৎপন্ন কৰে।"
+      }
+     },
+     {
+      "q": {
+       "en": "What is the dimensional formula of Planck's constant?",
+       "hi": "प्लांक नियतांक का विमीय सूत्र क्या है?"
+      },
+      "o": {
+       "en": [
+        "ML²T⁻³",
+        "ML²T⁻²",
+        "ML²T⁻¹",
+        "MLT⁻¹"
+       ],
+       "hi": [
+        "ML²T⁻³",
+        "ML²T⁻²",
+        "ML²T⁻¹",
+        "MLT⁻¹"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Planck's constant is energy multiplied by time, giving ML²T⁻¹.",
+       "hi": "प्लांक नियतांक ऊर्जा गुणा समय है, अतः विमा ML²T⁻¹ प्राप्त होती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In a stationary wave, the points where the particles never move are called",
+       "hi": "अप्रगामी तरंग में जिन बिंदुओं पर कण कभी विस्थापित नहीं होते, उन्हें कहते हैं"
+      },
+      "o": {
+       "en": [
+        "antinodes",
+        "nodes",
+        "crests",
+        "troughs"
+       ],
+       "hi": [
+        "प्रस्पंद",
+        "निस्पंद",
+        "शीर्ष",
+        "गर्त"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Nodes are points of zero displacement; antinodes have maximum displacement.",
+       "hi": "निस्पंद शून्य विस्थापन के बिंदु हैं; प्रस्पंद पर विस्थापन अधिकतम होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the oxidation number of chromium in potassium dichromate?",
+       "hi": "पोटैशियम डाइक्रोमेट में क्रोमियम का ऑक्सीकरण अंक क्या है?"
+      },
+      "o": {
+       "en": [
+        "+7",
+        "+2",
+        "+6",
+        "+3"
+       ],
+       "hi": [
+        "+7",
+        "+2",
+        "+6",
+        "+3"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Two potassium give +2 and seven oxygens give -14, so two chromium share +12, that is +6 each.",
+       "hi": "दो पोटैशियम +2 और सात ऑक्सीजन -14 देते हैं, इसलिए दो क्रोमियम के लिए +12, अर्थात प्रत्येक +6।"
+      }
+     },
+     {
+      "q": {
+       "en": "Hydrolytic enzymes that digest waste material are characteristically present in the",
+       "hi": "अपशिष्ट पदार्थों को पचाने वाले जल अपघटनी एंजाइम विशेष रूप से किस कोशिकांग में होते हैं?"
+      },
+      "o": {
+       "en": [
+        "mitochondrion",
+        "ribosome",
+        "Golgi apparatus",
+        "lysosome"
+       ],
+       "hi": [
+        "माइटोकॉन्ड्रिया",
+        "राइबोसोम",
+        "गॉल्जी उपकरण",
+        "लाइसोसोम"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Lysosomes are membrane-bound sacs of hydrolytic enzymes.",
+       "hi": "लाइसोसोम जल अपघटनी एंजाइमों से भरी झिल्लीबद्ध थैलियाँ हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The number of significant figures in the measurement 0.0052 m is",
+       "hi": "माप 0.0052 मीटर में सार्थक अंकों की संख्या कितनी है?"
+      },
+      "o": {
+       "en": [
+        "2",
+        "5",
+        "4",
+        "1"
+       ],
+       "hi": [
+        "2",
+        "5",
+        "4",
+        "1"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Leading zeros are not significant.",
+       "hi": "शुरुआती शून्य सार्थक नहीं होते।"
+      }
+     },
+     {
+      "q": {
+       "en": "Viruses are considered to be on the borderline between living and non-living because they",
+       "hi": "विषाणु जीवित और निर्जीव के बीच इसलिए माने जाते हैं क्योंकि वे"
+      },
+      "o": {
+       "en": [
+        "move actively",
+        "can reproduce only inside a host cell",
+        "have cells",
+        "make their own food"
+       ],
+       "hi": [
+        "सक्रिय चलते हैं",
+        "केवल मेज़बान कोशिका में प्रजनन कर सकते हैं",
+        "कोशिकाएँ रखते हैं",
+        "अपना भोजन बनाते हैं"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Outside a host they are inert particles.",
+       "hi": "मेज़बान के बाहर वे निष्क्रिय कण हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "What is the IUPAC name of the compound CH3-CH2-CH2-CH3?",
+       "hi": "यौगिक CH3-CH2-CH2-CH3 का IUPAC नाम क्या है?"
+      },
+      "o": {
+       "en": [
+        "Pentane",
+        "Propane",
+        "Butane",
+        "Isobutane"
+       ],
+       "hi": [
+        "पेंटेन",
+        "प्रोपेन",
+        "ब्यूटेन",
+        "आइसोब्यूटेन"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "A straight chain of four carbon atoms is butane.",
+       "hi": "चार कार्बन परमाणुओं की सीधी श्रृंखला ब्यूटेन कहलाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "What is the total number of orbitals present in the n = 3 shell?",
+       "hi": "n = 3 कोश में कुल कितने कक्षक होते हैं?"
+      },
+      "o": {
+       "en": [
+        "3",
+        "6",
+        "18",
+        "9"
+       ],
+       "hi": [
+        "3",
+        "6",
+        "18",
+        "9"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The third shell has three subshells and 3² = 9 orbitals.",
+       "hi": "तीसरे कोश में तीन उपकोश हैं और 3² = 9 कक्षक होते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The building blocks of nucleic acids are",
+       "hi": "न्यूक्लिक अम्ल की रचनात्मक इकाइयाँ क्या हैं?"
+      },
+      "o": {
+       "en": [
+        "fatty acids",
+        "amino acids",
+        "monosaccharides",
+        "nucleotides"
+       ],
+       "hi": [
+        "वसीय अम्ल",
+        "अमीनो अम्ल",
+        "मोनोसैकेराइड",
+        "न्यूक्लियोटाइड"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Nucleic acids are polymers of nucleotides.",
+       "hi": "न्यूक्लिक अम्ल न्यूक्लियोटाइडों के बहुलक हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "According to the first law of thermodynamics, the heat supplied to a system equals",
+       "hi": "ऊष्मागतिकी के पहले नियम के अनुसार तंत्र को दी गई ऊष्मा बराबर है"
+      },
+      "o": {
+       "en": [
+        "Change in internal energy plus work done by the system",
+        "Change in internal energy only",
+        "Work done only",
+        "Entropy change"
+       ],
+       "hi": [
+        "आंतरिक ऊर्जा में परिवर्तन तथा तंत्र द्वारा किए गए कार्य के योग के",
+        "केवल आंतरिक ऊर्जा में परिवर्तन के",
+        "केवल किए गए कार्य के",
+        "एंट्रॉपी परिवर्तन के"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "ΔQ = ΔU + ΔW is the statement of the first law.",
+       "hi": "ΔQ = ΔU + ΔW पहले नियम का कथन है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The number of sigma and pi bonds in an ethyne molecule is",
+       "hi": "एथाइन के एक अणु में सिग्मा और पाई आबंधों की संख्या है"
+      },
+      "o": {
+       "en": [
+        "5 sigma and 0 pi",
+        "3 sigma and 2 pi",
+        "2 sigma and 3 pi",
+        "4 sigma and 1 pi"
+       ],
+       "hi": [
+        "5 सिग्मा और 0 पाई",
+        "3 सिग्मा और 2 पाई",
+        "2 सिग्मा और 3 पाई",
+        "4 सिग्मा और 1 पाई"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Ethyne has two C–H and one C–C sigma bonds, plus two pi bonds between the carbons.",
+       "hi": "एथाइन में दो C–H और एक C–C सिग्मा आबंध तथा कार्बनों के बीच दो पाई आबंध होते हैं।"
+      }
+     }
+    ]
+   },
+   {
+    "id": "science-12-2026-11-15",
+    "subject": "science",
+    "class": "12",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 12",
+     "hi": "विज्ञान टेस्ट — कक्षा 12"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "Which of these complexes exists as a pair of optical isomers?",
+       "hi": "इनमें से कौन-सा संकुल प्रकाशिक समावयवियों के युग्म के रूप में पाया जाता है?"
+      },
+      "o": {
+       "en": [
+        "[Ni(CO)4]",
+        "[Co(en)3]3+",
+        "[Co(NH3)6]3+",
+        "[PtCl4]2-"
+       ],
+       "hi": [
+        "[Ni(CO)4]",
+        "[Co(en)3]3+",
+        "[Co(NH3)6]3+",
+        "[PtCl4]2-"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "The tris-chelate complex [Co(en)3]3+ is non-superimposable on its mirror image and so shows optical isomerism.",
+       "hi": "त्रि-कीलेट संकुल [Co(en)3]3+ अपने दर्पण प्रतिबिंब पर अध्यारोपित नहीं होता, इसलिए यह प्रकाशिक समावयवता दर्शाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "An electric dipole of moment 2 x 10^-6 C m is held at 30 degree to a uniform field of 10^5 N/C. The torque on the dipole is",
+       "hi": "2 x 10^-6 C m आघूर्ण वाला एक विद्युत द्विध्रुव 10^5 N/C के एकसमान क्षेत्र से 30 डिग्री के कोण पर रखा है। द्विध्रुव पर लगने वाला बल आघूर्ण कितना है?"
+      },
+      "o": {
+       "en": [
+        "1.0 N m",
+        "0.10 N m",
+        "0.20 N m",
+        "0.05 N m"
+       ],
+       "hi": [
+        "1.0 N m",
+        "0.10 N m",
+        "0.20 N m",
+        "0.05 N m"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "tau = pE sin(theta) = 2 x 10^-6 x 10^5 x 0.5 = 0.10 N m.",
+       "hi": "टाउ = pE sin(थीटा) = 2 x 10^-6 x 10^5 x 0.5 = 0.10 N m।"
+      }
+     },
+     {
+      "q": {
+       "en": "The IUPAC name of the complex K2[PtCl6] is",
+       "hi": "संकुल K2[PtCl6] का IUPAC नाम है"
+      },
+      "o": {
+       "en": [
+        "dipotassium platinate",
+        "potassium hexachloridoplatinate(II)",
+        "potassium hexachloridoplatinate(IV)",
+        "potassium chloridoplatinate(VI)"
+       ],
+       "hi": [
+        "डाइपोटैशियम प्लेटिनेट",
+        "पोटैशियम हेक्साक्लोरिडो प्लेटिनेट(II)",
+        "पोटैशियम हेक्साक्लोरिडो प्लेटिनेट(IV)",
+        "पोटैशियम क्लोरिडो प्लेटिनेट(VI)"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Six chloride ligands on platinum in the +4 state give the name potassium hexachloridoplatinate(IV).",
+       "hi": "प्लेटिनम की +4 अवस्था में छह क्लोराइड लिगैंड होने से नाम पोटैशियम हेक्साक्लोरिडो प्लेटिनेट(IV) बनता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In Young's double slit experiment the entire set-up is immersed in water. The fringe width",
+       "hi": "यंग के द्वि-स्लिट प्रयोग में पूरी व्यवस्था जल में डुबो दी जाती है। फ्रिंज चौड़ाई"
+      },
+      "o": {
+       "en": [
+        "increases",
+        "becomes zero",
+        "remains the same",
+        "decreases"
+       ],
+       "hi": [
+        "बढ़ जाती है",
+        "शून्य हो जाती है",
+        "वही रहती है",
+        "घट जाती है"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "In water the wavelength shortens, so the fringe width, proportional to wavelength, decreases.",
+       "hi": "जल में तरंगदैर्घ्य घट जाती है, अतः तरंगदैर्घ्य के समानुपाती फ्रिंज चौड़ाई भी घट जाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The critical angle for a medium of refractive index n is given by",
+       "hi": "अपवर्तनांक n वाले माध्यम के लिए क्रांतिक कोण किससे दिया जाता है?"
+      },
+      "o": {
+       "en": [
+        "sin C = 1/n",
+        "sin C = n",
+        "cos C = 1/n",
+        "tan C = n"
+       ],
+       "hi": [
+        "sin C = 1/n",
+        "sin C = n",
+        "cos C = 1/n",
+        "tan C = n"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Higher refractive index means a smaller critical angle.",
+       "hi": "अधिक अपवर्तनांक का अर्थ छोटा क्रांतिक कोण है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The angle of dip of the Earth's magnetic field at the magnetic poles is",
+       "hi": "पृथ्वी के चुंबकीय ध्रुवों पर पृथ्वी के चुंबकीय क्षेत्र का नति कोण कितना होता है?"
+      },
+      "o": {
+       "en": [
+        "45 degree",
+        "60 degree",
+        "90 degree",
+        "0 degree"
+       ],
+       "hi": [
+        "45 डिग्री",
+        "60 डिग्री",
+        "90 डिग्री",
+        "0 डिग्री"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "At the magnetic poles the field is vertical, so the angle of dip is 90 degree.",
+       "hi": "चुंबकीय ध्रुवों पर क्षेत्र ऊर्ध्वाधर होता है, इसलिए नति कोण 90 डिग्री होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the correct unit of electric charge in terms of base SI units?",
+       "hi": "मूल SI इकाइयों में विद्युत आवेश की सही इकाई कौन है?"
+      },
+      "o": {
+       "en": [
+        "A s",
+        "A/s",
+        "A s²",
+        "V m"
+       ],
+       "hi": [
+        "A s",
+        "A/s",
+        "A s²",
+        "V m"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "One coulomb is one ampere of current flowing for one second, so the unit is A s.",
+       "hi": "एक कूलॉम एक सेकंड तक बहने वाली एक ऐम्पियर धारा है, इसलिए इकाई A s है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Pleiotropy is best described as the ability of a single gene to",
+       "hi": "बहुप्रभाविता को सर्वोत्तम रूप से इस प्रकार समझाया जाता है कि एक जीन"
+      },
+      "o": {
+       "en": [
+        "be present on a sex chromosome",
+        "exist in more than two allelic forms",
+        "control several apparently unrelated phenotypic traits",
+        "produce only one enzyme"
+       ],
+       "hi": [
+        "लिंग गुणसूत्र पर उपस्थित होता है",
+        "दो से अधिक युग्मविकल्पी रूपों में पाया जाता है",
+        "कई असंबंधित प्रतीत होने वाले लक्षणों को नियंत्रित करता है",
+        "केवल एक एंजाइम बनाता है"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "In pleiotropy one gene affects many traits, as in phenylketonuria.",
+       "hi": "बहुप्रभाविता में एक जीन कई लक्षणों को प्रभावित करता है, जैसे फेनिलकेटोनूरिया में।"
+      }
+     },
+     {
+      "q": {
+       "en": "The first transgenic cow, Rosie, was developed to produce milk enriched in",
+       "hi": "पहली पारजीनी गाय रोज़ी को ऐसा दूध देने के लिए विकसित किया गया था जिसमें क्या अधिक हो?"
+      },
+      "o": {
+       "en": [
+        "human insulin",
+        "vitamin A",
+        "bovine growth hormone",
+        "human alpha-lactalbumin"
+       ],
+       "hi": [
+        "मानव इंसुलिन",
+        "विटामिन A",
+        "गोजातीय वृद्धि हार्मोन",
+        "मानव अल्फा-लैक्टैल्ब्यूमिन"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Rosie's milk contained human alpha-lactalbumin, making it nutritionally more balanced for human babies.",
+       "hi": "रोज़ी के दूध में मानव अल्फा-लैक्टैल्ब्यूमिन था, जिससे यह मानव शिशुओं के लिए पोषण की दृष्टि से अधिक संतुलित बन गया।"
+      }
+     },
+     {
+      "q": {
+       "en": "The ionisation energy of a hydrogen atom in its ground state is about",
+       "hi": "अपनी मूल अवस्था में हाइड्रोजन परमाणु की आयनन ऊर्जा लगभग है"
+      },
+      "o": {
+       "en": [
+        "13.6 eV",
+        "10.2 eV",
+        "3.4 eV",
+        "27.2 eV"
+       ],
+       "hi": [
+        "13.6 इलेक्ट्रॉन वोल्ट",
+        "10.2 इलेक्ट्रॉन वोल्ट",
+        "3.4 इलेक्ट्रॉन वोल्ट",
+        "27.2 इलेक्ट्रॉन वोल्ट"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The ground state energy is -13.6 eV, so 13.6 eV is needed to free the electron.",
+       "hi": "मूल अवस्था की ऊर्जा -13.6 इलेक्ट्रॉन वोल्ट है, इसलिए इलेक्ट्रॉन को मुक्त करने के लिए 13.6 इलेक्ट्रॉन वोल्ट चाहिए।"
+      }
+     },
+     {
+      "q": {
+       "en": "A transformer has 100 turns in the primary and 500 in the secondary. With 220 V input, the output voltage is",
+       "hi": "किसी ट्रांसफार्मर की प्राथमिक में 100 फेरे और द्वितीयक में 500 फेरे हैं। 220 वोल्ट निवेश पर निर्गम वोल्टता है"
+      },
+      "o": {
+       "en": [
+        "44 V",
+        "220 V",
+        "1100 V",
+        "550 V"
+       ],
+       "hi": [
+        "44 वोल्ट",
+        "220 वोल्ट",
+        "1100 वोल्ट",
+        "550 वोल्ट"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "For an ideal transformer V2/V1 = N2/N1, so the output is 220 times 5, that is 1100 V.",
+       "hi": "आदर्श ट्रांसफार्मर में V2/V1 = N2/N1, अतः निर्गम 220 का पाँच गुना अर्थात 1100 वोल्ट होगा।"
+      }
+     },
+     {
+      "q": {
+       "en": "The sudden surge of which hormone triggers ovulation in the human female?",
+       "hi": "मानव स्त्री में किस हार्मोन का अचानक बढ़ना अंडोत्सर्ग प्रेरित करता है?"
+      },
+      "o": {
+       "en": [
+        "FSH",
+        "prolactin",
+        "progesterone",
+        "LH"
+       ],
+       "hi": [
+        "FSH (कूप उत्तेजक हार्मोन)",
+        "प्रोलैक्टिन",
+        "प्रोजेस्टेरॉन",
+        "LH (ल्यूटिनाइज़िंग हार्मोन)"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The mid-cycle surge of luteinising hormone ruptures the Graafian follicle and releases the ovum.",
+       "hi": "चक्र के मध्य में ल्यूटिनाइज़िंग हार्मोन का बढ़ना ग्राफियन पुटिका को फाड़कर अंडाणु मुक्त करता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The hybridisation of the sulphur atom in SF6 is",
+       "hi": "SF6 में सल्फर परमाणु का संकरण क्या है?"
+      },
+      "o": {
+       "en": [
+        "sp3d2",
+        "sp3",
+        "sp3d",
+        "dsp2"
+       ],
+       "hi": [
+        "sp3d2",
+        "sp3",
+        "sp3d",
+        "dsp2"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Six electron pairs around sulphur give an octahedral shape with sp3d2 hybridisation.",
+       "hi": "सल्फर के चारों ओर छह इलेक्ट्रॉन युग्म होने से अष्टफलकीय आकृति तथा sp3d2 संकरण होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Down syndrome in humans is caused by",
+       "hi": "मनुष्य में डाउन सिंड्रोम किससे होता है?"
+      },
+      "o": {
+       "en": [
+        "a missing X chromosome",
+        "an extra Y chromosome only",
+        "a mutation in haemoglobin",
+        "an extra copy of chromosome 21"
+       ],
+       "hi": [
+        "X गुणसूत्र की कमी",
+        "केवल अतिरिक्त Y गुणसूत्र",
+        "हीमोग्लोबिन में उत्परिवर्तन",
+        "गुणसूत्र 21 की अतिरिक्त प्रति"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "It is a trisomy and causes intellectual disability.",
+       "hi": "यह त्रिसूत्रता है और बौद्धिक अक्षमता लाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The resistivity of a semiconductor decreases with a rise in temperature because",
+       "hi": "तापमान बढ़ने पर अर्धचालक की प्रतिरोधकता घटती है क्योंकि"
+      },
+      "o": {
+       "en": [
+        "more charge carriers are freed",
+        "the ions stop vibrating",
+        "the lattice becomes perfect",
+        "electrons become heavier"
+       ],
+       "hi": [
+        "अधिक आवेश वाहक मुक्त होते हैं",
+        "आयन कंपन रोक देते हैं",
+        "जालक पूर्ण हो जाता है",
+        "इलेक्ट्रॉन भारी हो जाते हैं"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Metals behave in the opposite way.",
+       "hi": "धातुएँ उल्टा व्यवहार करती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "In the Lucas test, which alcohol gives turbidity immediately at room temperature?",
+       "hi": "लुकास परीक्षण में कमरे के ताप पर कौन-सा ऐल्कोहॉल तुरंत धुँधलापन देता है?"
+      },
+      "o": {
+       "en": [
+        "a tertiary alcohol",
+        "a primary alcohol",
+        "methanol",
+        "a phenol"
+       ],
+       "hi": [
+        "तृतीयक ऐल्कोहॉल",
+        "प्राथमिक ऐल्कोहॉल",
+        "मेथेनॉल",
+        "फिनॉल"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Tertiary carbocations are most stable, so the chloride forms at once.",
+       "hi": "तृतीयक कार्बोकैटायन सबसे स्थायी होते हैं, अतः क्लोराइड तुरंत बनता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which plant tissue transports food from the leaves to other parts?",
+       "hi": "कौन-सा पादप ऊतक भोजन को पत्तियों से अन्य भागों तक पहुँचाता है?",
+       "bn": "কোন উদ্ভিদ টিস্যু খাদ্যকে পাতার থেকে অন্যান্য অংশে পরিবহন করে?",
+       "mr": "कोणते वनस्पती ऊतक अन्न पानांमधून इतर भागांपर्यंत पोहोचवते?",
+       "te": "ఆకుల నుండి ఇతర భాగాలకు ఆహారాన్ని రవాణా చేసే మొక్క కణజాలం ఏది?",
+       "ta": "இலைகளிலிருந்து மற்ற பகுதிகளுக்கு உணவைக் கடத்தும் தாவர திசு எது?",
+       "gu": "કયું વનસ્પતિ પેશી ખોરાકને પાનમાંથી અન્ય ભાગો સુધી પહોંચાડે છે?",
+       "ur": "کون سا پودے کا ٹشو خوراک کو پتوں سے دوسرے حصوں تک پہنچاتا ہے؟",
+       "kn": "ಎಲೆಗಳಿಂದ ಇತರ ಭಾಗಗಳಿಗೆ ಆಹಾರವನ್ನು ಸಾಗಿಸುವ ಸಸ್ಯ ಅಂಗಾಂಶ ಯಾವುದು?",
+       "or": "କେଉଁ ଉଦ୍ଭିଦ ତନ୍ତୁ ଖାଦ୍ୟକୁ ପତ୍ରରୁ ଅନ୍ୟ ଅଂଶକୁ ପରିବହନ କରେ?",
+       "ml": "ഇലകളിൽ നിന്ന് മറ്റ് ഭാഗങ്ങളിലേക്ക് ഭക്ഷണം കൊണ്ടുപോകുന്ന സസ്യ കല ഏതാണ്?",
+       "pa": "ਕਿਹੜਾ ਪੌਦਾ ਟਿਸ਼ੂ ਭੋਜਨ ਨੂੰ ਪੱਤਿਆਂ ਤੋਂ ਹੋਰ ਭਾਗਾਂ ਤੱਕ ਪਹੁੰਚਾਉਂਦਾ ਹੈ?",
+       "as": "কোনটো উদ্ভিদ কলাই খাদ্য পত্ৰৰ পৰা অন্য অংশলৈ পৰিবহন কৰে?"
+      },
+      "o": {
+       "en": [
+        "Xylem",
+        "Phloem",
+        "Cambium",
+        "Epidermis"
+       ],
+       "hi": [
+        "जाइलम",
+        "फ्लोएम",
+        "कैम्बियम",
+        "एपिडर्मिस"
+       ],
+       "bn": [
+        "জাইলেম",
+        "ফ্লোয়েম",
+        "ক্যাম্বিয়াম",
+        "এপিডার্মিস"
+       ],
+       "mr": [
+        "जाइलम",
+        "फ्लोएम",
+        "कॅम्बियम",
+        "एपिडर्मिस"
+       ],
+       "te": [
+        "జైలం",
+        "ఫ్లోయం",
+        "కాంబియం",
+        "ఎపిడెర్మిస్"
+       ],
+       "ta": [
+        "சைலம்",
+        "புளோயம்",
+        "கேம்பியம்",
+        "எபிடெர்மிஸ்"
+       ],
+       "gu": [
+        "ઝાયલમ",
+        "ફ્લોએમ",
+        "કેમ્બિયમ",
+        "એપિડર્મિસ"
+       ],
+       "ur": [
+        "زائلم",
+        "فلویم",
+        "کیمبیم",
+        "ایپیڈرمس"
+       ],
+       "kn": [
+        "ಕ್ಸೈಲಂ",
+        "ಫ್ಲೋಯಂ",
+        "ಕ್ಯಾಂಬಿಯಂ",
+        "ಎಪಿಡರ್ಮಿಸ್"
+       ],
+       "or": [
+        "ଜାଇଲମ୍",
+        "ଫ୍ଲୋଏମ୍",
+        "କ୍ୟାମ୍ବିୟମ୍",
+        "ଏପିଡର୍ମିସ୍"
+       ],
+       "ml": [
+        "സൈലം",
+        "ഫ്ലോയം",
+        "കാംബിയം",
+        "എപിഡെർമിസ്"
+       ],
+       "pa": [
+        "ਜ਼ਾਈਲਮ",
+        "ਫਲੋਏਮ",
+        "ਕੈਂਬੀਅਮ",
+        "ਐਪੀਡਰਮਿਸ"
+       ],
+       "as": [
+        "জাইলেম",
+        "ফ্ল’এম",
+        "কেম্বিয়াম",
+        "এপিডাৰ্মিছ"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Phloem carries the food made in the leaves to other parts of the plant.",
+       "hi": "फ्लोएम पत्तियों में बने भोजन को पौधे के अन्य भागों तक पहुँचाता है।",
+       "bn": "ফ্লোয়েম পাতায় তৈরি খাদ্যকে উদ্ভিদের অন্যান্য অংশে পৌঁছে দেয়।",
+       "mr": "फ्लोएम पानांमध्ये तयार झालेले अन्न वनस्पतीच्या इतर भागांपर्यंत पोहोचवते.",
+       "te": "ఫ్లోయం ఆకులలో తయారైన ఆహారాన్ని మొక్క యొక్క ఇతర భాగాలకు చేరవేస్తుంది.",
+       "ta": "புளோயம் இலைகளில் தயாராகும் உணவை தாவரத்தின் மற்ற பகுதிகளுக்குக் கொண்டு செல்கிறது.",
+       "gu": "ફ્લોએમ પાનમાં બનેલો ખોરાક વનસ્પતિના અન્ય ભાગો સુધી પહોંચાડે છે.",
+       "ur": "فلویم پتوں میں بننے والی خوراک کو پودے کے دوسرے حصوں تک پہنچاتا ہے۔",
+       "kn": "ಫ್ಲೋಯಂ ಎಲೆಗಳಲ್ಲಿ ತಯಾರಾದ ಆಹಾರವನ್ನು ಸಸ್ಯದ ಇತರ ಭಾಗಗಳಿಗೆ ಸಾಗಿಸುತ್ತದೆ.",
+       "or": "ଫ୍ଲୋଏମ୍ ପତ୍ରରେ ତିଆରି ଖାଦ୍ୟକୁ ଉଦ୍ଭିଦର ଅନ୍ୟ ଅଂଶକୁ ପହଞ୍ଚାଏ।",
+       "ml": "ഇലകളിൽ ഉണ്ടാക്കുന്ന ഭക്ഷണം ഫ്ലോയം സസ്യത്തിന്റെ മറ്റ് ഭാഗങ്ങളിലേക്ക് എത്തിക്കുന്നു.",
+       "pa": "ਫਲੋਏਮ ਪੱਤਿਆਂ ਵਿੱਚ ਬਣਿਆ ਭੋਜਨ ਪੌਦੇ ਦੇ ਹੋਰ ਭਾਗਾਂ ਤੱਕ ਪਹੁੰਚਾਉਂਦਾ ਹੈ।",
+       "as": "ফ্ল’এমে পত্ৰত তৈয়াৰ কৰা খাদ্য উদ্ভিদৰ অন্য অংশলৈ লৈ যায়।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a natural polymer?",
+       "hi": "इनमें से कौन सा प्राकृतिक पॉलीमर है?",
+       "bn": "এগুলোর মধ্যে কোনটি প্রাকৃতিক পলিমার?",
+       "mr": "यापैकी कोणता नैसर्गिक पॉलिमर आहे?",
+       "te": "ఈ వాటిలో సహజ పాలిమర్ ఏది?",
+       "ta": "இந்த பொருட்களில் எது இயற்கையான பாலிமர்?",
+       "gu": "આમાંથી કુદરતી પોલિમર કયું છે?",
+       "ur": "ان میں سے کون سا قدرتی پولیمر ہے؟",
+       "kn": "ಇವುಗಳಲ್ಲಿ ನೈಸರ್ಗಿಕ ಪಾಲಿಮರ್ ಯಾವುದು?",
+       "or": "ଏହି ଜୀବମାନଙ୍କ ମଧ୍ୟରୁ କିଏ ପ୍ରାକୃତିକ ପଲିମର?",
+       "ml": "ഇവയിൽ ഏതാണ് പ്രകൃതിദത്ത പോളിമർ?",
+       "pa": "ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਕੁਦਰਤੀ ਪੋਲੀਮਰ ਹੈ?",
+       "as": "এইবোৰৰ ভিতৰত কোনটো প্ৰাকৃতিক পলিমাৰ?"
+      },
+      "o": {
+       "en": [
+        "Cellulose",
+        "Nylon",
+        "PVC",
+        "Polythene"
+       ],
+       "hi": [
+        "सेल्युलोज",
+        "नायलॉन",
+        "PVC",
+        "पॉलिथीन"
+       ],
+       "bn": [
+        "সেলুলোজ",
+        "নাইলন",
+        "PVC",
+        "পলিথিন"
+       ],
+       "mr": [
+        "सेल्युलोज",
+        "नायलॉन",
+        "PVC",
+        "पॉलिथिन"
+       ],
+       "te": [
+        "సెల్యులోజ్",
+        "నైలాన్",
+        "PVC",
+        "పాలీథిన్"
+       ],
+       "ta": [
+        "செல்லுலோஸ்",
+        "நைலான்",
+        "PVC",
+        "பாலித்தீன்"
+       ],
+       "gu": [
+        "સેલ્યુલોઝ",
+        "નાયલોન",
+        "PVC",
+        "પોલિથીન"
+       ],
+       "ur": [
+        "سیلولوز",
+        "نائیلون",
+        "PVC",
+        "پولی تھین"
+       ],
+       "kn": [
+        "ಸೆಲ್ಯುಲೋಸ್",
+        "ನೈಲಾನ್",
+        "PVC",
+        "ಪಾಲಿತೀನ್"
+       ],
+       "or": [
+        "ସେଲ୍ୟୁଲୋଜ୍",
+        "ନାଇଲନ୍",
+        "PVC",
+        "ପଲିଥିନ୍"
+       ],
+       "ml": [
+        "സെല്ലുലോസ്",
+        "നൈലോൺ",
+        "PVC",
+        "പോളിത്തീൻ"
+       ],
+       "pa": [
+        "ਸੈਲੂਲੋਜ਼",
+        "ਨਾਈਲੋਨ",
+        "PVC",
+        "ਪੌਲੀਥੀਨ"
+       ],
+       "as": [
+        "চেলুল'জ",
+        "নাৰিলন",
+        "PVC",
+        "পলিথিন"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Cellulose, found in plants, is a natural polymer; nylon and polythene are synthetic.",
+       "hi": "पौधों में पाया जाने वाला सेल्युलोज एक प्राकृतिक पॉलीमर है; नायलॉन और पॉलिथीन सिंथेटिक हैं।",
+       "bn": "উদ্ভিদে পাওয়া যায় এমন সেলুলোজ একটি প্রাকৃতিক পলিমার; নাইলন এবং পলিথিন হলো কৃত্রিম।",
+       "mr": "वनस्पतींमध्ये आढळणारे सेल्युलोज हे नैसर्गिक पॉलिमर आहे; नायलॉन आणि पॉलिथिन कृत्रिम आहेत.",
+       "te": "మొక్కలలో కనిపించే సెల్యులోజ్ ఒక సహజ పాలిమర్; నైలాన్, పాలీథిన్ సింథటిక్.",
+       "ta": "தாவரங்களில் காணப்படும் செல்லுலோஸ் ஒரு இயற்கையான பாலிமர்; நைலான் மற்றும் பாலித்தீன் ஆகியவை செயற்கையானவை.",
+       "gu": "છોડમાં જોવા મળતું સેલ્યુલોઝ એક કુદરતી પોલિમર છે; નાયલોન અને પોલિથીન કૃત્રિમ છે.",
+       "ur": "پودوں میں پایا جانے والا سیلولوز ایک قدرتی پولیمر ہے؛ نائلون اور پولی تھین مصنوعی ہیں۔",
+       "kn": "ಸಸ್ಯಗಳಲ್ಲಿ ಕಂಡುಬರುವ ಸೆಲ್ಯುಲೋಸ್ ನೈಸರ್ಗಿಕ ಪಾಲಿಮರ್ ಆಗಿದೆ; ನೈಲಾನ್ ಮತ್ತು ಪಾಲಿತೀನ್ ಸಂಶ್ಲೇಷಿತವಾಗಿವೆ.",
+       "or": "ଗଛରେ ମିଳୁଥିବା ସେଲ୍ୟୁଲୋଜ୍ ଏକ ପ୍ରାକୃତିକ ପଲିମର; ନାଇଲନ୍ ଏବଂ ପଲିଥିନ୍ ସିନ୍ଥେଟିକ୍।",
+       "ml": "സസ്യങ്ങളിൽ കാണപ്പെടുന്ന സെല്ലുലോസ് ഒരു പ്രകൃതിദത്ത പോളിമറാണ്; നൈലോണും പോളിത്തീനും കൃത്രിമമാണ്.",
+       "pa": "ਪੌਦਿਆਂ ਵਿੱਚ ਪਾਇਆ ਜਾਣ ਵਾਲਾ ਸੈਲੂਲੋਜ਼ ਇੱਕ ਕੁਦਰਤੀ ਪੋਲੀਮਰ ਹੈ; ਨਾਈਲੋਨ ਅਤੇ ਪੌਲੀਥੀਨ ਸਿੰਥੈਟਿਕ ਹਨ।",
+       "as": "উদ্ভিদত পোৱা চেলুল'জ এটা প্ৰাকৃতিক পলিমাৰ; নাৰিলন আৰু পলিথিন কৃত্ৰিম।"
+      }
+     },
+     {
+      "q": {
+       "en": "The first step in the decomposition of detritus is",
+       "hi": "डेट्राइटस के अपघटन का पहला चरण क्या है?"
+      },
+      "o": {
+       "en": [
+        "humification",
+        "mineralisation",
+        "catabolism by bacteria",
+        "fragmentation by detritivores"
+       ],
+       "hi": [
+        "ह्यूमीकरण",
+        "खनिजीकरण",
+        "जीवाणुओं द्वारा अपचय",
+        "डेट्राइटस-भक्षियों द्वारा विखंडन"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Detritivores first break detritus into smaller particles by fragmentation.",
+       "hi": "डेट्राइटस-भक्षी पहले विखंडन द्वारा डेट्राइटस को छोटे कणों में तोड़ते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Viruses that can transform normal cells into cancer cells are called",
+       "hi": "जो विषाणु सामान्य कोशिकाओं को कैंसर कोशिकाओं में बदल सकते हैं, उन्हें क्या कहते हैं?"
+      },
+      "o": {
+       "en": [
+        "prions",
+        "oncogenic viruses",
+        "bacteriophages",
+        "viroids"
+       ],
+       "hi": [
+        "प्रिऑन",
+        "ऑन्कोजेनिक विषाणु",
+        "जीवाणुभोजी",
+        "वायरॉइड"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Oncogenic or tumour viruses carry genes that disturb the normal control of cell division.",
+       "hi": "ऑन्कोजेनिक या अर्बुद विषाणु ऐसी जीन रखते हैं जो कोशिका विभाजन के सामान्य नियंत्रण को बिगाड़ देते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Electromagnetic waves are",
+       "hi": "विद्युतचुंबकीय तरंगें कैसी होती हैं?"
+      },
+      "o": {
+       "en": [
+        "longitudinal waves",
+        "sound waves",
+        "mechanical waves",
+        "transverse waves of electric and magnetic fields"
+       ],
+       "hi": [
+        "अनुदैर्घ्य तरंगें",
+        "ध्वनि तरंगें",
+        "यांत्रिक तरंगें",
+        "विद्युत और चुंबकीय क्षेत्रों की अनुप्रस्थ तरंगें"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "They need no medium and travel at c in vacuum.",
+       "hi": "उन्हें माध्यम नहीं चाहिए और वे निर्वात में c से चलती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Light travels in a medium at 2 x 10 to the power 8 m/s. The refractive index of the medium is",
+       "hi": "किसी माध्यम में प्रकाश 2 x 10 की घात 8 मीटर प्रति सेकंड से चलता है। माध्यम का अपवर्तनांक है"
+      },
+      "o": {
+       "en": [
+        "1.33",
+        "2.0",
+        "1.5",
+        "1.0"
+       ],
+       "hi": [
+        "1.33 (चार बटा तीन)",
+        "2.0 (दो)",
+        "1.5 (डेढ़)",
+        "1.0 (एक)"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "The refractive index is c divided by v, that is 3 x 10^8 by 2 x 10^8, which equals 1.5.",
+       "hi": "अपवर्तनांक c बटा v है, अर्थात 3 x 10^8 बटा 2 x 10^8, जो 1.5 के बराबर है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The SI unit of magnetic flux is the",
+       "hi": "चुंबकीय फ्लक्स की SI इकाई क्या है?"
+      },
+      "o": {
+       "en": [
+        "farad",
+        "weber",
+        "tesla",
+        "henry"
+       ],
+       "hi": [
+        "फैराड",
+        "वेबर",
+        "टेस्ला",
+        "हेनरी"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "One weber equals one tesla square metre.",
+       "hi": "एक वेबर एक टेस्ला वर्ग मीटर है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the reason a transformer cannot work on direct current?",
+       "hi": "ट्रांसफार्मर दिष्ट धारा पर काम क्यों नहीं करता?"
+      },
+      "o": {
+       "en": [
+        "DC is always too small",
+        "DC cannot pass through coils",
+        "DC produces no resistance",
+        "DC does not produce a changing magnetic flux"
+       ],
+       "hi": [
+        "दिष्ट धारा हमेशा बहुत कम होती है",
+        "दिष्ट धारा कुंडलियों से नहीं गुज़र सकती",
+        "दिष्ट धारा प्रतिरोध उत्पन्न नहीं करती",
+        "दिष्ट धारा बदलता चुंबकीय फ्लक्स नहीं बनाती"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "A transformer needs a changing flux to induce emf, which steady DC cannot give.",
+       "hi": "ट्रांसफार्मर को विद्युतवाहक बल प्रेरित करने के लिए बदलता फ्लक्स चाहिए, जो स्थिर दिष्ट धारा नहीं देती।"
+      }
+     },
+     {
+      "q": {
+       "en": "The Rivet popper hypothesis explains the importance of biodiversity by comparing an ecosystem to",
+       "hi": "रिवेट पॉपर परिकल्पना पारितंत्र की तुलना किससे करके जैव विविधता का महत्व समझाती है?"
+      },
+      "o": {
+       "en": [
+        "a set of nested boxes",
+        "a chain of food links",
+        "an aeroplane held together by rivets",
+        "a bank of seeds"
+       ],
+       "hi": [
+        "एक-दूसरे में धँसे डिब्बों से",
+        "खाद्य कड़ियों की शृंखला से",
+        "रिवेट से जुड़े हवाई जहाज से",
+        "बीजों के भंडार से"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Paul Ehrlich likened species to rivets in an aircraft: losing key species can crash the system.",
+       "hi": "पॉल एर्लिक ने जातियों को विमान के रिवेट जैसा बताया: प्रमुख जातियाँ खोने से तंत्र ढह सकता है।"
+      }
+     }
+    ]
+   },
+   {
+    "id": "science-5-2026-11-15",
+    "subject": "science",
+    "class": "5",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 5",
+     "hi": "विज्ञान टेस्ट — कक्षा 5"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "Which insect helps to carry pollen from one flower to another?",
+       "hi": "कौन-सा कीट पराग को एक फूल से दूसरे फूल तक पहुँचाने में मदद करता है?"
+      },
+      "o": {
+       "en": [
+        "Housefly",
+        "Mosquito",
+        "Honeybee",
+        "Cockroach"
+       ],
+       "hi": [
+        "घरेलू मक्खी",
+        "मच्छर",
+        "मधुमक्खी",
+        "तिलचट्टा"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "As honeybees collect nectar they carry pollen grains from flower to flower, which helps in pollination.",
+       "hi": "मधुमक्खियाँ रस इकट्ठा करते समय पराग कणों को फूल-फूल तक ले जाती हैं, जिससे परागण होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which is the largest bird in the world?",
+       "hi": "दुनिया का सबसे बड़ा पक्षी कौन सा है?"
+      },
+      "o": {
+       "en": [
+        "Eagle",
+        "Peacock",
+        "Penguin",
+        "Ostrich"
+       ],
+       "hi": [
+        "चील",
+        "मोर",
+        "पेंगुइन",
+        "शुतुरमुर्ग"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The ostrich is the largest living bird and it cannot fly.",
+       "hi": "शुतुरमुर्ग सबसे बड़ा जीवित पक्षी है और यह उड़ नहीं सकता।"
+      }
+     },
+     {
+      "q": {
+       "en": "The level of water in an open glass kept in the Sun slowly goes down because water",
+       "hi": "धूप में रखे खुले गिलास में पानी का स्तर धीरे-धीरे कम हो जाता है क्योंकि पानी"
+      },
+      "o": {
+       "en": [
+        "turns into ice",
+        "becomes heavier",
+        "evaporates into the air",
+        "soaks through the glass"
+       ],
+       "hi": [
+        "बर्फ बन जाता है",
+        "भारी हो जाता है",
+        "हवा में वाष्पित हो जाता है",
+        "गिलास से रिस जाता है"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Water slowly changes into vapour and mixes with the air.",
+       "hi": "पानी धीरे-धीरे वाष्प बनकर हवा में मिल जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A child suffering from diarrhoea should be given",
+       "hi": "दस्त से पीड़ित बच्चे को क्या देना चाहिए?"
+      },
+      "o": {
+       "en": [
+        "strong tea",
+        "nothing at all",
+        "ORS with clean water",
+        "cold fizzy drinks"
+       ],
+       "hi": [
+        "कड़क चाय",
+        "कुछ भी नहीं",
+        "साफ पानी के साथ ओआरएस",
+        "ठंडे कोल्ड ड्रिंक"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "ORS replaces the water and salts lost from the body.",
+       "hi": "ओआरएस शरीर से निकले पानी और लवण की पूर्ति करता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a rich source of carbohydrates?",
+       "hi": "इनमें से कौन-सा कार्बोहाइड्रेट का प्रचुर स्रोत है?"
+      },
+      "o": {
+       "en": [
+        "Butter",
+        "Pulses",
+        "Spinach",
+        "Rice"
+       ],
+       "hi": [
+        "मक्खन",
+        "दालें",
+        "पालक",
+        "चावल"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Rice and other grains are rich in carbohydrates.",
+       "hi": "चावल और अन्य अनाज कार्बोहाइड्रेट से भरपूर होते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Animals that eat only plants are called",
+       "hi": "जो जानवर केवल पौधे खाते हैं, उन्हें कहते हैं"
+      },
+      "o": {
+       "en": [
+        "Herbivores",
+        "Carnivores",
+        "Omnivores",
+        "Scavengers"
+       ],
+       "hi": [
+        "शाकाहारी",
+        "मांसाहारी",
+        "सर्वाहारी",
+        "सड़ा-गला खाने वाले"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Herbivores such as cows, goats and deer feed only on plant material.",
+       "hi": "गाय, बकरी और हिरण जैसे शाकाहारी जानवर केवल पौधों से मिलने वाला भोजन खाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The tree that gives us both a juicy fruit and strong wood for furniture is the",
+       "hi": "हमें रसीला फल और फर्नीचर के लिए मजबूत लकड़ी दोनों देने वाला पेड़ है"
+      },
+      "o": {
+       "en": [
+        "Banana",
+        "Rose",
+        "Bamboo",
+        "Mango"
+       ],
+       "hi": [
+        "केला",
+        "गुलाब",
+        "बाँस",
+        "आम"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The mango tree gives the mango fruit, and its wood is used to make furniture.",
+       "hi": "आम का पेड़ आम का फल देता है और इसकी लकड़ी से फर्नीचर बनता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "What helps most to reduce air pollution from vehicles in a city?",
+       "hi": "शहर में वाहनों से होने वाला वायु प्रदूषण कम करने में सबसे अधिक क्या मदद करता है?"
+      },
+      "o": {
+       "en": [
+        "Using a bicycle for short trips",
+        "Driving alone to work every day",
+        "Burning dry leaves in the open",
+        "Keeping the engine running while waiting"
+       ],
+       "hi": [
+        "छोटी यात्राओं के लिए साइकिल का उपयोग",
+        "हर दिन अकेले गाड़ी से दफ्तर जाना",
+        "खुले में सूखी पत्तियाँ जलाना",
+        "इंतजार में इंजन चालू रखना"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "A bicycle uses no fuel, so it adds no smoke to the air.",
+       "hi": "साइकिल में ईंधन नहीं लगता, इसलिए वह हवा में धुआँ नहीं मिलाती।"
+      }
+     },
+     {
+      "q": {
+       "en": "A plant that can grow new plants from the notches on its leaves is",
+       "hi": "अपनी पत्तियों की गाँठों से नए पौधे बनाने वाला पौधा है"
+      },
+      "o": {
+       "en": [
+        "Maize",
+        "Rice",
+        "Bryophyllum",
+        "Mustard"
+       ],
+       "hi": [
+        "मक्का",
+        "चावल",
+        "पाथरचट (ब्रायोफिलम)",
+        "सरसों"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Small plants grow from the notches of a bryophyllum leaf and later fall off and grow.",
+       "hi": "पाथरचट की पत्ती की गाँठों से छोटे पौधे उगते हैं जो बाद में गिरकर बड़े हो जाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these helps to prevent soil erosion?",
+       "hi": "इनमें से कौन-सा मृदा अपरदन रोकने में मदद करता है?"
+      },
+      "o": {
+       "en": [
+        "Cutting down trees",
+        "Burning the grass cover",
+        "Planting trees",
+        "Removing all plants"
+       ],
+       "hi": [
+        "पेड़ काटना",
+        "घास की परत जलाना",
+        "पेड़ लगाना",
+        "सारे पौधे हटा देना"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Tree roots hold the soil and stop it from washing away.",
+       "hi": "पेड़ों की जड़ें मिट्टी को थामे रखती हैं और उसे बहने से रोकती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Plants help to keep the air clean by",
+       "hi": "पौधे हवा को साफ रखने में किस प्रकार मदद करते हैं?"
+      },
+      "o": {
+       "en": [
+        "blocking sunlight",
+        "using carbon dioxide and giving out oxygen",
+        "using oxygen and giving out carbon dioxide",
+        "absorbing all the water"
+       ],
+       "hi": [
+        "धूप रोक देते हैं",
+        "कार्बन डाइऑक्साइड लेकर ऑक्सीजन देते हैं",
+        "ऑक्सीजन लेकर कार्बन डाइऑक्साइड देते हैं",
+        "सारा पानी सोख लेते हैं"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "In sunlight green plants take in carbon dioxide and release oxygen.",
+       "hi": "धूप में हरे पौधे कार्बन डाइऑक्साइड लेते हैं और ऑक्सीजन छोड़ते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which part of a flower later becomes the fruit?",
+       "hi": "फूल का कौन-सा भाग बाद में फल बन जाता है?"
+      },
+      "o": {
+       "en": [
+        "Petal",
+        "Ovary",
+        "Sepal",
+        "Stamen"
+       ],
+       "hi": [
+        "पंखुड़ी",
+        "अंडाशय",
+        "बाह्यदल",
+        "पुंकेसर"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "After pollination the ovary grows and becomes the fruit.",
+       "hi": "परागण के बाद अंडाशय बढ़कर फल बन जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "How many times a day should we brush our teeth?",
+       "hi": "हमें दिन में कितनी बार दाँत साफ़ करने चाहिए?"
+      },
+      "o": {
+       "en": [
+        "Twice, once in the morning and once at night",
+        "Only once a week",
+        "Four times a day",
+        "Only when the teeth hurt"
+       ],
+       "hi": [
+        "दो बार, सुबह और रात में एक-एक बार",
+        "हफ्ते में केवल एक बार",
+        "दिन में चार बार",
+        "केवल जब दाँत में दर्द हो"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Brushing twice a day removes the food and germs that cause tooth decay.",
+       "hi": "दिन में दो बार ब्रश करने से दाँत सड़ाने वाले भोजन और कीटाणु निकल जाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these animals lays eggs and also spends part of its life in water?",
+       "hi": "इनमें से कौन-सा जंतु अंडे देता है और अपने जीवन का कुछ भाग जल में भी बिताता है?"
+      },
+      "o": {
+       "en": [
+        "Frog",
+        "Cow",
+        "Dog",
+        "Cat"
+       ],
+       "hi": [
+        "मेंढक",
+        "गाय",
+        "कुत्ता",
+        "बिल्ली"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "A frog lays eggs in water and its tadpole lives in water.",
+       "hi": "मेंढक जल में अंडे देता है और उसका टैडपोल जल में रहता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which material is best for the handle of a cooking pan?",
+       "hi": "खाना पकाने की कड़ाही के हत्थे के लिए कौन-सी वस्तु सबसे अच्छी है?"
+      },
+      "o": {
+       "en": [
+        "Iron",
+        "Copper",
+        "Plastic",
+        "Steel"
+       ],
+       "hi": [
+        "लोहा",
+        "ताँबा",
+        "प्लास्टिक",
+        "इस्पात"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Plastic is a poor conductor of heat, so the handle does not become hot.",
+       "hi": "प्लास्टिक ऊष्मा की कुचालक है, इसलिए हत्था गर्म नहीं होता।"
+      }
+     },
+     {
+      "q": {
+       "en": "Steam rising from a hot cup of tea shows that water",
+       "hi": "गरम चाय के कप से भाप उठना दिखाता है कि पानी"
+      },
+      "o": {
+       "en": [
+        "Becomes a solid",
+        "Disappears completely",
+        "Turns into ice",
+        "Turns into vapour on heating"
+       ],
+       "hi": [
+        "ठोस बन जाता है",
+        "पूरी तरह लुप्त हो जाता है",
+        "बर्फ बन जाता है",
+        "गर्म होने पर वाष्प बन जाता है"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Heating water changes it into steam or vapour.",
+       "hi": "पानी गर्म होने पर भाप या वाष्प में बदल जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these plants has a taproot?",
+       "hi": "इनमें से किस पौधे में मूसला जड़ होती है?"
+      },
+      "o": {
+       "en": [
+        "Rice",
+        "Wheat",
+        "Grass",
+        "Mango tree"
+       ],
+       "hi": [
+        "धान",
+        "गेहूँ",
+        "घास",
+        "आम का पेड़"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Trees such as mango have one thick main root with smaller side roots.",
+       "hi": "आम जैसे पेड़ों में एक मोटी मुख्य जड़ होती है जिससे छोटी जड़ें निकलती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a herb?",
+       "hi": "इनमें से कौन-सा शाक है?"
+      },
+      "o": {
+       "en": [
+        "Mango tree",
+        "Mint",
+        "Neem tree",
+        "Banyan tree"
+       ],
+       "hi": [
+        "आम का पेड़",
+        "पुदीना",
+        "नीम का पेड़",
+        "बरगद का पेड़"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Herbs are small plants with soft, green stems, like mint.",
+       "hi": "शाक छोटे पौधे होते हैं जिनका तना मुलायम और हरा होता है, जैसे पुदीना।"
+      }
+     },
+     {
+      "q": {
+       "en": "Why can we not see our face in a wall?",
+       "hi": "हम दीवार में अपना चेहरा क्यों नहीं देख पाते?"
+      },
+      "o": {
+       "en": [
+        "The wall is rough and scatters light",
+        "The wall is too hard",
+        "The wall has no light inside it",
+        "The wall is transparent"
+       ],
+       "hi": [
+        "दीवार खुरदरी है और प्रकाश बिखेर देती है",
+        "दीवार बहुत कठोर है",
+        "दीवार के अंदर प्रकाश नहीं है",
+        "दीवार पारदर्शी है"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "A rough surface reflects light in all directions, so no clear image is formed.",
+       "hi": "खुरदरी सतह प्रकाश को हर दिशा में बिखेर देती है, इसलिए साफ़ प्रतिबिंब नहीं बनता।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these moves along a circular path?",
+       "hi": "इनमें से कौन वृत्तीय पथ पर चलता है?"
+      },
+      "o": {
+       "en": [
+        "A stone falling from a height",
+        "A moving fan blade",
+        "A car on a straight road",
+        "A ball thrown straight up"
+       ],
+       "hi": [
+        "ऊँचाई से गिरता पत्थर",
+        "घूमता पंखे का ब्लेड",
+        "सीधी सड़क पर चलती कार",
+        "सीधा ऊपर फेंकी गई गेंद"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "The blade of a fan goes round and round about its centre, which is a circular path.",
+       "hi": "पंखे का ब्लेड अपने केंद्र के चारों ओर गोल घूमता है, जो वृत्तीय पथ है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is an underground stem that we eat?",
+       "hi": "इनमें से कौन सा ज़मीन के नीचे का तना है जिसे हम खाते हैं?"
+      },
+      "o": {
+       "en": [
+        "Potato",
+        "Carrot",
+        "Radish",
+        "Sweet potato"
+       ],
+       "hi": [
+        "आलू",
+        "गाजर",
+        "मूली",
+        "शकरकंद"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The potato is a modified stem with eyes, not a root.",
+       "hi": "आलू आँखों वाला रूपांतरित तना है, जड़ नहीं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these gases is mainly responsible for global warming?",
+       "hi": "इनमें से कौन-सी गैस मुख्यतः भूमंडलीय ऊष्मीकरण के लिए उत्तरदायी है?"
+      },
+      "o": {
+       "en": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Nitrogen",
+        "Helium"
+       ],
+       "hi": [
+        "ऑक्सीजन",
+        "कार्बन डाइऑक्साइड",
+        "नाइट्रोजन",
+        "हीलियम"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Too much carbon dioxide traps heat and warms the Earth.",
+       "hi": "अधिक कार्बन डाइऑक्साइड ऊष्मा रोककर पृथ्वी को गर्म करती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Besides carrots, which of these fruits is a good source of vitamin A?",
+       "hi": "गाजर के अलावा इनमें से कौन-सा फल विटामिन A का अच्छा स्रोत है?"
+      },
+      "o": {
+       "en": [
+        "Sugar",
+        "Papaya",
+        "Salt",
+        "Rice"
+       ],
+       "hi": [
+        "चीनी",
+        "पपीता",
+        "नमक",
+        "चावल"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Ripe papaya is rich in vitamin A, which is good for our eyes.",
+       "hi": "पका पपीता विटामिन A से भरपूर है, जो आँखों के लिए अच्छा है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A plant with a weak stem that climbs up with support is called a",
+       "hi": "कमज़ोर तने वाला वह पौधा जो सहारे से ऊपर चढ़ता है, कहलाता है"
+      },
+      "o": {
+       "en": [
+        "Climber",
+        "Tree",
+        "Herb",
+        "Shrub"
+       ],
+       "hi": [
+        "लता",
+        "वृक्ष",
+        "शाक",
+        "झाड़ी"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Climbers have weak stems and need support to grow upwards.",
+       "hi": "लताओं का तना कमज़ोर होता है, इसलिए उन्हें ऊपर चढ़ने के लिए सहारा चाहिए।"
+      }
+     },
+     {
+      "q": {
+       "en": "Goitre, a swelling in the neck, is caused by a shortage of",
+       "hi": "गले में सूजन वाला रोग घेंघा किसकी कमी से होता है?"
+      },
+      "o": {
+       "en": [
+        "iron",
+        "calcium",
+        "protein",
+        "iodine"
+       ],
+       "hi": [
+        "लोहा",
+        "कैल्शियम",
+        "प्रोटीन",
+        "आयोडीन"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "The thyroid gland needs iodine; iodised salt prevents goitre.",
+       "hi": "थायरॉइड ग्रंथि को आयोडीन चाहिए; आयोडीन युक्त नमक घेंघा से बचाता है।"
+      }
+     }
+    ]
+   },
+   {
+    "id": "science-6-2026-11-15",
+    "subject": "science",
+    "class": "6",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 6",
+     "hi": "विज्ञान टेस्ट — कक्षा 6"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "Which of these is a method of separating a mixture of two solids of different sizes?",
+       "hi": "अलग-अलग आकार के दो ठोसों का मिश्रण अलग करने की विधि कौन सी है?"
+      },
+      "o": {
+       "en": [
+        "Condensation",
+        "Sieving",
+        "Evaporation",
+        "Churning"
+       ],
+       "hi": [
+        "संघनन",
+        "छानना",
+        "वाष्पीकरण",
+        "मथना"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "A sieve lets smaller particles through and keeps back bigger ones.",
+       "hi": "छन्नी छोटे कणों को निकलने देती है और बड़े रोक लेती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The tiny pores on the surface of a leaf are called",
+       "hi": "पत्ती की सतह पर मौजूद बारीक छिद्रों को कहते हैं"
+      },
+      "o": {
+       "en": [
+        "Stomata",
+        "Nerves",
+        "Villi",
+        "Nodules"
+       ],
+       "hi": [
+        "रंध्र",
+        "तंत्रिकाएँ",
+        "रसांकुर",
+        "गाँठें"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Stomata are tiny openings that let gases move in and out of the leaf.",
+       "hi": "रंध्र बारीक छिद्र हैं जिनसे गैसें पत्ती में आती-जाती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "An electric cell produces electricity from",
+       "hi": "विद्युत सेल बिजली किससे पैदा करता है?"
+      },
+      "o": {
+       "en": [
+        "Chemicals stored inside it",
+        "Water only",
+        "A magnet",
+        "Sunlight"
+       ],
+       "hi": [
+        "उसके अंदर भरे रसायनों से",
+        "केवल पानी से",
+        "चुंबक से",
+        "सूर्य के प्रकाश से"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The chemicals inside a cell react and produce electricity.",
+       "hi": "सेल के अंदर के रसायन क्रिया करके बिजली पैदा करते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these statements about cooking food is correct?",
+       "hi": "भोजन पकाने के बारे में इनमें से कौन-सा कथन सही है?"
+      },
+      "o": {
+       "en": [
+        "Cooking destroys all the vitamins in food",
+        "Cooking makes food hard to chew",
+        "Cooking adds protein to food",
+        "Cooking makes food soft and easy to digest"
+       ],
+       "hi": [
+        "पकाने से भोजन के सभी विटामिन नष्ट हो जाते हैं",
+        "पकाने से भोजन चबाने में कठोर हो जाता है",
+        "पकाने से भोजन में प्रोटीन बढ़ जाता है",
+        "पकाने से भोजन मुलायम और पचाने में आसान हो जाता है"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Cooking softens food and kills germs, so it becomes easier to digest.",
+       "hi": "पकाने से भोजन मुलायम हो जाता है और कीटाणु मर जाते हैं, इसलिए वह पचाने में आसान होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these will a magnet not attract?",
+       "hi": "चुंबक इनमें से किसे आकर्षित नहीं करेगा?"
+      },
+      "o": {
+       "en": [
+        "A nickel coin",
+        "A plastic ruler",
+        "A steel pin",
+        "An iron nail"
+       ],
+       "hi": [
+        "निकल का सिक्का",
+        "प्लास्टिक का पैमाना",
+        "स्टील की पिन",
+        "लोहे की कील"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Plastic is not magnetic, so a magnet has no effect on it.",
+       "hi": "प्लास्टिक चुंबकीय नहीं है, इसलिए चुंबक उस पर असर नहीं करता।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is used to test whether a material is a conductor or an insulator?",
+       "hi": "कोई पदार्थ चालक है या कुचालक, यह जाँचने के लिए किसका उपयोग करते हैं?"
+      },
+      "o": {
+       "en": [
+        "A bar magnet",
+        "A plane mirror",
+        "A measuring tape",
+        "A simple circuit with a cell and a bulb"
+       ],
+       "hi": [
+        "छड़ चुंबक",
+        "समतल दर्पण",
+        "मापन फीता",
+        "सेल और बल्ब वाला सरल परिपथ"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "If the bulb glows, the material placed in the circuit is a conductor.",
+       "hi": "यदि बल्ब जलता है तो परिपथ में लगाया गया पदार्थ चालक है।"
+      }
+     },
+     {
+      "q": {
+       "en": "How many small bones make up the human backbone?",
+       "hi": "मानव की रीढ़ में कितनी छोटी हड्डियाँ होती हैं?"
+      },
+      "o": {
+       "en": [
+        "5 small bones",
+        "60 small bones",
+        "33 small bones",
+        "12 small bones"
+       ],
+       "hi": [
+        "5 छोटी हड्डियाँ",
+        "60 छोटी हड्डियाँ",
+        "33 छोटी हड्डियाँ",
+        "12 छोटी हड्डियाँ"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "The backbone is made of 33 small bones called vertebrae.",
+       "hi": "रीढ़ 33 छोटी हड्डियों से बनी होती है जिन्हें कशेरुका कहते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these substances dissolves in water?",
+       "hi": "इनमें से कौन-सा पदार्थ पानी में घुलता है?"
+      },
+      "o": {
+       "en": [
+        "Sugar",
+        "Sand",
+        "Chalk powder",
+        "Sawdust"
+       ],
+       "hi": [
+        "चीनी",
+        "रेत",
+        "चॉक पाउडर",
+        "लकड़ी का बुरादा"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Sugar dissolves in water and forms a clear solution.",
+       "hi": "चीनी पानी में घुलकर साफ़ विलयन बनाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a recyclable waste?",
+       "hi": "इनमें से कौन-सा पुनःचक्रण योग्य कचरा है?"
+      },
+      "o": {
+       "en": [
+        "Leftover food",
+        "Newspaper",
+        "Banana peel",
+        "Vegetable scraps"
+       ],
+       "hi": [
+        "बचा हुआ खाना",
+        "अखबार",
+        "केले का छिलका",
+        "सब्जी के टुकड़े"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Old paper can be recycled to make new paper.",
+       "hi": "पुराने कागज से नया कागज बनाया जा सकता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A plane mirror forms an image that is",
+       "hi": "समतल दर्पण कैसा प्रतिबिंब बनाता है?"
+      },
+      "o": {
+       "en": [
+        "inverted and small",
+        "inverted and large",
+        "always magnified",
+        "erect and of the same size"
+       ],
+       "hi": [
+        "उल्टा और छोटा",
+        "उल्टा और बड़ा",
+        "सदा बड़ा",
+        "सीधा और समान आकार का"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "A plane mirror gives a virtual, erect image of the same size.",
+       "hi": "समतल दर्पण वस्तु के समान आकार का आभासी, सीधा प्रतिबिंब देता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Potato is a modified",
+       "hi": "आलू किस का रूपांतरित भाग है?"
+      },
+      "o": {
+       "en": [
+        "root",
+        "leaf",
+        "stem",
+        "flower"
+       ],
+       "hi": [
+        "जड़",
+        "पत्ती",
+        "तना",
+        "फूल"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "The potato is an underground stem that stores food.",
+       "hi": "आलू भूमिगत तना है जो भोजन संचय करता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these helps a fish to change direction in water?",
+       "hi": "मछली को पानी में दिशा बदलने में कौन मदद करता है?"
+      },
+      "o": {
+       "en": [
+        "Fins",
+        "Gills",
+        "Scales",
+        "Mucus"
+       ],
+       "hi": [
+        "पख",
+        "गलफड़े",
+        "शल्क",
+        "श्लेष्म"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Fins help the fish to balance and turn in water.",
+       "hi": "पख मछली को संतुलन बनाने और पानी में मुड़ने में मदद करते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these shows that air occupies space?",
+       "hi": "इनमें से कौन दर्शाता है कि हवा स्थान लेती है?"
+      },
+      "o": {
+       "en": [
+        "Ice melts in a glass",
+        "A balloon grows bigger when air is filled in it",
+        "A balloon bursts with a loud sound",
+        "Water boils in a kettle"
+       ],
+       "hi": [
+        "गिलास में बर्फ पिघलती है",
+        "हवा भरने पर गुब्बारा बड़ा हो जाता है",
+        "गुब्बारा तेज आवाज के साथ फट जाता है",
+        "केतली में पानी उबलता है"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "The air filled in the balloon takes up space inside it.",
+       "hi": "गुब्बारे में भरी हवा उसके अंदर स्थान लेती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Two unlike poles of two magnets placed near each other will",
+       "hi": "दो चुंबकों के विपरीत ध्रुव पास रखने पर क्या होंगे?"
+      },
+      "o": {
+       "en": [
+        "attract each other",
+        "repel each other",
+        "not affect each other",
+        "lose their magnetism"
+       ],
+       "hi": [
+        "एक-दूसरे को आकर्षित करेंगे",
+        "एक-दूसरे को विकर्षित करेंगे",
+        "एक-दूसरे पर असर नहीं डालेंगे",
+        "अपना चुंबकत्व खो देंगे"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Unlike poles attract; like poles repel.",
+       "hi": "विपरीत ध्रुव आकर्षित करते हैं; समान ध्रुव विकर्षित करते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Our heartbeat repeats at regular intervals. This is an example of a",
+       "hi": "हमारी हृदय की धड़कन नियमित अंतराल पर दोहराई जाती है। यह किस प्रकार का परिवर्तन है?"
+      },
+      "o": {
+       "en": [
+        "Slow change",
+        "Fast change",
+        "Undesirable change",
+        "Periodic change"
+       ],
+       "hi": [
+        "धीमा परिवर्तन",
+        "तेज परिवर्तन",
+        "अवांछनीय परिवर्तन",
+        "आवर्ती परिवर्तन"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "A change that repeats at regular intervals is periodic.",
+       "hi": "नियमित अंतराल पर दोहराया जाने वाला परिवर्तन आवर्ती होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a root that we eat?",
+       "hi": "इनमें से कौन-सी जड़ हम खाते हैं?"
+      },
+      "o": {
+       "en": [
+        "Tomato",
+        "Radish",
+        "Spinach",
+        "Brinjal"
+       ],
+       "hi": [
+        "टमाटर",
+        "मूली",
+        "पालक",
+        "बैंगन"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Radish is an edible root of the radish plant.",
+       "hi": "मूली पौधे की खाई जाने वाली जड़ है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a mixture of two or more gases?",
+       "hi": "इनमें से कौन दो या अधिक गैसों का मिश्रण है?"
+      },
+      "o": {
+       "en": [
+        "Water",
+        "Common salt",
+        "Air",
+        "Sugar"
+       ],
+       "hi": [
+        "जल",
+        "साधारण नमक",
+        "वायु",
+        "चीनी"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Air is a mixture of gases such as nitrogen, oxygen and carbon dioxide.",
+       "hi": "वायु नाइट्रोजन, ऑक्सीजन और कार्बन डाइऑक्साइड जैसी गैसों का मिश्रण है।"
+      }
+     },
+     {
+      "q": {
+       "en": "If a bar magnet is broken into two pieces, each piece",
+       "hi": "छड़ चुंबक को दो टुकड़ों में तोड़ने पर प्रत्येक टुकड़ा"
+      },
+      "o": {
+       "en": [
+        "Has only one pole",
+        "Loses its magnetism",
+        "Becomes a non-magnet",
+        "Has two poles"
+       ],
+       "hi": [
+        "केवल एक ध्रुव वाला हो जाता है",
+        "चुंबकत्व खो देता है",
+        "अचुंबकीय हो जाता है",
+        "दो ध्रुवों वाला चुंबक बन जाता है"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Every piece gets its own north and south pole.",
+       "hi": "हर टुकड़े में अपने उत्तर और दक्षिण ध्रुव बन जाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Animals that eat both plants and the flesh of other animals are called",
+       "hi": "जो जानवर पौधे और दूसरे जानवरों का माँस दोनों खाते हैं, उन्हें क्या कहते हैं?"
+      },
+      "o": {
+       "en": [
+        "Carnivores",
+        "Decomposers",
+        "Omnivores",
+        "Herbivores"
+       ],
+       "hi": [
+        "मांसाहारी",
+        "अपघटक",
+        "सर्वाहारी",
+        "शाकाहारी"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Animals that eat both plant and animal food are omnivores.",
+       "hi": "पौधे और जानवर दोनों का भोजन करने वाले सर्वाहारी कहलाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a good practice for storing grains at home?",
+       "hi": "घर पर अनाज भंडारण की अच्छी विधि कौन सी है?"
+      },
+      "o": {
+       "en": [
+        "Keeping them dry in an airtight container",
+        "Keeping them moist in an open basket",
+        "Mixing water with them",
+        "Storing them in sunlight all day"
+       ],
+       "hi": [
+        "सूखा रखकर वायुरोधी डिब्बे में रखना",
+        "गीला रखकर खुली टोकरी में रखना",
+        "उनमें पानी मिलाना",
+        "दिन भर धूप में रखना"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Dry, airtight storage keeps insects and fungus away from grains.",
+       "hi": "सूखा वायुरोधी भंडारण अनाज से कीट और फफूंद दूर रखता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which method would give clear water from muddy water at home?",
+       "hi": "घर पर मटमैले पानी से साफ पानी पाने के लिए कौन-सी विधि अपनाएँगे?"
+      },
+      "o": {
+       "en": [
+        "Filtration",
+        "Sieving",
+        "Winnowing",
+        "Handpicking"
+       ],
+       "hi": [
+        "निथारना",
+        "चालनी से छानना",
+        "फटकना",
+        "हाथ से चुनना"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Passing the water through a filter holds back the mud particles.",
+       "hi": "पानी को फिल्टर से गुज़ारने पर मिट्टी के कण रुक जाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these should be put into a compost pit?",
+       "hi": "इनमें से क्या कंपोस्ट गड्ढे में डालना चाहिए?"
+      },
+      "o": {
+       "en": [
+        "Plastic bags",
+        "Glass bottles",
+        "Old batteries",
+        "Vegetable peels and dry leaves"
+       ],
+       "hi": [
+        "प्लास्टिक की थैलियाँ",
+        "काँच की बोतलें",
+        "पुरानी बैटरियाँ",
+        "सब्जियों के छिलके और सूखी पत्तियाँ"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Kitchen and plant waste rots and turns into compost.",
+       "hi": "रसोई और पौधों का कचरा सड़कर कंपोस्ट बन जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Night blindness is caused by the lack of which vitamin?",
+       "hi": "रतौंधी किस विटामिन की कमी से होती है?"
+      },
+      "o": {
+       "en": [
+        "Vitamin C",
+        "Vitamin K",
+        "Vitamin A",
+        "Vitamin B"
+       ],
+       "hi": [
+        "विटामिन सी",
+        "विटामिन के",
+        "विटामिन ए",
+        "विटामिन बी"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Lack of vitamin A makes it hard to see in dim light.",
+       "hi": "विटामिन ए की कमी से कम रोशनी में देखने में कठिनाई होती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is not a magnetic material?",
+       "hi": "इनमें से कौन-सा चुंबकीय पदार्थ नहीं है?"
+      },
+      "o": {
+       "en": [
+        "Cobalt",
+        "Wood",
+        "Iron",
+        "Nickel"
+       ],
+       "hi": [
+        "कोबाल्ट",
+        "लकड़ी",
+        "लोहा",
+        "निकल"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Iron, nickel and cobalt are magnetic, while wood is not.",
+       "hi": "लोहा, निकल और कोबाल्ट चुंबकीय हैं, लकड़ी नहीं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these objects allows light to pass through it completely?",
+       "hi": "इनमें से कौन सी वस्तु प्रकाश को पूरी तरह पार जाने देती है?"
+      },
+      "o": {
+       "en": [
+        "Cardboard",
+        "Aluminium sheet",
+        "Clear glass",
+        "Wooden board"
+       ],
+       "hi": [
+        "गत्ता",
+        "एल्युमिनियम की चादर",
+        "साफ काँच",
+        "लकड़ी का तख्ता"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Clear glass is transparent, so we can see through it.",
+       "hi": "साफ काँच पारदर्शी है, इसलिए हम उसके आर-पार देख सकते हैं।"
+      }
+     }
+    ]
+   },
+   {
+    "id": "science-7-2026-11-15",
+    "subject": "science",
+    "class": "7",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 7",
+     "hi": "विज्ञान टेस्ट — कक्षा 7"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "Which of these will not change the colour of litmus paper?",
+       "hi": "इनमें से कौन-सा लिटमस पेपर का रंग नहीं बदलेगा?"
+      },
+      "o": {
+       "en": [
+        "Lemon juice",
+        "Soap solution",
+        "Curd",
+        "Sugar solution"
+       ],
+       "hi": [
+        "नींबू का रस",
+        "साबुन का विलयन",
+        "दही",
+        "चीनी का विलयन"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Sugar solution is neutral, so it does not change the colour of litmus.",
+       "hi": "चीनी का विलयन उदासीन है, इसलिए वह लिटमस का रंग नहीं बदलता।"
+      }
+     },
+     {
+      "q": {
+       "en": "The transfer of heat in liquids and gases takes place mainly by",
+       "hi": "द्रवों और गैसों में ऊष्मा का स्थानांतरण मुख्य रूप से होता है"
+      },
+      "o": {
+       "en": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Reflection"
+       ],
+       "hi": [
+        "चालन",
+        "संवहन",
+        "विकिरण",
+        "परावर्तन"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "In convection, heated fluid becomes lighter and rises, carrying heat with it.",
+       "hi": "संवहन में गरम द्रव हल्का होकर ऊपर उठता है और ऊष्मा साथ ले जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which waste is carried by the blood to the kidneys for removal?",
+       "hi": "रक्त किस अपशिष्ट को गुर्दों तक ले जाकर बाहर निकालता है?"
+      },
+      "o": {
+       "en": [
+        "Oxygen",
+        "Glucose",
+        "Haemoglobin",
+        "Urea"
+       ],
+       "hi": [
+        "ऑक्सीजन",
+        "ग्लूकोज",
+        "हीमोग्लोबिन",
+        "यूरिया"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The kidneys filter out urea from the blood and pass it out as urine.",
+       "hi": "गुर्दे रक्त से यूरिया छानकर उसे मूत्र के रूप में बाहर भेजते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "A four-chambered stomach is found in which of these animals?",
+       "hi": "चार कक्षों वाला आमाशय इनमें से किस जंतु में पाया जाता है?"
+      },
+      "o": {
+       "en": [
+        "Horse",
+        "Dog",
+        "Cat",
+        "Cow"
+       ],
+       "hi": [
+        "घोड़ा",
+        "कुत्ता",
+        "बिल्ली",
+        "गाय"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Ruminants such as the cow have a four-chambered stomach to digest cellulose.",
+       "hi": "गाय जैसे जुगाली करने वाले जंतुओं में सेलुलोज़ पचाने के लिए चार कक्षों वाला आमाशय होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The larva of the silkworm is called a",
+       "hi": "रेशम कीट के लार्वा को कहा जाता है"
+      },
+      "o": {
+       "en": [
+        "Pupa",
+        "Caterpillar",
+        "Moth",
+        "Nymph"
+       ],
+       "hi": [
+        "प्यूपा",
+        "कैटरपिलर (इल्ली)",
+        "पतंगा",
+        "निम्फ"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "The silkworm larva is the caterpillar, which spins the silk cocoon.",
+       "hi": "रेशम कीट का लार्वा इल्ली है, जो रेशम का कोकून बनाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The heating effect of current is used in an electric",
+       "hi": "विद्युत धारा के तापन प्रभाव का उपयोग किसमें होता है?"
+      },
+      "o": {
+       "en": [
+        "iron",
+        "bell",
+        "motor",
+        "crane"
+       ],
+       "hi": [
+        "प्रेस में",
+        "घंटी में",
+        "मोटर में",
+        "क्रेन में"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The element of an electric iron gets hot and transfers heat to the cloth.",
+       "hi": "प्रेस का एलिमेंट गर्म होकर कपड़े को ऊष्मा देता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Respiration in green plants takes place",
+       "hi": "हरे पौधों में श्वसन होता है"
+      },
+      "o": {
+       "en": [
+        "only in the daytime",
+        "only at night",
+        "only in the roots",
+        "both during the day and at night"
+       ],
+       "hi": [
+        "केवल दिन में",
+        "केवल रात में",
+        "केवल जड़ों में",
+        "दिन और रात दोनों समय"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Plants respire all the time; photosynthesis, however, needs light.",
+       "hi": "पौधे हर समय श्वसन करते हैं; प्रकाश संश्लेषण के लिए प्रकाश आवश्यक है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Burning a magnesium ribbon in air gives a white powder. This powder is",
+       "hi": "हवा में मैग्नीशियम की पट्टी जलाने पर सफेद चूर्ण बनता है। यह चूर्ण है"
+      },
+      "o": {
+       "en": [
+        "magnesium oxide",
+        "magnesium sulphate",
+        "magnesium chloride",
+        "magnesium metal"
+       ],
+       "hi": [
+        "मैग्नीशियम ऑक्साइड",
+        "मैग्नीशियम सल्फेट",
+        "मैग्नीशियम क्लोराइड",
+        "मैग्नीशियम धातु"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Magnesium combines with oxygen to form white magnesium oxide.",
+       "hi": "मैग्नीशियम ऑक्सीजन के साथ मिलकर सफेद मैग्नीशियम ऑक्साइड बनाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "An odometer in a vehicle measures",
+       "hi": "वाहन में ओडोमीटर क्या मापता है?"
+      },
+      "o": {
+       "en": [
+        "the speed at that moment",
+        "the fuel left",
+        "the engine temperature",
+        "the distance travelled"
+       ],
+       "hi": [
+        "उस क्षण की चाल",
+        "बचा ईंधन",
+        "इंजन का तापमान",
+        "तय की गई दूरी"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "The odometer records total distance in kilometres.",
+       "hi": "ओडोमीटर कुल दूरी किलोमीटर में दर्ज करता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these changes happens to a boy's voice during puberty?",
+       "hi": "यौवनारंभ में लड़के की आवाज़ में कौन सा परिवर्तन होता है?"
+      },
+      "o": {
+       "en": [
+        "It becomes deeper",
+        "It becomes shriller",
+        "It disappears",
+        "It stays exactly the same"
+       ],
+       "hi": [
+        "वह भारी हो जाती है",
+        "वह और तीखी हो जाती है",
+        "वह लुप्त हो जाती है",
+        "वह बिल्कुल वैसी ही रहती है"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The voice box grows larger, so the voice becomes deeper.",
+       "hi": "स्वरयंत्र बड़ा हो जाता है, इसलिए आवाज़ भारी हो जाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The average weather pattern of a place taken over many years is called its",
+       "hi": "किसी स्थान के कई वर्षों के औसत मौसम प्रतिरूप को क्या कहते हैं?"
+      },
+      "o": {
+       "en": [
+        "weather",
+        "season",
+        "climate",
+        "monsoon"
+       ],
+       "hi": [
+        "मौसम",
+        "ऋतु",
+        "जलवायु",
+        "मानसून"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Climate is the long-term average of weather.",
+       "hi": "जलवायु मौसम का दीर्घकालिक औसत है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Sugar dissolved in water can be got back by evaporating the water. This shows that dissolving sugar in water is a",
+       "hi": "पानी में घुली चीनी को पानी वाष्पित करके वापस पाया जा सकता है। इससे पता चलता है कि चीनी का पानी में घुलना एक"
+      },
+      "o": {
+       "en": [
+        "chemical change",
+        "physical change",
+        "permanent change",
+        "change of state of sugar"
+       ],
+       "hi": [
+        "रासायनिक परिवर्तन है",
+        "भौतिक परिवर्तन है",
+        "स्थायी परिवर्तन है",
+        "चीनी की अवस्था का परिवर्तन है"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "No new substance is formed and the sugar can be recovered, so it is physical.",
+       "hi": "कोई नया पदार्थ नहीं बनता और चीनी वापस मिल जाती है, इसलिए यह भौतिक परिवर्तन है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the largest artery in the human body?",
+       "hi": "मानव शरीर की सबसे बड़ी धमनी कौन सी है?"
+      },
+      "o": {
+       "en": [
+        "Aorta",
+        "Capillary",
+        "Vena cava",
+        "Pulmonary vein"
+       ],
+       "hi": [
+        "महाधमनी (एओर्टा)",
+        "केशिका",
+        "महाशिरा",
+        "फुफ्फुसीय शिरा"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The aorta carries oxygen-rich blood from the heart to the rest of the body.",
+       "hi": "महाधमनी हृदय से ऑक्सीजन-युक्त रक्त को शरीर के बाकी भागों तक ले जाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Seeds of which of these plants are dispersed when the fruit bursts open?",
+       "hi": "इनमें से किस पौधे के बीज फल के फटने पर बिखर जाते हैं?"
+      },
+      "o": {
+       "en": [
+        "Coconut",
+        "Drumstick",
+        "Xanthium",
+        "Castor"
+       ],
+       "hi": [
+        "नारियल",
+        "सहजन",
+        "गोखरू",
+        "अरंडी"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The castor fruit bursts with force and throws its seeds away.",
+       "hi": "अरंडी का फल ज़ोर से फटता है और अपने बीज दूर फेंक देता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "What is the time period of a pendulum that makes 20 oscillations in 40 seconds?",
+       "hi": "एक लोलक 40 सेकंड में 20 दोलन करता है। उसका आवर्तकाल क्या है?"
+      },
+      "o": {
+       "en": [
+        "2 s",
+        "20 s",
+        "0.5 s",
+        "40 s"
+       ],
+       "hi": [
+        "2 सेकंड",
+        "20 सेकंड",
+        "0.5 सेकंड",
+        "40 सेकंड"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Time period is time taken for one oscillation: 40 divided by 20 is 2 s.",
+       "hi": "आवर्तकाल एक दोलन का समय है: 40 ÷ 20 = 2 सेकंड।"
+      }
+     },
+     {
+      "q": {
+       "en": "A device that opens or closes an electric circuit is called a",
+       "hi": "विद्युत परिपथ को खोलने या बंद करने वाली युक्ति कहलाती है"
+      },
+      "o": {
+       "en": [
+        "Bulb",
+        "Cell",
+        "Switch",
+        "Fuse"
+       ],
+       "hi": [
+        "बल्ब",
+        "सेल",
+        "स्विच",
+        "फ्यूज"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Closing the switch completes the circuit and current starts flowing.",
+       "hi": "स्विच बंद करने से परिपथ पूरा होता है और धारा बहने लगती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The blood vessel that carries blood away from the heart is an",
+       "hi": "हृदय से रक्त ले जाने वाली रक्त वाहिका कहलाती है"
+      },
+      "o": {
+       "en": [
+        "capillary only",
+        "nerve",
+        "artery",
+        "vein"
+       ],
+       "hi": [
+        "केवल केशिका",
+        "तंत्रिका",
+        "धमनी",
+        "शिरा"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Arteries carry blood away; veins bring it back to the heart.",
+       "hi": "धमनियाँ रक्त ले जाती हैं; शिराएँ उसे हृदय तक वापस लाती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Coating iron articles with a layer of zinc to prevent rusting is called",
+       "hi": "जंग से बचाने के लिए लोहे की वस्तुओं पर ज़िंक की परत चढ़ाने को कहते हैं"
+      },
+      "o": {
+       "en": [
+        "crystallisation",
+        "galvanisation",
+        "condensation",
+        "chromatography"
+       ],
+       "hi": [
+        "क्रिस्टलीकरण",
+        "गैल्वनीकरण",
+        "संघनन",
+        "क्रोमैटोग्राफी"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "In galvanisation a zinc layer keeps air and moisture away from the iron.",
+       "hi": "गैल्वनीकरण में ज़िंक की परत लोहे को हवा और नमी से दूर रखती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The wave-like movements of the walls of the alimentary canal that push food forward are called",
+       "hi": "आहार नाल की दीवारों की लहर जैसी गतियाँ, जो भोजन को आगे बढ़ाती हैं, कहलाती हैं"
+      },
+      "o": {
+       "en": [
+        "villi",
+        "rumination",
+        "peristaltic movements",
+        "absorption"
+       ],
+       "hi": [
+        "रसांकुर",
+        "जुगाली",
+        "क्रमाकुंचन गतियाँ",
+        "अवशोषण"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "These muscular movements push the food along the alimentary canal.",
+       "hi": "ये मांसपेशीय गतियाँ भोजन को आहार नाल में आगे धकेलती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these animals has a four-chambered heart?",
+       "hi": "इनमें से किस जानवर का हृदय चार कक्षों वाला है?"
+      },
+      "o": {
+       "en": [
+        "Fish",
+        "Frog",
+        "Crocodile",
+        "Earthworm"
+       ],
+       "hi": [
+        "मछली",
+        "मेंढक",
+        "मगरमच्छ",
+        "केंचुआ"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Crocodiles, birds and mammals have a four-chambered heart with no mixing of blood.",
+       "hi": "मगरमच्छ, पक्षी और स्तनधारियों के हृदय में चार कक्ष होते हैं और रक्त मिलता नहीं।"
+      }
+     },
+     {
+      "q": {
+       "en": "In coastal areas, the land breeze blows during the",
+       "hi": "तटीय क्षेत्रों में थल समीर कब चलती है?"
+      },
+      "o": {
+       "en": [
+        "day",
+        "high tide only",
+        "summer afternoons only",
+        "night"
+       ],
+       "hi": [
+        "दिन",
+        "केवल ज्वार के समय",
+        "केवल गर्मियों की दोपहर में",
+        "रात"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "At night the land cools faster, so air moves from land to sea.",
+       "hi": "रात में थल शीघ्र ठंडा होता है, इसलिए हवा थल से सागर की ओर चलती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "When a ray of light strikes a plane mirror, the angle of incidence is equal to the",
+       "hi": "समतल दर्पण पर पड़ी किरण के लिए आपतन कोण बराबर होता है"
+      },
+      "o": {
+       "en": [
+        "angle of reflection",
+        "angle of refraction",
+        "90 degrees always",
+        "angle of deviation"
+       ],
+       "hi": [
+        "परावर्तन कोण",
+        "अपवर्तन कोण",
+        "सदा 90 डिग्री",
+        "विचलन कोण"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "This is the law of reflection.",
+       "hi": "यह परावर्तन का नियम है।"
+      }
+     },
+     {
+      "q": {
+       "en": "In woody plants, gaseous exchange takes place through",
+       "hi": "काष्ठीय पौधों में गैसों का आदान-प्रदान किससे होता है?"
+      },
+      "o": {
+       "en": [
+        "lenticels",
+        "stomata only",
+        "roots",
+        "flowers"
+       ],
+       "hi": [
+        "वातरंध्र",
+        "केवल रंध्र",
+        "जड़ें",
+        "फूल"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Lenticels are loose patches of cells on the bark that let gases pass.",
+       "hi": "वातरंध्र छाल पर ढीली कोशिकाओं के धब्बे हैं जो गैसें जाने देते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The dirty water that comes out of our houses after being used is called",
+       "hi": "उपयोग के बाद हमारे घरों से निकलने वाला गंदा जल कहलाता है"
+      },
+      "o": {
+       "en": [
+        "distilled water",
+        "sewage",
+        "groundwater",
+        "rainwater"
+       ],
+       "hi": [
+        "आसवित जल",
+        "मलजल",
+        "भूजल",
+        "वर्षा जल"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Sewage is the waste water from homes, schools and offices, mixed with waste matter.",
+       "hi": "मलजल घरों, विद्यालयों और कार्यालयों से निकला अपशिष्ट जल है, जिसमें गंदगी मिली होती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Fish breathe with the help of",
+       "hi": "मछली किसकी सहायता से श्वसन करती है?"
+      },
+      "o": {
+       "en": [
+        "lungs",
+        "spiracles",
+        "gills",
+        "moist skin"
+       ],
+       "hi": [
+        "फेफड़े",
+        "वातरंध्र",
+        "क्लोम (गिल्स)",
+        "नम त्वचा"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Gills take dissolved oxygen from water.",
+       "hi": "क्लोम जल से घुली ऑक्सीजन लेते हैं।"
+      }
+     }
+    ]
+   },
+   {
+    "id": "science-8-2026-11-15",
+    "subject": "science",
+    "class": "8",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 8",
+     "hi": "विज्ञान टेस्ट — कक्षा 8"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "Rayon is known as artificial silk because it",
+       "hi": "रेयॉन को कृत्रिम रेशम कहते हैं क्योंकि यह"
+      },
+      "o": {
+       "en": [
+        "is shiny and can be dyed in bright colours",
+        "does not absorb water",
+        "is obtained from silkworms",
+        "is stronger than steel"
+       ],
+       "hi": [
+        "चमकदार है और चमकीले रंगों में रँगा जा सकता है",
+        "पानी सोखता नहीं है",
+        "रेशम के कीड़ों से मिलता है",
+        "स्टील से भी मज़बूत है"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Rayon fibres are smooth and lustrous like silk, although they are made from wood pulp.",
+       "hi": "रेयॉन के रेशे रेशम की तरह चिकने और चमकदार होते हैं, हालाँकि ये लकड़ी के गूदे से बनते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a common weed in Indian fields?",
+       "hi": "इनमें से कौन भारतीय खेतों में सामान्य खरपतवार है?"
+      },
+      "o": {
+       "en": [
+        "Wheat",
+        "Gajar ghas (Parthenium)",
+        "Rice",
+        "Mustard"
+       ],
+       "hi": [
+        "गेहूँ",
+        "गाजर घास (पार्थेनियम)",
+        "चावल",
+        "सरसों"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Weeds grow along with the crop and take away water, nutrients and light.",
+       "hi": "खरपतवार फसल के साथ उगते हैं और जल, पोषक तत्व तथा प्रकाश छीन लेते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The chief cause of water pollution in Indian rivers is",
+       "hi": "भारतीय नदियों में जल प्रदूषण का मुख्य कारण क्या है?"
+      },
+      "o": {
+       "en": [
+        "untreated sewage and industrial waste",
+        "rainfall",
+        "fish",
+        "river boats"
+       ],
+       "hi": [
+        "अनुपचारित मलजल और औद्योगिक कचरा",
+        "वर्षा",
+        "मछलियाँ",
+        "नदी की नावें"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Sewage and factory waste lower oxygen and harm aquatic life.",
+       "hi": "मलजल और कारखानों का कचरा ऑक्सीजन घटाकर जलीय जीवन को हानि पहुँचाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The changes that occur in the body at puberty are controlled by",
+       "hi": "यौवनारंभ पर शरीर में होने वाले परिवर्तन किसके द्वारा नियंत्रित होते हैं?"
+      },
+      "o": {
+       "en": [
+        "Bones",
+        "Hormones",
+        "Muscles",
+        "Vitamins"
+       ],
+       "hi": [
+        "हड्डियाँ",
+        "हार्मोन",
+        "मांसपेशियाँ",
+        "विटामिन"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Hormones from the endocrine glands bring about growth and sexual maturity.",
+       "hi": "अंतःस्रावी ग्रंथियों के हार्मोन वृद्धि और यौन परिपक्वता लाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Phosphorus is stored in water because it",
+       "hi": "फॉस्फोरस को पानी में रखा जाता है क्योंकि वह"
+      },
+      "o": {
+       "en": [
+        "catches fire easily in air",
+        "dissolves in air",
+        "melts in water",
+        "reacts with glass"
+       ],
+       "hi": [
+        "हवा में आसानी से आग पकड़ता है",
+        "हवा में घुल जाता है",
+        "पानी में पिघल जाता है",
+        "काँच से अभिक्रिया करता है"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "White phosphorus ignites at a low temperature on contact with air.",
+       "hi": "सफेद फॉस्फोरस हवा के संपर्क में कम ताप पर ही जल उठता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Adolescents need a diet rich in iron and protein mainly because",
+       "hi": "किशोरों को लोहा और प्रोटीन युक्त भोजन मुख्य रूप से क्यों चाहिए?"
+      },
+      "o": {
+       "en": [
+        "the body grows rapidly",
+        "they sleep less",
+        "they need less energy",
+        "iron is not needed"
+       ],
+       "hi": [
+        "शरीर तेज़ी से बढ़ता है",
+        "वे कम सोते हैं",
+        "उन्हें कम ऊर्जा चाहिए",
+        "लोहा आवश्यक नहीं"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Rapid growth needs protein, and blood formation needs iron.",
+       "hi": "तेज़ वृद्धि के लिए प्रोटीन और रक्त बनाने के लिए लोहा चाहिए।"
+      }
+     },
+     {
+      "q": {
+       "en": "When a plastic comb is rubbed on dry hair it attracts bits of paper because",
+       "hi": "सूखे बालों पर प्लास्टिक की कंघी रगड़ने पर वह कागज़ के टुकड़ों को आकर्षित करती है क्योंकि"
+      },
+      "o": {
+       "en": [
+        "the comb becomes a magnet",
+        "the paper becomes heavier",
+        "rubbing transfers electrons and charges the comb",
+        "the comb becomes hot"
+       ],
+       "hi": [
+        "कंघी चुंबक बन जाती है",
+        "कागज़ भारी हो जाता है",
+        "रगड़ने से इलेक्ट्रॉन स्थानांतरित होकर कंघी आवेशित हो जाती है",
+        "कंघी गर्म हो जाती है"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Friction between the comb and hair transfers electrons, and the charged comb attracts paper.",
+       "hi": "कंघी और बालों के बीच घर्षण से इलेक्ट्रॉन स्थानांतरित होते हैं और आवेशित कंघी कागज़ को आकर्षित करती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Viruses can multiply only",
+       "hi": "विषाणु केवल कहाँ गुणन कर सकते हैं?"
+      },
+      "o": {
+       "en": [
+        "in distilled water",
+        "inside living host cells",
+        "in open air",
+        "in dry soil"
+       ],
+       "hi": [
+        "आसुत जल में",
+        "जीवित परपोषी कोशिकाओं के अंदर",
+        "खुली हवा में",
+        "सूखी मिट्टी में"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Viruses need a living host cell in order to reproduce.",
+       "hi": "विषाणुओं को प्रजनन के लिए जीवित परपोषी कोशिका चाहिए।"
+      }
+     },
+     {
+      "q": {
+       "en": "The one-horned rhinoceros is mainly protected in which Indian state?",
+       "hi": "एक सींग वाला गैंडा मुख्यतः भारत के किस राज्य में संरक्षित है?"
+      },
+      "o": {
+       "en": [
+        "Kerala",
+        "Rajasthan",
+        "Assam",
+        "Punjab"
+       ],
+       "hi": [
+        "केरल",
+        "राजस्थान",
+        "असम",
+        "पंजाब"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Kaziranga National Park in Assam is famous for protecting the one-horned rhinoceros.",
+       "hi": "असम का काज़ीरंगा राष्ट्रीय उद्यान एक सींग वाले गैंडे के संरक्षण के लिए प्रसिद्ध है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The membrane that separates the nucleus from the cytoplasm is called the",
+       "hi": "जो झिल्ली केंद्रक को कोशिकाद्रव्य से अलग करती है, उसे कहते हैं"
+      },
+      "o": {
+       "en": [
+        "cell wall",
+        "cell membrane",
+        "plastid",
+        "nuclear membrane"
+       ],
+       "hi": [
+        "कोशिका भित्ति",
+        "कोशिका झिल्ली",
+        "प्लास्टिड",
+        "केंद्रक झिल्ली"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The nuclear membrane surrounds the nucleus and separates it from the cytoplasm.",
+       "hi": "केंद्रक झिल्ली केंद्रक को घेरती है और उसे कोशिकाद्रव्य से अलग रखती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the control centre of a cell?",
+       "hi": "इनमें से कौन कोशिका का नियंत्रण केंद्र है?"
+      },
+      "o": {
+       "en": [
+        "Vacuole",
+        "Cytoplasm",
+        "Cell membrane",
+        "Nucleus"
+       ],
+       "hi": [
+        "रसधानी",
+        "कोशिकाद्रव्य",
+        "कोशिका झिल्ली",
+        "केंद्रक"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "The nucleus contains the information that directs all the activities of the cell.",
+       "hi": "केंद्रक में वह सूचना होती है जो कोशिका की सभी क्रियाओं का निर्देशन करती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a healthy habit for an adolescent?",
+       "hi": "किशोर के लिए इनमें से कौन-सी स्वस्थ आदत है?"
+      },
+      "o": {
+       "en": [
+        "skipping meals to lose weight quickly",
+        "eating a balanced diet and exercising regularly",
+        "sleeping only three hours a night",
+        "drinking only soft drinks instead of water"
+       ],
+       "hi": [
+        "जल्दी वजन घटाने के लिए भोजन छोड़ना",
+        "संतुलित भोजन करना और नियमित व्यायाम करना",
+        "रात में केवल तीन घंटे सोना",
+        "पानी की जगह केवल शीतल पेय पीना"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Balanced food and regular exercise support healthy growth.",
+       "hi": "संतुलित भोजन और नियमित व्यायाम स्वस्थ वृद्धि में सहायक हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Synthetic clothes feel uncomfortable in hot and humid weather because they",
+       "hi": "गर्म और उमस भरे मौसम में संश्लेषित कपड़े असहज लगते हैं क्योंकि वे"
+      },
+      "o": {
+       "en": [
+        "are always too thick",
+        "absorb too much sweat",
+        "let air pass easily",
+        "do not absorb sweat"
+       ],
+       "hi": [
+        "सदा बहुत मोटे होते हैं",
+        "बहुत अधिक पसीना सोख लेते हैं",
+        "हवा आसानी से आने देते हैं",
+        "पसीना नहीं सोखते"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Synthetic fibres absorb very little water, so sweat stays on the skin and we feel sticky.",
+       "hi": "संश्लेषित रेशे बहुत कम पानी सोखते हैं, इसलिए पसीना त्वचा पर रह जाता है और चिपचिपाहट लगती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "The weight of an object on the Moon is about one-sixth of its weight on the Earth. An object weighing 60 N on the Earth weighs about how much on the Moon?",
+       "hi": "चंद्रमा पर किसी वस्तु का भार पृथ्वी पर उसके भार का लगभग छठा भाग होता है। पृथ्वी पर 60 N भार वाली वस्तु का चंद्रमा पर भार लगभग कितना होगा?"
+      },
+      "o": {
+       "en": [
+        "6 N",
+        "360 N",
+        "10 N",
+        "60 N"
+       ],
+       "hi": [
+        "6 N",
+        "360 N",
+        "10 N",
+        "60 N"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "One-sixth of 60 N is 10 N, so the object weighs about 10 N on the Moon.",
+       "hi": "60 N का छठा भाग 10 N है, इसलिए वस्तु का चंद्रमा पर भार लगभग 10 N होगा।"
+      }
+     },
+     {
+      "q": {
+       "en": "Amoeba is an organism made of",
+       "hi": "अमीबा कितनी कोशिकाओं से बना जीव है?"
+      },
+      "o": {
+       "en": [
+        "no cells",
+        "a single cell",
+        "two cells",
+        "many cells"
+       ],
+       "hi": [
+        "कोई कोशिका नहीं",
+        "एक कोशिका",
+        "दो कोशिकाएँ",
+        "अनेक कोशिकाएँ"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Amoeba is unicellular and its single cell performs all life functions.",
+       "hi": "अमीबा एककोशिकीय है और उसकी एक कोशिका सभी कार्य करती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Lightning is caused by the build-up of",
+       "hi": "तड़ित किसके जमा होने से होती है?"
+      },
+      "o": {
+       "en": [
+        "water vapour in clouds",
+        "air pressure in clouds",
+        "electric charge in clouds",
+        "heat in clouds"
+       ],
+       "hi": [
+        "बादलों में जलवाष्प",
+        "बादलों में वायुदाब",
+        "बादलों में विद्युत आवेश",
+        "बादलों में ऊष्मा"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Charges separate in storm clouds and jump as a spark.",
+       "hi": "तूफानी बादलों में आवेश अलग होकर चिंगारी के रूप में कूदते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "A deficiency of iodine in an adolescent's diet may cause",
+       "hi": "किशोर के आहार में आयोडीन की कमी से क्या हो सकता है?"
+      },
+      "o": {
+       "en": [
+        "goitre",
+        "night blindness",
+        "anaemia",
+        "rickets"
+       ],
+       "hi": [
+        "घेंघा (गॉयटर)",
+        "रतौंधी",
+        "रक्ताल्पता",
+        "सूखा रोग"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "The thyroid gland needs iodine to make thyroxine; without it the gland swells as goitre.",
+       "hi": "थाइरॉइड ग्रंथि को थायरॉक्सिन बनाने के लिए आयोडीन चाहिए; इसकी कमी से ग्रंथि फूलकर घेंघा बन जाती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these fuels has the highest calorific value per kilogram?",
+       "hi": "इनमें से किस ईंधन का कैलोरी मान प्रति किलोग्राम सबसे अधिक है?"
+      },
+      "o": {
+       "en": [
+        "Wood",
+        "Coal",
+        "Kerosene",
+        "Hydrogen"
+       ],
+       "hi": [
+        "लकड़ी",
+        "कोयला",
+        "मिट्टी का तेल",
+        "हाइड्रोजन"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Hydrogen releases the most energy per kilogram when it burns.",
+       "hi": "जलने पर हाइड्रोजन प्रति किलोग्राम सबसे अधिक ऊर्जा देती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a measure of the amount of matter in an object?",
+       "hi": "इनमें से कौन सा किसी वस्तु में पदार्थ की मात्रा मापने का तरीका है?",
+       "bn": "এইগুলোর মধ্যে কোনটি কোনো বস্তুর পদার্থের পরিমাণের পরিমাপ?",
+       "mr": "वस्तूतील पदार्थाच्या प्रमाणाचे मोजमाप यापैकी कशाने केले जाते?",
+       "te": "ఒక వస్తువులోని పదార్థ పరిమాణాన్ని కొలిచేది ఏది?",
+       "ta": "ஒரு பொருளில் உள்ள பருப்பொருளின் அளவைக் குறிப்பது எது?",
+       "gu": "આમાંથી કોઈ વસ્તુમાં રહેલા પદાર્થની માત્રાનું માપ કયું છે?",
+       "ur": "ان میں سے کون سی چیز کسی شے میں موجود مادے (matter) کی مقدار ناپتی ہے؟",
+       "kn": "ಇವುಗಳಲ್ಲಿ ಯಾವುದು ವಸ್ತುವಿನಲ್ಲಿರುವ ದ್ರವ್ಯರಾಶಿಯ ಅಳತೆ?",
+       "or": "ଏମାନଙ୍କ ମଧ୍ୟରୁ କେଉଁଟି ଏକ ବସ୍ତୁରେ ଥିବା ପଦାର୍ଥର ପରିମାଣ ମାପିବା ପାଇଁ ବ୍ୟବହୃତ ହୁଏ?",
+       "ml": "ഒരു വസ്തുവിലെ പദാർത്ഥത്തിന്റെ അളവ് കാണിക്കുന്നത് ഇവയിൽ ഏതാണ്?",
+       "pa": "ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਵਸਤੂ ਵਿੱਚ ਪਦਾਰਥ ਦੀ ਮਾਤਰਾ ਦਾ ਮਾਪ ਕਿਹੜਾ ਹੈ?",
+       "as": "কোনো বস্তুৰ পদাৰ্থৰ পৰিমাণৰ জোখ কোনটো?"
+      },
+      "o": {
+       "en": [
+        "Weight",
+        "Volume",
+        "Mass",
+        "Density"
+       ],
+       "hi": [
+        "वजन",
+        "आयतन",
+        "द्रव्यमान",
+        "घनत्व"
+       ],
+       "bn": [
+        "ওজন",
+        "আয়তন",
+        "ভর",
+        "ঘনত্ব"
+       ],
+       "mr": [
+        "वजन",
+        "घनफळ",
+        "वस्तुमान",
+        "घनता"
+       ],
+       "te": [
+        "బరువు",
+        "ఘనపరిమాణం",
+        "ద్రవ్యరాశి",
+        "సాంద్రత"
+       ],
+       "ta": [
+        "எடை",
+        "பருமன்",
+        "நிறை",
+        "அடர்த்தி"
+       ],
+       "gu": [
+        "વજન",
+        "કદ",
+        "દળ",
+        "ઘનતા"
+       ],
+       "ur": [
+        "وزن (Weight)",
+        "حجم (Volume)",
+        "کمیت (Mass)",
+        "کثافت (Density)"
+       ],
+       "kn": [
+        "ತೂಕ",
+        "ಗಾತ್ರ",
+        "ದ್ರವ್ಯರಾಶಿ",
+        "ಸಾಂದ್ರತೆ"
+       ],
+       "or": [
+        "ଓଜନ",
+        "ଆୟତନ",
+        "ବସ୍ତୁତ୍ୱ",
+        "ଘନତ୍ୱ"
+       ],
+       "ml": [
+        "ഭാരം",
+        "വ്യാപ്തം",
+        "മാസ്സ്",
+        "സാന്ദ്രത"
+       ],
+       "pa": [
+        "ਭਾਰ",
+        "ਆਇਤਨ",
+        "ਪੁੰਜ",
+        "ਘਣਤਾ"
+       ],
+       "as": [
+        "ওজন",
+        "আয়তন",
+        "ভৰ",
+        "ঘনত্ব"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Mass is the amount of matter in an object.",
+       "hi": "द्रव्यमान किसी वस्तु में पदार्थ की मात्रा है।",
+       "bn": "ভর হলো কোনো বস্তুর পদার্থের পরিমাণ।",
+       "mr": "वस्तुमान म्हणजे वस्तूतील पदार्थाचे प्रमाण.",
+       "te": "ద్రవ్యరాశి అనేది ఒక వస్తువులోని పదార్థ పరిమాణం.",
+       "ta": "நிறை என்பது ஒரு பொருளில் உள்ள பருப்பொருளின் அளவாகும்.",
+       "gu": "દળ એટલે કોઈ વસ્તુમાં રહેલા પદાર્થની માત્રા.",
+       "ur": "کمیت (Mass) کسی شے میں موجود مادے کی مقدار ہے۔",
+       "kn": "ದ್ರವ್ಯರಾಶಿ ಎಂದರೆ ವಸ್ತುವಿನಲ್ಲಿರುವ ದ್ರವ್ಯದ ಪ್ರಮಾಣ.",
+       "or": "ବସ୍ତୁତ୍ୱ ହେଉଛି ଏକ ବସ୍ତୁରେ ଥିବା ପଦାର୍ଥର ପରିମାଣ।",
+       "ml": "ഒരു വസ്തുവിലെ പദാർത്ഥത്തിന്റെ അളവാണ് മാസ്സ്.",
+       "pa": "ਪੁੰਜ ਕਿਸੇ ਵਸਤੂ ਵਿੱਚ ਪਦਾਰਥ ਦੀ ਮਾਤਰਾ ਹੈ।",
+       "as": "ভৰ হৈছে কোনো বস্তুৰ পদাৰ্থৰ পৰিমাণ।"
+      }
+     },
+     {
+      "q": {
+       "en": "When a goalkeeper catches a moving ball, the force he applies",
+       "hi": "जब गोलकीपर चलती हुई गेंद पकड़ता है, तो उसका लगाया बल"
+      },
+      "o": {
+       "en": [
+        "has no effect on the ball",
+        "changes the speed and direction of the ball",
+        "increases the weight of the ball",
+        "changes only the mass of the ball"
+       ],
+       "hi": [
+        "गेंद पर कोई प्रभाव नहीं डालता",
+        "गेंद की चाल और दिशा बदल देता है",
+        "गेंद का भार बढ़ा देता है",
+        "केवल गेंद का द्रव्यमान बदलता है"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "A force can change the speed or the direction of motion of an object, as when a ball is stopped.",
+       "hi": "बल किसी वस्तु की चाल या गति की दिशा बदल सकता है, जैसे गेंद को रोकते समय।"
+      }
+     },
+     {
+      "q": {
+       "en": "Petroleum is separated into useful fractions in a",
+       "hi": "पेट्रोलियम को उपयोगी भागों में किस स्थान पर अलग किया जाता है?"
+      },
+      "o": {
+       "en": [
+        "blast furnace",
+        "biogas plant",
+        "paper mill",
+        "petroleum refinery"
+       ],
+       "hi": [
+        "वात्या भट्टी",
+        "बायोगैस संयंत्र",
+        "कागज़ कारखाना",
+        "पेट्रोलियम रिफाइनरी"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Fractional distillation of petroleum is carried out in a refinery.",
+       "hi": "पेट्रोलियम का आंशिक आसवन रिफाइनरी में किया जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A national park differs from a wildlife sanctuary mainly because a national park",
+       "hi": "राष्ट्रीय उद्यान वन्यजीव अभयारण्य से मुख्य रूप से इसलिए भिन्न है क्योंकि राष्ट्रीय उद्यान में"
+      },
+      "o": {
+       "en": [
+        "has no animals",
+        "is always in a city",
+        "also protects the landscape and is strictly protected",
+        "allows hunting"
+       ],
+       "hi": [
+        "कोई जानवर नहीं होते",
+        "सदा शहर में होता है",
+        "भूदृश्य भी सुरक्षित रहता है और कड़ा संरक्षण होता है",
+        "शिकार की अनुमति है"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "National parks protect the whole ecosystem, not just animals.",
+       "hi": "राष्ट्रीय उद्यान केवल जानवरों नहीं, पूरे पारितंत्र की रक्षा करते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "A porter places a cloth pad on his head under a heavy load because the pad",
+       "hi": "कुली भारी बोझ के नीचे सिर पर कपड़ा रखता है क्योंकि कपड़ा"
+      },
+      "o": {
+       "en": [
+        "increases the area and reduces the pressure",
+        "increases the force of the load",
+        "makes the load lighter in mass",
+        "reduces the weight of the load"
+       ],
+       "hi": [
+        "क्षेत्रफल बढ़ाकर दाब कम कर देता है",
+        "बोझ का बल बढ़ा देता है",
+        "बोझ का द्रव्यमान हल्का कर देता है",
+        "बोझ का भार कम कर देता है"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Pressure is force divided by area, so a larger area means less pressure on the head.",
+       "hi": "दाब बल को क्षेत्रफल से भाग देने पर मिलता है, इसलिए बड़े क्षेत्रफल पर दाब कम होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which planet is best known for its bright, prominent rings?",
+       "hi": "कौन-सा ग्रह अपने चमकीले और स्पष्ट वलयों के लिए प्रसिद्ध है?"
+      },
+      "o": {
+       "en": [
+        "Saturn",
+        "Jupiter",
+        "Neptune",
+        "Venus"
+       ],
+       "hi": [
+        "शनि",
+        "बृहस्पति",
+        "वरुण",
+        "शुक्र"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Saturn has the most prominent ring system of all the planets.",
+       "hi": "सभी ग्रहों में शनि के वलय सबसे स्पष्ट हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which method preserves milk by heating it to a high temperature and cooling it quickly?",
+       "hi": "दूध को उच्च ताप तक गर्म करके तेज़ी से ठंडा करने की कौन-सी विधि से संरक्षित किया जाता है?"
+      },
+      "o": {
+       "en": [
+        "Refrigeration",
+        "Pasteurisation",
+        "Salting",
+        "Drying"
+       ],
+       "hi": [
+        "प्रशीतन",
+        "पाश्चरीकरण",
+        "नमक मिलाना",
+        "सुखाना"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Pasteurisation kills most harmful microbes in milk without spoiling its taste.",
+       "hi": "पाश्चरीकरण दूध का स्वाद बिगाड़े बिना अधिकांश हानिकारक सूक्ष्मजीवों को मार देता है।"
+      }
+     }
+    ]
+   },
+   {
+    "id": "science-9-2026-11-15",
+    "subject": "science",
+    "class": "9",
+    "date": "2026-11-15",
+    "title": {
+     "en": "Science Test — Class 9",
+     "hi": "विज्ञान टेस्ट — कक्षा 9"
+    },
+    "duration_min": 30,
+    "marks": 25,
+    "questions": [
+     {
+      "q": {
+       "en": "The mass of 1 mole of nitrogen gas (N2) is",
+       "hi": "नाइट्रोजन गैस (N2) के 1 मोल का द्रव्यमान कितना होता है?"
+      },
+      "o": {
+       "en": [
+        "14 g",
+        "7 g",
+        "28 g",
+        "56 g"
+       ],
+       "hi": [
+        "14 g",
+        "7 g",
+        "28 g",
+        "56 g"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "One nitrogen atom has mass 14 u, so one N2 molecule has molar mass 2 × 14 = 28 g.",
+       "hi": "नाइट्रोजन परमाणु का द्रव्यमान 14 u है, इसलिए N2 का मोलर द्रव्यमान 2 × 14 = 28 g है।"
+      }
+     },
+     {
+      "q": {
+       "en": "What is the chemical symbol for magnesium?",
+       "hi": "मैग्नीशियम का रासायनिक प्रतीक क्या है?"
+      },
+      "o": {
+       "en": [
+        "Mn",
+        "Mo",
+        "Mg",
+        "Md"
+       ],
+       "hi": [
+        "Mn",
+        "Mo",
+        "Mg",
+        "Md"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Magnesium is Mg, while Mn is the symbol for manganese.",
+       "hi": "मैग्नीशियम Mg है, जबकि Mn मैंगनीज़ का प्रतीक है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A mixture of iron filings and sulphur powder can be separated by",
+       "hi": "लोहे के बुरादे और गंधक चूर्ण के मिश्रण को किस विधि से अलग किया जा सकता है?"
+      },
+      "o": {
+       "en": [
+        "magnetic separation",
+        "filtration",
+        "evaporation",
+        "sedimentation"
+       ],
+       "hi": [
+        "चुंबकीय पृथक्करण",
+        "निगलन",
+        "वाष्पीकरण",
+        "अवसादन"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Iron is attracted by a magnet but sulphur is not, so a magnet removes the iron filings.",
+       "hi": "लोहा चुंबक से आकर्षित होता है पर गंधक नहीं, इसलिए चुंबक से लोहे का बुरादा अलग हो जाता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which group of plants has vascular tissue but does not bear seeds?",
+       "hi": "पौधों का कौन-सा समूह संवहन ऊतक रखता है परंतु बीज नहीं बनाता?"
+      },
+      "o": {
+       "en": [
+        "Bryophytes",
+        "Gymnosperms",
+        "Angiosperms",
+        "Pteridophytes"
+       ],
+       "hi": [
+        "ब्रायोफाइटा",
+        "जिम्नोस्पर्म",
+        "एंजियोस्पर्म",
+        "टेरिडोफाइटा"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Pteridophytes such as ferns have xylem and phloem but reproduce by spores, not seeds.",
+       "hi": "फर्न जैसे टेरिडोफाइटा में जाइलम और फ्लोएम होते हैं, परंतु वे बीज नहीं बल्कि बीजाणुओं से प्रजनन करते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "A body of mass 5 kg is moving with a velocity of 4 m/s. What is its kinetic energy?",
+       "hi": "5 किग्रा द्रव्यमान का पिंड 4 मी/से के वेग से चल रहा है। उसकी गतिज ऊर्जा क्या है?"
+      },
+      "o": {
+       "en": [
+        "40 J",
+        "20 J",
+        "80 J",
+        "100 J"
+       ],
+       "hi": [
+        "40 जूल",
+        "20 जूल",
+        "80 जूल",
+        "100 जूल"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Kinetic energy is half mv squared, so 0.5 x 5 x 16 = 40 J.",
+       "hi": "गतिज ऊर्जा = ½mv², इसलिए 0.5 × 5 × 16 = 40 जूल।"
+      }
+     },
+     {
+      "q": {
+       "en": "Through which of these will a beam of light show a visible path?",
+       "hi": "इनमें से किससे गुजरते समय प्रकाश की किरण-पुंज का पथ दिखाई देगा?"
+      },
+      "o": {
+       "en": [
+        "Salt solution",
+        "Distilled water",
+        "Sugar solution",
+        "Milk"
+       ],
+       "hi": [
+        "नमक का घोल",
+        "आसवित जल",
+        "चीनी का घोल",
+        "दूध"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Milk is a colloid and its particles scatter light, showing the Tyndall effect.",
+       "hi": "दूध एक कोलाइड है और इसके कण प्रकाश का प्रकीर्णन करते हैं, जिससे टिंडल प्रभाव दिखता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is a unit of power?",
+       "hi": "इनमें से शक्ति का मात्रक कौन सा है?"
+      },
+      "o": {
+       "en": [
+        "Newton",
+        "Joule",
+        "Pascal",
+        "Watt"
+       ],
+       "hi": [
+        "न्यूटन",
+        "जूल",
+        "पास्कल",
+        "वाट"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Power is work per unit time, so one watt equals one joule per second.",
+       "hi": "शक्ति प्रति इकाई समय कार्य है, इसलिए एक वाट = एक जूल प्रति सेकंड।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which plant tissue transports food from leaves to other parts?",
+       "hi": "कौन सा पादप ऊतक पत्तियों से भोजन अन्य भागों तक ले जाता है?"
+      },
+      "o": {
+       "en": [
+        "Epidermis",
+        "Cork",
+        "Phloem",
+        "Xylem"
+       ],
+       "hi": [
+        "बाह्यत्वचा",
+        "कॉर्क",
+        "फ्लोएम",
+        "दारु"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Phloem has sieve tubes and companion cells.",
+       "hi": "फ्लोएम में चालनी नलिकाएँ और सहचर कोशिकाएँ होती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Robert Hooke discovered the cell in 1665 while examining",
+       "hi": "रॉबर्ट हुक ने 1665 में कोशिका की खोज किसका अध्ययन करते हुए की थी?"
+      },
+      "o": {
+       "en": [
+        "a thin slice of cork",
+        "an onion peel",
+        "a fresh leaf",
+        "frog blood"
+       ],
+       "hi": [
+        "कॉर्क की पतली पट्टी",
+        "प्याज़ की झिल्ली",
+        "ताज़ी पत्ती",
+        "मेंढक का रक्त"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "He saw tiny compartments in cork and called them cells.",
+       "hi": "उन्होंने कॉर्क में छोटे-छोटे खाने देखे और उन्हें कोशिका कहा।"
+      }
+     },
+     {
+      "q": {
+       "en": "The kinetic energy of a body of mass 1 kg moving at 2 m/s is",
+       "hi": "1 kg द्रव्यमान की वस्तु जो 2 m/s से चल रही है, उसकी गतिज ऊर्जा है"
+      },
+      "o": {
+       "en": [
+        "4 J",
+        "2 J",
+        "1 J",
+        "8 J"
+       ],
+       "hi": [
+        "4 J",
+        "2 J",
+        "1 J",
+        "8 J"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "KE = ½mv² = ½ × 1 × 4 = 2 J.",
+       "hi": "गतिज ऊर्जा = ½mv² = ½ × 1 × 4 = 2 J।"
+      }
+     },
+     {
+      "q": {
+       "en": "Intercropping differs from mixed cropping because intercrops are grown",
+       "hi": "अंतरफसल और मिश्रित फसल में अंतर यह है कि अंतरफसल उगाई जाती है"
+      },
+      "o": {
+       "en": [
+        "in definite rows",
+        "without any pattern",
+        "only with trees",
+        "in the same pot"
+       ],
+       "hi": [
+        "निश्चित कतारों में",
+        "बिना किसी क्रम के",
+        "केवल पेड़ों के साथ",
+        "एक ही गमले में"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Fixed row patterns make harvesting and spraying easier.",
+       "hi": "निश्चित कतारों से कटाई और छिड़काव आसान होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which tissue covers and lines the surface of the body and its organs?",
+       "hi": "कौन सा ऊतक शरीर और उसके अंगों की सतह को ढकता है?"
+      },
+      "o": {
+       "en": [
+        "Muscle tissue",
+        "Epithelial tissue",
+        "Nervous tissue",
+        "Connective tissue"
+       ],
+       "hi": [
+        "पेशी ऊतक",
+        "उपकला ऊतक",
+        "तंत्रिका ऊतक",
+        "संयोजी ऊतक"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Epithelial cells form protective coverings such as the skin and the lining of the mouth.",
+       "hi": "उपकला कोशिकाएँ त्वचा और मुँह की परत जैसे रक्षात्मक आवरण बनाती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Bacteria differ from plant and animal cells because they lack",
+       "hi": "बैक्टीरिया पादप और जंतु कोशिकाओं से इसलिए भिन्न हैं क्योंकि उनमें क्या नहीं होता?"
+      },
+      "o": {
+       "en": [
+        "cytoplasm",
+        "ribosomes",
+        "a well-defined nucleus",
+        "a cell membrane"
+       ],
+       "hi": [
+        "कोशिकाद्रव्य",
+        "राइबोसोम",
+        "सुस्पष्ट केंद्रक",
+        "कोशिका झिल्ली"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Bacteria are prokaryotes; their genetic material lies free in the cytoplasm.",
+       "hi": "बैक्टीरिया प्रोकैरियोट हैं; उनकी आनुवंशिक सामग्री कोशिकाद्रव्य में खुली रहती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Rutherford's nuclear model could not explain the stability of the atom because",
+       "hi": "रदरफोर्ड का नाभिकीय मॉडल परमाणु के स्थायित्व को नहीं समझा सका क्योंकि"
+      },
+      "o": {
+       "en": [
+        "a revolving electron would radiate energy and fall into the nucleus",
+        "it ignored the neutrons completely",
+        "it placed the electrons inside the nucleus",
+        "it could not explain the mass of the atom"
+       ],
+       "hi": [
+        "परिक्रमा करता इलेक्ट्रॉन ऊर्जा विकिरित करके नाभिक में गिर जाता",
+        "इसमें न्यूट्रॉनों को पूरी तरह छोड़ दिया गया",
+        "इसमें इलेक्ट्रॉनों को नाभिक के भीतर रखा गया",
+        "यह परमाणु के द्रव्यमान को नहीं समझा सका"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "An accelerating electron should lose energy continuously and spiral inward.",
+       "hi": "त्वरित इलेक्ट्रॉन को लगातार ऊर्जा खोकर भीतर की ओर सिकुड़ते जाना चाहिए।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which plant tissue carries water and minerals upward?",
+       "hi": "कौन सा पादप ऊतक पानी और खनिज ऊपर ले जाता है?"
+      },
+      "o": {
+       "en": [
+        "Phloem",
+        "Parenchyma",
+        "Sclerenchyma",
+        "Xylem"
+       ],
+       "hi": [
+        "फ्लोएम",
+        "मृदूतक",
+        "स्थूलकोण ऊतक",
+        "दारु"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Xylem has tracheids and vessels that form continuous tubes.",
+       "hi": "दारु में वाहिकाएँ और ट्रेकीड लगातार नलियाँ बनाते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "According to Bohr's model of the atom, electrons",
+       "hi": "बोर के परमाणु मॉडल के अनुसार इलेक्ट्रॉन"
+      },
+      "o": {
+       "en": [
+        "are embedded in a positive sphere",
+        "stay at rest inside the nucleus",
+        "are shared equally between atoms",
+        "revolve in fixed orbits without losing energy"
+       ],
+       "hi": [
+        "धनात्मक गोले में धँसे रहते हैं",
+        "नाभिक के भीतर स्थिर रहते हैं",
+        "परमाणुओं के बीच समान रूप से बँटे रहते हैं",
+        "बिना ऊर्जा खोए निश्चित कक्षाओं में परिक्रमा करते हैं"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Bohr allowed only certain orbits in which no energy is radiated.",
+       "hi": "बोर ने केवल कुछ निश्चित कक्षाएँ मानीं जिनमें ऊर्जा विकिरित नहीं होती।"
+      }
+     },
+     {
+      "q": {
+       "en": "A force of 10 N moves a body 2 m in a direction making 60° with the force. The work done is",
+       "hi": "10 N का बल किसी पिंड को बल से 60° का कोण बनाती दिशा में 2 m तक चलाता है। किया गया कार्य है"
+      },
+      "o": {
+       "en": [
+        "20 J",
+        "10 J",
+        "17.3 J",
+        "0 J"
+       ],
+       "hi": [
+        "20 J",
+        "10 J",
+        "17.3 J",
+        "0 J"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Work is F s cos θ, so 10 × 2 × cos 60° = 10 × 2 × 0.5 = 10 J.",
+       "hi": "कार्य = F s cos θ, इसलिए 10 × 2 × cos 60° = 10 × 2 × 0.5 = 10 J।"
+      }
+     },
+     {
+      "q": {
+       "en": "The loudness of a sound depends on which of these?",
+       "hi": "ध्वनि की तीव्रता किस पर निर्भर करती है?"
+      },
+      "o": {
+       "en": [
+        "Amplitude",
+        "Speed",
+        "Wavelength",
+        "Colour"
+       ],
+       "hi": [
+        "आयाम",
+        "चाल",
+        "तरंगदैर्ध्य",
+        "रंग"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Loudness depends on the amplitude of the sound wave.",
+       "hi": "तीव्रता ध्वनि तरंग के आयाम पर निर्भर करती है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Vermicompost is prepared with the help of",
+       "hi": "वर्मीकम्पोस्ट किसकी सहायता से तैयार किया जाता है?"
+      },
+      "o": {
+       "en": [
+        "fungi",
+        "earthworms",
+        "bacteria alone",
+        "insects"
+       ],
+       "hi": [
+        "कवक",
+        "केंचुए",
+        "केवल जीवाणु",
+        "कीट"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Earthworms break down organic waste into nutrient-rich compost.",
+       "hi": "केंचुए जैविक कचरे को पोषक तत्वों से भरपूर खाद में बदल देते हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which state of matter is the most compressible?",
+       "hi": "पदार्थ की कौन-सी अवस्था सबसे अधिक संपीड्य है?"
+      },
+      "o": {
+       "en": [
+        "Solid",
+        "Gas",
+        "Liquid",
+        "Plasma"
+       ],
+       "hi": [
+        "ठोस",
+        "गैस",
+        "द्रव",
+        "प्लाज़्मा"
+       ]
+      },
+      "a": 1,
+      "e": {
+       "en": "Gases have very large spaces between particles, so they compress easily.",
+       "hi": "गैसों में कणों के बीच अधिक स्थान है, इसलिए वे सहज ही संपीडित होती हैं।"
+      }
+     },
+     {
+      "q": {
+       "en": "The pressure at a point inside a liquid depends on",
+       "hi": "द्रव के भीतर किसी बिंदु पर दाब निर्भर करता है"
+      },
+      "o": {
+       "en": [
+        "the shape of the container",
+        "the colour of the liquid",
+        "the total volume of the liquid",
+        "the depth and the density of the liquid"
+       ],
+       "hi": [
+        "बर्तन के आकार पर",
+        "द्रव के रंग पर",
+        "द्रव के कुल आयतन पर",
+        "गहराई और द्रव के घनत्व पर"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Pressure in a liquid increases with depth and is greater in a denser liquid.",
+       "hi": "द्रव में दाब गहराई के साथ बढ़ता है और अधिक घनत्व वाले द्रव में अधिक होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "Which of these is the powerhouse of the cell?",
+       "hi": "इनमें से कोशिका का ऊर्जा गृह कौन है?"
+      },
+      "o": {
+       "en": [
+        "Ribosome",
+        "Lysosome",
+        "Golgi body",
+        "Mitochondria"
+       ],
+       "hi": [
+        "राइबोसोम",
+        "लाइसोसोम",
+        "गॉल्जी काय",
+        "माइटोकॉन्ड्रिया"
+       ]
+      },
+      "a": 3,
+      "e": {
+       "en": "Mitochondria oxidise food to release energy in the form of ATP.",
+       "hi": "माइटोकॉन्ड्रिया भोजन का ऑक्सीकरण कर ATP के रूप में ऊर्जा देता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "A chlorine atom has atomic number 17 and mass number 35. The number of neutrons in it is",
+       "hi": "क्लोरीन परमाणु की परमाणु संख्या 17 और द्रव्यमान संख्या 35 है। इसमें न्यूट्रॉनों की संख्या कितनी है?"
+      },
+      "o": {
+       "en": [
+        "17",
+        "35",
+        "18",
+        "52"
+       ],
+       "hi": [
+        "17",
+        "35",
+        "18",
+        "52"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Neutrons equal mass number minus atomic number, so 35 - 17 = 18 neutrons.",
+       "hi": "न्यूट्रॉन = द्रव्यमान संख्या - परमाणु संख्या, इसलिए 35 - 17 = 18 न्यूट्रॉन।"
+      }
+     },
+     {
+      "q": {
+       "en": "What determines the quality of a sound?",
+       "hi": "ध्वनि की गुणता किससे निर्धारित होती है?"
+      },
+      "o": {
+       "en": [
+        "amplitude",
+        "frequency",
+        "waveform",
+        "speed"
+       ],
+       "hi": [
+        "आयाम",
+        "आवृत्ति",
+        "तरंग आकृति",
+        "चाल"
+       ]
+      },
+      "a": 2,
+      "e": {
+       "en": "Sounds of the same pitch and loudness differ in quality because of their waveforms.",
+       "hi": "समान तारत्व और प्रबलता वाली ध्वनियों में गुणता का अंतर उनकी तरंग आकृति के कारण होता है।"
+      }
+     },
+     {
+      "q": {
+       "en": "An object dropped from rest falls with an acceleration equal to",
+       "hi": "विराम से छोड़ी गई वस्तु किस त्वरण से गिरती है?"
+      },
+      "o": {
+       "en": [
+        "g",
+        "Zero",
+        "2g",
+        "g/2"
+       ],
+       "hi": [
+        "g",
+        "शून्य",
+        "2g",
+        "g/2"
+       ]
+      },
+      "a": 0,
+      "e": {
+       "en": "Ignoring air resistance, gravity gives every falling body the same acceleration g.",
+       "hi": "वायु प्रतिरोध छोड़कर गुरुत्व हर गिरती वस्तु को समान त्वरण g देता है।"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}
