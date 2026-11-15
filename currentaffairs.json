@@ -1,0 +1,512 @@
+{
+ "currentaffairs": {
+  "2026-11": {
+   "name": {
+    "en": "November 2026",
+    "hi": "नवंबर 2026"
+   },
+   "qs": [
+    {
+     "q": {
+      "en": "Who took charge as the 55th Director General of the Geological Survey of India in November 2026?",
+      "hi": "नवंबर 2026 में भारतीय भूवैज्ञानिक सर्वेक्षण के 55वें महानिदेशक के रूप में किसने कार्यभार संभाला?"
+     },
+     "o": {
+      "en": [
+       "Dinesh V. Ganvir",
+       "Rajesh Bindal",
+       "Anurag Jain",
+       "Devesh Chaturvedi"
+      ],
+      "hi": [
+       "दिनेश वी. गणवीर",
+       "राजेश बिंदल",
+       "अनुराग जैन",
+       "देवेश चतुर्वेदी"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Dinesh V. Ganvir took charge as the 55th Director General of the Geological Survey of India on 1 November 2026.",
+      "hi": "दिनेश वी. गणवीर ने 1 नवंबर 2026 को भारतीय भूवैज्ञानिक सर्वेक्षण के 55वें महानिदेशक का कार्यभार संभाला।"
+     }
+    },
+    {
+     "q": {
+      "en": "Who was appointed Chairperson of the National Company Law Appellate Tribunal in November 2026?",
+      "hi": "नवंबर 2026 में राष्ट्रीय कंपनी विधि अपीलीय अधिकरण का अध्यक्ष किसे नियुक्त किया गया?"
+     },
+     "o": {
+      "en": [
+       "Justice Ashok Bhushan",
+       "Justice Rajesh Bindal",
+       "Justice Ujjal Bhuyan",
+       "Justice Vikram Nath"
+      ],
+      "hi": [
+       "न्यायमूर्ति अशोक भूषण",
+       "न्यायमूर्ति राजेश बिंदल",
+       "न्यायमूर्ति उज्ज्वल भूयान",
+       "न्यायमूर्ति विक्रम नाथ"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "Former Supreme Court judge Justice Rajesh Bindal was appointed NCLAT Chairperson, succeeding Justice Ashok Bhushan.",
+      "hi": "सर्वोच्च न्यायालय के पूर्व न्यायाधीश न्यायमूर्ति राजेश बिंदल को एनसीएलएटी का अध्यक्ष नियुक्त किया गया, जो न्यायमूर्ति अशोक भूषण के स्थान पर आए।"
+     }
+    },
+    {
+     "q": {
+      "en": "Who was appointed Chief Executive Officer of NITI Aayog in 2026?",
+      "hi": "2026 में नीति आयोग का मुख्य कार्यकारी अधिकारी किसे नियुक्त किया गया?"
+     },
+     "o": {
+      "en": [
+       "B.V.R. Subrahmanyam",
+       "Ashok Kumar Lahiri",
+       "Anurag Jain",
+       "Suman Bery"
+      ],
+      "hi": [
+       "बी.वी.आर. सुब्रह्मण्यम",
+       "अशोक कुमार लाहिड़ी",
+       "अनुराग जैन",
+       "सुमन बेरी"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "The Appointments Committee of the Cabinet approved senior IAS officer Anurag Jain as CEO of NITI Aayog.",
+      "hi": "मंत्रिमंडल की नियुक्ति समिति ने वरिष्ठ आईएएस अधिकारी अनुराग जैन को नीति आयोग का सीईओ नियुक्त किया।"
+     }
+    },
+    {
+     "q": {
+      "en": "Retired IAS officer Devesh Chaturvedi was appointed Chairman of which body in November 2026?",
+      "hi": "नवंबर 2026 में सेवानिवृत्त आईएएस अधिकारी देवेश चतुर्वेदी को किस निकाय का अध्यक्ष नियुक्त किया गया?"
+     },
+     "o": {
+      "en": [
+       "Sports Authority of India",
+       "Indian Olympic Association",
+       "National Anti-Doping Agency",
+       "National Sports Board"
+      ],
+      "hi": [
+       "भारतीय खेल प्राधिकरण",
+       "भारतीय ओलंपिक संघ",
+       "राष्ट्रीय एंटी-डोपिंग एजेंसी",
+       "राष्ट्रीय खेल बोर्ड"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "He was appointed Chairman of the National Sports Board, set up under the National Sports Governance Act, 2025.",
+      "hi": "उन्हें राष्ट्रीय खेल बोर्ड का अध्यक्ष नियुक्त किया गया, जो राष्ट्रीय खेल शासन अधिनियम, 2025 के तहत बना है।"
+     }
+    },
+    {
+     "q": {
+      "en": "In November 2026 the Union Cabinet continued the Credit Guarantee Fund for Micro Units up to which date?",
+      "hi": "नवंबर 2026 में केंद्रीय मंत्रिमंडल ने सूक्ष्म इकाइयों के लिए ऋण गारंटी कोष को किस तिथि तक जारी रखने का निर्णय लिया?"
+     },
+     "o": {
+      "en": [
+       "31 March 2031",
+       "31 March 2028",
+       "31 March 2029",
+       "31 March 2030"
+      ],
+      "hi": [
+       "31 मार्च 2031",
+       "31 मार्च 2028",
+       "31 मार्च 2029",
+       "31 मार्च 2030"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Cabinet approved continuation for five years up to 31 March 2031 with a corpus of Rs 5,000 crore.",
+      "hi": "मंत्रिमंडल ने 5,000 करोड़ रुपये के कोष के साथ 31 मार्च 2031 तक पाँच वर्ष के लिए जारी रखने की स्वीकृति दी।"
+     }
+    },
+    {
+     "q": {
+      "en": "The Stand-Up India scheme was extended by the Union Cabinet in November 2026 with a credit guarantee corpus of about",
+      "hi": "नवंबर 2026 में केंद्रीय मंत्रिमंडल ने स्टैंड-अप इंडिया योजना को लगभग कितने ऋण गारंटी कोष के साथ बढ़ाया?"
+     },
+     "o": {
+      "en": [
+       "Rs 1,111 crore",
+       "Rs 4,111 crore",
+       "Rs 5,000 crore",
+       "Rs 14,500 crore"
+      ],
+      "hi": [
+       "1,111 करोड़ रुपये",
+       "4,111 करोड़ रुपये",
+       "5,000 करोड़ रुपये",
+       "14,500 करोड़ रुपये"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "The scheme was continued for five years to 31 March 2031 with a credit guarantee corpus of Rs 4,111 crore.",
+      "hi": "योजना को 31 मार्च 2031 तक पाँच वर्ष के लिए 4,111 करोड़ रुपये के ऋण गारंटी कोष के साथ जारी रखा गया।"
+     }
+    },
+    {
+     "q": {
+      "en": "The Nutrient Based Subsidy approved for Rabi 2026-27 is about",
+      "hi": "रबी 2026-27 के लिए स्वीकृत पोषक तत्व आधारित सब्सिडी लगभग कितनी है?"
+     },
+     "o": {
+      "en": [
+       "Rs 4,371 crore",
+       "Rs 37,952 crore",
+       "Rs 62,370 crore",
+       "Rs 14,500 crore"
+      ],
+      "hi": [
+       "4,371 करोड़ रुपये",
+       "37,952 करोड़ रुपये",
+       "62,370 करोड़ रुपये",
+       "14,500 करोड़ रुपये"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "The Cabinet approved about Rs 62,370 crore for phosphatic and potassic fertilisers for Rabi 2026-27.",
+      "hi": "मंत्रिमंडल ने रबी 2026-27 के लिए फॉस्फेटिक और पोटाशिक उर्वरकों पर लगभग 62,370 करोड़ रुपये की स्वीकृति दी।"
+     }
+    },
+    {
+     "q": {
+      "en": "Which city topped the Super Swachh League in the Swachh Survekshan Awards 2025-26?",
+      "hi": "स्वच्छ सर्वेक्षण पुरस्कार 2025-26 की सुपर स्वच्छ लीग में कौन सा शहर पहले स्थान पर रहा?"
+     },
+     "o": {
+      "en": [
+       "Vijayawada",
+       "Indore",
+       "Surat",
+       "Navi Mumbai"
+      ],
+      "hi": [
+       "विजयवाड़ा",
+       "इंदौर",
+       "सूरत",
+       "नवी मुंबई"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "Navi Mumbai was first, Surat second and Vijayawada third in the Super Swachh League.",
+      "hi": "सुपर स्वच्छ लीग में नवी मुंबई पहले, सूरत दूसरे और विजयवाड़ा तीसरे स्थान पर रहा।"
+     }
+    },
+    {
+     "q": {
+      "en": "Each Infosys Prize 2026 carries a purse of",
+      "hi": "प्रत्येक इन्फोसिस पुरस्कार 2026 की राशि कितनी है?"
+     },
+     "o": {
+      "en": [
+       "USD 100,000",
+       "USD 200,000",
+       "Rs 50 lakh",
+       "USD 50,000"
+      ],
+      "hi": [
+       "1,00,000 अमेरिकी डॉलर",
+       "2,00,000 अमेरिकी डॉलर",
+       "50 लाख रुपये",
+       "50,000 अमेरिकी डॉलर"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "Each Infosys Prize carries a gold medal, a citation and a purse of USD 100,000.",
+      "hi": "प्रत्येक इन्फोसिस पुरस्कार में स्वर्ण पदक, प्रशस्ति पत्र और 1,00,000 अमेरिकी डॉलर की राशि मिलती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "At the National Sports Awards 2025, which award was not given at all?",
+      "hi": "राष्ट्रीय खेल पुरस्कार 2025 में कौन सा पुरस्कार बिल्कुल नहीं दिया गया?"
+     },
+     "o": {
+      "en": [
+       "Dronacharya Award",
+       "Major Dhyan Chand Khel Ratna",
+       "Tenzing Norgay Adventure Award",
+       "Arjuna Award"
+      ],
+      "hi": [
+       "द्रोणाचार्य पुरस्कार",
+       "मेजर ध्यानचंद खेल रत्न",
+       "तेनजिंग नोर्गे साहसिक पुरस्कार",
+       "अर्जुन पुरस्कार"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "No Khel Ratna was given for 2025, the first such year since 2014.",
+      "hi": "2025 के लिए कोई खेल रत्न नहीं दिया गया, 2014 के बाद ऐसा पहली बार हुआ।"
+     }
+    },
+    {
+     "q": {
+      "en": "In November 2026 the Union Cabinet approved a Viability Gap Funding scheme of Rs 14,500 crore for",
+      "hi": "नवंबर 2026 में केंद्रीय मंत्रिमंडल ने 14,500 करोड़ रुपये की व्यवहार्यता अंतर निधि योजना किसके लिए स्वीकृत की?"
+     },
+     "o": {
+      "en": [
+       "green hydrogen",
+       "rooftop solar",
+       "grid-scale energy storage",
+       "electric buses"
+      ],
+      "hi": [
+       "हरित हाइड्रोजन",
+       "छत पर सौर ऊर्जा",
+       "ग्रिड स्तर का ऊर्जा भंडारण",
+       "इलेक्ट्रिक बसें"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "The VGF supports 92 GWh of grid-scale energy storage from 2026-27 to 2030-31.",
+      "hi": "यह वीजीएफ 2026-27 से 2030-31 तक 92 जीडब्ल्यूएच ग्रिड स्तरीय ऊर्जा भंडारण को सहायता देती है।"
+     }
+    },
+    {
+     "q": {
+      "en": "VISTAR, approved by the Union Cabinet in November 2026, is a scheme of which ministry?",
+      "hi": "नवंबर 2026 में केंद्रीय मंत्रिमंडल द्वारा स्वीकृत विस्तार (VISTAR) किस मंत्रालय की योजना है?"
+     },
+     "o": {
+      "en": [
+       "Ministry of Finance",
+       "Ministry of Electronics and Information Technology",
+       "Ministry of Education",
+       "Ministry of Statistics and Programme Implementation"
+      ],
+      "hi": [
+       "वित्त मंत्रालय",
+       "इलेक्ट्रॉनिकी और सूचना प्रौद्योगिकी मंत्रालय",
+       "शिक्षा मंत्रालय",
+       "सांख्यिकी और कार्यक्रम कार्यान्वयन मंत्रालय"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "VISTAR is a central sector scheme of MoSPI with an outlay of Rs 4,371.10 crore.",
+      "hi": "विस्तार (VISTAR) सांख्यिकी मंत्रालय की केंद्रीय क्षेत्रक योजना है, जिसका परिव्यय 4,371.10 करोड़ रुपये है।"
+     }
+    },
+    {
+     "q": {
+      "en": "The Capex Support Scheme approved in November 2026 gives a 30% capital subsidy for processing which minerals?",
+      "hi": "नवंबर 2026 में स्वीकृत पूँजीगत सहायता योजना किन खनिजों के प्रसंस्करण पर 30% पूँजी सब्सिडी देती है?"
+     },
+     "o": {
+      "en": [
+       "Lithium and nickel",
+       "Iron and copper",
+       "Gold and silver",
+       "Coal and lignite"
+      ],
+      "hi": [
+       "लिथियम और निकल",
+       "लोहा और तांबा",
+       "सोना और चाँदी",
+       "कोयला और लिग्नाइट"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Rs 2,814 crore scheme targets two lithium and two nickel processing plants.",
+      "hi": "2,814 करोड़ रुपये की योजना दो लिथियम और दो निकल प्रसंस्करण संयंत्रों के लिए है।"
+     }
+    },
+    {
+     "q": {
+      "en": "The Fast Track Special Courts scheme, continued in November 2026, now runs up to",
+      "hi": "नवंबर 2026 में जारी रखी गई फास्ट ट्रैक विशेष अदालत योजना अब किस तिथि तक चलेगी?"
+     },
+     "o": {
+      "en": [
+       "31 March 2029",
+       "31 March 2031",
+       "31 March 2033",
+       "31 March 2027"
+      ],
+      "hi": [
+       "31 मार्च 2029",
+       "31 मार्च 2031",
+       "31 मार्च 2033",
+       "31 मार्च 2027"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "The scheme was extended from 1 April 2026 to 31 March 2031 with an outlay of Rs 3,788.04 crore.",
+      "hi": "योजना को 1 अप्रैल 2026 से 31 मार्च 2031 तक 3,788.04 करोड़ रुपये के परिव्यय के साथ बढ़ाया गया।"
+     }
+    },
+    {
+     "q": {
+      "en": "Under the November 2026 decision, Agniveers not retained after four years can serve a second engagement of",
+      "hi": "नवंबर 2026 के निर्णय के अनुसार, चार वर्ष बाद न रोके गए अग्निवीर कितने वर्ष की दूसरी सेवा कर सकते हैं?"
+     },
+     "o": {
+      "en": [
+       "five years",
+       "one year",
+       "two years",
+       "three years"
+      ],
+      "hi": [
+       "पाँच वर्ष",
+       "एक वर्ष",
+       "दो वर्ष",
+       "तीन वर्ष"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "The Cabinet approved a second two-year engagement, after which they may be enrolled as regular soldiers.",
+      "hi": "मंत्रिमंडल ने दो वर्ष की दूसरी सेवा को मंजूरी दी, जिसके बाद उन्हें नियमित सैनिक के रूप में भर्ती किया जा सकता है।"
+     }
+    },
+    {
+     "q": {
+      "en": "The Bharatiya Vayuyan Niyam, 2026 replaces which old law?",
+      "hi": "भारतीय वायुयान नियम, 2026 किस पुराने कानून का स्थान लेता है?"
+     },
+     "o": {
+      "en": [
+       "Aircraft Act, 1934",
+       "Airports Authority Act, 1994",
+       "Carriage by Air Act, 1972",
+       "Aircraft Rules, 1937"
+      ],
+      "hi": [
+       "वायुयान अधिनियम, 1934",
+       "हवाई अड्डा प्राधिकरण अधिनियम, 1994",
+       "वायु द्वारा परिवहन अधिनियम, 1972",
+       "वायुयान नियम, 1937"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "It replaces the Aircraft Rules, 1937 and takes effect from 1 January 2027.",
+      "hi": "यह वायुयान नियम, 1937 का स्थान लेता है और 1 जनवरी 2027 से प्रभावी होगा।"
+     }
+    },
+    {
+     "q": {
+      "en": "In November 2026 the Supreme Court held that which body is a 'State' under Article 12?",
+      "hi": "नवंबर 2026 में सर्वोच्च न्यायालय ने किस निकाय को अनुच्छेद 12 के अंतर्गत 'राज्य' माना?"
+     },
+     "o": {
+      "en": [
+       "National Book Trust",
+       "Press Council of India",
+       "National Legal Services Authority",
+       "Prasar Bharati"
+      ],
+      "hi": [
+       "राष्ट्रीय पुस्तक न्यास",
+       "भारतीय प्रेस परिषद",
+       "राष्ट्रीय विधिक सेवा प्राधिकरण",
+       "प्रसार भारती"
+      ]
+     },
+     "a": 0,
+     "e": {
+      "en": "The Court upheld the Delhi High Court view that the National Book Trust is 'State' under Article 12.",
+      "hi": "न्यायालय ने दिल्ली उच्च न्यायालय के इस मत को बरकरार रखा कि राष्ट्रीय पुस्तक न्यास अनुच्छेद 12 के तहत 'राज्य' है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Indian diplomat Shivani Gupta was elected to which UN body for 2027-2029?",
+      "hi": "भारतीय राजनयिक शिवानी गुप्ता 2027-2029 के लिए संयुक्त राष्ट्र के किस निकाय के लिए चुनी गईं?"
+     },
+     "o": {
+      "en": [
+       "UN Security Council",
+       "UN Advisory Committee on Administrative and Budgetary Questions",
+       "UN Human Rights Council",
+       "UNESCO Executive Board"
+      ],
+      "hi": [
+       "संयुक्त राष्ट्र सुरक्षा परिषद",
+       "संयुक्त राष्ट्र प्रशासनिक एवं बजटीय प्रश्न सलाहकार समिति",
+       "संयुक्त राष्ट्र मानवाधिकार परिषद",
+       "यूनेस्को कार्यकारी बोर्ड"
+      ]
+     },
+     "a": 1,
+     "e": {
+      "en": "She was elected to the 21-member ACABQ, a UN General Assembly body, for 2027-2029.",
+      "hi": "वे 21 सदस्यीय एसीएबीक्यू के लिए 2027-2029 की अवधि हेतु चुनी गईं, जो संयुक्त राष्ट्र महासभा का निकाय है।"
+     }
+    },
+    {
+     "q": {
+      "en": "Hockey player Lalremsiami became the first sportsperson from which state to win the Arjuna Award?",
+      "hi": "हॉकी खिलाड़ी लालरेमसियामी अर्जुन पुरस्कार जीतने वाली किस राज्य की पहली खिलाड़ी बनीं?"
+     },
+     "o": {
+      "en": [
+       "Assam",
+       "Manipur",
+       "Mizoram",
+       "Nagaland"
+      ],
+      "hi": [
+       "असम",
+       "मणिपुर",
+       "मिज़ोरम",
+       "नगालैंड"
+      ]
+     },
+     "a": 2,
+     "e": {
+      "en": "She became the first sportsperson from Mizoram to receive the Arjuna Award.",
+      "hi": "वे अर्जुन पुरस्कार पाने वाली मिज़ोरम की पहली खिलाड़ी बनीं।"
+     }
+    },
+    {
+     "q": {
+      "en": "Who was the Chief Justice of India heading the seven-judge Bench that ruled in November 2026?",
+      "hi": "नवंबर 2026 में निर्णय देने वाली सात-न्यायाधीशों की पीठ के अध्यक्ष भारत के मुख्य न्यायाधीश कौन थे?"
+     },
+     "o": {
+      "en": [
+       "Justice B.R. Gavai",
+       "Justice D.Y. Chandrachud",
+       "Justice Sanjiv Khanna",
+       "Justice Surya Kant"
+      ],
+      "hi": [
+       "न्यायमूर्ति बी.आर. गवई",
+       "न्यायमूर्ति डी.वाई. चंद्रचूड़",
+       "न्यायमूर्ति संजीव खन्ना",
+       "न्यायमूर्ति सूर्यकांत"
+      ]
+     },
+     "a": 3,
+     "e": {
+      "en": "The seven-judge Bench in November 2026 was headed by Chief Justice of India Surya Kant.",
+      "hi": "नवंबर 2026 की सात-न्यायाधीशों की पीठ की अध्यक्षता भारत के मुख्य न्यायाधीश सूर्यकांत ने की।"
+     }
+    }
+   ]
+  }
+ }
+}
