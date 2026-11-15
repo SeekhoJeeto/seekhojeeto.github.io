@@ -46,6 +46,26 @@ hard-coded buttons, so a new subject needs no layout work:
    hidden automatically, and classes without questions show as disabled
    chips, so partial data is safe to ship.
 
+## Test series (tests.json)
+
+`tool/build_tests.py` turns the bank into a test series: for the day's
+subject it builds one 25-question paper per class and appends them to
+`tests.json` (listed in `manifest.json`). Papers are self-contained - the
+questions are copied in - so the app never resolves an index into the bank
+and old papers stay valid as the bank grows.
+
+    python3 tool/build_tests.py --subject science --date 2026-11-15
+
+Selection is deterministic (same date + subject + class gives the same
+paper) and idempotent (an existing paper id is skipped), uses only the most
+recently appended questions of each group, and balances the correct-answer
+index across the paper. Subjects: science, maths, sst, gk, computer,
+english, hindi, values. `values` gives a single paper, because values.json
+has no classes.
+
+The app still needs a small screen to list and play these papers - until
+then the file is data only.
+
 ## Daily target
 
 Each class (5-12) should carry **20 questions per subject** - that is 160
