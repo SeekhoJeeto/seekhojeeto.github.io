@@ -46,6 +46,28 @@ hard-coded buttons, so a new subject needs no layout work:
    hidden automatically, and classes without questions show as disabled
    chips, so partial data is safe to ship.
 
+## Competitive test series (SSC / HSSC / Railway)
+
+`tool/build_tests.py --exam <exam>` builds the competitive side of the test
+series: one 25-question paper per subject plus a full mock paper, all drawn
+from the senior (class 9-12) pool, and appends them to `tests.json`.
+
+    python3 tool/build_tests.py --exam ssc-cgl --date 2026-11-15
+
+Known exams and their mix live in `COMPETITIVE` in the script: `ssc-cgl`,
+`ssc-chsl`, `ssc-mts`, `hssc-cet`, `hssc-group-d`, `railway-ntpc`. A subject
+whose bank is still thin is skipped with a message instead of shipping a short
+paper, so the app never shows a half paper.
+
+Two subject banks feed it: `reasoning.json` (classes 5-12) and
+`currentaffairs.json`, which is grouped by month (`2026-11`) instead of by
+class - the app shows the month chips for that subject instead of class chips.
+
+In the app: Home -> Competitive Test Series -> exam chips -> two-column subject
+grid (Science/Maths, English/GK, Reasoning/Current Affairs, Computer & AI) plus
+the Full Mock card. A paper runs in "test" mode: one overall countdown for the
+whole paper, no lives, score and explanation as you go.
+
 ## Test series (tests.json)
 
 `tool/build_tests.py` turns the bank into a test series: for the day's

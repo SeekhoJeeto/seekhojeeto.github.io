@@ -99,6 +99,18 @@
   .voucher .v-note { font-size: 12px; color: #6b5a2a; }
   footer { text-align: center; color: #6b74a0; font-size: 12px; margin-top: 24px; }
   #classChips .chip.off{opacity:.32;cursor:not-allowed;}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:8px;}
+  .cc{background:#141a35;border:1px solid #232c55;border-radius:16px;padding:12px;text-align:start;cursor:pointer;min-height:92px;display:flex;flex-direction:column;justify-content:space-between;color:#e9ecff;}
+  .cc .bd{width:28px;height:28px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;color:#08101f;}
+  .cc .nm{font-size:14px;font-weight:800;margin-top:8px;line-height:1.15;}
+  .cc .mt{font-size:10.5px;color:#8f9ac9;margin-top:3px;}
+  .cc.gold{background:linear-gradient(160deg,#2a2410,#141a35);border-color:#c8a24a;}
+  .cc.gold .nm{color:#f3d99a;}
+  .paper{display:flex;justify-content:space-between;align-items:center;gap:10px;background:#141a35;border:1px solid #232c55;border-radius:14px;padding:11px 12px;margin-bottom:9px;}
+  .paper .t{font-size:13px;font-weight:700;color:#e9ecff;}
+  .paper .m{font-size:10.5px;color:#8f9ac9;margin-top:3px;}
+  .paper .go{font-size:11.5px;font-weight:800;color:#06210f;background:#22c55e;border:0;border-radius:10px;padding:9px 13px;cursor:pointer;}
+  .paper .done{font-size:11px;font-weight:800;color:#8f9ac9;border:1px solid #2c3663;border-radius:10px;padding:8px 10px;}
 </style>
 </head>
 <body>
@@ -122,6 +134,10 @@
     <button class="big-btn" onclick="openSanskar()">
       <span class="emoji">🪔</span>
       <span><span data-k="1">Values and Religion</span><small>Har dharm alag • apni marzi se</small></span>
+    </button>
+    <button class="big-btn" onclick="openCompetitive()">
+      <span class="emoji">🏆</span>
+      <span><span>Competitive Test Series</span><small>SSC • HSSC • Railway • Full Mock</small></span>
     </button>
     <button class="big-btn" onclick="openRewards()">
       <span class="emoji">🎁</span>
@@ -155,6 +171,26 @@
       <div class="tabs" id="tradTabs"></div>
       <button class="btn" onclick="startSanskar()" data-k="4">Start</button>
       <button class="btn ghost" style="margin-top:10px" onclick="go('scr-home')">← Home</button>
+    </div>
+  </section>
+
+  <!-- COMPETITIVE TEST SERIES -->
+  <section class="screen" id="scr-comp">
+    <div style="margin-bottom:10px"><button class="chip" onclick="go('scr-home')">← Home</button></div>
+    <div class="card">
+      <p class="label">Exam chuno</p>
+      <div class="chips" id="examChips"></div>
+      <p class="label">Subjects</p>
+      <div class="grid2" id="compGrid"></div>
+    </div>
+  </section>
+
+  <!-- PAPER LIST -->
+  <section class="screen" id="scr-papers">
+    <div style="margin-bottom:10px"><button class="chip" onclick="go('scr-comp')">← Back</button></div>
+    <div class="card">
+      <p class="label" id="paperHead">Papers</p>
+      <div id="paperList"></div>
     </div>
   </section>
 
@@ -404,6 +440,10 @@ const SUBJECTS = [
     kn:"\u0c95\u0c82\u0caa\u0ccd\u0caf\u0cc2\u0c9f\u0cb0\u0ccd \u0cae\u0ca4\u0ccd\u0ca4\u0cc1 AI", ml:"\u0d15\u0d7b\u0d2a\u0d4d\u0d2f\u0d42\u0d1f\u0d4d\u0d1f\u0d31\u0d41\u0d02 AI\u0d2f\u0d41\u0d02",
     pa:"\u0a15\u0a70\u0a2a\u0a42\u0a1f\u0a30 \u0a05\u0a24\u0a47 AI", ur:"\u06a9\u0645\u067e\u06cc\u0648\u0679\u0631 \u0627\u0648\u0631 AI", or:"\u0b15\u0b2e\u0b4d\u0b2a\u0b3f\u0b09\u0b1f\u0b30 \u0b0f\u0b2c\u0b02 AI",
     as:"\u0995\u09ae\u09cd\u09aa\u09bf\u0989\u099f\u09be\u09f0 \u0986\u09f0\u09c1 AI"}},
+  {id:"reasoning", key:"reasoning", emoji:"\u{1F9E9}", track:"rsn_", desc:"Class 5\u201312", name:{
+    en:"Reasoning", hi:"\u0924\u0930\u094d\u0915\u0936\u0915\u094d\u0924\u093f"}},
+  {id:"currentaffairs", key:"currentaffairs", emoji:"\u{1F4F0}", track:"ca_", byMonth:true, desc:"Monthly \u2022 Current Affairs", name:{
+    en:"Current Affairs", hi:"\u0938\u092e\u0938\u093e\u092e\u092f\u093f\u0915\u0940"}},
   {id:"english", key:"english", emoji:"\u{1F4D8}", track:"eng_", nameKey:26, parts:["grammar","vocabulary","literature"],
    desc:"Grammar \u2022 Vocabulary \u2022 Literature \u2022 Class 5\u201312"},
   {id:"hindi", key:"hindi", emoji:"\u270D\uFE0F", track:"hin_", parts:["grammar","vocabulary","literature"],
@@ -543,6 +583,19 @@ function buildClassChips(){
   box.innerHTML = "";
   const sub = currentSubject();
   const bank = subjectBank(sub, sub.parts ? (state.part || sub.parts[0]) : null);
+  if(sub.byMonth){
+    const keys = Object.keys(bank).sort().reverse();
+    keys.forEach(function(k, i){
+      const g = bank[k] || {};
+      const d = document.createElement("div");
+      d.className = "chip" + (i === 0 ? " active" : "");
+      d.dataset.cls = k;
+      d.textContent = (g.name && (g.name[LANG] || g.name.en)) || k;
+      d.onclick = function(){ box.querySelectorAll(".chip").forEach(function(x){ x.classList.remove("active"); }); d.classList.add("active"); };
+      box.appendChild(d);
+    });
+    return;
+  }
   let firstAvail = 0, want = 0;
   for(let c=5;c<=12;c++){
     const has = classQs(bank, String(c)).length > 0;
@@ -550,6 +603,7 @@ function buildClassChips(){
     if(has && c === 8) want = c;
     const d = document.createElement("div");
     d.className = "chip" + (has ? "" : " off");
+    d.dataset.cls = String(c);
     d.textContent = "Class " + c;
     if(has) d.onclick = () => { box.querySelectorAll(".chip").forEach(x=>x.classList.remove("active")); d.classList.add("active"); };
     box.appendChild(d);
@@ -568,12 +622,12 @@ function startStudy(){
   const sub = currentSubject();
   const chipEl = document.querySelector("#classChips .chip.active");
   if(!chipEl){ alert("Is subject me abhi sawaal nahi hain."); return; }
-  const cls = chipEl.textContent.replace("Class ","").trim();
+  const cls = chipEl.dataset.cls || chipEl.textContent.replace("Class ","").trim();
   const mode = document.querySelector("#modeChips .chip.active").dataset.mode;
   const part = sub.parts ? (state.part || sub.parts[0]) : null;
   const bank = subjectBank(sub, part);
   const key = sub.track + (part ? part + "_" : "") + cls;
-  const title = subName(sub) + (part ? " • " + t(PART_KEY[part]) : "") + " • Class " + cls;
+  const title = subName(sub) + (part ? " • " + t(PART_KEY[part]) : "") + (sub.byMonth ? " • " + cls : " • Class " + cls);
   const allQs = classQs(bank, cls);
   const b = buildList(allQs, key);
   if(b.reset) localStorage.removeItem(seenKey(key));
@@ -605,14 +659,131 @@ function buildTradTabs(){
   });
 }
 
-function beginQuiz(list, mode){
+/* ============================================================
+   COMPETITIVE TEST SERIES (papers from tests.json)
+   ============================================================ */
+let TESTS = [];
+const COMP_EXAMS = [
+  {id:"ssc-cgl", label:"SSC CGL"}, {id:"ssc-chsl", label:"SSC CHSL"},
+  {id:"ssc-mts", label:"SSC MTS"}, {id:"hssc-cet", label:"HSSC CET"},
+  {id:"hssc-group-d", label:"HSSC Group D"}, {id:"railway-ntpc", label:"Railway NTPC"}
+];
+const COMP_SUBJECTS = [
+  {key:"science", label:"Science", hi:"विज्ञान", bd:"SC", color:"#7dd3fc"},
+  {key:"maths", label:"Maths", hi:"गणित", bd:"MA", color:"#f3d99a"},
+  {key:"english", label:"English", hi:"अंग्रेज़ी", bd:"EN", color:"#a7f3d0"},
+  {key:"gk", label:"SST & GK", hi:"सामान्य ज्ञान", bd:"GK", color:"#c7d2fe"},
+  {key:"reasoning", label:"Reasoning", hi:"तर्कशक्ति", bd:"RE", color:"#fbcfe8"},
+  {key:"currentaffairs", label:"Current Affairs", hi:"समसामयिकी", bd:"CA", color:"#bfdbfe"},
+  {key:"computer", label:"Computer & AI", hi:"कंप्यूटर और AI", bd:"AI", color:"#fde68a"}
+];
+let compExam = "ssc-cgl";
+
+function openCompetitive(){
+  if(!dataGuard()) return;
+  if(!TESTS.length){ alert("Test papers abhi ban rahe hain. Thodi der baad try kijiye."); return; }
+  renderExamChips();
+  renderCompGrid();
+  go("scr-comp");
+}
+function renderExamChips(){
+  const box = document.getElementById("examChips");
+  if(!box) return;
+  box.innerHTML = "";
+  const have = {};
+  TESTS.forEach(function(p){ if(p.exam) have[p.exam] = true; });
+  let first = null;
+  COMP_EXAMS.forEach(function(ex){
+    if(!have[ex.id]) return;
+    if(!first) first = ex.id;
+    const d = document.createElement("div");
+    d.className = "chip" + (ex.id === compExam ? " active" : "");
+    d.textContent = ex.label;
+    d.onclick = function(){ compExam = ex.id; renderExamChips(); renderCompGrid(); };
+    box.appendChild(d);
+  });
+  if(!have[compExam] && first){ compExam = first; renderExamChips(); }
+}
+function compPapers(exam, kind, subject){
+  return TESTS.filter(function(p){
+    return p.exam === exam && (p.kind || "subject") === kind &&
+           (subject === undefined || p.subject === subject);
+  }).sort(function(a, b){ return a.date < b.date ? 1 : -1; });
+}
+function hasAnyPaper(key){
+  return TESTS.some(function(p){ return (p.kind || 'subject') === 'subject' && p.subject === key; });
+}
+function renderCompGrid(){
+  const box = document.getElementById("compGrid");
+  if(!box) return;
+  box.innerHTML = "";
+  COMP_SUBJECTS.forEach(function(s){
+    const papers = compPapers(compExam, "subject", s.key);
+    const nq = papers.reduce(function(n, p){ return n + (p.questions || []).length; }, 0);
+    const d = document.createElement("button");
+    d.className = "cc";
+    d.innerHTML = '<div class="bd" style="background:' + s.color + '">' + s.bd + '</div>' +
+      '<div><div class="nm">' + s.label + '</div><div class="mt">' +
+      (papers.length ? (papers.length === 1 ? '1 paper' : papers.length + ' papers') + ' \u2022 ' + nq + ' Q'
+                      : (hasAnyPaper(s.key) ? 'is exam me nahi' : 'jald aa raha hai')) + '</div></div>';
+    d.onclick = function(){
+      if(!papers.length){ alert(s.label + " ke papers abhi nahi hain."); return; }
+      openPapers(compExam, "subject", s.key, s.label);
+    };
+    box.appendChild(d);
+  });
+  const mocks = compPapers(compExam, "mock");
+  const m = document.createElement("button");
+  m.className = "cc gold";
+  m.innerHTML = '<div class="bd" style="background:#fde68a">FM</div>' +
+    '<div><div class="nm">Full Mock Test</div><div class="mt">' +
+    (mocks.length ? (mocks[0].marks + ' Q \u2022 ' + mocks[0].duration_min + ' min') : 'jald aa raha hai') + '</div></div>';
+  m.onclick = function(){
+    if(!mocks.length){ alert("Full mock abhi nahi bana."); return; }
+    openPapers(compExam, "mock", undefined, "Full Mock Test");
+  };
+  box.appendChild(m);
+}
+function openPapers(exam, kind, subject, label){
+  const list = compPapers(exam, kind, subject);
+  const head = document.getElementById("paperHead");
+  const examName = (COMP_EXAMS.filter(function(e){ return e.id === exam; })[0] || {label:exam}).label;
+  head.textContent = examName + " \u2022 " + label;
+  const box = document.getElementById("paperList");
+  box.innerHTML = "";
+  list.forEach(function(p){
+    const row = document.createElement("div");
+    row.className = "paper";
+    const info = document.createElement("div");
+    const tt = document.createElement("div"); tt.className = "t"; tt.textContent = L(p.title);
+    const mm = document.createElement("div"); mm.className = "m";
+    mm.textContent = (p.questions || []).length + " questions \u2022 " + p.duration_min + " min \u2022 " + p.marks + " marks";
+    info.appendChild(tt); info.appendChild(mm);
+    const btn = document.createElement("button"); btn.className = "go"; btn.textContent = "Start";
+    btn.onclick = function(){ startPaper(p); };
+    row.appendChild(info); row.appendChild(btn);
+    box.appendChild(row);
+  });
+  go("scr-papers");
+}
+function startPaper(p){
+  const qs = (p.questions || []).map(function(q){ return q; });
+  if(!qs.length){ alert("Is paper me sawaal nahi hain."); return; }
+  state.title = L(p.title);
+  state.trackKey = "paper_" + p.id;
+  beginQuiz(qs, "test", p.duration_min);
+}
+
+function beginQuiz(list, mode, minutes){
   state.list = list.slice();
   state.idx = 0; state.score = 0; state.streak = 0; state.lives = 3;
   state.mode = mode; state.answered = false;
+  state.testTotal = (minutes || 30) * 60;
+  state.testLeft = state.testTotal;
   document.getElementById("hudScore").textContent = 0;
   document.getElementById("livesPill").style.display = (mode==="challenge") ? "inline-block" : "none";
   document.getElementById("hudLives").textContent = 3;
-  document.getElementById("timerBar").style.display = (mode==="challenge") ? "block" : "none";
+  document.getElementById("timerBar").style.display = (mode==="challenge" || mode==="test") ? "block" : "none";
   go("scr-game");
   renderQ();
 }
@@ -647,6 +818,16 @@ function renderQ(){
       state.timeLeft--;
       fill.style.width = (state.timeLeft/20*100) + "%";
       if(state.timeLeft <= 0){ clearInterval(state.timer); pick(-1); }
+    }, 1000);
+  }
+  if(state.mode === "test"){
+    const fill = document.getElementById("timerFill");
+    fill.style.transition = "none";
+    fill.style.width = (state.testLeft / (state.testTotal || 1) * 100) + "%";
+    state.timer = setInterval(() => {
+      state.testLeft--;
+      fill.style.width = Math.max(0, state.testLeft / (state.testTotal || 1) * 100) + "%";
+      if(state.testLeft <= 0){ clearInterval(state.timer); finish(); }
     }, 1000);
   }
 }
@@ -887,6 +1068,7 @@ function redeem(tier){
       try { merged = await (await fetch("questions.json", { cache: "no-cache" })).json(); } catch (e) {}
     }
     TRADITIONS = merged.traditions || {};
+    TESTS = ((merged.tests || {}).papers) || [];
     function splitParts(sec){
       var out = { grammar: {}, vocabulary: {}, literature: {} };
       Object.keys(sec || {}).forEach(function(g){
