@@ -1067,8 +1067,13 @@ function redeem(tier){
     if (!merged.science) {
       try { merged = await (await fetch("questions.json", { cache: "no-cache" })).json(); } catch (e) {}
     }
+    // tests.json is fetched on its own: it is not part of the question bank,
+    // and older app builds choke on a section of paper objects.
+    try {
+      var tr = await (await fetch("tests.json", { cache: "no-cache" })).json();
+      TESTS = (tr && tr.tests && tr.tests.papers) || [];
+    } catch (e) { TESTS = []; }
     TRADITIONS = merged.traditions || {};
-    TESTS = ((merged.tests || {}).papers) || [];
     function splitParts(sec){
       var out = { grammar: {}, vocabulary: {}, literature: {} };
       Object.keys(sec || {}).forEach(function(g){
