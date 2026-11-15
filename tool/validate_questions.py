@@ -27,7 +27,7 @@ import sys
 MOJIBAKE_MARKERS = ("Ã", "Â", "à¤", "à¥", "â€", "\ufffd")
 CLASSES = [str(c) for c in range(5, 13)]
 REQUIRED_TOP = ("science", "maths", "traditions", "meta")
-CLASSED_SECTIONS = ("science", "maths", "sst", "gk", "gs", "computer")
+CLASSED_SECTIONS = ("science", "maths", "sst", "gk", "gs", "computer", "reasoning", "currentaffairs")
 # Core subjects must carry every class 5-12; newer subjects may grow class by
 # class, so a class that is absent or still empty there is not an error.
 STRICT_SECTIONS = ("science", "maths", "sst")
